@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.blend1
+*.blend2
+*.blend@
+logs/
+_backups/
+dist/
+build/
+release/
+.venv/
+.idea/
+.vscode/
+*.zip
