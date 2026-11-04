@@ -1,5 +1,5 @@
 {
-  "title": "xl_c4d_tool 3.5.116 预览版1与迁移进度",
+  "title": "xl_c4d_tool 3.5.116预览版2 · 本机与GitHub同步",
   "as_of": "2026-11-05",
   "evidence_note": "以下为本地审计记录的筛选摘要；完整原始报告和测试数据未随此摘要公开，因此本文件不是完整可复跑证据。",
   "inventory": {
@@ -12,17 +12,17 @@
     ],
     "node_groups_including_private_and_legacy": 521,
     "source_candidate": "Source48",
-    "candidate_status": "内部开发快照Source48已用于3.5.116预览版1，正式本机115未替换",
-    "formal_version": "3.5.115",
-    "formal_products_changed": false,
+    "candidate_status": "Source48为内部内容快照；本机已备份115并安装验证3.5.116预览版2，GitHub同包",
+    "formal_version": "3.5.116",
+    "formal_products_changed": true,
     "latest_public_product_version": "3.5.116",
-    "latest_public_preview_tag": "v3.5.116-preview.1"
+    "latest_public_preview_tag": "v3.5.116-preview.2"
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 413,
+    "successful_blender_actors": 418,
     "native_actions": 94,
     "failed_blender_actors": 46,
-    "interpretation": "运行次数，不代表功能数、覆盖率或剩余工作量"
+    "interpretation": "guard执行次数，包含技术rc0但功能拒绝的留证案例；不是功能数、完成率或工期。"
   },
   "bounded_evidence": [
     "参数体：多个基础体已有特定参数与方向样例；圆锥切片等仍按明确条件限定。",
@@ -31,7 +31,8 @@
     "放样（Loft）：已有 H2/V5 受限样例和回退验证。",
     "斜切（Shear）：已有指定参数、控制框变换与回退的受限验证。",
     "扭曲（Twist）：已有指定控制对象及空控制对象样例的普通入口验证。",
-    "锥化：指定模式与曲率状态已有普通入口验证；最新真ObjectNone、限制模式、圆角关闭、曲率0.37的样例通过，结论仅限记录的参数和几何。"
+    "锥化：指定模式与曲率状态已有普通入口验证；最新真ObjectNone、限制模式、圆角关闭、曲率0.37的样例通过，结论仅限记录的参数和几何。",
+    "公式域：本机安装版11/19点两固定手动时间案例×On/Off共4次普通入口，完整原始输入/网格/42参数和6完整core对照通过；不代表一般公式或动画完成。"
   ],
   "open_issues": [
     "油罐与胶囊部分切面三角化缺少已验证的一般规则。",
@@ -54,40 +55,31 @@
   ],
   "public_notes": [
     "进度摘要不包含本地路径、个人信息、用户对话、凭据或原始日志。",
-    "研究预览安装包已另发布，见installer_delivery；这不代表全部功能验收或本机正式安装。"
+    "本机与GitHub均为3.5.116预览版2；115完整备份保留，不将预览修订或有限案例冒作四类整体完成。"
   ],
   "latest_verification": {
-    "root": "XL_锥化",
-    "case": "none_worldI_mode1",
-    "control_object": null,
-    "control_enabled": true,
-    "mode": "限制",
-    "fillet": false,
-    "curvature_percent": 37,
-    "strength_percent": 73,
-    "size_m": [
-      2.8,
-      3.9,
-      3.4
+    "root": "XL_公式域",
+    "scope": "two existing freshconstant manual-time fixtures,11/19points each On/Off",
+    "ordinary_EXEC": 4,
+    "weight_tolerance": 1e-06,
+    "weight_unit": "dimensionless",
+    "native_weight_max_errors": [
+      1.4560810013275471e-07,
+      1.4040695872630238e-07
     ],
-    "points": 8,
-    "directed_faces": 6,
-    "position_tolerance_m": 2e-06,
-    "max_local_error_m": 2.8496569531825663e-07,
-    "max_derived_world_error_m": 2.681278936204571e-07,
-    "world_target_kind": "记录ownerMG与局部输出推导，原缓存ML/MG/Up缺失，非独立cacheworld证据",
-    "main_report_sha256": "c7138d11ffc41379791cb54dafaa208cfcd926454a6cfc058b3faa8a79e15927",
-    "no_formal_product_change": true
+    "full_input_mesh_typed_and_all6core_exact_frozen_reference": true,
+    "source_product_changed_by_validation": false,
+    "main_report_sha256": "ea77f82d9235df32ac6098c5e049a83ea599157219de08138e91430698abc8e2"
   },
   "evidence_index": {
     "roots": 118,
     "original_roots": 116,
     "added_roots": 2,
-    "current_ordinary_bounded_evidence_roots": 6,
-    "current_math_lineage_bounded_roots": 1,
-    "historical_evidence_found_current_lineage_pending_roots": 7,
+    "current_ordinary_bounded_evidence_roots": 7,
+    "current_math_lineage_bounded_roots": 7,
+    "historical_evidence_found_current_lineage_pending_roots": 0,
     "existing_evidence_to_reconcile_roots": 104,
-    "interpretation": "索引归并和继承对账状态，不是功能完成百分比。最新只读图观察没有增加几何样例，旧已验范围不重跑。",
+    "interpretation": "7根有当前受限普通入口证据，7根有完整数学图继承对账，104根材料未归并；不是完成百分比，未归并不等于未实现。",
     "parallel_host_batches_completed": "参数体6根；域16根均完成首轮有界材料导航。其中基础域16组完整数学闭包与79条引用被Main独立对账。"
   },
   "continuity": "工作轮激活期间继续推进独立队列；回复结束后不保持持续推理。既有30分钟续办心跳负责后续唤起，不代表无人常驻服务。",
@@ -95,35 +87,35 @@
     "six_primitive_current_graphs": "6根/26组双采完整图已取得，36条组引用及原依赖记录保留，无consumer或几何功能验证。",
     "base_field_lineage": "Source26→Source48，XL_基础域完整16组依赖闭包逐值相等；79条相关引用按具名物理地址双射匹配。只复用既有有限数学范围。",
     "no_new_source49_or_release": false,
-    "formula_current_graph": "XL_公式域6完整组双采一致、5具名引用、44接口项、40ID及一个Material默认端点，当前图采证通过；无几何consumer。",
+    "formula_current_graph": "6完整组已采且完整继承核过；44总接口项=1输出+43输入，其中42非几何默认值。",
     "formula_scoped_lineage": "Source15已验手动时间3组→当前3组，精确名称映射后核心/辅助全值同，根仅fake/users/asset/revision四处差；5引用/11物理对应核过。另3当前组完整祖先图未匹配，不冒完整闭包或新功能通过。",
     "no_new_source49": true,
     "six_primitive_lineage": "Source18→48的六根26组完整8parts与compact零差，36组引用/两个Object默认端点/40ID共93物理对应；250叶差全为具名指针对应。源Source18之前更早功能链不由此自动建立。",
-    "formula_fullclosure_lineage": "补齐原Source15旧保存候选完整六组后：既定3名称映射，五组完整图零差，根仅fake/users/asset/revision四处变化；5引用/一个Material端点/37物理对应。两具体SourceLibrary ID行保原值，未采全filepath不冒证明；无新ordinary功能样例。",
-    "new_ordinary_or_native_this_batch": false
+    "formula_fullclosure_lineage": "完整6组Source15→48继承已核；其后本机116两11/19点手动时间On/Off共四普通入口完整数值对照通过。",
+    "new_ordinary_or_native_this_batch": "5+4次实际ordinary EXEC：安装锥化1、Formula失败观测4保留、修后Formula4；无新native。"
   },
   "installer_delivery": {
     "user_authorized_preview_release_after_each_accepted_function": true,
-    "current_state": "xl_c4d_tool 3.5.116预览版1已公开",
+    "current_state": "已备份115并实际安装3.5.116预览版2，GitHub同包",
     "candidate": "Source48",
     "plugin_version": "3.5.116",
-    "zip_bytes": 265248716,
-    "zip_sha256": "57cc96652b5cfefd693822fb58e795ebe973915380a31fb3254a0fe9ebe5eb11",
+    "zip_bytes": 265248739,
+    "zip_sha256": "a0e15bf9c4d7bace176896349920370a63ade958f67e3f49df8e783dd9ab0071",
     "zip_members": 378,
     "zip_CRC_all_file_SHA_size_and_extracted_readback_passed": true,
     "factory_loaded_modules": 164,
     "factory_registration_repeat_registration_and_unregistration_passed": true,
     "handler_keymap_state_restored": true,
-    "local_formal_install_unchanged": true,
+    "local_formal_install_unchanged": false,
     "next_scope": "继续功能验证与语义覆盖；对外使用产品版本号，内部Source编号仅作开发追溯。",
-    "future_policy": "用户明确授权：每个功能完成独立验收后发布预览更新并保留校验和与范围；读图、索引和rc0不算功能完成。第三方原许可继续适用。",
-    "public_release_url": "https://github.com/zxly1351633409-crypto/xl-c4d-tool/releases/tag/v3.5.116-preview.1",
-    "published_at": "2026-11-04T17:50:02Z",
+    "future_policy": "After an accepted functional update, back up previous installation, install and validate same artifact locally, publish/sync GitHub without repeated permission. Do not treat draft/readonly/rc0 as accepted whole function.",
+    "public_release_url": "https://github.com/zxly1351633409-crypto/xl-c4d-tool/releases/tag/v3.5.116-preview.2",
+    "published_at": "2026-11-04T18:26:11Z",
     "remote_asset_count": 3,
     "remote_integrity_check": "ZIP使用GitHub服务器SHA256；说明和校验文本另下载逐字节回读",
     "third_party_review_remaining": [
-      "现有第三方说明明确将材质模块列为商业研究资产，不能因顶层GPL声明就把整包公开。",
-      "重拓扑二进制对应源码提供方式及其余资产来源白名单仍待闭环。"
+      "保留原第三方说明与许可；未逐项复核的资产和二进制源码提供事项不声明已清权。",
+      "公开研究记录授权不改变第三方原许可。"
     ],
     "version_metadata_actual_verified": [
       3,
@@ -132,7 +124,14 @@
     ],
     "source48_name_internal_only": true,
     "source48_historical_release_retained_and_labelled": true,
-    "version_changes_exactly_two_files": true,
-    "other376_products_library_same": true
+    "version_changes_exactly_two_files": false,
+    "local_installed_version": "3.5.116",
+    "local_preview_tag": "v3.5.116-preview.2",
+    "actual_GUI_modules": 165,
+    "actual_GUI_NodePreview_ready": true,
+    "GUI_visual_capture_verified": false,
+    "preview2_one_code_file_changed_vs_preview1": "node_preview/display.py",
+    "other377_products_same": true,
+    "old115_complete_backup_verified": true
   }
 }

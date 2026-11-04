@@ -14,9 +14,14 @@
           "scope_note": "原102受限轴向采样，open/closed等逐case见raw；本批不推断Source48链和一般方向。",
           "current_math_lineage": "NOT_YET_RECONCILED",
           "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
+        },
+        {
+          "local_audit_report": "continuation116_Main_PrimitiveSix_Source18_to48_fullclosure_lineage_independent_review_v1.json",
+          "sha256": "836c64579b8c7f665097ca169b28b195e08b71143b66b75800e6759d634f87a9",
+          "scope_note": "Source18→48六根26组完整图继承。未补齐Source18以前的全部原生功能链，不代表一般几何功能通过。"
         }
       ],
-      "coverage_state": "HISTORICAL_EVIDENCE_FOUND_CURRENT_LINEAGE_PENDING",
+      "coverage_state": "CURRENT_MATH_CLOSURE_MATCHED_ANCESTOR_BOUNDED_EVIDENCE",
       "current_full_graph_capture_only": {
         "local_audit_report": "continuation116_Main_Source48_six_primitives_current_graph_independent_review_v1.json",
         "sha256": "7785820d7f647ec7cf9b1e3008b3f6c560ea1a2e9af94d5378db2a465bcffeae",
@@ -35,9 +40,14 @@
           "scope_note": "原60公开入口七个指定截面/分段case，properC点/UV门控；非一般圆环参数。",
           "current_math_lineage": "NOT_YET_RECONCILED",
           "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
+        },
+        {
+          "local_audit_report": "continuation116_Main_PrimitiveSix_Source18_to48_fullclosure_lineage_independent_review_v1.json",
+          "sha256": "836c64579b8c7f665097ca169b28b195e08b71143b66b75800e6759d634f87a9",
+          "scope_note": "Source18→48六根26组完整图继承。未补齐Source18以前的全部原生功能链，不代表一般几何功能通过。"
         }
       ],
-      "coverage_state": "HISTORICAL_EVIDENCE_FOUND_CURRENT_LINEAGE_PENDING",
+      "coverage_state": "CURRENT_MATH_CLOSURE_MATCHED_ANCESTOR_BOUNDED_EVIDENCE",
       "current_full_graph_capture_only": {
         "local_audit_report": "continuation116_Main_Source48_six_primitives_current_graph_independent_review_v1.json",
         "sha256": "7785820d7f647ec7cf9b1e3008b3f6c560ea1a2e9af94d5378db2a465bcffeae",
@@ -63,9 +73,14 @@
           "scope_note": "SliceTrue固定quarter同一fixture六方向；每方向80点57同向面228角UV；非一般切片参数。",
           "current_math_lineage": "NOT_YET_RECONCILED",
           "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
+        },
+        {
+          "local_audit_report": "continuation116_Main_PrimitiveSix_Source18_to48_fullclosure_lineage_independent_review_v1.json",
+          "sha256": "836c64579b8c7f665097ca169b28b195e08b71143b66b75800e6759d634f87a9",
+          "scope_note": "Source18→48六根26组完整图继承。未补齐Source18以前的全部原生功能链，不代表一般几何功能通过。"
         }
       ],
-      "coverage_state": "HISTORICAL_EVIDENCE_FOUND_CURRENT_LINEAGE_PENDING",
+      "coverage_state": "CURRENT_MATH_CLOSURE_MATCHED_ANCESTOR_BOUNDED_EVIDENCE",
       "current_full_graph_capture_only": {
         "local_audit_report": "continuation116_Main_Source48_six_primitives_current_graph_independent_review_v1.json",
         "sha256": "7785820d7f647ec7cf9b1e3008b3f6c560ea1a2e9af94d5378db2a465bcffeae",
@@ -91,9 +106,14 @@
           "scope_note": "三明确tuple切片动态候选点/同向面/UV与fresh；Source18仅结构有界，截顶H3反例回退，非一般圆锥。",
           "current_math_lineage": "NOT_YET_RECONCILED",
           "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
+        },
+        {
+          "local_audit_report": "continuation116_Main_PrimitiveSix_Source18_to48_fullclosure_lineage_independent_review_v1.json",
+          "sha256": "836c64579b8c7f665097ca169b28b195e08b71143b66b75800e6759d634f87a9",
+          "scope_note": "Source18→48六根26组完整图继承。未补齐Source18以前的全部原生功能链，不代表一般几何功能通过。"
         }
       ],
-      "coverage_state": "HISTORICAL_EVIDENCE_FOUND_CURRENT_LINEAGE_PENDING",
+      "coverage_state": "CURRENT_MATH_CLOSURE_MATCHED_ANCESTOR_BOUNDED_EVIDENCE",
       "current_full_graph_capture_only": {
         "local_audit_report": "continuation116_Main_Source48_six_primitives_current_graph_independent_review_v1.json",
         "sha256": "7785820d7f647ec7cf9b1e3008b3f6c560ea1a2e9af94d5378db2a465bcffeae",
@@ -112,9 +132,14 @@
           "scope_note": "原61真实入口七固定尺寸/段数+Y，UV开关与点/有向面/UV验证；非全方向与一般参数。",
           "current_math_lineage": "NOT_YET_RECONCILED",
           "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
+        },
+        {
+          "local_audit_report": "continuation116_Main_PrimitiveSix_Source18_to48_fullclosure_lineage_independent_review_v1.json",
+          "sha256": "836c64579b8c7f665097ca169b28b195e08b71143b66b75800e6759d634f87a9",
+          "scope_note": "Source18→48六根26组完整图继承。未补齐Source18以前的全部原生功能链，不代表一般几何功能通过。"
         }
       ],
-      "coverage_state": "HISTORICAL_EVIDENCE_FOUND_CURRENT_LINEAGE_PENDING",
+      "coverage_state": "CURRENT_MATH_CLOSURE_MATCHED_ANCESTOR_BOUNDED_EVIDENCE",
       "current_full_graph_capture_only": {
         "local_audit_report": "continuation116_Main_Source48_six_primitives_current_graph_independent_review_v1.json",
         "sha256": "7785820d7f647ec7cf9b1e3008b3f6c560ea1a2e9af94d5378db2a465bcffeae",
@@ -133,9 +158,14 @@
           "scope_note": "Source9六类型、N6、半径0.731m、identity、smoothFalse，3540点16128角UV；非全部半径/分段/框架。",
           "current_math_lineage": "NOT_YET_RECONCILED",
           "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
+        },
+        {
+          "local_audit_report": "continuation116_Main_PrimitiveSix_Source18_to48_fullclosure_lineage_independent_review_v1.json",
+          "sha256": "836c64579b8c7f665097ca169b28b195e08b71143b66b75800e6759d634f87a9",
+          "scope_note": "Source18→48六根26组完整图继承。未补齐Source18以前的全部原生功能链，不代表一般几何功能通过。"
         }
       ],
-      "coverage_state": "HISTORICAL_EVIDENCE_FOUND_CURRENT_LINEAGE_PENDING",
+      "coverage_state": "CURRENT_MATH_CLOSURE_MATCHED_ANCESTOR_BOUNDED_EVIDENCE",
       "current_full_graph_capture_only": {
         "local_audit_report": "continuation116_Main_Source48_six_primitives_current_graph_independent_review_v1.json",
         "sha256": "7785820d7f647ec7cf9b1e3008b3f6c560ea1a2e9af94d5378db2a465bcffeae",
@@ -387,9 +417,14 @@
           "scope_note": "actualordinarypublicEXEC rootedSource15 standardlibrary, exactaccepted19 point INSTANCEseed→publicroot→testRealize; allgradientHard attrs/normals/fullmesh. No newnative/newmath/GUI/controlUndo/generalanimation claim",
           "current_math_lineage": "NOT_YET_RECONCILED",
           "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
+        },
+        {
+          "local_audit_report": "continuation116_Main_installed35116_Formula_manualtime_four_state_independent_review_v1.json",
+          "sha256": "ea77f82d9235df32ac6098c5e049a83ea599157219de08138e91430698abc8e2",
+          "scope_note": "实际安装116默认库普通入口，两既有11/19点freshconstant手动时间各On/Off；全输入网格参数/6core严格核过，无一般公式或动画验收声明。"
         }
       ],
-      "coverage_state": "HISTORICAL_EVIDENCE_FOUND_CURRENT_LINEAGE_PENDING"
+      "coverage_state": "BOUNDED_EVIDENCE_INDEXED"
     },
     {
       "root": "XL_公式效果器",
@@ -1166,10 +1201,10 @@
   ],
   "indexed_roots": 14,
   "existing_evidence_to_reconcile_roots": 104,
-  "meaning": "证据索引状态：6根绑定近期当前受限普通入口证明，1根完成当前完整数学闭包继承对账，7根有历史材料但当前数学继承待核，104根历史证据未归并。不是功能完成率，未归并不表示未实现/未测/失败。",
+  "meaning": "7根有当前受限普通入口证据，7根有完整数学图继承对账，104根材料未归并；不是完成百分比，未归并不等于未实现。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
-  "current_bounded_evidence_roots": 6,
-  "historical_evidence_found_current_lineage_pending_roots": 7,
-  "current_math_lineage_bounded_roots": 1
+  "current_bounded_evidence_roots": 7,
+  "historical_evidence_found_current_lineage_pending_roots": 0,
+  "current_math_lineage_bounded_roots": 7
 }
