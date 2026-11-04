@@ -1,5 +1,5 @@
 {
-  "title": "xl_c4d_tool 3.5.116预览版3 · 混合域修复",
+  "title": "xl_c4d_tool 3.5.116预览版4 · 映射范围单次计算修复",
   "as_of": "2026-11-05",
   "evidence_note": "以下为本地审计记录的筛选摘要；完整原始报告和测试数据未随此摘要公开，因此本文件不是完整可复跑证据。",
   "inventory": {
@@ -10,16 +10,16 @@
       "C4D_人形素体",
       "XL_贝塞尔曲面"
     ],
-    "node_groups_including_private_and_legacy": 523,
-    "source_candidate": "Source49",
-    "candidate_status": "Source49整库保存、独立重开、物理产品和默认普通入口通过；本机预览版3完成备份安装与实际入口验证",
+    "node_groups_including_private_and_legacy": 525,
+    "source_candidate": "Source50",
+    "candidate_status": "Source50完整保存、独立重开、378产品、默认普通入口及实际本机安装入口验收通过，预览版4已发布",
     "formal_version": "3.5.116",
     "formal_products_changed": true,
     "latest_public_product_version": "3.5.116",
-    "latest_public_preview_tag": "v3.5.116-preview.3"
+    "latest_public_preview_tag": "v3.5.116-preview.4"
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 436,
+    "successful_blender_actors": 440,
     "native_actions": 94,
     "failed_blender_actors": 46,
     "interpretation": "guard执行次数，包含技术rc0但功能拒绝的留证案例；不是功能数、完成率或工期。"
@@ -33,16 +33,16 @@
     "扭曲（Twist）：已有指定控制对象及空控制对象样例的普通入口验证。",
     "锥化：指定模式与曲率状态已有普通入口验证；最新真ObjectNone、限制模式、圆角关闭、曲率0.37的样例通过，结论仅限记录的参数和几何。",
     "公式域：本机安装版11/19点两固定手动时间案例×On/Off共4次普通入口，完整原始输入/网格/42参数和6完整core对照通过；不代表一般公式或动画完成。",
-    "混合域：已安装版真实PointCloud及INSTANCE各Add/Sub，两个明确命名域、Disable和100%不透明度，11点独立F32预测全等；不代表C4D FieldLayer或所有层混合模式。"
+    "混合域：已安装版真实PointCloud及INSTANCE各Add/Sub，两个明确命名域、Disable和100%不透明度，11点独立F32预测全等；不代表C4D FieldLayer或所有层混合模式。",
+    "映射范围域：PointCloud与INSTANCE各11点，Disable/Normal/100%、mask开启、渲染检查关闭、0–100到30–70和明确自定义名；物理候选与本机安装各2次普通入口，三权重与独立采前参考均0误差。"
   ],
   "open_issues": [
     "油罐与胶囊部分切面三角化缺少已验证的一般规则。",
     "闭合贝塞尔控制网、人形分段和地形噪声缺可追溯机制。",
     "锥化负曲率存在写入意图与实际读回不一致，不能据此声称负曲率通过。",
     "多个既验结果只覆盖固定参数组合、坐标框架或特定几何；完整范围尚未建立。",
-    "混合域重复字段求值的隔离修复8态通过，尚未完成整库保存/fresh/候选安装发布。其他层模式、缺失属性和任意命名仍未整体验收。",
     "混合域当前指定两命名属性的Enable/Normal/50%已修复；其他层模式、缺失或空名属性、任意数量仍未整体验收。",
-    "映射范围域在指定非默认范围与非空自定义名称下，自定义输出符合二次映射而非一次映射；隔离PointCloud与INSTANCE修复通过，完整集成/安装尚待完成。"
+    "映射范围域本次修复只验收指定范围、组件与命名；Enable、mask关闭、特殊别名和全部层模式尚未整体验收。"
   ],
   "completion": "原始116根目录分母已确认，但缺统一的逐根、逐语义完成标准和验收表，无法诚实计算功能完成百分比。",
   "schedule": "总体工期不可从现有证据可靠估计；统一矩阵建立后，可根据真实未结项、运行耗时和机制风险校准阶段时间。",
@@ -59,69 +59,62 @@
   ],
   "public_notes": [
     "进度摘要不包含本地路径、个人信息、用户对话、凭据或原始日志。",
-    "本机与GitHub均为3.5.116预览版3；115完整备份保留，不将预览修订或有限案例冒作四类整体完成。"
+    "本机与GitHub均为3.5.116预览版4；上一版完整备份、原115双备份和用户工程保留；有限验证不等于四类整体完成。"
   ],
   "latest_verification": {
     "root": "XL_域修改_映射范围",
-    "status": "CURRENT_POINT_ONCE_MAPPING_DISCREPANCY_ISOLATED_POINT_INSTANCE_FIX_PASSED_INTEGRATION_PENDING",
-    "current_ordinary_EXEC": 1,
-    "controls": "POINT/Disable/Normal100/maskTrue/input0..100/output30..70/nonempty custom attribute",
-    "current_Gradient_Hard_once_model_error": 0.0,
-    "current_custom_once_model_max_error": 0.11877858638763428,
-    "prefrozen_serial_twice_model_error": 0.0,
-    "ten_points_distinguish_models_one_fixed_point_not_distinguishable": true,
-    "isolated_candidate_POINT_and_INSTANCE": {
-      "ordinary_EXEC": 2,
-      "all_three_weight_arrays_max_error": 0.0,
-      "not_saved_or_installed": true
-    },
-    "installed_preview_tag_unchanged": "v3.5.116-preview.3",
-    "Main_failure_proof_SHA": "64879713f6230cd0c40670a8253707b99847f6f8b246bf1f40f0457fc4c7d776",
-    "next": "完整Source50参考、canonical保存、fresh与候选普通入口/安装验收后才可发布。当前只有false准备包，没有Source50库。"
+    "status": "SOURCE50_CANONICAL_FRESH_DEFAULT_PUBLIC_ACTUAL_INSTALLED_ACCEPTED_PREVIEW4_PUBLISHED",
+    "candidate_default_ordinary_EXEC": 2,
+    "actual_installed_ordinary_EXEC": 2,
+    "controls": "POINT/INSTANCE, Disable/Normal100, maskTrue, renderFalse, input0..100/output30..70, explicit custom attribute",
+    "max_three_weight_error": 0.0,
+    "fixed_weight_tolerance": 1e-06,
+    "historical_preview3_custom_once_model_max_error_retained": 0.11877858638763428,
+    "prior_raw_and_gold_preserved": true,
+    "actual_installed_proof_SHA": "32746a3d0367bf9a2bf92b1a0be8704dfa2cb6cc276bfff74d20194a9ca5d212",
+    "new_native_actions": 0,
+    "not_general_Range_C4D_equivalence_or_all_modes": true
   },
   "evidence_index": {
     "roots": 118,
     "original_roots": 116,
     "added_roots": 2,
-    "current_ordinary_bounded_evidence_roots": 8,
+    "current_ordinary_bounded_evidence_roots": 9,
     "current_math_lineage_bounded_roots": 7,
     "historical_evidence_found_current_lineage_pending_roots": 0,
     "existing_evidence_to_reconcile_roots": 102,
-    "interpretation": "8根受限普通入口、7根数学继承、1根当前差异待集成、102根材料待归并；阶段互斥，不是功能完成率。",
+    "interpretation": "9根受限普通入口、7根数学继承、102根材料待归并；阶段互斥，不是功能完成率，也不表示102根未实现。",
     "parallel_host_batches_completed": "参数体6根；域16根均完成首轮有界材料导航。其中基础域16组完整数学闭包与79条引用被Main独立对账。",
-    "pending_current_function_discrepancy_roots": 1
+    "pending_current_function_discrepancy_roots": 0
   },
   "continuity": "工作轮激活期间继续推进独立队列；回复结束后不保持持续推理。既有30分钟续办心跳负责后续唤起，不代表无人常驻服务。",
   "additional_batch_delivery": {
-    "current301": "旧平面61完整31节点核心对当前私有核心精确数学继承；Range闭包补齐、一次映射差异定位、两个组件隔离修复实测通过。无新安装包/原生。"
+    "current301": "旧平面61完整31节点核心对当前私有核心精确数学继承；Range闭包补齐、一次映射差异定位、两个组件隔离修复实测通过。无新安装包/原生。",
+    "current302": "Source50完整整库保存与独立重开、物理378产品、候选和本机各2普通入口；备份预览版3后发布预览版4。"
   },
   "installer_delivery": {
     "version": "3.5.116",
-    "tag": "v3.5.116-preview.3",
-    "url": "https://github.com/zxly1351633409-crypto/xl-c4d-tool/releases/tag/v3.5.116-preview.3",
-    "ZIP_bytes": 265264166,
-    "ZIP_SHA256": "873ec398f35ddd3fe6fafdc855e68542d22590d2adfc73f6fe0e9ab4620eb447",
+    "tag": "v3.5.116-preview.4",
+    "url": "https://github.com/zxly1351633409-crypto/xl-c4d-tool/releases/tag/v3.5.116-preview.4",
+    "ZIP_bytes": 265343962,
+    "ZIP_SHA256": "95dac1f7576a592058d8056b4dd3b019c4db13b06e79fece52cab98300da5f3c",
     "local_installed_same378": true,
-    "previous_preview2_and115_backups_preserved": true,
+    "previous_preview3_preview2_and115_backups_preserved": true,
     "changed_products": 3,
     "unchanged_products": 375
   },
   "latest_observation": {
     "root": "XL_域修改_映射范围",
-    "status": "CURRENT_POINT_ONCE_MAPPING_DISCREPANCY_ISOLATED_POINT_INSTANCE_FIX_PASSED_INTEGRATION_PENDING",
-    "current_ordinary_EXEC": 1,
-    "controls": "POINT/Disable/Normal100/maskTrue/input0..100/output30..70/nonempty custom attribute",
-    "current_Gradient_Hard_once_model_error": 0.0,
-    "current_custom_once_model_max_error": 0.11877858638763428,
-    "prefrozen_serial_twice_model_error": 0.0,
-    "ten_points_distinguish_models_one_fixed_point_not_distinguishable": true,
-    "isolated_candidate_POINT_and_INSTANCE": {
-      "ordinary_EXEC": 2,
-      "all_three_weight_arrays_max_error": 0.0,
-      "not_saved_or_installed": true
-    },
-    "installed_preview_tag_unchanged": "v3.5.116-preview.3",
-    "Main_failure_proof_SHA": "64879713f6230cd0c40670a8253707b99847f6f8b246bf1f40f0457fc4c7d776",
-    "next": "完整Source50参考、canonical保存、fresh与候选普通入口/安装验收后才可发布。当前只有false准备包，没有Source50库。"
+    "status": "SOURCE50_CANONICAL_FRESH_DEFAULT_PUBLIC_ACTUAL_INSTALLED_ACCEPTED_PREVIEW4_PUBLISHED",
+    "candidate_default_ordinary_EXEC": 2,
+    "actual_installed_ordinary_EXEC": 2,
+    "controls": "POINT/INSTANCE, Disable/Normal100, maskTrue, renderFalse, input0..100/output30..70, explicit custom attribute",
+    "max_three_weight_error": 0.0,
+    "fixed_weight_tolerance": 1e-06,
+    "historical_preview3_custom_once_model_max_error_retained": 0.11877858638763428,
+    "prior_raw_and_gold_preserved": true,
+    "actual_installed_proof_SHA": "32746a3d0367bf9a2bf92b1a0be8704dfa2cb6cc276bfff74d20194a9ca5d212",
+    "new_native_actions": 0,
+    "not_general_Range_C4D_equivalence_or_all_modes": true
   }
 }

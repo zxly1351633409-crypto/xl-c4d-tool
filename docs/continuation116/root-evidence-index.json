@@ -528,7 +528,7 @@
       "root": "XL_域修改_映射范围",
       "category": "域",
       "origin": "ORIGINAL_116",
-      "current_catalog_revision": null,
+      "current_catalog_revision": "20261105-rangefield-once-capture-candidate-v1",
       "known_bounded_evidence": [
         {
           "local_audit_report": "continuation116_Main_Source49_RangeField_current_closure_independent_review_v1.json",
@@ -538,10 +538,25 @@
         {
           "local_audit_report": "continuation116_Main_installed35116_Range_POINT_once_prediction_rejection_independent_review_v1.json",
           "sha256": "64879713f6230cd0c40670a8253707b99847f6f8b246bf1f40f0457fc4c7d776",
-          "scope_note": "一次映射预测拒绝，原始数据保留。候选POINT与INSTANCE隔离修复各1case三权重0误差；无保存安装。"
+          "scope_note": "历史预览版3一次映射预测拒绝与原数据保留；随后隔离POINT/INSTANCE各1case通过。本版完整集成与安装另见新证明。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_installed35116_Source50_Range_default_public_independent_review_v1.json",
+          "sha256": "15736bbd03507eb098c30d4de06c5101daca4a12366d57c8d895f73d0fd6bd73",
+          "scope_note": "默认实际物理Source50 POINT/INSTANCE各11点；三个权重0误差、完整图和输入输出属性核对。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_installed35116_Source50_Range_actual_installed_independent_review_v1.json",
+          "sha256": "32746a3d0367bf9a2bf92b1a0be8704dfa2cb6cc276bfff74d20194a9ca5d212",
+          "scope_note": "真实本机安装路径POINT/INSTANCE各11点，限定0–100到30–70/Disable/Normal100/maskTrue/renderFalse；三数组0误差。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_xl_c4d_tool_35116_preview4_actual_release_v1.json",
+          "sha256": "4b0cc06f3bc09e1cd6a5f3849f37a99710fbb61ce080add7c26cf76bd1a8ded6",
+          "scope_note": "本机同版预览4公开，3附件服务器SHA/尺寸相同；两个小附件下载回读，不声称完整ZIP远程下载。"
         }
       ],
-      "coverage_state": "CURRENT_POINT_DISCREPANCY_ISOLATED_POINT_INSTANCE_FIX_PENDING_INTEGRATION"
+      "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED"
     },
     {
       "root": "XL_域修改_曲线",
@@ -952,7 +967,7 @@
       "root": "XL_混合域",
       "category": "域",
       "origin": "ORIGINAL_116",
-      "current_catalog_revision": null,
+      "current_catalog_revision": "20261105-mixfield-capture-enabled-candidate-v1",
       "known_bounded_evidence": [
         {
           "local_audit_report": "continuation116_Main_installed35116_MixField_twofield_twodomain_independent_review_v1.json",
@@ -1234,11 +1249,11 @@
   ],
   "indexed_roots": 16,
   "existing_evidence_to_reconcile_roots": 102,
-  "meaning": "8根当前受限普通入口+7根数学继承+1根当前差异待集成+102根材料待归并；不是完成率。",
+  "meaning": "9根当前受限普通入口+7根数学继承+102根材料待归并；不是完成率。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
-  "current_bounded_evidence_roots": 8,
+  "current_bounded_evidence_roots": 9,
   "historical_evidence_found_current_lineage_pending_roots": 0,
   "current_math_lineage_bounded_roots": 7,
-  "pending_current_function_discrepancy_roots": 1
+  "pending_current_function_discrepancy_roots": 0
 }
