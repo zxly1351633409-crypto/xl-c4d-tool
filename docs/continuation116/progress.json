@@ -17,9 +17,9 @@
     "formal_products_changed": false
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 408,
+    "successful_blender_actors": 409,
     "native_actions": 94,
-    "failed_blender_actors": 45,
+    "failed_blender_actors": 46,
     "interpretation": "运行次数，不代表功能数、覆盖率或剩余工作量"
   },
   "bounded_evidence": [
@@ -93,5 +93,25 @@
     "six_primitive_current_graphs": "6根/26组双采完整图已取得，36条组引用及原依赖记录保留，无consumer或几何功能验证。",
     "base_field_lineage": "Source26→Source48，XL_基础域完整16组依赖闭包逐值相等；79条相关引用按具名物理地址双射匹配。只复用既有有限数学范围。",
     "no_new_source49_or_release": true
+  },
+  "installer_delivery": {
+    "user_authorized_preview_release_after_each_accepted_function": true,
+    "current_state": "本地完整预览ZIP及解压与隔离加载验证完成，公开安装包尚未上传",
+    "candidate": "Source48",
+    "plugin_version": "3.5.115",
+    "zip_bytes": 265248718,
+    "zip_sha256": "2c92bcf59b9f2bde40540c37d6959c4f50cbcbf41104fee173ba834715c7a1b8",
+    "zip_members": 378,
+    "zip_CRC_all_file_SHA_size_and_extracted_readback_passed": true,
+    "factory_loaded_modules": 164,
+    "factory_registration_repeat_registration_and_unregistration_passed": true,
+    "handler_keymap_state_restored": true,
+    "local_formal_install_unchanged": true,
+    "public_release_blockers": [
+      "现有第三方说明明确将材质模块列为商业研究资产，不能因顶层GPL声明就把整包公开。",
+      "重拓扑二进制对应源码提供方式及其余资产来源白名单仍待闭环。"
+    ],
+    "next_scope": "在独立目录制作并验证可公开的几何核心包，核清资产来源；不直接删除开发母版的注册依赖，也不发布缺功能的伪完整包。",
+    "future_policy": "每个功能经独立功能验收、发布范围核清和包验证后发布一次预览更新；读图、索引整理和技术rc0不计作功能完成。"
   }
 }
