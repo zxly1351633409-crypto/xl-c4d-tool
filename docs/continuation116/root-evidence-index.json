@@ -946,10 +946,10 @@
       ],
       "coverage_state": "BOUNDED_EVIDENCE_INDEXED",
       "pending_semantic_observation": {
-        "state": "ISOLATED_CAPTURE_FIX_EIGHT_PASS_FULL_LIBRARY_INTEGRATION_PENDING",
-        "main_report": "continuation116_Main_installed35116_MixField_conditional_capture_onlyopen_eight_independent_review_v1.json",
-        "sha256": "845a46ef1d672f757258fbc4a8e00101936f040be5003b87023fb060ae2e97cd",
-        "note": "原未捕获结果及拒绝参考保留；隔离修复不冒新正式产品或一般C4D等价。"
+        "state": "CAPTURE_FIX_INTEGRATED_AND_INSTALLED_PREVIEW3",
+        "main_report": "continuation116_Main_Source49_preview3_actual_local_final_gate_v1.json",
+        "sha256": "dd32c4a9276533f834df125919d8b701bfe6c4b09837b7fe70b02a552efdddc5",
+        "note": "仅指定11点两命名属性/Enable50/POINT与INSTANCE Add/Sub；关闭路径复用隔离八态保护，不泛化全部域模式。"
       }
     },
     {

@@ -1,5 +1,5 @@
 {
-  "title": "xl_c4d_tool 3.5.116预览版2 · 本机与GitHub同步",
+  "title": "xl_c4d_tool 3.5.116预览版3 · 混合域修复",
   "as_of": "2026-11-05",
   "evidence_note": "以下为本地审计记录的筛选摘要；完整原始报告和测试数据未随此摘要公开，因此本文件不是完整可复跑证据。",
   "inventory": {
@@ -10,16 +10,16 @@
       "C4D_人形素体",
       "XL_贝塞尔曲面"
     ],
-    "node_groups_including_private_and_legacy": 521,
-    "source_candidate": "Source48",
-    "candidate_status": "Source48为内部内容快照；本机已备份115并安装验证3.5.116预览版2，GitHub同包",
+    "node_groups_including_private_and_legacy": 523,
+    "source_candidate": "Source49",
+    "candidate_status": "Source49整库保存、独立重开、物理产品和默认普通入口通过；本机预览版3完成备份安装与实际入口验证",
     "formal_version": "3.5.116",
     "formal_products_changed": true,
     "latest_public_product_version": "3.5.116",
-    "latest_public_preview_tag": "v3.5.116-preview.2"
+    "latest_public_preview_tag": "v3.5.116-preview.3"
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 427,
+    "successful_blender_actors": 431,
     "native_actions": 94,
     "failed_blender_actors": 46,
     "interpretation": "guard执行次数，包含技术rc0但功能拒绝的留证案例；不是功能数、完成率或工期。"
@@ -40,7 +40,8 @@
     "闭合贝塞尔控制网、人形分段和地形噪声缺可追溯机制。",
     "锥化负曲率存在写入意图与实际读回不一致，不能据此声称负曲率通过。",
     "多个既验结果只覆盖固定参数组合、坐标框架或特定几何；完整范围尚未建立。",
-    "混合域重复字段求值的隔离修复8态通过，尚未完成整库保存/fresh/候选安装发布。其他层模式、缺失属性和任意命名仍未整体验收。"
+    "混合域重复字段求值的隔离修复8态通过，尚未完成整库保存/fresh/候选安装发布。其他层模式、缺失属性和任意命名仍未整体验收。",
+    "混合域当前指定两命名属性的Enable/Normal/50%已修复；其他层模式、缺失或空名属性、任意数量仍未整体验收。"
   ],
   "completion": "原始116根目录分母已确认，但缺统一的逐根、逐语义完成标准和验收表，无法诚实计算功能完成百分比。",
   "schedule": "总体工期不可从现有证据可靠估计；统一矩阵建立后，可根据真实未结项、运行耗时和机制风险校准阶段时间。",
@@ -57,19 +58,30 @@
   ],
   "public_notes": [
     "进度摘要不包含本地路径、个人信息、用户对话、凭据或原始日志。",
-    "本机与GitHub均为3.5.116预览版2；115完整备份保留，不将预览修订或有限案例冒作四类整体完成。"
+    "本机与GitHub均为3.5.116预览版3；115完整备份保留，不将预览修订或有限案例冒作四类整体完成。"
   ],
   "latest_verification": {
     "root": "XL_混合域",
-    "scope": "two explicit named fields/count label2/Add+Subtract/Disable/opacity100; actual PointCloud and INSTANCE",
-    "ordinary_EXEC": 4,
-    "weight_unit": "dimensionless",
-    "weight_tolerance": 1e-06,
+    "status": "CAPTURE_FIX_CANONICAL_FRESH_DEFAULT_PUBLIC_AND_INSTALLED_ACCEPTED",
+    "ordinary_states": [
+      "PointCloud Add",
+      "PointCloud Subtract",
+      "INSTANCE Add",
+      "INSTANCE Subtract"
+    ],
+    "controls": "two explicit named fields/count label2/Enable Normal50",
     "max_weight_error": 0.0,
-    "full_input_attributes_and_complete_capture_checked": true,
-    "all3_fullcore_pre_frozen_exact": true,
-    "main_report_sha256": "fdc9dd534ae1f06e83157fdba75bb1cc6a528b30d295c080cb197b5dfd97c81b",
-    "source_product_changed_by_validation": false
+    "fixed_tolerance": 1e-06,
+    "canonical_full_targets": 23,
+    "library_groups": 523,
+    "physical_pairs": 2194,
+    "named_addresses": 6342,
+    "old_scene_objects_preserved": 234,
+    "old_ID_collections_preserved": 40,
+    "library_sha256": "4c729401d879662f13421ff4acc65ec87354bbdafed1fa4663c15cb7a87a9bf1",
+    "product_integrated_and_installed": true,
+    "original_failed_reference_and_raw_retained": true,
+    "not_general_C4D_FieldLayer_or_arbitrary_names_modes_completion": true
   },
   "evidence_index": {
     "roots": 118,
@@ -84,67 +96,40 @@
   },
   "continuity": "工作轮激活期间继续推进独立队列；回复结束后不保持持续推理。既有30分钟续办心跳负责后续唤起，不代表无人常驻服务。",
   "additional_batch_delivery": {
-    "six_primitive_current_graphs": "6根/26组双采完整图已取得，36条组引用及原依赖记录保留，无consumer或几何功能验证。",
-    "base_field_lineage": "Source26→Source48，XL_基础域完整16组依赖闭包逐值相等；79条相关引用按具名物理地址双射匹配。只复用既有有限数学范围。",
-    "no_new_source49_or_release": false,
-    "formula_current_graph": "6完整组已采且完整继承核过；44总接口项=1输出+43输入，其中42非几何默认值。",
-    "formula_scoped_lineage": "Source15已验手动时间3组→当前3组，精确名称映射后核心/辅助全值同，根仅fake/users/asset/revision四处差；5引用/11物理对应核过。另3当前组完整祖先图未匹配，不冒完整闭包或新功能通过。",
-    "no_new_source49": true,
-    "six_primitive_lineage": "Source18→48的六根26组完整8parts与compact零差，36组引用/两个Object默认端点/40ID共93物理对应；250叶差全为具名指针对应。源Source18之前更早功能链不由此自动建立。",
-    "formula_fullclosure_lineage": "完整6组Source15→48继承已核；其后本机116两11/19点手动时间On/Off共四普通入口完整数值对照通过。",
-    "new_ordinary_or_native_this_batch": "5+4次实际ordinary EXEC：安装锥化1、Formula失败观测4保留、修后Formula4；无新native。",
-    "mixfield_installed": "四普通入口功能限定通过，完整输入/输出属性、组件、18typed和3core严格核；无产品字节变化。",
-    "cylinder112_lineage": "一个实际只读批次补齐112真实库3组→Source18完全继承，旧两个point/directed-face/cornerUV样例仅限条件复用；旧整体formalFalse保留。",
-    "latest_current298_actual": "1个四态普通入口actor + 1个只读actor；两者自然退出，无新native/Source49。"
+    "current300": "Source49 canonical/fresh/378physical/defaultpublic4/installed4; no new native; no whole-project completion claim"
   },
   "installer_delivery": {
-    "user_authorized_preview_release_after_each_accepted_function": true,
-    "current_state": "已备份115并实际安装3.5.116预览版2，GitHub同包",
-    "candidate": "Source48",
-    "plugin_version": "3.5.116",
-    "zip_bytes": 265248739,
-    "zip_sha256": "a0e15bf9c4d7bace176896349920370a63ade958f67e3f49df8e783dd9ab0071",
-    "zip_members": 378,
-    "zip_CRC_all_file_SHA_size_and_extracted_readback_passed": true,
-    "factory_loaded_modules": 164,
-    "factory_registration_repeat_registration_and_unregistration_passed": true,
-    "handler_keymap_state_restored": true,
-    "local_formal_install_unchanged": false,
-    "next_scope": "继续功能验证与语义覆盖；对外使用产品版本号，内部Source编号仅作开发追溯。",
-    "future_policy": "After an accepted functional update, back up previous installation, install and validate same artifact locally, publish/sync GitHub without repeated permission. Do not treat draft/readonly/rc0 as accepted whole function.",
-    "public_release_url": "https://github.com/zxly1351633409-crypto/xl-c4d-tool/releases/tag/v3.5.116-preview.2",
-    "published_at": "2026-11-04T18:26:11Z",
-    "remote_asset_count": 3,
-    "remote_integrity_check": "ZIP使用GitHub服务器SHA256；说明和校验文本另下载逐字节回读",
-    "third_party_review_remaining": [
-      "保留原第三方说明与许可；未逐项复核的资产和二进制源码提供事项不声明已清权。",
-      "公开研究记录授权不改变第三方原许可。"
-    ],
-    "version_metadata_actual_verified": [
-      3,
-      5,
-      116
-    ],
-    "source48_name_internal_only": true,
-    "source48_historical_release_retained_and_labelled": true,
-    "version_changes_exactly_two_files": false,
-    "local_installed_version": "3.5.116",
-    "local_preview_tag": "v3.5.116-preview.2",
-    "actual_GUI_modules": 165,
-    "actual_GUI_NodePreview_ready": true,
-    "GUI_visual_capture_verified": false,
-    "preview2_one_code_file_changed_vs_preview1": "node_preview/display.py",
-    "other377_products_same": true,
-    "old115_complete_backup_verified": true
+    "version": "3.5.116",
+    "tag": "v3.5.116-preview.3",
+    "url": "https://github.com/zxly1351633409-crypto/xl-c4d-tool/releases/tag/v3.5.116-preview.3",
+    "ZIP_bytes": 265264166,
+    "ZIP_SHA256": "873ec398f35ddd3fe6fafdc855e68542d22590d2adfc73f6fe0e9ab4620eb447",
+    "local_installed_same378": true,
+    "previous_preview2_and115_backups_preserved": true,
+    "changed_products": 3,
+    "unchanged_products": 375
   },
   "latest_observation": {
     "root": "XL_混合域",
-    "status": "SEQUENTIAL_FIELD_CONTEXT_DIAGNOSED_AND_ISOLATED_EIGHT_STATE_FIX_PASSED_NOT_INTEGRATED",
-    "isolated_diagnostic": "相同11点，串行Store使自定义RESULT符合再次混合模型，全部点与一次混合模型分离0.0651至0.2497；加入Capture后两个输出均符合一次混合预测。",
-    "isolated_fix": "Root与Core副本加入条件性捕获，PointCloud/INSTANCE各Add/Sub×Disable100或Enable50，共8态三项权重均与冻结参考完全一致；完整输入/输出属性及旧三核心保护核过。",
-    "main_proof_sha256": "845a46ef1d672f757258fbc4a8e00101936f040be5003b87023fb060ae2e97cd",
-    "product_integrated_or_installed": false,
-    "saved_candidate_exists": false,
-    "next": "完整库523组canonical保存、独立fresh、物理候选与真实入口验证之后才备份更新本机和GitHub。"
+    "status": "CAPTURE_FIX_CANONICAL_FRESH_DEFAULT_PUBLIC_AND_INSTALLED_ACCEPTED",
+    "ordinary_states": [
+      "PointCloud Add",
+      "PointCloud Subtract",
+      "INSTANCE Add",
+      "INSTANCE Subtract"
+    ],
+    "controls": "two explicit named fields/count label2/Enable Normal50",
+    "max_weight_error": 0.0,
+    "fixed_tolerance": 1e-06,
+    "canonical_full_targets": 23,
+    "library_groups": 523,
+    "physical_pairs": 2194,
+    "named_addresses": 6342,
+    "old_scene_objects_preserved": 234,
+    "old_ID_collections_preserved": 40,
+    "library_sha256": "4c729401d879662f13421ff4acc65ec87354bbdafed1fa4663c15cb7a87a9bf1",
+    "product_integrated_and_installed": true,
+    "original_failed_reference_and_raw_retained": true,
+    "not_general_C4D_FieldLayer_or_arbitrary_names_modes_completion": true
   }
 }
