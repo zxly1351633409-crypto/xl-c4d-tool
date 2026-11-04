@@ -1,0 +1,1116 @@
+{
+  "schema": "public-root-evidence-index-v1",
+  "as_of": "2026-11-05",
+  "roots": [
+    {
+      "root": "C4D_圆柱",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261029-cylinder-six-axis-112-r1",
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "native16_independent_raw_v1.json",
+          "sha256": "4583a5e889311472b6cb00186507b09f37f44456c7d2e9b71bcac3a0f6fd5cba",
+          "scope_note": "原102受限轴向采样，open/closed等逐case见raw；本批不推断Source48链和一般方向。",
+          "current_math_lineage": "NOT_YET_RECONCILED",
+          "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
+        }
+      ],
+      "coverage_state": "HISTORICAL_EVIDENCE_FOUND_CURRENT_LINEAGE_PENDING"
+    },
+    {
+      "root": "C4D_圆环",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261028-torus-native-six-direction-menu-r105",
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "public60_native_uv_gate.json",
+          "sha256": "b62debbd2fc4a0847cbb9153a387241613b6659be4e720b86ea0a9b7ac7e600b",
+          "scope_note": "原60公开入口七个指定截面/分段case，properC点/UV门控；非一般圆环参数。",
+          "current_math_lineage": "NOT_YET_RECONCILED",
+          "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
+        }
+      ],
+      "coverage_state": "HISTORICAL_EVIDENCE_FOUND_CURRENT_LINEAGE_PENDING"
+    },
+    {
+      "root": "C4D_圆盘",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261101-disc-slice-center-cont116-v1",
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_Disc_remaining_directions_independent_review_v1.json",
+          "sha256": "aeb1c622e85b99cf68f4404b75a70043499875a3877748b9a0da107ee50c65b9",
+          "scope_note": "SliceTrue固定quarter同一fixture六方向；每方向80点57同向面228角UV；非一般切片参数。",
+          "current_math_lineage": "NOT_YET_RECONCILED",
+          "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Disc_plusX_independent_review_v1.json",
+          "sha256": "c3224ff723c80fef336c2f2b7ba2d38ef264ab5d41a643634a7462459a3d1b2d",
+          "scope_note": "SliceTrue固定quarter同一fixture六方向；每方向80点57同向面228角UV；非一般切片参数。",
+          "current_math_lineage": "NOT_YET_RECONCILED",
+          "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
+        }
+      ],
+      "coverage_state": "HISTORICAL_EVIDENCE_FOUND_CURRENT_LINEAGE_PENDING"
+    },
+    {
+      "root": "C4D_圆锥",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261103-cone-three-tuples-slice-candidate-v1",
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_Cone_dynamic_savedfresh_append_independent_review_v1.json",
+          "sha256": "9d4b030b331d5dca3b31866da346a0b8de83947a6fd22d83039bab7e592e8d94",
+          "scope_note": "三明确tuple切片动态候选点/同向面/UV与fresh；Source18仅结构有界，截顶H3反例回退，非一般圆锥。",
+          "current_math_lineage": "NOT_YET_RECONCILED",
+          "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source18_Cone_scoped_acceptance_v1.json",
+          "sha256": "b711f2c12f4fa204d5448840d1966919426cad259bcee023d1712c0ee4d65d01",
+          "scope_note": "三明确tuple切片动态候选点/同向面/UV与fresh；Source18仅结构有界，截顶H3反例回退，非一般圆锥。",
+          "current_math_lineage": "NOT_YET_RECONCILED",
+          "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
+        }
+      ],
+      "coverage_state": "HISTORICAL_EVIDENCE_FOUND_CURRENT_LINEAGE_PENDING"
+    },
+    {
+      "root": "C4D_平面",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261028-plane-native-six-direction-menu-r105",
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "public61_native_uv_gate.json",
+          "sha256": "7e4142329e75f4ca06450b13c316e2c92d8a50986bdeb2039876e10360b59656",
+          "scope_note": "原61真实入口七固定尺寸/段数+Y，UV开关与点/有向面/UV验证；非全方向与一般参数。",
+          "current_math_lineage": "NOT_YET_RECONCILED",
+          "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
+        }
+      ],
+      "coverage_state": "HISTORICAL_EVIDENCE_FOUND_CURRENT_LINEAGE_PENDING"
+    },
+    {
+      "root": "C4D_柏拉图体",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261102-platonic-carbonN6-cont116-v1",
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_Platonic_radius0731_independent_review_v1.json",
+          "sha256": "2320b15100fda1556729829de6e1559cc4d5e5ac724ba13e574e4ff3a3c9c23c",
+          "scope_note": "Source9六类型、N6、半径0.731m、identity、smoothFalse，3540点16128角UV；非全部半径/分段/框架。",
+          "current_math_lineage": "NOT_YET_RECONCILED",
+          "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
+        }
+      ],
+      "coverage_state": "HISTORICAL_EVIDENCE_FOUND_CURRENT_LINEAGE_PENDING"
+    },
+    {
+      "root": "C4D_样条_N边形",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261027-ngon-native-default-physical-plane-r96",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "C4D_样条_圆形",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "C4D_样条_弧形",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261027-arc-native-default-interface-r97",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "C4D_样条_星形",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261027-star-native-default-interface-r97",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "C4D_样条_矩形",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261027-rectangle-native-default-interface-r96",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "C4D_样条_花形",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261027-flower-native-default-interface-r98",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "C4D_样条_螺旋",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "C4D_样条_齿轮",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "C4D_油罐",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261028-oiltank-native-six-direction-menu-r103",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "球体",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261029-sphere-unused-geometry-interface113-r1",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "C4D_立方体",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261102-cube-fillet-defaultfalse-nativeUV-cont116-v1",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "C4D_管",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261024-tube-uv-optin-r1",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "C4D_胶囊",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261028-capsule-native-six-direction-menu-r103",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "C4D_金字塔",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261028-pyramid-native-six-direction-menu-r104",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_精确破碎",
+      "category": "建模工具",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_LOD",
+      "category": "建模工具",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_体积效果器",
+      "category": "效果器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_体积生成",
+      "category": "建模工具",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_体积网格",
+      "category": "建模工具",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_克隆_对象",
+      "category": "克隆器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261028-object-native-transform-setml-panel-r110",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_克隆_放射",
+      "category": "克隆器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261028-radial-native-transform-setml-panel-r109",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_克隆_沿样条",
+      "category": "克隆器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261024-cloner-closed-uniform-trs-precision-r4",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_克隆_线性",
+      "category": "克隆器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261028-linear-native-transform-setml-panel-r109",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_克隆_网格",
+      "category": "克隆器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261028-grid-native-transform-panel-r108",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_克隆_蜂窝",
+      "category": "克隆器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261028-honeycomb-native-transform-panel-r107",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_克隆转矩阵",
+      "category": "克隆器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_克隆镜像",
+      "category": "克隆器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_公式域",
+      "category": "域",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261102-formula-manual-time-cont116-v1",
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_ManualTime_savedfresh_independent_review_v1.json",
+          "sha256": "da58c880a3603b93f442d9ac2f6803771e09191f51871f49b845bece6ab4cd5e",
+          "accepted_scope_state": "Main_ManualTime_explicit_freshconstant_savedfresh_bounded_accepted",
+          "scope_note": "onlytwo freshconstant parameter fixtures/manualseconds×multiplier/fixeddefaultliteral/emptySubfields. Notnative changing-sliderhistory, generalanimation, automaticSceneTimealignment, arbitraryparser or formalintegration.",
+          "current_math_lineage": "NOT_YET_RECONCILED",
+          "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source15_ManualTime_public_independent_review_v1.json",
+          "sha256": "5ce57ae561fb2e282538aad69e97cf59ff0fea9c0cf73782d6e29b0dc151e465",
+          "accepted_scope_state": "Main_Source15_ManualTime_public2_technical_typed_exact_accepted",
+          "scope_note": "emptyseed realordinaryobjectapplyFINISHED andnodeINVOKE leftFINISHED; rawallinputs beforetrueafter+exactf32 .25/.4; no geometry/nativecontrols/Undo/wholeUX",
+          "current_math_lineage": "NOT_YET_RECONCILED",
+          "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source15_ManualTime_connected_independent_review_v1.json",
+          "sha256": "671e0d9a52b5daf5b9fa778f129aa5585adc35df26e3d9722541d24bc153d768",
+          "accepted_scope_state": "Main_Source15_ManualTime_public_connected19INSTANCE_fullvalues_accepted",
+          "scope_note": "actualordinarypublicEXEC rootedSource15 standardlibrary, exactaccepted19 point INSTANCEseed→publicroot→testRealize; allgradientHard attrs/normals/fullmesh. No newnative/newmath/GUI/controlUndo/generalanimation claim",
+          "current_math_lineage": "NOT_YET_RECONCILED",
+          "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
+        }
+      ],
+      "coverage_state": "HISTORICAL_EVIDENCE_FOUND_CURRENT_LINEAGE_PENDING"
+    },
+    {
+      "root": "XL_公式效果器",
+      "category": "效果器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_内插面",
+      "category": "建模工具",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_减面",
+      "category": "建模工具",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_分裂实例",
+      "category": "克隆器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_加厚",
+      "category": "建模工具",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_加速度",
+      "category": "动画",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_原子阵列",
+      "category": "建模工具",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_噪波效果器",
+      "category": "效果器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_图像域",
+      "category": "域",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_图像贴图效果器",
+      "category": "效果器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_域修改_反转",
+      "category": "域",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_域修改_映射范围",
+      "category": "域",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_域修改_曲线",
+      "category": "域",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_域修改_色板",
+      "category": "域",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_域修改_量化",
+      "category": "域",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_域修改_钳制",
+      "category": "域",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_基础域",
+      "category": "域",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261103-sphereframe-ideal-candidate-v1",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_声音域",
+      "category": "域",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_声音效果器",
+      "category": "效果器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_多边形FX",
+      "category": "其他",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_实例",
+      "category": "克隆器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_实例化",
+      "category": "克隆器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_对称",
+      "category": "建模工具",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "3.5.7-single-object-fixed-centre",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_对象邻近域",
+      "category": "域",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_布尔",
+      "category": "建模工具",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261102-boolean-split-exact-experimental116-v2",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_布料曲面",
+      "category": "建模工具",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_延迟效果器",
+      "category": "效果器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_弯曲",
+      "category": "变形器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261027-bend-native-local-controller-direction-r94",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_扫描",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261104-sweep-open-poly3-finite-candidate-v1",
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_Source40_final_independent_review_v1.json",
+          "sha256": "4d299489e9f032dcf2ba757ac3bf029d13cc08dad386527ad4388183a4aa1c1f",
+          "accepted_scope_state": "MAIN_SOURCE40_PHYSICAL_ORDINARY_SWEEP_6STATE_ACCEPTED_BOUNDED",
+          "scope_note": "受限样例证据；完整适用参数、回退与历史依赖见本地报告。不是该根全部功能完成声明。"
+        }
+      ],
+      "coverage_state": "BOUNDED_EVIDENCE_INDEXED"
+    },
+    {
+      "root": "XL_扭曲",
+      "category": "变形器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261031-twist-native-interface115-r1",
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_Source48_Twist_signed_controller_public_independent_review_v1.json",
+          "sha256": "048ff0a0f1ac410105024047620ae2c799b3491ac197d7276764120a9aac4fa3",
+          "accepted_scope_state": "MAIN_SOURCE48_TWIST_SIGNED_CONTROLLER_ORDINARY_LOCAL_AND_DERIVED_WORLD_DIRECTED_FACES_ACCEPTED_BOUNDED",
+          "scope_note": "受限样例证据；完整适用参数、回退与历史依赖见本地报告。不是该根全部功能完成声明。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source48_Twist_none_worldI_public_independent_review_v1.json",
+          "sha256": "5bd345b51e1ce31d79f489e21a0bb66d9863f8902575535320984d8b5114228e",
+          "accepted_scope_state": "MAIN_SOURCE48_TWIST_OBJECT_NONE_CLAMP_ORDINARY_LOCAL_AND_DERIVED_WORLD_DIRECTED_FACES_ACCEPTED_BOUNDED",
+          "scope_note": "受限样例证据；完整适用参数、回退与历史依赖见本地报告。不是该根全部功能完成声明。"
+        }
+      ],
+      "coverage_state": "BOUNDED_EVIDENCE_INDEXED"
+    },
+    {
+      "root": "XL_挤出套娃",
+      "category": "其他",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_挤压",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261104-extrude-generator-coordinate-candidate-v1",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_推开效果器",
+      "category": "效果器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_摄像机工具",
+      "category": "其他",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "收缩包裹",
+      "category": "变形器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261030-shrinkwrap-native-interface114-r1",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_放样",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261104-loft-h2-input-guard-candidate-v1",
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_Source41_final_independent_review_v1.json",
+          "sha256": "82528cf0d8c2810bee9d0427f018b4f039bf220a0307121bad8225d920d19c25",
+          "accepted_scope_state": "MAIN_SOURCE41_PHYSICAL_ORDINARY_LOFT_6STATE_ACCEPTED_BOUNDED",
+          "scope_note": "受限样例证据；完整适用参数、回退与历史依赖见本地报告。不是该根全部功能完成声明。"
+        }
+      ],
+      "coverage_state": "BOUNDED_EVIDENCE_INDEXED"
+    },
+    {
+      "root": "XL_散布_体积分布",
+      "category": "散布",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_散布_完整系统",
+      "category": "散布",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_散布_边分布",
+      "category": "散布",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_散布_随机分布",
+      "category": "散布",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_散布_面分布",
+      "category": "散布",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_散布_顶点分布",
+      "category": "散布",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_斜切",
+      "category": "变形器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261104-shear-parent-negative-z2-candidate-v1",
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_Source48_public_independent_review_v1.json",
+          "sha256": "ac7e7e97d90bac9164bf07b2a484beab98132a970b9004ff68e4a200e9b8a869",
+          "accepted_scope_state": "MAIN_SOURCE48_PHYSICAL_PUBLIC_EXACT_PARENT_NEGATIVE_Z2_ACCEPTED_BOUNDED",
+          "scope_note": "受限样例证据；完整适用参数、回退与历史依赖见本地报告。不是该根全部功能完成声明。"
+        }
+      ],
+      "coverage_state": "BOUNDED_EVIDENCE_INDEXED"
+    },
+    {
+      "root": "XL_旋转",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261104-lathe-poly4-203-res48-candidate-v1",
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_Source39_final_independent_review_v1.json",
+          "sha256": "0379dc716fc1c05fd12120ed54716a0e69498d09b7829cf85e111d2934b2cfe1",
+          "accepted_scope_state": "MAIN_SOURCE39_PHYSICAL_ORDINARY_EXEC_N48_AND47FALLBACK_ACCEPTED_BOUNDED",
+          "scope_note": "受限样例证据；完整适用参数、回退与历史依赖见本地报告。不是该根全部功能完成声明。"
+        }
+      ],
+      "coverage_state": "BOUNDED_EVIDENCE_INDEXED"
+    },
+    {
+      "root": "XL_时间域",
+      "category": "域",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_时间效果器",
+      "category": "效果器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_普通效果器",
+      "category": "效果器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_样条域",
+      "category": "域",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_样条效果器",
+      "category": "效果器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_样条约束",
+      "category": "变形器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261023-target-guards-r1",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_样条蒙版",
+      "category": "其他",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261027-spline-mask-semantic-mode-menu-r8",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_步进域",
+      "category": "域",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_步进效果器",
+      "category": "效果器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_浮雕",
+      "category": "变形器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261024-relief-spherical-optin-r1",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_混合域",
+      "category": "域",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_爆炸",
+      "category": "变形器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261024-explosion-topology-guard-r1",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_目标效果器",
+      "category": "效果器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_矩阵",
+      "category": "其他",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_破碎2.001（勉强算完成版）",
+      "category": "建模工具",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_粒子发射",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_细分曲面",
+      "category": "建模工具",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261031-subdivision-render-level115-r1",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_继承效果器",
+      "category": "效果器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_置换",
+      "category": "变形器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_膨胀",
+      "category": "变形器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261024-bulge-c4d-basic-r1",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_融化",
+      "category": "变形器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261024-melt-relative-fullmatrix-r3",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_融球",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_跟随效果",
+      "category": "效果器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_运动动画",
+      "category": "动画",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_运动实例",
+      "category": "动画",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_运动挤压",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_运动文本",
+      "category": "生成器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_连接",
+      "category": "建模工具",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261104-connect-star16",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_追踪",
+      "category": "动画",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_锥化",
+      "category": "变形器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261031-taper-native-interface115-r1",
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_Source48_Taper_r6_mode0_public_independent_review_v1.json",
+          "sha256": "12da53534a2eb251d769e8ea7cd493ab11eddd9d1bbf495f246d044d59816d3f",
+          "accepted_scope_state": "MAIN_SOURCE48_TAPER_R6_MODE0_ORDINARY_LOCAL_AND_DERIVED_WORLD_DIRECTED_FACES_ACCEPTED_BOUNDED",
+          "scope_note": "受限样例证据；完整适用参数、回退与历史依赖见本地报告。不是该根全部功能完成声明。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source48_Taper_r6_mode2_curve091_public_independent_review_v1.json",
+          "sha256": "e1befdf98cff110411ee585a2d54c8aafcb31a266dff4ac40398591c184a26bd",
+          "accepted_scope_state": "MAIN_SOURCE48_TAPER_R6_MODE2_CURVE091_ORDINARY_LOCAL_AND_DERIVED_WORLD_DIRECTED_FACES_ACCEPTED_BOUNDED",
+          "scope_note": "受限样例证据；完整适用参数、回退与历史依赖见本地报告。不是该根全部功能完成声明。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source48_Taper_r6_mode2_nonfillet_zero_public_independent_review_v1.json",
+          "sha256": "12ea4bcfd01f7522a726a99408d30dbabfa8a85352eec01310a01efafe08c694",
+          "accepted_scope_state": "MAIN_SOURCE48_TAPER_R6_MODE2_NONFILLET_ACTUAL_ZERO_ORDINARY_LOCAL_AND_DERIVED_WORLD_DIRECTED_FACES_ACCEPTED_BOUNDED",
+          "scope_note": "受限样例证据；完整适用参数、回退与历史依赖见本地报告。不是该根全部功能完成声明。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source48_Taper_r6_mode1_curve037_public_independent_review_v1.json",
+          "sha256": "eeccce53fd3322eb9b2c2e7e62d3cb0093dcaa7d5bc01b785ba49a785d15816d",
+          "accepted_scope_state": "MAIN_SOURCE48_TAPER_R6_MODE1_CURVE037_ORDINARY_LOCAL_AND_DERIVED_WORLD_DIRECTED_FACES_ACCEPTED_BOUNDED",
+          "scope_note": "受限样例证据；完整适用参数、回退与历史依赖见本地报告。不是该根全部功能完成声明。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source48_Taper_none_worldI_mode1_public_independent_review_v1.json",
+          "sha256": "c7138d11ffc41379791cb54dafaa208cfcd926454a6cfc058b3faa8a79e15927",
+          "accepted_scope_state": "MAIN_SOURCE48_TAPER_R6_NONE_WORLDI_MODE1_NONFILLET_CURVE037_ORDINARY_LOCAL_AND_DERIVED_WORLD_DIRECTED_FACES_ACCEPTED_BOUNDED",
+          "scope_note": "真ObjectNone/限制模式/关闭圆角/曲率0.37/强度73/尺寸(2.8,3.9,3.4)m/既有8点6同向面。"
+        }
+      ],
+      "coverage_state": "BOUNDED_EVIDENCE_INDEXED"
+    },
+    {
+      "root": "XL_随机域",
+      "category": "域",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_随机效果器",
+      "category": "效果器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_面变换",
+      "category": "建模工具",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_四边重网格",
+      "category": "建模工具",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_克隆增强器",
+      "category": "MoGraph",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261027-enhancer-spacing-stable-pair-r6c",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_衰减效果器",
+      "category": "MoGraph",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261027-falloff-six-shape-menu-r1",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_加权实例化",
+      "category": "MoGraph",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": null,
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_球化",
+      "category": "变形器",
+      "origin": "ORIGINAL_116",
+      "current_catalog_revision": "20261029-spherify-gn-interface112-r1",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "C4D_人形素体",
+      "category": "生成器",
+      "origin": "ADDED",
+      "current_catalog_revision": "20261102-figure-height-defaultpose-cont116-v1",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    },
+    {
+      "root": "XL_贝塞尔曲面",
+      "category": "生成器",
+      "origin": "ADDED",
+      "current_catalog_revision": "20261104-bezier-bspline-four-open-grids-candidate-v1",
+      "known_bounded_evidence": [],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+    }
+  ],
+  "indexed_roots": 13,
+  "existing_evidence_to_reconcile_roots": 105,
+  "meaning": "初版证据目录：6根绑定近期当前受限证明，7根找到历史材料但当前数学继承待对账，105根尚未归并历史证据。这些是索引状态，均不能当功能完成或未实现统计；禁止为补索引重跑既验范围。",
+  "coverage_denominator_not_defined": true,
+  "local_report_contents_not_published": true,
+  "current_bounded_evidence_roots": 6,
+  "historical_evidence_found_current_lineage_pending_roots": 7
+}

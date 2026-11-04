@@ -1,0 +1,91 @@
+{
+  "title": "C4D 风格节点迁移进度",
+  "as_of": "2026-11-05",
+  "evidence_note": "以下为本地审计记录的筛选摘要；完整原始报告和测试数据未随此摘要公开，因此本文件不是完整可复跑证据。",
+  "inventory": {
+    "original_public_roots": 116,
+    "original_roots_preserved_in_reconciliation": 116,
+    "current_catalog_rows": 118,
+    "added_public_roots": [
+      "C4D_人形素体",
+      "XL_贝塞尔曲面"
+    ],
+    "node_groups_including_private_and_legacy": 521,
+    "source_candidate": "Source48",
+    "candidate_status": "隔离候选，未安装",
+    "formal_version": "3.5.115",
+    "formal_products_changed": false
+  },
+  "execution_counts_since_115": {
+    "successful_blender_actors": 407,
+    "native_actions": 94,
+    "failed_blender_actors": 45,
+    "interpretation": "运行次数，不代表功能数、覆盖率或剩余工作量"
+  },
+  "bounded_evidence": [
+    "参数体：多个基础体已有特定参数与方向样例；圆锥切片等仍按明确条件限定。",
+    "旋转（Lathe）：已有特定开放轮廓、角度和分段样例的普通入口验证。",
+    "扫描（Sweep）：已有特定轮廓与路径的点、面和 UV 样例，其他输入沿旧路径。",
+    "放样（Loft）：已有 H2/V5 受限样例和回退验证。",
+    "斜切（Shear）：已有指定参数、控制框变换与回退的受限验证。",
+    "扭曲（Twist）：已有指定控制对象及空控制对象样例的普通入口验证。",
+    "锥化：指定模式与曲率状态已有普通入口验证；最新真ObjectNone、限制模式、圆角关闭、曲率0.37的样例通过，结论仅限记录的参数和几何。"
+  ],
+  "open_issues": [
+    "油罐与胶囊部分切面三角化缺少已验证的一般规则。",
+    "闭合贝塞尔控制网、人形分段和地形噪声缺可追溯机制。",
+    "锥化负曲率存在写入意图与实际读回不一致，不能据此声称负曲率通过。",
+    "多个既验结果只覆盖固定参数组合、坐标框架或特定几何；完整范围尚未建立。"
+  ],
+  "completion": "原始116根目录分母已确认，但缺统一的逐根、逐语义完成标准和验收表，无法诚实计算功能完成百分比。",
+  "schedule": "总体工期不可从现有证据可靠估计；统一矩阵建立后，可根据真实未结项、运行耗时和机制风险校准阶段时间。",
+  "acceleration": [
+    "按互斥责任并行开展低成本只读源码溯源、预测冻结、机械比对和证据整理。",
+    "Blender、C4D、GUI 和大型 I/O 保持资源检查与单槽串行，避免互相污染。",
+    "按功能语义批次安排既有证据复用和新验证，统一比较差异，避免每个样例重复完整 canonical 流程与频繁小停顿。",
+    "遇到失败先保留原始值并定位机制；不通过重复采样、拟合或降低阈值制造进度。"
+  ],
+  "next_stage_acceptance": [
+    "建立116原有公开根及新增根的逐根、逐语义验收矩阵，标明通过范围、证据、未结与未知。",
+    "依据实际失败、用户价值和机制可追溯性排序；每批写清旧路径保护和可证伪验收条件。",
+    "候选保存、独立 fresh、真实普通入口及发布体验分别记录；完成阶段不等于全部参数已覆盖。"
+  ],
+  "public_notes": [
+    "不包含本地路径、个人信息、用户对话、凭据或受限资产原文。",
+    "无完整功能验收、发布或安装声明。"
+  ],
+  "latest_verification": {
+    "root": "XL_锥化",
+    "case": "none_worldI_mode1",
+    "control_object": null,
+    "control_enabled": true,
+    "mode": "限制",
+    "fillet": false,
+    "curvature_percent": 37,
+    "strength_percent": 73,
+    "size_m": [
+      2.8,
+      3.9,
+      3.4
+    ],
+    "points": 8,
+    "directed_faces": 6,
+    "position_tolerance_m": 2e-06,
+    "max_local_error_m": 2.8496569531825663e-07,
+    "max_derived_world_error_m": 2.681278936204571e-07,
+    "world_target_kind": "记录ownerMG与局部输出推导，原缓存ML/MG/Up缺失，非独立cacheworld证据",
+    "main_report_sha256": "c7138d11ffc41379791cb54dafaa208cfcd926454a6cfc058b3faa8a79e15927",
+    "no_formal_product_change": true
+  },
+  "evidence_index": {
+    "roots": 118,
+    "original_roots": 116,
+    "added_roots": 2,
+    "current_bounded_evidence_roots": 6,
+    "historical_evidence_found_current_lineage_pending_roots": 7,
+    "existing_evidence_to_reconcile_roots": 105,
+    "interpretation": "证据整理状态，不是功能完成率或缺陷数量。历史材料找到不等于Source48重新通过，未归并不等于未实现/未测/失败。",
+    "parallel_host_batches_completed": "参数体6根和域前6根两路归并，找回7根历史证据，无新运行。"
+  },
+  "continuity": "工作轮激活期间继续推进独立队列；回复结束后不保持持续推理。既有30分钟续办心跳负责后续唤起，不代表无人常驻服务。"
+}
