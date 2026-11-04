@@ -19,7 +19,7 @@
     "latest_public_preview_tag": "v3.5.116-preview.2"
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 424,
+    "successful_blender_actors": 427,
     "native_actions": 94,
     "failed_blender_actors": 46,
     "interpretation": "guard执行次数，包含技术rc0但功能拒绝的留证案例；不是功能数、完成率或工期。"
@@ -40,7 +40,7 @@
     "闭合贝塞尔控制网、人形分段和地形噪声缺可追溯机制。",
     "锥化负曲率存在写入意图与实际读回不一致，不能据此声称负曲率通过。",
     "多个既验结果只覆盖固定参数组合、坐标框架或特定几何；完整范围尚未建立。",
-    "混合域Enable/Normal/50%时自定义输出未符合采前一次混合预测；需独立字段求值上下文判别，再决定参考修正或最小产品修复。"
+    "混合域重复字段求值的隔离修复8态通过，尚未完成整库保存/fresh/候选安装发布。其他层模式、缺失属性和任意命名仍未整体验收。"
   ],
   "completion": "原始116根目录分母已确认，但缺统一的逐根、逐语义完成标准和验收表，无法诚实计算功能完成百分比。",
   "schedule": "总体工期不可从现有证据可靠估计；统一矩阵建立后，可根据真实未结项、运行耗时和机制风险校准阶段时间。",
@@ -139,11 +139,12 @@
   },
   "latest_observation": {
     "root": "XL_混合域",
-    "scope": "Enable/Normal/50 percent opacity; same named-field fixture; four ordinary EXEC",
-    "acceptance": false,
-    "reason": "Gradient与Hard符合采前预测，自定义RESULT与一次混合预测不一致；最大权重差Add0.249681592/Sub0.247773856。原参考和原始数据保留。",
-    "candidate_explanation": "串行写属性后，第二Store可能在更新后的Gradient上下文重算混合；仅采后机制候选，不作为oracle或产品缺陷最终结论。",
-    "no_product_mutation_or_installer_revision": true,
-    "main_rejection_sha256": "55a22b6e487af08924dec884ab8f19426443f2b565bce043cee77aa43d0a6c61"
+    "status": "SEQUENTIAL_FIELD_CONTEXT_DIAGNOSED_AND_ISOLATED_EIGHT_STATE_FIX_PASSED_NOT_INTEGRATED",
+    "isolated_diagnostic": "相同11点，串行Store使自定义RESULT符合再次混合模型，全部点与一次混合模型分离0.0651至0.2497；加入Capture后两个输出均符合一次混合预测。",
+    "isolated_fix": "Root与Core副本加入条件性捕获，PointCloud/INSTANCE各Add/Sub×Disable100或Enable50，共8态三项权重均与冻结参考完全一致；完整输入/输出属性及旧三核心保护核过。",
+    "main_proof_sha256": "845a46ef1d672f757258fbc4a8e00101936f040be5003b87023fb060ae2e97cd",
+    "product_integrated_or_installed": false,
+    "saved_candidate_exists": false,
+    "next": "完整库523组canonical保存、独立fresh、物理候选与真实入口验证之后才备份更新本机和GitHub。"
   }
 }

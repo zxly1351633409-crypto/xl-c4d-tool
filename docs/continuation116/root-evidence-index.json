@@ -946,11 +946,10 @@
       ],
       "coverage_state": "BOUNDED_EVIDENCE_INDEXED",
       "pending_semantic_observation": {
-        "scope": "Enable/Normal/50%",
-        "state": "PRE_FROZEN_PREDICTION_REJECTED_NOT_A_NEW_PASS",
-        "main_report": "continuation116_Main_installed35116_MixField_EnableNormal50_prediction_rejection_v1.json",
-        "sha256": "55a22b6e487af08924dec884ab8f19426443f2b565bce043cee77aa43d0a6c61",
-        "note": "四态采证自然退出；自定义RESULT差异保留，Disabled四态通过范围不倒改。"
+        "state": "ISOLATED_CAPTURE_FIX_EIGHT_PASS_FULL_LIBRARY_INTEGRATION_PENDING",
+        "main_report": "continuation116_Main_installed35116_MixField_conditional_capture_onlyopen_eight_independent_review_v1.json",
+        "sha256": "845a46ef1d672f757258fbc4a8e00101936f040be5003b87023fb060ae2e97cd",
+        "note": "原未捕获结果及拒绝参考保留；隔离修复不冒新正式产品或一般C4D等价。"
       }
     },
     {
