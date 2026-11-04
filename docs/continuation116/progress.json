@@ -19,10 +19,11 @@
     "latest_public_preview_tag": "v3.5.116-preview.4"
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 442,
+    "successful_blender_actors": 445,
     "native_actions": 94,
     "failed_blender_actors": 46,
-    "interpretation": "guard执行次数，包含技术rc0但功能拒绝的留证案例；不是功能数、完成率或工期。"
+    "interpretation": "guard执行次数，包含技术rc0但功能拒绝的留证案例；不是功能数、完成率或工期。",
+    "retained_monitor_limit": "Torus60短进程guard自然rc0，但实时CIM路径/命令为空触发monitor错误，原值保留，不能宣称完整CIM身份已核；无重复运行。"
   },
   "bounded_evidence": [
     "参数体：多个基础体已有特定参数与方向样例；圆锥切片等仍按明确条件限定。",
@@ -42,7 +43,8 @@
     "锥化负曲率存在写入意图与实际读回不一致，不能据此声称负曲率通过。",
     "多个既验结果只覆盖固定参数组合、坐标框架或特定几何；完整范围尚未建立。",
     "混合域当前指定两命名属性的Enable/Normal/50%已修复；其他层模式、缺失或空名属性、任意数量仍未整体验收。",
-    "映射范围域本次修复只验收指定范围、组件与命名；Enable、mask关闭、特殊别名和全部层模式尚未整体验收。"
+    "映射范围域本次修复只验收指定范围、组件与命名；Enable、mask关闭、特殊别名和全部层模式尚未整体验收。",
+    "曲线域编辑为指定反相曲线后，自定义输出与一次映射预期明显不同；单次捕获的两个组件隔离修复通过，Source51整库保存、独立重开及安装验收尚未完成。"
   ],
   "completion": "原始116根目录分母已确认，但缺统一的逐根、逐语义完成标准和验收表，无法诚实计算功能完成百分比。",
   "schedule": "总体工期不可从现有证据可靠估计；统一矩阵建立后，可根据真实未结项、运行耗时和机制风险校准阶段时间。",
@@ -83,16 +85,17 @@
     "current_ordinary_bounded_evidence_roots": 9,
     "current_math_lineage_bounded_roots": 7,
     "historical_evidence_found_current_lineage_pending_roots": 0,
-    "existing_evidence_to_reconcile_roots": 102,
-    "interpretation": "9根受限普通入口、7根数学继承、102根材料待归并；阶段互斥，不是功能完成率，也不表示102根未实现。",
+    "existing_evidence_to_reconcile_roots": 101,
+    "interpretation": "9根受限普通入口、7根数学继承、1根差异待集成、101根材料待归并；不是完成率，也不表示101根未实现。",
     "parallel_host_batches_completed": "参数体6根；域16根均完成首轮有界材料导航。其中基础域16组完整数学闭包与79条引用被Main独立对账。",
-    "pending_current_function_discrepancy_roots": 0
+    "pending_current_function_discrepancy_roots": 1
   },
   "continuity": "工作轮激活期间继续推进独立队列；回复结束后不保持持续推理。既有30分钟续办心跳负责后续唤起，不代表无人常驻服务。",
   "additional_batch_delivery": {
     "current301": "旧平面61完整31节点核心对当前私有核心精确数学继承；Range闭包补齐、一次映射差异定位、两个组件隔离修复实测通过。无新安装包/原生。",
     "current302": "Source50完整整库保存与独立重开、物理378产品、候选和本机各2普通入口；备份预览版3后发布预览版4。",
-    "current303": "Plane105旧候选完整两组与Source18/48严格继承，复用有限8例同向面/角UV证据；曲线域三组完整结构与独立CurveMapping状态双采。没有新功能普通入口、产品字节或安装包。"
+    "current303": "Plane105旧候选完整两组与Source18/48严格继承，复用有限8例同向面/角UV证据；曲线域三组完整结构与独立CurveMapping状态双采。没有新功能普通入口、产品字节或安装包。",
+    "current304": "Torus60旧数学闭包/default+Y继承；曲线反相POINT一次真实预测拒绝；独立5组图参考齐后POINT/INSTANCE各一次隔离修复通过。Source51完整false包已收到但未执行，本机/GitHub预览4不变。"
   },
   "installer_delivery": {
     "version": "3.5.116",
@@ -107,39 +110,22 @@
   },
   "latest_observation": {
     "root": "XL_域修改_曲线",
-    "status": "READONLY_IDENTITY_STRUCTURE_AND_EXPLICIT_CURVEMAPPING_OBSERVED_NOT_FUNCTIONAL_ACCEPTANCE",
-    "groups": [
-      {
-        "role": "Root",
-        "nodes": 15,
-        "links": 18
-      },
-      {
-        "role": "Core",
-        "nodes": 369,
-        "links": 423
-      },
-      {
-        "role": "CurveHelper",
-        "nodes": 6,
-        "links": 2
-      }
-    ],
-    "actual_input_count": 9,
-    "mapping_nodes": 1,
-    "control_points": [
-      [
-        0,
-        0
-      ],
-      [
-        1,
-        1
-      ]
-    ],
-    "handles": "AUTO",
-    "extend": "EXTRAPOLATED",
-    "static_identity_not_discriminating_functional_models": true,
-    "no_consumer_geometry_evaluation_native_save_or_install": true
+    "status": "CURRENT_POINT_ONCE_INTENT_REJECTED_TWO_COMPONENT_ISOLATED_CAPTURE_FIX_PASSED_SOURCE51_FALSE_ONLY",
+    "component": "PointCloud, 11 existing points",
+    "controls": "temporary twoAUTOpoint curve inversion; Disable/Normal100/maskTrue/renderFalse/nonempty custom field",
+    "fixed_weight_tolerance": 1e-06,
+    "original_once_model_errors": {
+      "Gradient": 1.2852251529693604e-07,
+      "Hard": 1.3411032284693647e-07,
+      "custom": 0.9898213148117065
+    },
+    "prefrozen_serial_model_max_error": 1.3411032284693647e-07,
+    "isolated_POINT_INSTANCE_three_weights_max_error": 1.3411032284693647e-07,
+    "model_discrimination_10points_at_tolerance_index0_within_tolerance": true,
+    "original_failure_and_prefrozen_reference_preserved": true,
+    "original_library_and_installed_product_unchanged": true,
+    "Main_failure_proof_SHA": "0d37f65649f48d82a5b2ea85de039b83966f53cb56014232312b7f9ecb59d07c",
+    "Main_isolated_fix_proof_SHA": "ff912f6c5b671113ce25a1a395aab3654527b449e59f9668f00246ebad2a08f4",
+    "not_Source51_saved_or_published": true
   }
 }

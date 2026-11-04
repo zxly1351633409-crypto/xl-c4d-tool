@@ -50,6 +50,11 @@
           "local_audit_report": "continuation116_Main_PrimitiveSix_Source18_to48_fullclosure_lineage_independent_review_v1.json",
           "sha256": "836c64579b8c7f665097ca169b28b195e08b71143b66b75800e6759d634f87a9",
           "scope_note": "Source18→48六根26组完整图继承。未补齐Source18以前的全部原生功能链，不代表一般几何功能通过。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Torus60_to18_to50_fullcore_defaultY_lineage_independent_review_v1.json",
+          "sha256": "c61f3c35343bc4bad0c2e0fa43cd200339c7a3b8224dc7295a86019bc322ebd3",
+          "scope_note": "旧60单44/54核心对Source18私有核心全部8parts/compact仅精确key名和users1→2不同；公开default+Y位置身份且UV9固定True，复用旧7例TrueUV点/同向面/角UV。非当前ordinary/全方向；短CIM空值与monitor错误保留，guard/argv/退出另核。"
         }
       ],
       "coverage_state": "CURRENT_MATH_CLOSURE_MATCHED_ANCESTOR_BOUNDED_EVIDENCE",
@@ -568,8 +573,19 @@
       "category": "域",
       "origin": "ORIGINAL_116",
       "current_catalog_revision": null,
-      "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED",
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_installed35116_Curve_inversion_POINT_once_prediction_rejection_independent_review_v1.json",
+          "sha256": "0d37f65649f48d82a5b2ea85de039b83966f53cb56014232312b7f9ecb59d07c",
+          "scope_note": "实际安装路径一次PointCloud反相验证，原一次映射意图拒绝；三种预测已先冻结，原始数据未改。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_installed35116_Curve_capture_onlyopen_two_component_independent_review_v1.json",
+          "sha256": "ff912f6c5b671113ce25a1a395aab3654527b449e59f9668f00246ebad2a08f4",
+          "scope_note": "Root/Core仅隔离复制，4个Capture、删8旧边增16边；PointCloud及INSTANCE各11点验证通过，三权重误差≤1.35e-7<1e-6。完整5组初始/尾图与共享曲线恢复、输入输出与清理核对。尚未Source51完整保存/安装。"
+        }
+      ],
+      "coverage_state": "CURRENT_DIFFERENCE_ISOLATED_FIX_NOT_INTEGRATED",
       "current_full_graph_capture_only": {
         "local_audit_report": "continuation116_Main_Source50_CurveField_current_graph_mapping_identity_independent_review_v2.json",
         "sha256": "0dae815d861c788f96bd204a02509870ed5eb8e2e9bdf69f6e83be3a4679f94e",
@@ -1258,12 +1274,12 @@
     }
   ],
   "indexed_roots": 16,
-  "existing_evidence_to_reconcile_roots": 102,
-  "meaning": "9根当前受限普通入口+7根数学继承+102根材料待归并；不是完成率。",
+  "existing_evidence_to_reconcile_roots": 101,
+  "meaning": "9根受限ordinary+7根数学继承+1根差异待集成+101根材料待归并；不是完成率。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
   "current_bounded_evidence_roots": 9,
   "historical_evidence_found_current_lineage_pending_roots": 0,
   "current_math_lineage_bounded_roots": 7,
-  "pending_current_function_discrepancy_roots": 0
+  "pending_current_function_discrepancy_roots": 1
 }
