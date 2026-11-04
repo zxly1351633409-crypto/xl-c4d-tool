@@ -135,13 +135,18 @@
           "local_audit_report": "public61_native_uv_gate.json",
           "sha256": "7e4142329e75f4ca06450b13c316e2c92d8a50986bdeb2039876e10360b59656",
           "scope_note": "原61真实入口七固定尺寸/段数+Y，UV开关与点/有向面/UV验证；非全方向与一般参数。",
-          "current_math_lineage": "NOT_YET_RECONCILED",
+          "current_math_lineage": "COMPLETE_31_NODE_CORE_RENAMED_KEY_ONLY_USERS1_TO2_AND_CURRENT_DEFAULT_Y_IDENTITY_UV_FORCED_TRUE",
           "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
         },
         {
           "local_audit_report": "continuation116_Main_PrimitiveSix_Source18_to48_fullclosure_lineage_independent_review_v1.json",
           "sha256": "836c64579b8c7f665097ca169b28b195e08b71143b66b75800e6759d634f87a9",
           "scope_note": "Source18→48六根26组完整图继承。未补齐Source18以前的全部原生功能链，不代表一般几何功能通过。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Plane61_to18_to49_fullcore_and_defaultY_lineage_independent_review_v1.json",
+          "sha256": "9499285cc9113e4a7e296bfee8208075045eac4b295089035ad8235952b8b749",
+          "scope_note": "旧7个+Y/UVTrue样例可按完整核心与默认身份路由复用；不是当前新ordinary，不代表当前公开UVFalse开关或六方向均数值验过。"
         }
       ],
       "coverage_state": "CURRENT_MATH_CLOSURE_MATCHED_ANCESTOR_BOUNDED_EVIDENCE",
@@ -524,8 +529,19 @@
       "category": "域",
       "origin": "ORIGINAL_116",
       "current_catalog_revision": null,
-      "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_Source49_RangeField_current_closure_independent_review_v1.json",
+          "sha256": "d7898c658243180cb906a3cd4143f789193cbf1f4ce9019ba47cc79eb90ed246",
+          "scope_note": "Root15/20与Core351/409完整图双采、11输入/10默认，身份与旧LinearField并未等同。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_installed35116_Range_POINT_once_prediction_rejection_independent_review_v1.json",
+          "sha256": "64879713f6230cd0c40670a8253707b99847f6f8b246bf1f40f0457fc4c7d776",
+          "scope_note": "一次映射预测拒绝，原始数据保留。候选POINT与INSTANCE隔离修复各1case三权重0误差；无保存安装。"
+        }
+      ],
+      "coverage_state": "CURRENT_POINT_DISCREPANCY_ISOLATED_POINT_INSTANCE_FIX_PENDING_INTEGRATION"
     },
     {
       "root": "XL_域修改_曲线",
@@ -1216,12 +1232,13 @@
       "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
     }
   ],
-  "indexed_roots": 15,
-  "existing_evidence_to_reconcile_roots": 103,
-  "meaning": "8根当前受限普通入口+7根数学继承+103根材料待归并；不是功能完成百分比。",
+  "indexed_roots": 16,
+  "existing_evidence_to_reconcile_roots": 102,
+  "meaning": "8根当前受限普通入口+7根数学继承+1根当前差异待集成+102根材料待归并；不是完成率。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
   "current_bounded_evidence_roots": 8,
   "historical_evidence_found_current_lineage_pending_roots": 0,
-  "current_math_lineage_bounded_roots": 7
+  "current_math_lineage_bounded_roots": 7,
+  "pending_current_function_discrepancy_roots": 1
 }

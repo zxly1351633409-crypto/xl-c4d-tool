@@ -19,7 +19,7 @@
     "latest_public_preview_tag": "v3.5.116-preview.3"
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 431,
+    "successful_blender_actors": 436,
     "native_actions": 94,
     "failed_blender_actors": 46,
     "interpretation": "guard执行次数，包含技术rc0但功能拒绝的留证案例；不是功能数、完成率或工期。"
@@ -41,7 +41,8 @@
     "锥化负曲率存在写入意图与实际读回不一致，不能据此声称负曲率通过。",
     "多个既验结果只覆盖固定参数组合、坐标框架或特定几何；完整范围尚未建立。",
     "混合域重复字段求值的隔离修复8态通过，尚未完成整库保存/fresh/候选安装发布。其他层模式、缺失属性和任意命名仍未整体验收。",
-    "混合域当前指定两命名属性的Enable/Normal/50%已修复；其他层模式、缺失或空名属性、任意数量仍未整体验收。"
+    "混合域当前指定两命名属性的Enable/Normal/50%已修复；其他层模式、缺失或空名属性、任意数量仍未整体验收。",
+    "映射范围域在指定非默认范围与非空自定义名称下，自定义输出符合二次映射而非一次映射；隔离PointCloud与INSTANCE修复通过，完整集成/安装尚待完成。"
   ],
   "completion": "原始116根目录分母已确认，但缺统一的逐根、逐语义完成标准和验收表，无法诚实计算功能完成百分比。",
   "schedule": "总体工期不可从现有证据可靠估计；统一矩阵建立后，可根据真实未结项、运行耗时和机制风险校准阶段时间。",
@@ -61,27 +62,22 @@
     "本机与GitHub均为3.5.116预览版3；115完整备份保留，不将预览修订或有限案例冒作四类整体完成。"
   ],
   "latest_verification": {
-    "root": "XL_混合域",
-    "status": "CAPTURE_FIX_CANONICAL_FRESH_DEFAULT_PUBLIC_AND_INSTALLED_ACCEPTED",
-    "ordinary_states": [
-      "PointCloud Add",
-      "PointCloud Subtract",
-      "INSTANCE Add",
-      "INSTANCE Subtract"
-    ],
-    "controls": "two explicit named fields/count label2/Enable Normal50",
-    "max_weight_error": 0.0,
-    "fixed_tolerance": 1e-06,
-    "canonical_full_targets": 23,
-    "library_groups": 523,
-    "physical_pairs": 2194,
-    "named_addresses": 6342,
-    "old_scene_objects_preserved": 234,
-    "old_ID_collections_preserved": 40,
-    "library_sha256": "4c729401d879662f13421ff4acc65ec87354bbdafed1fa4663c15cb7a87a9bf1",
-    "product_integrated_and_installed": true,
-    "original_failed_reference_and_raw_retained": true,
-    "not_general_C4D_FieldLayer_or_arbitrary_names_modes_completion": true
+    "root": "XL_域修改_映射范围",
+    "status": "CURRENT_POINT_ONCE_MAPPING_DISCREPANCY_ISOLATED_POINT_INSTANCE_FIX_PASSED_INTEGRATION_PENDING",
+    "current_ordinary_EXEC": 1,
+    "controls": "POINT/Disable/Normal100/maskTrue/input0..100/output30..70/nonempty custom attribute",
+    "current_Gradient_Hard_once_model_error": 0.0,
+    "current_custom_once_model_max_error": 0.11877858638763428,
+    "prefrozen_serial_twice_model_error": 0.0,
+    "ten_points_distinguish_models_one_fixed_point_not_distinguishable": true,
+    "isolated_candidate_POINT_and_INSTANCE": {
+      "ordinary_EXEC": 2,
+      "all_three_weight_arrays_max_error": 0.0,
+      "not_saved_or_installed": true
+    },
+    "installed_preview_tag_unchanged": "v3.5.116-preview.3",
+    "Main_failure_proof_SHA": "64879713f6230cd0c40670a8253707b99847f6f8b246bf1f40f0457fc4c7d776",
+    "next": "完整Source50参考、canonical保存、fresh与候选普通入口/安装验收后才可发布。当前只有false准备包，没有Source50库。"
   },
   "evidence_index": {
     "roots": 118,
@@ -90,13 +86,14 @@
     "current_ordinary_bounded_evidence_roots": 8,
     "current_math_lineage_bounded_roots": 7,
     "historical_evidence_found_current_lineage_pending_roots": 0,
-    "existing_evidence_to_reconcile_roots": 103,
-    "interpretation": "8根当前受限普通入口+7根数学继承+103根材料待归并；不是功能完成百分比。",
-    "parallel_host_batches_completed": "参数体6根；域16根均完成首轮有界材料导航。其中基础域16组完整数学闭包与79条引用被Main独立对账。"
+    "existing_evidence_to_reconcile_roots": 102,
+    "interpretation": "8根受限普通入口、7根数学继承、1根当前差异待集成、102根材料待归并；阶段互斥，不是功能完成率。",
+    "parallel_host_batches_completed": "参数体6根；域16根均完成首轮有界材料导航。其中基础域16组完整数学闭包与79条引用被Main独立对账。",
+    "pending_current_function_discrepancy_roots": 1
   },
   "continuity": "工作轮激活期间继续推进独立队列；回复结束后不保持持续推理。既有30分钟续办心跳负责后续唤起，不代表无人常驻服务。",
   "additional_batch_delivery": {
-    "current300": "Source49 canonical/fresh/378physical/defaultpublic4/installed4; no new native; no whole-project completion claim"
+    "current301": "旧平面61完整31节点核心对当前私有核心精确数学继承；Range闭包补齐、一次映射差异定位、两个组件隔离修复实测通过。无新安装包/原生。"
   },
   "installer_delivery": {
     "version": "3.5.116",
@@ -110,26 +107,21 @@
     "unchanged_products": 375
   },
   "latest_observation": {
-    "root": "XL_混合域",
-    "status": "CAPTURE_FIX_CANONICAL_FRESH_DEFAULT_PUBLIC_AND_INSTALLED_ACCEPTED",
-    "ordinary_states": [
-      "PointCloud Add",
-      "PointCloud Subtract",
-      "INSTANCE Add",
-      "INSTANCE Subtract"
-    ],
-    "controls": "two explicit named fields/count label2/Enable Normal50",
-    "max_weight_error": 0.0,
-    "fixed_tolerance": 1e-06,
-    "canonical_full_targets": 23,
-    "library_groups": 523,
-    "physical_pairs": 2194,
-    "named_addresses": 6342,
-    "old_scene_objects_preserved": 234,
-    "old_ID_collections_preserved": 40,
-    "library_sha256": "4c729401d879662f13421ff4acc65ec87354bbdafed1fa4663c15cb7a87a9bf1",
-    "product_integrated_and_installed": true,
-    "original_failed_reference_and_raw_retained": true,
-    "not_general_C4D_FieldLayer_or_arbitrary_names_modes_completion": true
+    "root": "XL_域修改_映射范围",
+    "status": "CURRENT_POINT_ONCE_MAPPING_DISCREPANCY_ISOLATED_POINT_INSTANCE_FIX_PASSED_INTEGRATION_PENDING",
+    "current_ordinary_EXEC": 1,
+    "controls": "POINT/Disable/Normal100/maskTrue/input0..100/output30..70/nonempty custom attribute",
+    "current_Gradient_Hard_once_model_error": 0.0,
+    "current_custom_once_model_max_error": 0.11877858638763428,
+    "prefrozen_serial_twice_model_error": 0.0,
+    "ten_points_distinguish_models_one_fixed_point_not_distinguishable": true,
+    "isolated_candidate_POINT_and_INSTANCE": {
+      "ordinary_EXEC": 2,
+      "all_three_weight_arrays_max_error": 0.0,
+      "not_saved_or_installed": true
+    },
+    "installed_preview_tag_unchanged": "v3.5.116-preview.3",
+    "Main_failure_proof_SHA": "64879713f6230cd0c40670a8253707b99847f6f8b246bf1f40f0457fc4c7d776",
+    "next": "完整Source50参考、canonical保存、fresh与候选普通入口/安装验收后才可发布。当前只有false准备包，没有Source50库。"
   }
 }
