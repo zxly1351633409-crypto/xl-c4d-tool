@@ -147,6 +147,11 @@
           "local_audit_report": "continuation116_Main_Plane61_to18_to49_fullcore_and_defaultY_lineage_independent_review_v1.json",
           "sha256": "9499285cc9113e4a7e296bfee8208075045eac4b295089035ad8235952b8b749",
           "scope_note": "旧7个+Y/UVTrue样例可按完整核心与默认身份路由复用；不是当前新ordinary，不代表当前公开UVFalse开关或六方向均数值验过。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Plane105_to18_to50_fullclosure_lineage_independent_review_v1.json",
+          "sha256": "ebb3ecb1fb5635075857cbacf9244de067d246468d96c9da6496950f21fe6cc6",
+          "scope_note": "旧105候选Root16/37与inner31/35完整图对当前Source18/48，精确根key映射和3metadata变化外全值相同。复用原六方向加2heldout逐点2um、同向循环面、角UV1e-6旧证明；历史脚本SHA不冒当时执行字节密码学证明，非新ordinary或formal105整体接受。"
         }
       ],
       "coverage_state": "CURRENT_MATH_CLOSURE_MATCHED_ANCESTOR_BOUNDED_EVIDENCE",
@@ -564,7 +569,12 @@
       "origin": "ORIGINAL_116",
       "current_catalog_revision": null,
       "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED",
+      "current_full_graph_capture_only": {
+        "local_audit_report": "continuation116_Main_Source50_CurveField_current_graph_mapping_identity_independent_review_v2.json",
+        "sha256": "0dae815d861c788f96bd204a02509870ed5eb8e2e9bdf69f6e83be3a4679f94e",
+        "scope": "三组完整结构双采同，并独立采唯一FloatCurve的CurveMapping标量、点和手柄；默认identity，不冒曲线功能或C4D等价。"
+      }
     },
     {
       "root": "XL_域修改_色板",

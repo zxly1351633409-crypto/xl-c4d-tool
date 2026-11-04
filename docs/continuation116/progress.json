@@ -19,7 +19,7 @@
     "latest_public_preview_tag": "v3.5.116-preview.4"
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 440,
+    "successful_blender_actors": 442,
     "native_actions": 94,
     "failed_blender_actors": 46,
     "interpretation": "guard执行次数，包含技术rc0但功能拒绝的留证案例；不是功能数、完成率或工期。"
@@ -59,7 +59,8 @@
   ],
   "public_notes": [
     "进度摘要不包含本地路径、个人信息、用户对话、凭据或原始日志。",
-    "本机与GitHub均为3.5.116预览版4；上一版完整备份、原115双备份和用户工程保留；有限验证不等于四类整体完成。"
+    "本机与GitHub均为3.5.116预览版4；上一版完整备份、原115双备份和用户工程保留；有限验证不等于四类整体完成。",
+    "本批两次factory只读补齐缺失图与曲线控制状态；安装包不变，因此不重复上传相同ZIP。"
   ],
   "latest_verification": {
     "root": "XL_域修改_映射范围",
@@ -90,7 +91,8 @@
   "continuity": "工作轮激活期间继续推进独立队列；回复结束后不保持持续推理。既有30分钟续办心跳负责后续唤起，不代表无人常驻服务。",
   "additional_batch_delivery": {
     "current301": "旧平面61完整31节点核心对当前私有核心精确数学继承；Range闭包补齐、一次映射差异定位、两个组件隔离修复实测通过。无新安装包/原生。",
-    "current302": "Source50完整整库保存与独立重开、物理378产品、候选和本机各2普通入口；备份预览版3后发布预览版4。"
+    "current302": "Source50完整整库保存与独立重开、物理378产品、候选和本机各2普通入口；备份预览版3后发布预览版4。",
+    "current303": "Plane105旧候选完整两组与Source18/48严格继承，复用有限8例同向面/角UV证据；曲线域三组完整结构与独立CurveMapping状态双采。没有新功能普通入口、产品字节或安装包。"
   },
   "installer_delivery": {
     "version": "3.5.116",
@@ -104,17 +106,40 @@
     "unchanged_products": 375
   },
   "latest_observation": {
-    "root": "XL_域修改_映射范围",
-    "status": "SOURCE50_CANONICAL_FRESH_DEFAULT_PUBLIC_ACTUAL_INSTALLED_ACCEPTED_PREVIEW4_PUBLISHED",
-    "candidate_default_ordinary_EXEC": 2,
-    "actual_installed_ordinary_EXEC": 2,
-    "controls": "POINT/INSTANCE, Disable/Normal100, maskTrue, renderFalse, input0..100/output30..70, explicit custom attribute",
-    "max_three_weight_error": 0.0,
-    "fixed_weight_tolerance": 1e-06,
-    "historical_preview3_custom_once_model_max_error_retained": 0.11877858638763428,
-    "prior_raw_and_gold_preserved": true,
-    "actual_installed_proof_SHA": "32746a3d0367bf9a2bf92b1a0be8704dfa2cb6cc276bfff74d20194a9ca5d212",
-    "new_native_actions": 0,
-    "not_general_Range_C4D_equivalence_or_all_modes": true
+    "root": "XL_域修改_曲线",
+    "status": "READONLY_IDENTITY_STRUCTURE_AND_EXPLICIT_CURVEMAPPING_OBSERVED_NOT_FUNCTIONAL_ACCEPTANCE",
+    "groups": [
+      {
+        "role": "Root",
+        "nodes": 15,
+        "links": 18
+      },
+      {
+        "role": "Core",
+        "nodes": 369,
+        "links": 423
+      },
+      {
+        "role": "CurveHelper",
+        "nodes": 6,
+        "links": 2
+      }
+    ],
+    "actual_input_count": 9,
+    "mapping_nodes": 1,
+    "control_points": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "handles": "AUTO",
+    "extend": "EXTRAPOLATED",
+    "static_identity_not_discriminating_functional_models": true,
+    "no_consumer_geometry_evaluation_native_save_or_install": true
   }
 }
