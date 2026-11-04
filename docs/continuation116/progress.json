@@ -19,7 +19,7 @@
     "latest_public_preview_tag": "v3.5.116-preview.2"
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 423,
+    "successful_blender_actors": 424,
     "native_actions": 94,
     "failed_blender_actors": 46,
     "interpretation": "guard执行次数，包含技术rc0但功能拒绝的留证案例；不是功能数、完成率或工期。"
@@ -39,7 +39,8 @@
     "油罐与胶囊部分切面三角化缺少已验证的一般规则。",
     "闭合贝塞尔控制网、人形分段和地形噪声缺可追溯机制。",
     "锥化负曲率存在写入意图与实际读回不一致，不能据此声称负曲率通过。",
-    "多个既验结果只覆盖固定参数组合、坐标框架或特定几何；完整范围尚未建立。"
+    "多个既验结果只覆盖固定参数组合、坐标框架或特定几何；完整范围尚未建立。",
+    "混合域Enable/Normal/50%时自定义输出未符合采前一次混合预测；需独立字段求值上下文判别，再决定参考修正或最小产品修复。"
   ],
   "completion": "原始116根目录分母已确认，但缺统一的逐根、逐语义完成标准和验收表，无法诚实计算功能完成百分比。",
   "schedule": "总体工期不可从现有证据可靠估计；统一矩阵建立后，可根据真实未结项、运行耗时和机制风险校准阶段时间。",
@@ -135,5 +136,14 @@
     "preview2_one_code_file_changed_vs_preview1": "node_preview/display.py",
     "other377_products_same": true,
     "old115_complete_backup_verified": true
+  },
+  "latest_observation": {
+    "root": "XL_混合域",
+    "scope": "Enable/Normal/50 percent opacity; same named-field fixture; four ordinary EXEC",
+    "acceptance": false,
+    "reason": "Gradient与Hard符合采前预测，自定义RESULT与一次混合预测不一致；最大权重差Add0.249681592/Sub0.247773856。原参考和原始数据保留。",
+    "candidate_explanation": "串行写属性后，第二Store可能在更新后的Gradient上下文重算混合；仅采后机制候选，不作为oracle或产品缺陷最终结论。",
+    "no_product_mutation_or_installer_revision": true,
+    "main_rejection_sha256": "55a22b6e487af08924dec884ab8f19426443f2b565bce043cee77aa43d0a6c61"
   }
 }

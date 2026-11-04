@@ -944,7 +944,14 @@
           "scope_note": "已安装3.5.116预览版2：两个明确命名属性、数量标签2、Add/Sub、Disable、不透明度100%，真实PointCloud和INSTANCE各两次普通入口；11点权重与预冻F32预测完全一致。仅Blender本地组合，不代表C4D FieldLayer、Enable或任意数量/缺失属性。"
         }
       ],
-      "coverage_state": "BOUNDED_EVIDENCE_INDEXED"
+      "coverage_state": "BOUNDED_EVIDENCE_INDEXED",
+      "pending_semantic_observation": {
+        "scope": "Enable/Normal/50%",
+        "state": "PRE_FROZEN_PREDICTION_REJECTED_NOT_A_NEW_PASS",
+        "main_report": "continuation116_Main_installed35116_MixField_EnableNormal50_prediction_rejection_v1.json",
+        "sha256": "55a22b6e487af08924dec884ab8f19426443f2b565bce043cee77aa43d0a6c61",
+        "note": "四态采证自然退出；自定义RESULT差异保留，Disabled四态通过范围不倒改。"
+      }
     },
     {
       "root": "XL_爆炸",
