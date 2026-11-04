@@ -1,5 +1,5 @@
 {
-  "title": "C4D 风格节点迁移进度",
+  "title": "xl_c4d_tool 3.5.116 预览版1与迁移进度",
   "as_of": "2026-11-05",
   "evidence_note": "以下为本地审计记录的筛选摘要；完整原始报告和测试数据未随此摘要公开，因此本文件不是完整可复跑证据。",
   "inventory": {
@@ -12,12 +12,14 @@
     ],
     "node_groups_including_private_and_legacy": 521,
     "source_candidate": "Source48",
-    "candidate_status": "Source48研究预览已公开；本机未安装替换正式115",
+    "candidate_status": "内部开发快照Source48已用于3.5.116预览版1，正式本机115未替换",
     "formal_version": "3.5.115",
-    "formal_products_changed": false
+    "formal_products_changed": false,
+    "latest_public_product_version": "3.5.116",
+    "latest_public_preview_tag": "v3.5.116-preview.1"
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 410,
+    "successful_blender_actors": 413,
     "native_actions": 94,
     "failed_blender_actors": 46,
     "interpretation": "运行次数，不代表功能数、覆盖率或剩余工作量"
@@ -95,30 +97,42 @@
     "no_new_source49_or_release": false,
     "formula_current_graph": "XL_公式域6完整组双采一致、5具名引用、44接口项、40ID及一个Material默认端点，当前图采证通过；无几何consumer。",
     "formula_scoped_lineage": "Source15已验手动时间3组→当前3组，精确名称映射后核心/辅助全值同，根仅fake/users/asset/revision四处差；5引用/11物理对应核过。另3当前组完整祖先图未匹配，不冒完整闭包或新功能通过。",
-    "no_new_source49": true
+    "no_new_source49": true,
+    "six_primitive_lineage": "Source18→48的六根26组完整8parts与compact零差，36组引用/两个Object默认端点/40ID共93物理对应；250叶差全为具名指针对应。源Source18之前更早功能链不由此自动建立。",
+    "formula_fullclosure_lineage": "补齐原Source15旧保存候选完整六组后：既定3名称映射，五组完整图零差，根仅fake/users/asset/revision四处变化；5引用/一个Material端点/37物理对应。两具体SourceLibrary ID行保原值，未采全filepath不冒证明；无新ordinary功能样例。",
+    "new_ordinary_or_native_this_batch": false
   },
   "installer_delivery": {
     "user_authorized_preview_release_after_each_accepted_function": true,
-    "current_state": "Source48研究预览安装包已公开，远端3附件SHA256与本地一致",
+    "current_state": "xl_c4d_tool 3.5.116预览版1已公开",
     "candidate": "Source48",
-    "plugin_version": "3.5.115",
-    "zip_bytes": 265248718,
-    "zip_sha256": "2c92bcf59b9f2bde40540c37d6959c4f50cbcbf41104fee173ba834715c7a1b8",
+    "plugin_version": "3.5.116",
+    "zip_bytes": 265248716,
+    "zip_sha256": "57cc96652b5cfefd693822fb58e795ebe973915380a31fb3254a0fe9ebe5eb11",
     "zip_members": 378,
     "zip_CRC_all_file_SHA_size_and_extracted_readback_passed": true,
     "factory_loaded_modules": 164,
     "factory_registration_repeat_registration_and_unregistration_passed": true,
     "handler_keymap_state_restored": true,
     "local_formal_install_unchanged": true,
-    "next_scope": "继续功能验证与完整证据继承；保留原第三方许可和来源记录，未复核项目不冒充已经清权。",
+    "next_scope": "继续功能验证与语义覆盖；对外使用产品版本号，内部Source编号仅作开发追溯。",
     "future_policy": "用户明确授权：每个功能完成独立验收后发布预览更新并保留校验和与范围；读图、索引和rc0不算功能完成。第三方原许可继续适用。",
-    "public_release_url": "https://github.com/zxly1351633409-crypto/xl-c4d-tool/releases/tag/v3.5.115-preview.source48.20261105",
-    "published_at": "2026-11-04T17:23:12Z",
+    "public_release_url": "https://github.com/zxly1351633409-crypto/xl-c4d-tool/releases/tag/v3.5.116-preview.1",
+    "published_at": "2026-11-04T17:50:02Z",
     "remote_asset_count": 3,
     "remote_integrity_check": "ZIP使用GitHub服务器SHA256；说明和校验文本另下载逐字节回读",
     "third_party_review_remaining": [
       "现有第三方说明明确将材质模块列为商业研究资产，不能因顶层GPL声明就把整包公开。",
       "重拓扑二进制对应源码提供方式及其余资产来源白名单仍待闭环。"
-    ]
+    ],
+    "version_metadata_actual_verified": [
+      3,
+      5,
+      116
+    ],
+    "source48_name_internal_only": true,
+    "source48_historical_release_retained_and_labelled": true,
+    "version_changes_exactly_two_files": true,
+    "other376_products_library_same": true
   }
 }
