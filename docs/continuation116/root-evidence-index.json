@@ -19,6 +19,11 @@
           "local_audit_report": "continuation116_Main_PrimitiveSix_Source18_to48_fullclosure_lineage_independent_review_v1.json",
           "sha256": "836c64579b8c7f665097ca169b28b195e08b71143b66b75800e6759d634f87a9",
           "scope_note": "Source18→48六根26组完整图继承。未补齐Source18以前的全部原生功能链，不代表一般几何功能通过。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Cylinder112_to18_to48_exact_fullclosure_lineage_v1.json",
+          "sha256": "23fe08f6d46dd826c87e79d69b96b3201904dd2ad184ecdf7146be8ec354e985",
+          "scope_note": "112实际库3组完整数学与Source18逐字段零差，接既有Source18→48。复用旧两个指定closed/open案例点/同向面/角UV证明，非新当前ordinary或整体formal112批准；旧formal112_accepted=False保留。"
         }
       ],
       "coverage_state": "CURRENT_MATH_CLOSURE_MATCHED_ANCESTOR_BOUNDED_EVIDENCE",
@@ -932,8 +937,14 @@
       "category": "域",
       "origin": "ORIGINAL_116",
       "current_catalog_revision": null,
-      "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_installed35116_MixField_twofield_twodomain_independent_review_v1.json",
+          "sha256": "fdc9dd534ae1f06e83157fdba75bb1cc6a528b30d295c080cb197b5dfd97c81b",
+          "scope_note": "已安装3.5.116预览版2：两个明确命名属性、数量标签2、Add/Sub、Disable、不透明度100%，真实PointCloud和INSTANCE各两次普通入口；11点权重与预冻F32预测完全一致。仅Blender本地组合，不代表C4D FieldLayer、Enable或任意数量/缺失属性。"
+        }
+      ],
+      "coverage_state": "BOUNDED_EVIDENCE_INDEXED"
     },
     {
       "root": "XL_爆炸",
@@ -1199,12 +1210,12 @@
       "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
     }
   ],
-  "indexed_roots": 14,
-  "existing_evidence_to_reconcile_roots": 104,
-  "meaning": "7根有当前受限普通入口证据，7根有完整数学图继承对账，104根材料未归并；不是完成百分比，未归并不等于未实现。",
+  "indexed_roots": 15,
+  "existing_evidence_to_reconcile_roots": 103,
+  "meaning": "8根当前受限普通入口+7根数学继承+103根材料待归并；不是功能完成百分比。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
-  "current_bounded_evidence_roots": 7,
+  "current_bounded_evidence_roots": 8,
   "historical_evidence_found_current_lineage_pending_roots": 0,
   "current_math_lineage_bounded_roots": 7
 }
