@@ -17,7 +17,7 @@
     "formal_products_changed": false
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 407,
+    "successful_blender_actors": 408,
     "native_actions": 94,
     "failed_blender_actors": 45,
     "interpretation": "运行次数，不代表功能数、覆盖率或剩余工作量"
@@ -81,11 +81,17 @@
     "roots": 118,
     "original_roots": 116,
     "added_roots": 2,
-    "current_bounded_evidence_roots": 6,
+    "current_ordinary_bounded_evidence_roots": 6,
+    "current_math_lineage_bounded_roots": 1,
     "historical_evidence_found_current_lineage_pending_roots": 7,
-    "existing_evidence_to_reconcile_roots": 105,
-    "interpretation": "证据整理状态，不是功能完成率或缺陷数量。历史材料找到不等于Source48重新通过，未归并不等于未实现/未测/失败。",
-    "parallel_host_batches_completed": "参数体6根和域前6根两路归并，找回7根历史证据，无新运行。"
+    "existing_evidence_to_reconcile_roots": 104,
+    "interpretation": "索引归并和继承对账状态，不是功能完成百分比。最新只读图观察没有增加几何样例，旧已验范围不重跑。",
+    "parallel_host_batches_completed": "参数体6根；域16根均完成首轮有界材料导航。其中基础域16组完整数学闭包与79条引用被Main独立对账。"
   },
-  "continuity": "工作轮激活期间继续推进独立队列；回复结束后不保持持续推理。既有30分钟续办心跳负责后续唤起，不代表无人常驻服务。"
+  "continuity": "工作轮激活期间继续推进独立队列；回复结束后不保持持续推理。既有30分钟续办心跳负责后续唤起，不代表无人常驻服务。",
+  "additional_batch_delivery": {
+    "six_primitive_current_graphs": "6根/26组双采完整图已取得，36条组引用及原依赖记录保留，无consumer或几何功能验证。",
+    "base_field_lineage": "Source26→Source48，XL_基础域完整16组依赖闭包逐值相等；79条相关引用按具名物理地址双射匹配。只复用既有有限数学范围。",
+    "no_new_source49_or_release": true
+  }
 }

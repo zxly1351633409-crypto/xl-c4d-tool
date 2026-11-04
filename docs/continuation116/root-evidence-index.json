@@ -16,7 +16,12 @@
           "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
         }
       ],
-      "coverage_state": "HISTORICAL_EVIDENCE_FOUND_CURRENT_LINEAGE_PENDING"
+      "coverage_state": "HISTORICAL_EVIDENCE_FOUND_CURRENT_LINEAGE_PENDING",
+      "current_full_graph_capture_only": {
+        "local_audit_report": "continuation116_Main_Source48_six_primitives_current_graph_independent_review_v1.json",
+        "sha256": "7785820d7f647ec7cf9b1e3008b3f6c560ea1a2e9af94d5378db2a465bcffeae",
+        "scope": "六根26组完整当前图双采相同，补齐继承对账数据；本次未求值几何，不提升功能通过状态。"
+      }
     },
     {
       "root": "C4D_圆环",
@@ -32,7 +37,12 @@
           "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
         }
       ],
-      "coverage_state": "HISTORICAL_EVIDENCE_FOUND_CURRENT_LINEAGE_PENDING"
+      "coverage_state": "HISTORICAL_EVIDENCE_FOUND_CURRENT_LINEAGE_PENDING",
+      "current_full_graph_capture_only": {
+        "local_audit_report": "continuation116_Main_Source48_six_primitives_current_graph_independent_review_v1.json",
+        "sha256": "7785820d7f647ec7cf9b1e3008b3f6c560ea1a2e9af94d5378db2a465bcffeae",
+        "scope": "六根26组完整当前图双采相同，补齐继承对账数据；本次未求值几何，不提升功能通过状态。"
+      }
     },
     {
       "root": "C4D_圆盘",
@@ -55,7 +65,12 @@
           "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
         }
       ],
-      "coverage_state": "HISTORICAL_EVIDENCE_FOUND_CURRENT_LINEAGE_PENDING"
+      "coverage_state": "HISTORICAL_EVIDENCE_FOUND_CURRENT_LINEAGE_PENDING",
+      "current_full_graph_capture_only": {
+        "local_audit_report": "continuation116_Main_Source48_six_primitives_current_graph_independent_review_v1.json",
+        "sha256": "7785820d7f647ec7cf9b1e3008b3f6c560ea1a2e9af94d5378db2a465bcffeae",
+        "scope": "六根26组完整当前图双采相同，补齐继承对账数据；本次未求值几何，不提升功能通过状态。"
+      }
     },
     {
       "root": "C4D_圆锥",
@@ -78,7 +93,12 @@
           "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
         }
       ],
-      "coverage_state": "HISTORICAL_EVIDENCE_FOUND_CURRENT_LINEAGE_PENDING"
+      "coverage_state": "HISTORICAL_EVIDENCE_FOUND_CURRENT_LINEAGE_PENDING",
+      "current_full_graph_capture_only": {
+        "local_audit_report": "continuation116_Main_Source48_six_primitives_current_graph_independent_review_v1.json",
+        "sha256": "7785820d7f647ec7cf9b1e3008b3f6c560ea1a2e9af94d5378db2a465bcffeae",
+        "scope": "六根26组完整当前图双采相同，补齐继承对账数据；本次未求值几何，不提升功能通过状态。"
+      }
     },
     {
       "root": "C4D_平面",
@@ -94,7 +114,12 @@
           "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
         }
       ],
-      "coverage_state": "HISTORICAL_EVIDENCE_FOUND_CURRENT_LINEAGE_PENDING"
+      "coverage_state": "HISTORICAL_EVIDENCE_FOUND_CURRENT_LINEAGE_PENDING",
+      "current_full_graph_capture_only": {
+        "local_audit_report": "continuation116_Main_Source48_six_primitives_current_graph_independent_review_v1.json",
+        "sha256": "7785820d7f647ec7cf9b1e3008b3f6c560ea1a2e9af94d5378db2a465bcffeae",
+        "scope": "六根26组完整当前图双采相同，补齐继承对账数据；本次未求值几何，不提升功能通过状态。"
+      }
     },
     {
       "root": "C4D_柏拉图体",
@@ -110,7 +135,12 @@
           "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
         }
       ],
-      "coverage_state": "HISTORICAL_EVIDENCE_FOUND_CURRENT_LINEAGE_PENDING"
+      "coverage_state": "HISTORICAL_EVIDENCE_FOUND_CURRENT_LINEAGE_PENDING",
+      "current_full_graph_capture_only": {
+        "local_audit_report": "continuation116_Main_Source48_six_primitives_current_graph_independent_review_v1.json",
+        "sha256": "7785820d7f647ec7cf9b1e3008b3f6c560ea1a2e9af94d5378db2a465bcffeae",
+        "scope": "六根26组完整当前图双采相同，补齐继承对账数据；本次未求值几何，不提升功能通过状态。"
+      }
     },
     {
       "root": "C4D_样条_N边形",
@@ -494,8 +524,36 @@
       "category": "域",
       "origin": "ORIGINAL_116",
       "current_catalog_revision": "20261103-sphereframe-ideal-candidate-v1",
-      "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_Source20_physical_public_independent_review_v1.json",
+          "sha256": "265bc9de93a7b4010d38c1cd530b73ef54298ff2aaac8a97f6606c9ee73650e9",
+          "accepted_scope_state": "SOURCE20_PHYSICAL_DEFAULT_CATALOG_CAPSULE_INSTANCE_EXEC_TWOCASES_ACCEPTED",
+          "scope_note": "Source20胶囊19+32点及Source21圆锥19+16点普通INSTANCE入口；Gradient和Hard仅就采集的scalar进行比较，最大权重误差分别3.98e−8/1.078e−7，位置最大5.058e−8 m。Source26球域None/identity与两frame普通入口4例，确切值和全界限以原报告为准。",
+          "support_level": "HISTORICAL_BOUNDED_CASES_NOT_GENERAL_FIELD_ACCEPTANCE"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source21_physical_public_independent_review_v1.json",
+          "sha256": "9a5115cea4d1f7aa0e2217ad53016e217cd0ac89d1f2c98ab3e81b737cb052f1",
+          "accepted_scope_state": "SOURCE21_PHYSICAL_DEFAULT_CATALOG_CONE_INSTANCE_EXEC_TWOCASES_ACCEPTED",
+          "scope_note": "Source20胶囊19+32点及Source21圆锥19+16点普通INSTANCE入口；Gradient和Hard仅就采集的scalar进行比较，最大权重误差分别3.98e−8/1.078e−7，位置最大5.058e−8 m。Source26球域None/identity与两frame普通入口4例，确切值和全界限以原报告为准。",
+          "support_level": "HISTORICAL_BOUNDED_CASES_NOT_GENERAL_FIELD_ACCEPTANCE"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source26_physical_public_independent_review_v1.json",
+          "sha256": "285baeaf67cbde640c40caadb94c8542dda85c9040b2c8e5e0a9bff00c84e166",
+          "accepted_scope_state": "SOURCE26_PHYSICAL_DEFAULT_CATALOG_SPHERE_IDEAL_FRAMES_PUBLIC4_ACCEPTED_BOUNDED_TWO_PROCESSES",
+          "scope_note": "Source20胶囊19+32点及Source21圆锥19+16点普通INSTANCE入口；Gradient和Hard仅就采集的scalar进行比较，最大权重误差分别3.98e−8/1.078e−7，位置最大5.058e−8 m。Source26球域None/identity与两frame普通入口4例，确切值和全界限以原报告为准。",
+          "support_level": "HISTORICAL_BOUNDED_CASES_NOT_GENERAL_FIELD_ACCEPTANCE"
+        },
+        {
+          "local_audit_report": "continuation116_Main_BaseField_Source26_to48_fullclosure_lineage_independent_review_v1.json",
+          "sha256": "94acf021265be7e677b4726e8842786708c199ac40ea49cb5c5bdf0b93836036",
+          "accepted_scope_state": "MAIN_SOURCE26_TO48_BASEFIELD_COMPLETE16_GROUP_MATH_CLOSURE_AND79_REFS_MATCH_BOUNDED_ANCESTOR_SCOPE_REUSABLE",
+          "scope_note": "Source26至Source48完整16组NodeGroup闭包逐值相等，79条相关引用经具名地址双射吻合。复用既有受限数学，不是一次新的普通入口运行，也不代表所有域与参数。"
+        }
+      ],
+      "coverage_state": "CURRENT_MATH_CLOSURE_MATCHED_ANCESTOR_BOUNDED_EVIDENCE"
     },
     {
       "root": "XL_声音域",
@@ -1106,11 +1164,12 @@
       "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
     }
   ],
-  "indexed_roots": 13,
-  "existing_evidence_to_reconcile_roots": 105,
-  "meaning": "初版证据目录：6根绑定近期当前受限证明，7根找到历史材料但当前数学继承待对账，105根尚未归并历史证据。这些是索引状态，均不能当功能完成或未实现统计；禁止为补索引重跑既验范围。",
+  "indexed_roots": 14,
+  "existing_evidence_to_reconcile_roots": 104,
+  "meaning": "证据索引状态：6根绑定近期当前受限普通入口证明，1根完成当前完整数学闭包继承对账，7根有历史材料但当前数学继承待核，104根历史证据未归并。不是功能完成率，未归并不表示未实现/未测/失败。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
   "current_bounded_evidence_roots": 6,
-  "historical_evidence_found_current_lineage_pending_roots": 7
+  "historical_evidence_found_current_lineage_pending_roots": 7,
+  "current_math_lineage_bounded_roots": 1
 }
