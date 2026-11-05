@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-05",
-  "current": 312,
+  "current": 313,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -36,16 +36,16 @@
     "previous35117_complete_G_backup_and_C_rollback": true
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 472,
+    "successful_blender_actors": 474,
     "native_actions": 96,
     "failed_blender_actors": 47,
     "new_this_batch": 2,
     "new_native_this_batch": 0,
-    "interpretation": "执行次数，非功能完成率；本批候选与实际安装各1guard含True/False两普通，均自然退出。原Source53失败rc1不倒改。"
+    "interpretation": "执行次数，非功能完成率。本批两次实际已安装普通入口验证自然退出；无新增native或产品字节，旧失败原值保留。"
   },
   "bounded_evidence": {
-    "ordinary_roots": 15,
-    "math_lineage_roots": 5,
+    "ordinary_roots": 16,
+    "math_lineage_roots": 4,
     "historical_material_pending_reconciliation_roots": 98,
     "rows_total": 118,
     "not_completion_rate_or_unimplemented_count": true,
@@ -59,7 +59,10 @@
     "Bend_two_actual_frames": "两旧native r4对应当前实际安装普通入口均过：真实commonNull父+owner/controller，owner正/负行列式与relative shear .08016/.22717；各8点6同向面，local .323/.335微米、派生owner-world .347/.437微米<固定2微米。9实际矩阵/TRS/真实parent/6完整图/8typed/40ID/164模块/输入输出属性/Scene/prefs/清理核。不冒任意frame或独立cache-world。",
     "Cone": "Source54修复首次追加两个支持对象进入场景且变可选择的问题，仅确切新ptr/完整基准预检后解除本次新增集合、恢复禁止选择，ID/mesh/ref保。候选与实际3.5.118各True23/30/102(.143微米/6.664e-8)、False20/24/84 fulloldmesh同。两support离Scene/users1/hideSelectTrue、完整2core/12typed/40ID/164模块/Scene/prefs/清理核。五host事务负例过，不冒名称冲突实际RNA/stale/任意参数通过。旧Source53失败保留。",
     "Loft_training": "旧U16/V7训练128点由逐段U+线性V模型全0匹配，等弧长U模型拒；112侧面UV与20条件端盖UV误差<1e-6。端盖依赖原生连接和旧U8规则外推，不是独立拓扑oracle或新产品通过。V经minus1→UV核心Input3，U→Input2，完整原序node-level依赖已核；不扩U8/V5 guard。",
-    "Loft_V_socket_host": "124节点187compact原序边及fullprops/dynamic全值核；层UV除数由V+1连线驱动，默认存4无效。U8模8/缝7/cap2与4限定保。子组采样计数仍受字段/SplineCount/context影响，未新V族验收。"
+    "Loft_V_socket_host": "124节点187compact原序边及fullprops/dynamic全值核；层UV除数由V+1连线驱动，默认存4无效。U8模8/缝7/cap2与4限定保。子组采样计数仍受字段/SplineCount/context影响，未新V族验收。",
+    "Cylinder": "实际C安装3.5.118默认普通EXEC，仅旧−Z/open R.843m/H1.597m/Hseg3/N89/capFalse/capSeg11/regular0：356点267同向面1068角UV，位置.496676微米、UV0。完整3core/8typed/6物理3refs/40ID/164模块/Scene/prefs/清理核；旧formal112_accepted=False保，不冒一般圆柱。",
+    "Disc_center": "实际C安装3.5.118默认普通EXEC，仅inner0/outer1.256999969m/radial3/angular19/+Y/SliceTrue/quarter：61点57同向面(19三角38四边)209角UV，位置.107121微米、Euclidean2DUV8.429369702e-8。完整4core/9typed/7物理3refs/40ID/164模块/Scene/prefs/清理核。非任意半径/方向/regular。",
+    "Loft_intermediate_host": "188节点记录/267原序边记录(含跨报告重复)完整字段核。源曲线与生成曲线上下文不同，不能仅V推采样数。H2 U8/V5三个中间组件tap观察v3仍是false草稿，Main完整source/API/15组参考未齐，未执行，不冒Cuts或V7功能通过。"
   },
   "open_issues": [
     "四类整体尚未完成；上述通过范围不能外推任意profile/TRS/closedBezier/growth/UV/Phong/完整UX。",
@@ -92,6 +95,6 @@
   ],
   "evidence_index": "root-evidence-index.json",
   "local_report_contents_not_published": true,
-  "latest_batch_product_bytes_changed": true,
+  "latest_batch_product_bytes_changed": false,
   "dimension_units_clarification": "Bend size is the vector (2.5,2.5,2.5)m, native(250,250,250)cm; not a scalar cubic-meter volume. Numeric inputs and all acceptance values unchanged."
 }

@@ -24,9 +24,14 @@
           "local_audit_report": "continuation116_Main_Cylinder112_to18_to48_exact_fullclosure_lineage_v1.json",
           "sha256": "23fe08f6d46dd826c87e79d69b96b3201904dd2ad184ecdf7146be8ec354e985",
           "scope_note": "112实际库3组完整数学与Source18逐字段零差，接既有Source18→48。复用旧两个指定closed/open案例点/同向面/角UV证明，非新当前ordinary或整体formal112批准；旧formal112_accepted=False保留。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current313_installed35118_Cylinder_open_negativeZ_independent_review_v1.json",
+          "sha256": "357e34c9ba0bcfaedf391a669b46dfe9de6326684eb99b519ef0dcf8a654e2f0",
+          "scope_note": "实际C安装3.5.118默认普通EXEC，仅旧−Z/open R.843m/H1.597m/Hseg3/N89/capFalse/capSeg11/regular0：356点267同向面1068角UV，位置.496676微米、UV0。完整3core/8typed/6物理3refs/40ID/164模块/Scene/prefs/清理核；旧formal112_accepted=False保，不冒一般圆柱。"
         }
       ],
-      "coverage_state": "CURRENT_MATH_CLOSURE_MATCHED_ANCESTOR_BOUNDED_EVIDENCE",
+      "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED",
       "current_full_graph_capture_only": {
         "local_audit_report": "continuation116_Main_Source48_six_primitives_current_graph_independent_review_v1.json",
         "sha256": "7785820d7f647ec7cf9b1e3008b3f6c560ea1a2e9af94d5378db2a465bcffeae",
@@ -97,6 +102,16 @@
           "local_audit_report": "continuation116_Main_current309_installed_Disc_quarter_public_independent_review_v1.json",
           "sha256": "0276949d5bca99e428514371fd95e4c0f9c785e2183a04fada9af376a9a7da44",
           "scope_note": "Installed ordinary quarter, +Y, positive inner radius, Slice True: 80 points, 57 oriented faces, 228 UV corners; position 1.158327630e-7m, UV 8.429369702e-8."
+        },
+        {
+          "local_audit_report": "continuation116_Main_current313_installed35118_Disc_center_quarter_independent_review_v1.json",
+          "sha256": "ad1afa939db568df837f4d3c41964ab4680b78110eef3301cba7a7bdeb3fe5e2",
+          "scope_note": "实际C安装3.5.118默认普通EXEC，仅inner0/outer1.256999969m/radial3/angular19/+Y/SliceTrue/quarter：61点57同向面(19三角38四边)209角UV，位置.107121微米、Euclidean2DUV8.429369702e-8。完整4core/9typed/7物理3refs/40ID/164模块/Scene/prefs/清理核。非任意半径/方向/regular。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current313_Disc_center_helper_fullmath_lineage_independent_review_v1.json",
+          "sha256": "812e272b98e8deb3e445dab5f63e2880a1ed714f745a5eecd6a6fa6749d74496",
+          "scope_note": "旧center helper与当前完整8parts/compact仅精确组名及具名引用解释的users3→1变化；inner0和+Y路由限定。"
         }
       ],
       "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED"
@@ -1435,12 +1450,12 @@
   ],
   "indexed_roots": 20,
   "existing_evidence_to_reconcile_roots": 98,
-  "meaning": "15根受限ordinary、5根数学继承、98根材料未归并，不是完成率或98未实现。圆锥原Source53追加失败保留；Source54特定新支持对象归一化和两普通状态实际候选/安装均过，已普通3.5.118交付。",
+  "meaning": "16根受限ordinary、4根数学继承、98根材料待归并，不是完成率或98未实现。新增圆柱−Z开口和圆盘中心quarter实际3.5.118普通入口有限验收；产品字节和安装包不变。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
-  "current_bounded_evidence_roots": 15,
+  "current_bounded_evidence_roots": 16,
   "historical_evidence_found_current_lineage_pending_roots": 0,
-  "current_math_lineage_bounded_roots": 5,
+  "current_math_lineage_bounded_roots": 4,
   "pending_current_function_discrepancy_roots": 0,
   "work_priority": {
     "primary": [
