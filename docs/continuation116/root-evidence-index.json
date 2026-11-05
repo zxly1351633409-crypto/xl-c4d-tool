@@ -340,8 +340,14 @@
       "category": "生成器",
       "origin": "ORIGINAL_116",
       "current_catalog_revision": "20261102-cube-fillet-defaultfalse-nativeUV-cont116-v1",
-      "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_current317_installed35118_Cube_fillet_independent_review_v1.json",
+          "sha256": "6e58bf40f4b4f150dca0973037c02359901a457e9c313f2b160cef915048d7e4",
+          "scope_note": "实际C3.5.118默认C4D_立方体 ordinary EXEC，仅旧cube_fillet尺寸(1.97,1.13,.53)m/段(6,4,1)/splitFalse/smoothFalse/filletTrue/radius.03m/sub3/ownerI/emptyseed，实际F32已记。262点272同向面1064角UV，位置max1.0678384629907165e-7m/UV1.3328003749250113e-7，固定2um/UV1e-6过。四完整8partscompact前尾==采前gold、4具名ref8物理、11initialtyped/0defaultID/40ID/164实际安装模块/源3产品/prefs/Scene选择清理核。不是任意尺寸/圆角/细分/TRS/Phong/fullUX。"
+        }
+      ],
+      "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED"
     },
     {
       "root": "C4D_管",
@@ -1481,10 +1487,10 @@
   ],
   "indexed_roots": 20,
   "existing_evidence_to_reconcile_roots": 98,
-  "meaning": "20根受限ordinary、1根数学继承、97材料待归并，非完成率或97未实现。本批无产品字节或ZIP改动。",
+  "meaning": "21根受限ordinary、1根数学继承、96材料待归并，非完成率或96未实现。无产品字节或ZIP改动。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
-  "current_bounded_evidence_roots": 20,
+  "current_bounded_evidence_roots": 21,
   "historical_evidence_found_current_lineage_pending_roots": 0,
   "current_math_lineage_bounded_roots": 1,
   "pending_current_function_discrepancy_roots": 0,

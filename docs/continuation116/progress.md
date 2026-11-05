@@ -43,3 +43,10 @@ current316：球体当前实际普通入口三态独立通过。
 实际C3.5.118默认球体普通EXEC三态：标准radius.713/N17/fixture smoothFalse，六面radius1.237/N31/fixture smoothTrue，半球radius1.137/N13/fixture smoothFalse；实际F32见参考。各146/602/65点、162/600/64同向面、612/2400/240角UV，位置最大.225623/.128035/.430843微米、UV2.457562e-7/6.143906e-8/0，固定2um/UV1e-6过。每态同3完整8partscompact预冻前尾同、同3group+2node五物理/2具名ref/4initialtyped/0defaultID/40ID/164实际C模块/源3产品/prefs/Scene清理过。native1113仅numeric1未证明名字；smooth为独立fixture标签，不冒nativePhong/任意类型1,3,4或任意N/TRS/fullUX。
 
 放样H2完整CPU模型对旧V5全部48点42同向面176角通过，V7仍仅预测，未新原生或扩gate。累计480/96/47。20ordinary+1math+97未归并不是完成率。3.5.118产品与三附件不变，无需重装。
+
+
+current317：圆角立方体实际普通入口通过。
+
+实际C3.5.118默认C4D_立方体 ordinary EXEC，仅旧cube_fillet尺寸(1.97,1.13,.53)m/段(6,4,1)/splitFalse/smoothFalse/filletTrue/radius.03m/sub3/ownerI/emptyseed，实际F32已记。262点272同向面1064角UV，位置max1.0678384629907165e-7m/UV1.3328003749250113e-7，固定2um/UV1e-6过。四完整8partscompact前尾==采前gold、4具名ref8物理、11initialtyped/0defaultID/40ID/164实际安装模块/源3产品/prefs/Scene选择清理核。不是任意尺寸/圆角/细分/TRS/Phong/fullUX。
+
+当前481→482为只读补4图后单次圆角普通guard，累计482/96/47。21ordinary+1math+96未归并不是完成率。3.5.118产品与三附件不变，无需重装。

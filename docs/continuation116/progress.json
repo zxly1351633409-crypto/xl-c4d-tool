@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-05",
-  "current": 316,
+  "current": 317,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -36,15 +36,15 @@
     "previous35117_complete_G_backup_and_C_rollback": true
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 480,
+    "successful_blender_actors": 482,
     "native_actions": 96,
     "failed_blender_actors": 47,
     "new_this_batch": 2,
     "new_native_this_batch": 0,
-    "interpretation": "执行次数非完成率。本批1readonly+1实际球体三态普通EXEC，独立全通过；旧失败保。"
+    "interpretation": "执行次数非完成率。本批1readonly+1实际Cube圆角ordinary独立全过，旧失败保。"
   },
   "bounded_evidence": {
-    "ordinary_roots": 20,
+    "ordinary_roots": 21,
     "math_lineage_roots": 1,
     "historical_material_pending_reconciliation_roots": 98,
     "rows_total": 118,
@@ -70,7 +70,8 @@
     "C4D_圆环": "实际C默认ordinaryEXEC仅旧holdout_1 -Y、major.061000000685453415m/minor.017000000923871994m/segments23,9/regular0/smoothFalse/ownerI/emptyseed。207点414边207同向面828角UV，位置.026243微米/UV8.42937e-8。完整2图/六typed/1ref3物理/40ID/164模块/Scene/prefs清理核；旧candidate非fullmesh/原生Phong未知保，legacyUV硬True。",
     "Loft_H2_source_semantics": "缺属性bool/int默认与CURVE域源组件选择、44node113原序边已独立核，支持H2 Cuts4条件模型；未直接测最终Cuts/V7。V7新纯函数/全UV独立参考未齐，当前V5 guard保。",
     "球体": "实际C3.5.118默认球体普通EXEC三态：标准radius.713/N17/fixture smoothFalse，六面radius1.237/N31/fixture smoothTrue，半球radius1.137/N13/fixture smoothFalse；实际F32见参考。各146/602/65点、162/600/64同向面、612/2400/240角UV，位置最大.225623/.128035/.430843微米、UV2.457562e-7/6.143906e-8/0，固定2um/UV1e-6过。每态同3完整8partscompact预冻前尾同、同3group+2node五物理/2具名ref/4initialtyped/0defaultID/40ID/164实际C模块/源3产品/prefs/Scene清理过。native1113仅numeric1未证明名字；smooth为独立fixture标签，不冒nativePhong/任意类型1,3,4或任意N/TRS/fullUX。",
-    "Loft_H2_complete_CPU_model": "已独立核85node/119原序边端点arcU插值，完整旧V5 48点42同向面176角max6.143906e-8m/UV0。V7仅64/58/240候选，原生cap/Ngon与新采集合同待审，未扩gate。"
+    "Loft_H2_complete_CPU_model": "已独立核85node/119原序边端点arcU插值，完整旧V5 48点42同向面176角max6.143906e-8m/UV0。V7仅64/58/240候选，原生cap/Ngon与新采集合同待审，未扩gate。",
+    "C4D_立方体": "实际C3.5.118默认C4D_立方体 ordinary EXEC，仅旧cube_fillet尺寸(1.97,1.13,.53)m/段(6,4,1)/splitFalse/smoothFalse/filletTrue/radius.03m/sub3/ownerI/emptyseed，实际F32已记。262点272同向面1064角UV，位置max1.0678384629907165e-7m/UV1.3328003749250113e-7，固定2um/UV1e-6过。四完整8partscompact前尾==采前gold、4具名ref8物理、11initialtyped/0defaultID/40ID/164实际安装模块/源3产品/prefs/Scene选择清理核。不是任意尺寸/圆角/细分/TRS/Phong/fullUX。"
   },
   "open_issues": [
     "四类整体尚未完成；上述通过范围不能外推任意profile/TRS/closedBezier/growth/UV/Phong/完整UX。",
