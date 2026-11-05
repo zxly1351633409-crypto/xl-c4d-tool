@@ -1429,5 +1429,6 @@
   "pending_discrepancy_overlaps_existing_bounded_rows": true,
   "current_source": "Source53",
   "current_product_version": "3.5.117",
-  "coverage_counts_not_completion_rate": true
+  "coverage_counts_not_completion_rate": true,
+  "dimension_units_clarification": "Bend size is the vector (2.5,2.5,2.5)m, native(250,250,250)cm; not a scalar cubic-meter volume. Numeric inputs and all acceptance values unchanged."
 }

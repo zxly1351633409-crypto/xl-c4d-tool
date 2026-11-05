@@ -53,7 +53,7 @@
     "Lathe": "仅open P2、203°、identity、候选开启，N32..64独立本地数学一致性。31个新增分段实际验证；旧32/48不重跑。严格native锚点仅32/48/64；中间分段不是新native oracle。N31/65旧fallback完整记录一致。默认候选与实际安装N64：260点、192同向面、768角UV，位置9.125474464e-8m，UV1.490116119e-8。",
     "Disc": "实际安装默认普通入口，仅旧quarter/+Y/正内径/SliceTrue：80点、57同向面、228角UV，位置1.158327630e-7m，UV8.429369702e-8。没有新增native/产品字节，不单独凑版本。",
     "Source53": "完整529→531只复制旋转Root/helper，41完整目标、16父图、234旧对象、40ID、2209物理对应6379引用地址保存/fresh核。378产品仅库、两catalog、版本行变，其余374同。",
-    "Bend": "实际安装默认入口，仅Strength1、Direction90°、尺寸2.5m³、KeepFalse、底部、限制、ownerI、controlFalse/SelfObject，原12点6同向面。新native对采前冻结负方向模型误差6.52256e-16m，反号和忽略方向模型12点全部拒。实际安装对native最大2.450575625e-7m<固定2um。完整6core/8typed/13物理7refs/40ID/164模块/全部attrs/Scene/prefs/清理核。",
+    "Bend": "实际安装默认入口，仅Strength1、Direction90°、尺寸(2.5,2.5,2.5)m、KeepFalse、底部、限制、ownerI、controlFalse/SelfObject，原12点6同向面。新native对采前冻结负方向模型误差6.52256e-16m，反号和忽略方向模型12点全部拒。实际安装对native最大2.450575625e-7m<固定2um。完整6core/8typed/13物理7refs/40ID/164模块/全部attrs/Scene/prefs/清理核。",
     "Bend_existing_frames_math_only": "独立当前完整公式与矩阵路由properC复算两旧r4 native，各8点非I/shear，误差9.8866e-15/6.8664e-16m。原生方向-.43/-.71、原参数各自保留。不是新native、当前复杂框架RNA/普通入口、任意frame通过。"
   },
   "open_issues": [
@@ -87,5 +87,6 @@
   ],
   "evidence_index": "root-evidence-index.json",
   "local_report_contents_not_published": true,
-  "latest_batch_product_bytes_changed": false
+  "latest_batch_product_bytes_changed": false,
+  "dimension_units_clarification": "Bend size is the vector (2.5,2.5,2.5)m, native(250,250,250)cm; not a scalar cubic-meter volume. Numeric inputs and all acceptance values unchanged."
 }
