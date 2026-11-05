@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-05",
-  "current": 311,
+  "current": 312,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -10,45 +10,46 @@
       "XL_贝塞尔曲面"
     ],
     "node_groups_including_private_and_legacy": 531,
-    "source_candidate": "Source53",
-    "formal_version": "3.5.117",
-    "local_installed_version": "3.5.117",
-    "next_product_version": "3.5.118"
+    "source_candidate": "Source54",
+    "formal_version": "3.5.118",
+    "local_installed_version": "3.5.118",
+    "next_product_version": "3.5.119"
   },
   "installer_delivery": {
-    "version": "3.5.117",
-    "tag": "v3.5.117",
-    "release_id": 434798276,
+    "version": "3.5.118",
+    "tag": "v3.5.118",
+    "release_id": 434920999,
     "ordinary_not_prerelease": true,
     "latest_endpoint_verified": true,
-    "url": "https://github.com/zxly1351633409-crypto/xl-c4d-tool/releases/tag/v3.5.117",
-    "ZIP_bytes": 265571563,
-    "ZIP_SHA256": "c90dbc13b920f04d1a83217dd6427faa1f42d51ab0cb0cc8a9fa1524c18c850e",
+    "url": "https://github.com/zxly1351633409-crypto/xl-c4d-tool/releases/tag/v3.5.118",
+    "ZIP_bytes": 265574893,
+    "ZIP_SHA256": "438e138ff77713dbeaf8f115fe367b2a0a653bbef4e813e814d23b3b2513fca6",
     "server_digest_and_size_verified": true,
     "two_small_attachments_download_verified": true,
     "full_remote_ZIP_download_claim": false,
     "actual_installed_same378": true,
     "previous_preview6_complete_G_backup_and_C_rollback": true,
     "old115_and_other_backups_preserved": true,
-    "changed_products": 4,
-    "unchanged_products": 374,
-    "latest_same_package_additional_verification": "Bend two installed frame cases accepted; Cone geometry passed but full ordinary rejected on support-object Scene/flags. Same 3.5.117 installer; no reinstall or duplicate ZIP."
+    "changed_products": 2,
+    "unchanged_products": 376,
+    "latest_same_package_additional_verification": "Source54 new code fix, candidate and actual installed two-state ordinary acceptance, full previous35117 backup and ordinary3.5.118 latest published.",
+    "previous35117_complete_G_backup_and_C_rollback": true
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 470,
+    "successful_blender_actors": 472,
     "native_actions": 96,
     "failed_blender_actors": 47,
     "new_this_batch": 2,
     "new_native_this_batch": 0,
-    "interpretation": "执行次数，非功能数或完成率。本批Bend双case一次成功guard，Cone一次技术rc1尾Scene合同拒绝；两自有进程自然退出/完整CIMnonce/immutable。原失败保留。"
+    "interpretation": "执行次数，非功能完成率；本批候选与实际安装各1guard含True/False两普通，均自然退出。原Source53失败rc1不倒改。"
   },
   "bounded_evidence": {
-    "ordinary_roots": 14,
+    "ordinary_roots": 15,
     "math_lineage_roots": 5,
     "historical_material_pending_reconciliation_roots": 98,
     "rows_total": 118,
     "not_completion_rate_or_unimplemented_count": true,
-    "pending_current_function_discrepancy_roots": 1
+    "pending_current_function_discrepancy_roots": 0
   },
   "latest_verification": {
     "Lathe": "仅open P2、203°、identity、候选开启，N32..64独立本地数学一致性。31个新增分段实际验证；旧32/48不重跑。严格native锚点仅32/48/64；中间分段不是新native oracle。N31/65旧fallback完整记录一致。默认候选与实际安装N64：260点、192同向面、768角UV，位置9.125474464e-8m，UV1.490116119e-8。",
@@ -56,15 +57,16 @@
     "Source53": "完整529→531只复制旋转Root/helper，41完整目标、16父图、234旧对象、40ID、2209物理对应6379引用地址保存/fresh核。378产品仅库、两catalog、版本行变，其余374同。",
     "Bend": "实际安装默认入口，仅Strength1、Direction90°、尺寸(2.5,2.5,2.5)m、KeepFalse、底部、限制、ownerI、controlFalse/SelfObject，原12点6同向面。新native对采前冻结负方向模型误差6.52256e-16m，反号和忽略方向模型12点全部拒。实际安装对native最大2.450575625e-7m<固定2um。完整6core/8typed/13物理7refs/40ID/164模块/全部attrs/Scene/prefs/清理核。",
     "Bend_two_actual_frames": "两旧native r4对应当前实际安装普通入口均过：真实commonNull父+owner/controller，owner正/负行列式与relative shear .08016/.22717；各8点6同向面，local .323/.335微米、派生owner-world .347/.437微米<固定2微米。9实际矩阵/TRS/真实parent/6完整图/8typed/40ID/164模块/输入输出属性/Scene/prefs/清理核。不冒任意frame或独立cache-world。",
-    "Cone": "当前低分段切片默认普通入口几何23点30同向面102角UV通过(.143微米/6.664e-8)，完整旧输出mesh同；完整ordinary拒绝：追加时两个模板Object进入场景、users1→2、hide_select真→假。原技术rc1/failed contract保，尚无产品修复。",
-    "Loft_training": "旧U16/V7训练128点由逐段U+线性V模型全0匹配，等弧长U模型拒；112侧面UV与20条件端盖UV误差<1e-6。端盖依赖原生连接和旧U8规则外推，不是独立拓扑oracle或新产品通过。V经minus1→UV核心Input3，U→Input2，完整原序node-level依赖已核；不扩U8/V5 guard。"
+    "Cone": "Source54修复首次追加两个支持对象进入场景且变可选择的问题，仅确切新ptr/完整基准预检后解除本次新增集合、恢复禁止选择，ID/mesh/ref保。候选与实际3.5.118各True23/30/102(.143微米/6.664e-8)、False20/24/84 fulloldmesh同。两support离Scene/users1/hideSelectTrue、完整2core/12typed/40ID/164模块/Scene/prefs/清理核。五host事务负例过，不冒名称冲突实际RNA/stale/任意参数通过。旧Source53失败保留。",
+    "Loft_training": "旧U16/V7训练128点由逐段U+线性V模型全0匹配，等弧长U模型拒；112侧面UV与20条件端盖UV误差<1e-6。端盖依赖原生连接和旧U8规则外推，不是独立拓扑oracle或新产品通过。V经minus1→UV核心Input3，U→Input2，完整原序node-level依赖已核；不扩U8/V5 guard。",
+    "Loft_V_socket_host": "124节点187compact原序边及fullprops/dynamic全值核；层UV除数由V+1连线驱动，默认存4无效。U8模8/缝7/cap2与4限定保。子组采样计数仍受字段/SplineCount/context影响，未新V族验收。"
   },
   "open_issues": [
     "四类整体尚未完成；上述通过范围不能外推任意profile/TRS/closedBezier/growth/UV/Phong/完整UX。",
     "原Source52 N64点不匹配/缺UVMap失败原值保留；Source53严格新验收解决指定范围，不倒改旧失败。",
     "扫描旧growth0.2–0.8训练UV两固定模型均未全解释：全path模型只解释30/32侧角，face4.d/7.c的V=1接缝与端盖模型仍未知。不扩gate、不拟合，不是已确认产品bug。",
-    "圆锥几何通过但两个内部模板对象被追加到Scene且变为可选择，完整ordinary合同拒绝。已核同构建源码机制；仅新对象可逆修复草稿尚缺Source53独立完整基准/verifier，不可运行或发布，不盲改全局append参数。",
-    "98根历史材料尚待归并，不等于98个功能未实现。缺逐语义统一分母，暂无可信整体百分比或总工期。"
+    "98根历史材料尚待归并，不等于98个功能未实现。缺逐语义统一分母，暂无可信整体百分比或总工期。",
+    "圆锥仅本次fresh特定revision+cached两ordinary范围通过；任意参数、全部名称冲突实际RNA、stale和完整UX未验，旧H3 fan反例仍排除/保fallback。"
   ],
   "work_priority": {
     "primary": [
@@ -76,20 +78,20 @@
     "parallelism": "原有互斥host工作并行；真实runtime/大型I/O单槽，不新增调度器或购买额度。"
   },
   "versioning_policy": {
-    "next_product_update": "3.5.118",
-    "following": "3.5.119",
+    "next_product_update": "3.5.119",
+    "following": "3.5.120",
     "ordinary_incremental_releases": true,
     "keep_existing_preview_history": true,
     "evidence_only_updates_do_not_bump_or_repackage": true,
     "completed_product_change_backup_local_actual_verification_GitHub_sync_authorized": true
   },
   "public_notes": [
-    "请下载xl_c4d_tool-3.5.117.zip安装；GitHub自动生成的Source code压缩包不是安装包。",
+    "请下载xl_c4d_tool-3.5.118.zip；GitHub自动Source code归档不是安装包。",
     "原LICENSE与第三方说明保持；研究用途与不售卖不改变第三方许可，未复核来源不冒清权。",
     "仅发布去敏进度摘要、证据索引和已授权安装包，不在进度文档发布用户工程、私有聊天或完整原始日志。"
   ],
   "evidence_index": "root-evidence-index.json",
   "local_report_contents_not_published": true,
-  "latest_batch_product_bytes_changed": false,
+  "latest_batch_product_bytes_changed": true,
   "dimension_units_clarification": "Bend size is the vector (2.5,2.5,2.5)m, native(250,250,250)cm; not a scalar cubic-meter volume. Numeric inputs and all acceptance values unchanged."
 }
