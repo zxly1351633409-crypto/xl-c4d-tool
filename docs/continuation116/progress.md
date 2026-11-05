@@ -36,3 +36,10 @@ current315实际安装普通入口新增通过：
 三次guard自然退出，0新native。完整图、实际菜单/数值输入、40ID原行、164实际模块、Scene/prefs及清理独立核。柏拉图新完整输出与旧standard8逐值同；平面/圆环旧记录不是完整网格，保留此限制，仅新完整输出加独立点/有向面/角UV及几何内部一致性通过。
 
 累计478/96/47。19ordinary+1math+98材料未归并不是完成率。版本仍3.5.118/Source54，三附件保持，无需重装，不为补验证凑3.5.119。放样V7纯函数/全UV参考仍待独立审；球体参数体与球域证据分开，未盲套Source8。
+
+
+current316：球体当前实际普通入口三态独立通过。
+
+实际C3.5.118默认球体普通EXEC三态：标准radius.713/N17/fixture smoothFalse，六面radius1.237/N31/fixture smoothTrue，半球radius1.137/N13/fixture smoothFalse；实际F32见参考。各146/602/65点、162/600/64同向面、612/2400/240角UV，位置最大.225623/.128035/.430843微米、UV2.457562e-7/6.143906e-8/0，固定2um/UV1e-6过。每态同3完整8partscompact预冻前尾同、同3group+2node五物理/2具名ref/4initialtyped/0defaultID/40ID/164实际C模块/源3产品/prefs/Scene清理过。native1113仅numeric1未证明名字；smooth为独立fixture标签，不冒nativePhong/任意类型1,3,4或任意N/TRS/fullUX。
+
+放样H2完整CPU模型对旧V5全部48点42同向面176角通过，V7仍仅预测，未新原生或扩gate。累计480/96/47。20ordinary+1math+97未归并不是完成率。3.5.118产品与三附件不变，无需重装。

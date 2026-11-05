@@ -326,8 +326,14 @@
       "category": "生成器",
       "origin": "ORIGINAL_116",
       "current_catalog_revision": "20261029-sphere-unused-geometry-interface113-r1",
-      "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_current316_installed35118_Sphere_three_native88_tuples_independent_review_v1.json",
+          "sha256": "45b271a96a77a074069072dca43b2044b276f0a58285bc988cbf179d655baa01",
+          "scope_note": "实际C3.5.118默认球体普通EXEC三态：标准radius.713/N17/fixture smoothFalse，六面radius1.237/N31/fixture smoothTrue，半球radius1.137/N13/fixture smoothFalse；实际F32见参考。各146/602/65点、162/600/64同向面、612/2400/240角UV，位置最大.225623/.128035/.430843微米、UV2.457562e-7/6.143906e-8/0，固定2um/UV1e-6过。每态同3完整8partscompact预冻前尾同、同3group+2node五物理/2具名ref/4initialtyped/0defaultID/40ID/164实际C模块/源3产品/prefs/Scene清理过。native1113仅numeric1未证明名字；smooth为独立fixture标签，不冒nativePhong/任意类型1,3,4或任意N/TRS/fullUX。"
+        }
+      ],
+      "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED"
     },
     {
       "root": "C4D_立方体",
@@ -1475,10 +1481,10 @@
   ],
   "indexed_roots": 20,
   "existing_evidence_to_reconcile_roots": 98,
-  "meaning": "19根受限ordinary、1根数学继承、98材料待归并，非完成率或98未实现。本批仅补已安装同包有限普通入口验证，无产品字节或ZIP改动。",
+  "meaning": "20根受限ordinary、1根数学继承、97材料待归并，非完成率或97未实现。本批无产品字节或ZIP改动。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
-  "current_bounded_evidence_roots": 19,
+  "current_bounded_evidence_roots": 20,
   "historical_evidence_found_current_lineage_pending_roots": 0,
   "current_math_lineage_bounded_roots": 1,
   "pending_current_function_discrepancy_roots": 0,
