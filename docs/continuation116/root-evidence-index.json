@@ -372,9 +372,33 @@
           "sha256": "abc1a2fa93c51173eaefc4195da22095a6dcca1b99093a77e6727ef56954babe",
           "scope_note": "当前properC局部几何16点16同向面通过，但40/64UV角拒绝、max1.0；仅四个UV常量的Root/Core隔离副本通过，UV二维欧氏8.9406967e-8，全部非UV网格字面不变。尚未集成/安装/发布，3.5.119包不变。",
           "support_level": "MAIN_CURRENT321_GRAPH_OR_FAILURE_OR_UNSAVED_ISOLATED"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source56_canonical_savedfresh_independent_review_v1.json",
+          "sha256": "2197c2f5c9a69c53d8aca4bbdea7edeec5bd18957a2cf2f3227d0aa0f47f2e60",
+          "scope_note": "普通3.5.120 Source56：精确fit properC16点32边16同向面64UV，位置6.3475667e-8m/UV2D8.9406967e-8过。仅四个UV常量，全部非UV数学/节点边/默认保持；原119失败和旧比较器限制保留。",
+          "support_level": "MAIN_SOURCE56_PRODUCT35120_ACCEPTED_BOUNDED"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source56_public_ordinary_independent_review_v1.json",
+          "sha256": "b0d9760145d47e20eef99d9cb2cafc58805e70deb384b23968b13411aad4fc24",
+          "scope_note": "普通3.5.120 Source56：精确fit properC16点32边16同向面64UV，位置6.3475667e-8m/UV2D8.9406967e-8过。仅四个UV常量，全部非UV数学/节点边/默认保持；原119失败和旧比较器限制保留。",
+          "support_level": "MAIN_SOURCE56_PRODUCT35120_ACCEPTED_BOUNDED"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source56_installed_ordinary_independent_review_v1.json",
+          "sha256": "8a0066302b668a30973da49300a2b96c6bc239e98d0b79f783ecb53a95b68d89",
+          "scope_note": "普通3.5.120 Source56：精确fit properC16点32边16同向面64UV，位置6.3475667e-8m/UV2D8.9406967e-8过。仅四个UV常量，全部非UV数学/节点边/默认保持；原119失败和旧比较器限制保留。",
+          "support_level": "MAIN_SOURCE56_PRODUCT35120_ACCEPTED_BOUNDED"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source56_final_independent_review_v1.json",
+          "sha256": "fd4751737e11e9d4ecff9c408e24076c28e7848edc525b4093103f90c20af643",
+          "scope_note": "普通3.5.120 Source56：精确fit properC16点32边16同向面64UV，位置6.3475667e-8m/UV2D8.9406967e-8过。仅四个UV常量，全部非UV数学/节点边/默认保持；原119失败和旧比较器限制保留。",
+          "support_level": "MAIN_SOURCE56_PRODUCT35120_ACCEPTED_BOUNDED"
         }
       ],
-      "coverage_state": "MATH_LINEAGE_BOUNDED_NO_CURRENT_ORDINARY",
+      "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED",
       "current_parameter_family_discrepancy": {
         "family": "fit properC UV / three compat flags true",
         "current35119_complete_ordinary_accepted": false,
@@ -382,8 +406,11 @@
         "properC_UV_accepted": false,
         "old_B_UV_good_but_all_opposite_faces": true,
         "isolated_four_constant_candidate_accepted": true,
-        "integration_pending": true,
-        "old_legacy_five_native_reflection_face_set_scope_retained": true
+        "integration_pending": false,
+        "old_legacy_five_native_reflection_face_set_scope_retained": true,
+        "resolved_in_version": "3.5.120",
+        "resolution_proof_SHA": "8a0066302b668a30973da49300a2b96c6bc239e98d0b79f783ecb53a95b68d89",
+        "old35119_failure_preserved": true
       }
     },
     {
@@ -1592,13 +1619,13 @@
   ],
   "indexed_roots": 20,
   "existing_evidence_to_reconcile_roots": 93,
-  "meaning": "22根受限ordinary、3数学继承、93材料待归并；Tube当前properC UV差异与已隔离修正同一行共存，待集成。不是完成率或93未实现。",
+  "meaning": "23根受限ordinary、2数学继承、93材料待归并；Tube旧119失败由120精确fit范围修复，不是完成率或93未实现。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
-  "current_bounded_evidence_roots": 22,
+  "current_bounded_evidence_roots": 23,
   "historical_evidence_found_current_lineage_pending_roots": 0,
-  "current_math_lineage_bounded_roots": 3,
-  "pending_current_function_discrepancy_roots": 1,
+  "current_math_lineage_bounded_roots": 2,
+  "pending_current_function_discrepancy_roots": 0,
   "work_priority": {
     "primary": [
       "参数体",
@@ -1608,8 +1635,8 @@
     "fields": "LOWER"
   },
   "pending_discrepancy_overlaps_existing_bounded_rows": true,
-  "current_source": "Source55",
-  "current_product_version": "3.5.119",
+  "current_source": "Source56",
+  "current_product_version": "3.5.120",
   "coverage_counts_not_completion_rate": true,
   "dimension_units_clarification": "Bend size is the vector (2.5,2.5,2.5)m, native(250,250,250)cm; not a scalar cubic-meter volume. Numeric inputs and all acceptance values unchanged."
 }

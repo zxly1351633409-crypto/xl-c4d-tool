@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-06",
-  "current": 321,
+  "current": 322,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -9,21 +9,21 @@
       "C4D_人形素体",
       "XL_贝塞尔曲面"
     ],
-    "node_groups_including_private_and_legacy": 532,
-    "source_candidate": "Source55",
-    "formal_version": "3.5.119",
-    "local_installed_version": "3.5.119",
-    "next_product_version": "3.5.120"
+    "node_groups_including_private_and_legacy": 534,
+    "source_candidate": "Source56",
+    "formal_version": "3.5.120",
+    "local_installed_version": "3.5.120",
+    "next_product_version": "3.5.121"
   },
   "installer_delivery": {
-    "version": "3.5.119",
-    "tag": "v3.5.119",
-    "release_id": 435710694,
+    "version": "3.5.120",
+    "tag": "v3.5.120",
+    "release_id": 435857469,
     "ordinary_not_prerelease": true,
     "latest_endpoint_verified": true,
-    "url": "https://github.com/zxly1351633409-crypto/xl-c4d-tool/releases/tag/v3.5.119",
-    "ZIP_bytes": 265574334,
-    "ZIP_SHA256": "7b6be0a4883d3eaa8c3ea7d2a0bff1b8f371d07d5210348b3426f4b8b8d71402",
+    "url": "https://github.com/zxly1351633409-crypto/xl-c4d-tool/releases/tag/v3.5.120",
+    "ZIP_bytes": 265669737,
+    "ZIP_SHA256": "f0deeb57d3dc0a76076185af31920938383c2caf5f2291f3c70c9b14171f6974",
     "server_digest_and_size_verified": true,
     "two_small_attachments_download_verified": true,
     "full_remote_ZIP_download_claim": false,
@@ -39,23 +39,24 @@
     "unchanged_products": 374,
     "previous35117_complete_G_backup_and_C_rollback": true,
     "previous35118_complete_G_backup_and_C_rollback": true,
-    "latest_same_package_additional_verification": "current321 Tube properC UV发现差异，四常量隔离修正通过待集成；当前3.5.119/三附件保持字节不变。"
+    "latest_same_package_additional_verification": "Source56四UV常量修正真正集成；默认物理及实际C安装普通fit几何/同向面/UV全部过，旧119失败保。",
+    "previous35119_complete_G_backup_and_C_rollback": true
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 496,
+    "successful_blender_actors": 500,
     "native_actions": 97,
     "failed_blender_actors": 48,
     "new_this_batch": 4,
     "new_native_this_batch": 0,
-    "interpretation": "4个naturalrc0，当前Tube功能UV拒绝与隔离候选通过分别记录，旧Tube只读短monitor无完整CIM不冒全clean；执行次数非完成率。"
+    "interpretation": "本批4个naturalrc0，独立功能/保护/保存fresh/本机GitHub全链核，执行次数非完成率。"
   },
   "bounded_evidence": {
-    "ordinary_roots": 22,
-    "math_lineage_roots": 3,
+    "ordinary_roots": 23,
+    "math_lineage_roots": 2,
     "historical_material_pending_reconciliation_roots": 93,
     "rows_total": 118,
     "not_completion_rate_or_unimplemented_count": true,
-    "pending_current_function_discrepancy_roots": 1,
+    "pending_current_function_discrepancy_roots": 0,
     "pending_discrepancy_overlaps_existing_bounded_rows": true
   },
   "latest_verification": {
@@ -82,7 +83,7 @@
     "XL_放样": "Source55/普通3.5.119已完整受限产品交付，本机/GitHub同378。完整Source54库531只copy放样Root到532；旧Root私有保留fakeTrue/users1无入边/Demo，新publicRoot13inputs继承asset只description/revision改，shared核心GLOBAL3→4/UV分支2→3由精确具名原序入边核，非isolated1→2。54fulltargets/16parents234旧对象/40ID/ref/mod/idrefs/static/Scene/原CurveMapping严格，samePID初始monitor+liveCIM/StartUTC/fullWindowsargv/runningnonce逐字段SHA批准save/post。producer155.114s、p1共92053582B<96MiB，dry/post解压字节全同；fresh统一2212物理对6387地址且完整集合/引用/每modifier原序保、Library[]。两实际RNA ENUM/is_enum_flag及LEFT/RIGHT精确两地址原序分类原值保。仅Root增加V==7与旧V==5 OR，390node590link，旧V5及其余guard代数保，不重旧样例。默认物理和实际C安装H2/U8/V7各唯一ordinary过：64点58同向Ngon面240 CORNER UV，位置1.438631168512604e-7m/UV8.429369702178807e-8，原13initial/typed、12full8partscompact/20原序refs32物理/40ID/164实际模块/完整支持曲线与输入输出所有mesh attrs/normals/flags/Scene/prefs清理核；全部outputmesh字面同隔离通过。Socket15/17须显式True，产品17默认False。原生64rawpolys252角到58Ngon240角的真实映射保，不冒同raw三角化/任意V或轮廓/Phong/fullUX。旧118 V7真实失败与native45描述取值错误原保。378只库/catalog2/init版本行改变374same，154图只读hardlink(OSreadonly0无attrs写)/224copy，旧Cone代码/NodePreview保。118完整G和C回退备份、prefs不变。ZIP378 CRC/SHA/size/解压回读与GitHub3资产服务器digest/size/小2下载均核，未远程下载全ZIP。",
     "C4D_金字塔": "当前3.5.119默认普通入口+X/N4/非对称尺寸/smoothFalse通过50点80同向面256UV，完整2图/4typed/source3prefs/Scene清理核。",
     "XL_挤压": "当前GENZ2三实例mesh组件16点6面24UV通过；完整2图继承已核，但派生Object.dimensions数值来源和旧UNVERIFIED实例position通道保未知，整项严格ordinary尚未接受。",
-    "C4D_管": "当前properC局部几何16点16同向面通过，但40/64UV角拒绝、max1.0；仅四个UV常量的Root/Core隔离副本通过，UV二维欧氏8.9406967e-8，全部非UV网格字面不变。尚未集成/安装/发布，3.5.119包不变。"
+    "C4D_管": "普通3.5.120 Source56：精确fit properC16点32边16同向面64UV，位置6.3475667e-8m/UV2D8.9406967e-8过。仅四个UV常量，全部非UV数学/节点边/默认保持；原119失败和旧比较器限制保留。"
   },
   "open_issues": [
     "四类整体尚未完成；上述通过范围不能外推任意profile/TRS/closedBezier/growth/UV/Phong/完整UX。",
@@ -117,8 +118,10 @@
       "geometry_directed_faces_passed": true,
       "UV_max_error2D": 1.0000000000000004,
       "isolated_four_constant_fix_passed": true,
-      "integration_pending": true,
-      "old_native_axis_MLMG_missing_and_reflection_faceset_scope_retained": true
+      "integration_pending": false,
+      "old_native_axis_MLMG_missing_and_reflection_faceset_scope_retained": true,
+      "resolved_in_version": "3.5.120",
+      "resolution": "Exact fit public and actual installed properC directed faces and UV passed; old35119 rejection retained."
     }
   ],
   "work_priority": {
@@ -131,20 +134,20 @@
     "parallelism": "原有互斥host工作并行；真实runtime/大型I/O单槽，不新增调度器或购买额度。"
   },
   "versioning_policy": {
-    "next_product_update": "3.5.120",
-    "following": "3.5.121",
+    "next_product_update": "3.5.121",
+    "following": "3.5.122",
     "ordinary_incremental_releases": true,
     "keep_existing_preview_history": true,
     "evidence_only_updates_do_not_bump_or_repackage": true,
     "completed_product_change_backup_local_actual_verification_GitHub_sync_authorized": true
   },
   "public_notes": [
-    "请下载xl_c4d_tool-3.5.119.zip；GitHub自动Source code归档不是安装包。",
+    "请下载xl_c4d_tool-3.5.120.zip；GitHub自动Source code归档不是安装包。",
     "原LICENSE与第三方说明保持；研究用途与不售卖不改变第三方许可，未复核来源不冒清权。",
     "仅发布去敏进度摘要、证据索引和已授权安装包，不在进度文档发布用户工程、私有聊天或完整原始日志。"
   ],
   "evidence_index": "root-evidence-index.json",
   "local_report_contents_not_published": true,
-  "latest_batch_product_bytes_changed": false,
+  "latest_batch_product_bytes_changed": true,
   "dimension_units_clarification": "Bend size is the vector (2.5,2.5,2.5)m, native(250,250,250)cm; not a scalar cubic-meter volume. Numeric inputs and all acceptance values unchanged."
 }
