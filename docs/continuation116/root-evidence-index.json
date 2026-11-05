@@ -572,7 +572,7 @@
       "root": "XL_域修改_曲线",
       "category": "域",
       "origin": "ORIGINAL_116",
-      "current_catalog_revision": null,
+      "current_catalog_revision": "20261105-curvefield-once-capture-candidate-v1",
       "known_bounded_evidence": [
         {
           "local_audit_report": "continuation116_Main_installed35116_Curve_inversion_POINT_once_prediction_rejection_independent_review_v1.json",
@@ -583,14 +583,35 @@
           "local_audit_report": "continuation116_Main_installed35116_Curve_capture_onlyopen_two_component_independent_review_v1.json",
           "sha256": "ff912f6c5b671113ce25a1a395aab3654527b449e59f9668f00246ebad2a08f4",
           "scope_note": "Root/Core仅隔离复制，4个Capture、删8旧边增16边；PointCloud及INSTANCE各11点验证通过，三权重误差≤1.35e-7<1e-6。完整5组初始/尾图与共享曲线恢复、输入输出与清理核对。尚未Source51完整保存/安装。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source51_canonical_savedfresh_independent_review_v1.json",
+          "sha256": "baa6f3f9f32efc93c7e0a87b83e6a102ab5decfb1ef8d7b095436e9aef8afcd0",
+          "scope_note": "Source51完整图保护、默认入口或实际安装的指定POINT/INSTANCE两态；不代表通用曲线或C4D等价。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source51_Curve_default_public_two_component_independent_review_v1.json",
+          "sha256": "588a088657bcd04bb0ed176c3dc24f819b75248535e59fc7cb589701b414f24e",
+          "scope_note": "Source51完整图保护、默认入口或实际安装的指定POINT/INSTANCE两态；不代表通用曲线或C4D等价。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source51_Curve_actual_installed_two_component_independent_review_v1.json",
+          "sha256": "077258ac2d80c50fcfddcfc91897f1d2849d9aad6e9c49002144ab74be798cb9",
+          "scope_note": "Source51完整图保护、默认入口或实际安装的指定POINT/INSTANCE两态；不代表通用曲线或C4D等价。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source51_final_independent_review_v1.json",
+          "sha256": "ae8b95a622bb80b15e803b4cffff122322392930f4ac8f8e978e3fdb70c5a3c8",
+          "scope_note": "Source51完整图保护、默认入口或实际安装的指定POINT/INSTANCE两态；不代表通用曲线或C4D等价。"
         }
       ],
-      "coverage_state": "CURRENT_DIFFERENCE_ISOLATED_FIX_NOT_INTEGRATED",
+      "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED",
       "current_full_graph_capture_only": {
         "local_audit_report": "continuation116_Main_Source50_CurveField_current_graph_mapping_identity_independent_review_v2.json",
         "sha256": "0dae815d861c788f96bd204a02509870ed5eb8e2e9bdf69f6e83be3a4679f94e",
         "scope": "三组完整结构双采同，并独立采唯一FloatCurve的CurveMapping标量、点和手柄；默认identity，不冒曲线功能或C4D等价。"
-      }
+      },
+      "latest_source51_delivery": "完整保存、独立重开、默认入口和实际安装两态通过；预览版5研究发布。旧差异和隔离回执保留为历史。"
     },
     {
       "root": "XL_域修改_色板",
@@ -1273,13 +1294,13 @@
       "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
     }
   ],
-  "indexed_roots": 16,
+  "indexed_roots": 17,
   "existing_evidence_to_reconcile_roots": 101,
   "meaning": "9根受限ordinary+7根数学继承+1根差异待集成+101根材料待归并；不是完成率。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
-  "current_bounded_evidence_roots": 9,
+  "current_bounded_evidence_roots": 10,
   "historical_evidence_found_current_lineage_pending_roots": 0,
   "current_math_lineage_bounded_roots": 7,
-  "pending_current_function_discrepancy_roots": 1
+  "pending_current_function_discrepancy_roots": 0
 }

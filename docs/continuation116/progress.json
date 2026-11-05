@@ -1,5 +1,5 @@
 {
-  "title": "xl_c4d_tool 3.5.116预览版4 · 映射范围单次计算修复",
+  "title": "xl_c4d_tool 3.5.116预览版5 · 曲线域单次计算修复",
   "as_of": "2026-11-05",
   "evidence_note": "以下为本地审计记录的筛选摘要；完整原始报告和测试数据未随此摘要公开，因此本文件不是完整可复跑证据。",
   "inventory": {
@@ -10,16 +10,16 @@
       "C4D_人形素体",
       "XL_贝塞尔曲面"
     ],
-    "node_groups_including_private_and_legacy": 525,
-    "source_candidate": "Source50",
-    "candidate_status": "Source50完整保存、独立重开、378产品、默认普通入口及实际本机安装入口验收通过，预览版4已发布",
+    "node_groups_including_private_and_legacy": 527,
+    "source_candidate": "Source51",
+    "candidate_status": "已独立受限验收、本机安装与GitHub研究预览同步",
     "formal_version": "3.5.116",
     "formal_products_changed": true,
     "latest_public_product_version": "3.5.116",
-    "latest_public_preview_tag": "v3.5.116-preview.4"
+    "latest_public_preview_tag": "v3.5.116-preview.5"
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 445,
+    "successful_blender_actors": 449,
     "native_actions": 94,
     "failed_blender_actors": 46,
     "interpretation": "guard执行次数，包含技术rc0但功能拒绝的留证案例；不是功能数、完成率或工期。",
@@ -35,7 +35,34 @@
     "锥化：指定模式与曲率状态已有普通入口验证；最新真ObjectNone、限制模式、圆角关闭、曲率0.37的样例通过，结论仅限记录的参数和几何。",
     "公式域：本机安装版11/19点两固定手动时间案例×On/Off共4次普通入口，完整原始输入/网格/42参数和6完整core对照通过；不代表一般公式或动画完成。",
     "混合域：已安装版真实PointCloud及INSTANCE各Add/Sub，两个明确命名域、Disable和100%不透明度，11点独立F32预测全等；不代表C4D FieldLayer或所有层混合模式。",
-    "映射范围域：PointCloud与INSTANCE各11点，Disable/Normal/100%、mask开启、渲染检查关闭、0–100到30–70和明确自定义名；物理候选与本机安装各2次普通入口，三权重与独立采前参考均0误差。"
+    "映射范围域：PointCloud与INSTANCE各11点，Disable/Normal/100%、mask开启、渲染检查关闭、0–100到30–70和明确自定义名；物理候选与本机安装各2次普通入口，三权重与独立采前参考均0误差。",
+    {
+      "root": "XL_域修改_曲线",
+      "status": "INSTALLED_BOUNDED_EVIDENCE_INDEXED",
+      "current_revision": "20261105-curvefield-once-capture-candidate-v1",
+      "evidence": [
+        {
+          "local_audit_report": "continuation116_Main_Source51_canonical_savedfresh_independent_review_v1.json",
+          "sha256": "baa6f3f9f32efc93c7e0a87b83e6a102ab5decfb1ef8d7b095436e9aef8afcd0",
+          "scope_note": "Source51完整图保护、默认入口或实际安装的指定POINT/INSTANCE两态；不代表通用曲线或C4D等价。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source51_Curve_default_public_two_component_independent_review_v1.json",
+          "sha256": "588a088657bcd04bb0ed176c3dc24f819b75248535e59fc7cb589701b414f24e",
+          "scope_note": "Source51完整图保护、默认入口或实际安装的指定POINT/INSTANCE两态；不代表通用曲线或C4D等价。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source51_Curve_actual_installed_two_component_independent_review_v1.json",
+          "sha256": "077258ac2d80c50fcfddcfc91897f1d2849d9aad6e9c49002144ab74be798cb9",
+          "scope_note": "Source51完整图保护、默认入口或实际安装的指定POINT/INSTANCE两态；不代表通用曲线或C4D等价。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source51_final_independent_review_v1.json",
+          "sha256": "ae8b95a622bb80b15e803b4cffff122322392930f4ac8f8e978e3fdb70c5a3c8",
+          "scope_note": "Source51完整图保护、默认入口或实际安装的指定POINT/INSTANCE两态；不代表通用曲线或C4D等价。"
+        }
+      ]
+    }
   ],
   "open_issues": [
     "油罐与胶囊部分切面三角化缺少已验证的一般规则。",
@@ -44,7 +71,7 @@
     "多个既验结果只覆盖固定参数组合、坐标框架或特定几何；完整范围尚未建立。",
     "混合域当前指定两命名属性的Enable/Normal/50%已修复；其他层模式、缺失或空名属性、任意数量仍未整体验收。",
     "映射范围域本次修复只验收指定范围、组件与命名；Enable、mask关闭、特殊别名和全部层模式尚未整体验收。",
-    "曲线域编辑为指定反相曲线后，自定义输出与一次映射预期明显不同；单次捕获的两个组件隔离修复通过，Source51整库保存、独立重开及安装验收尚未完成。"
+    "曲线域指定反相、Disable/Normal100、遮罩开启条件的重复计算已修复并安装发布；任意曲线、Enable、mask关闭及特殊别名仍未整体验收。"
   ],
   "completion": "原始116根目录分母已确认，但缺统一的逐根、逐语义完成标准和验收表，无法诚实计算功能完成百分比。",
   "schedule": "总体工期不可从现有证据可靠估计；统一矩阵建立后，可根据真实未结项、运行耗时和机制风险校准阶段时间。",
@@ -55,9 +82,9 @@
     "遇到失败先保留原始值并定位机制；不通过重复采样、拟合或降低阈值制造进度。"
   ],
   "next_stage_acceptance": [
-    "建立116原有公开根及新增根的逐根、逐语义验收矩阵，标明通过范围、证据、未结与未知。",
-    "依据实际失败、用户价值和机制可追溯性排序；每批写清旧路径保护和可证伪验收条件。",
-    "候选保存、独立 fresh、真实普通入口及发布体验分别记录；完成阶段不等于全部参数已覆盖。"
+    "圆环105既有八例证据先完整身份与图合同审查，确有缺口才一次只读旧候选闭包；禁止重验旧几何。",
+    "逐根归并已有证明与当前完整图，未知材料不等未实现，先有参考再开普通入口。",
+    "后续真正完整功能更新经独立验收、备份上一安装后，本机与GitHub同步。"
   ],
   "public_notes": [
     "进度摘要不包含本地路径、个人信息、用户对话、凭据或原始日志。",
@@ -65,67 +92,70 @@
     "本批两次factory只读补齐缺失图与曲线控制状态；安装包不变，因此不重复上传相同ZIP。"
   ],
   "latest_verification": {
-    "root": "XL_域修改_映射范围",
-    "status": "SOURCE50_CANONICAL_FRESH_DEFAULT_PUBLIC_ACTUAL_INSTALLED_ACCEPTED_PREVIEW4_PUBLISHED",
+    "root": "XL_域修改_曲线",
+    "status": "SOURCE51_COMPLETE_BOUNDED_DELIVERY_INSTALLED_AND_PUBLISHED",
     "candidate_default_ordinary_EXEC": 2,
     "actual_installed_ordinary_EXEC": 2,
-    "controls": "POINT/INSTANCE, Disable/Normal100, maskTrue, renderFalse, input0..100/output30..70, explicit custom attribute",
-    "max_three_weight_error": 0.0,
+    "controls": "11旧点、POINT/INSTANCE、临时两AUTO端点反相、Disable/Normal100、maskTrue、stepFalse、renderFalse、非空TEST_CURVE_RESULT，默认曲线精确恢复",
+    "max_three_weight_error": 1.3411032284693647e-07,
     "fixed_weight_tolerance": 1e-06,
-    "historical_preview3_custom_once_model_max_error_retained": 0.11877858638763428,
+    "original_once_failure_max_error_retained": 0.9898213148117065,
     "prior_raw_and_gold_preserved": true,
-    "actual_installed_proof_SHA": "32746a3d0367bf9a2bf92b1a0be8704dfa2cb6cc276bfff74d20194a9ca5d212",
+    "actual_installed_proof_SHA": "077258ac2d80c50fcfddcfc91897f1d2849d9aad6e9c49002144ab74be798cb9",
     "new_native_actions": 0,
-    "not_general_Range_C4D_equivalence_or_all_modes": true
+    "not_general_Curve_C4D_equivalence_or_all_modes": true
   },
   "evidence_index": {
     "roots": 118,
     "original_roots": 116,
     "added_roots": 2,
-    "current_ordinary_bounded_evidence_roots": 9,
+    "current_ordinary_bounded_evidence_roots": 10,
     "current_math_lineage_bounded_roots": 7,
     "historical_evidence_found_current_lineage_pending_roots": 0,
     "existing_evidence_to_reconcile_roots": 101,
     "interpretation": "9根受限普通入口、7根数学继承、1根差异待集成、101根材料待归并；不是完成率，也不表示101根未实现。",
     "parallel_host_batches_completed": "参数体6根；域16根均完成首轮有界材料导航。其中基础域16组完整数学闭包与79条引用被Main独立对账。",
-    "pending_current_function_discrepancy_roots": 1
+    "pending_current_function_discrepancy_roots": 0
   },
   "continuity": "工作轮激活期间继续推进独立队列；回复结束后不保持持续推理。既有30分钟续办心跳负责后续唤起，不代表无人常驻服务。",
   "additional_batch_delivery": {
     "current301": "旧平面61完整31节点核心对当前私有核心精确数学继承；Range闭包补齐、一次映射差异定位、两个组件隔离修复实测通过。无新安装包/原生。",
     "current302": "Source50完整整库保存与独立重开、物理378产品、候选和本机各2普通入口；备份预览版3后发布预览版4。",
     "current303": "Plane105旧候选完整两组与Source18/48严格继承，复用有限8例同向面/角UV证据；曲线域三组完整结构与独立CurveMapping状态双采。没有新功能普通入口、产品字节或安装包。",
-    "current304": "Torus60旧数学闭包/default+Y继承；曲线反相POINT一次真实预测拒绝；独立5组图参考齐后POINT/INSTANCE各一次隔离修复通过。Source51完整false包已收到但未执行，本机/GitHub预览4不变。"
+    "current304": "Torus60旧数学闭包/default+Y继承；曲线反相POINT一次真实预测拒绝；独立5组图参考齐后POINT/INSTANCE各一次隔离修复通过。Source51完整false包已收到但未执行，本机/GitHub预览4不变。",
+    "current305": {
+      "Source51_savedfresh_527_groups32targets16parents234objects40ID": true,
+      "shared_Helper_default_identity_mapping_preserved_and_two_named_refs_added": true,
+      "physical378_only_three_changed": true,
+      "default_public2_actual_installed2_pass": true,
+      "preview5_published_local_same": true,
+      "new_native": 0,
+      "new_guard_jobs": 4
+    }
   },
   "installer_delivery": {
     "version": "3.5.116",
-    "tag": "v3.5.116-preview.4",
-    "url": "https://github.com/zxly1351633409-crypto/xl-c4d-tool/releases/tag/v3.5.116-preview.4",
-    "ZIP_bytes": 265343962,
-    "ZIP_SHA256": "95dac1f7576a592058d8056b4dd3b019c4db13b06e79fece52cab98300da5f3c",
+    "tag": "v3.5.116-preview.5",
+    "url": "https://github.com/zxly1351633409-crypto/xl-c4d-tool/releases/tag/v3.5.116-preview.5",
+    "ZIP_bytes": 265489853,
+    "ZIP_SHA256": "900600f1be0f8ddf98a6609c3e035b02932c8bae4fbdedad91c355a0f93176da",
     "local_installed_same378": true,
-    "previous_preview3_preview2_and115_backups_preserved": true,
+    "previous_preview4_preview3_preview2_and115_backups_preserved": true,
     "changed_products": 3,
     "unchanged_products": 375
   },
   "latest_observation": {
     "root": "XL_域修改_曲线",
-    "status": "CURRENT_POINT_ONCE_INTENT_REJECTED_TWO_COMPONENT_ISOLATED_CAPTURE_FIX_PASSED_SOURCE51_FALSE_ONLY",
-    "component": "PointCloud, 11 existing points",
-    "controls": "temporary twoAUTOpoint curve inversion; Disable/Normal100/maskTrue/renderFalse/nonempty custom field",
+    "status": "SOURCE51_COMPLETE_BOUNDED_DELIVERY_INSTALLED_AND_PUBLISHED",
+    "candidate_default_ordinary_EXEC": 2,
+    "actual_installed_ordinary_EXEC": 2,
+    "controls": "11旧点、POINT/INSTANCE、临时两AUTO端点反相、Disable/Normal100、maskTrue、stepFalse、renderFalse、非空TEST_CURVE_RESULT，默认曲线精确恢复",
+    "max_three_weight_error": 1.3411032284693647e-07,
     "fixed_weight_tolerance": 1e-06,
-    "original_once_model_errors": {
-      "Gradient": 1.2852251529693604e-07,
-      "Hard": 1.3411032284693647e-07,
-      "custom": 0.9898213148117065
-    },
-    "prefrozen_serial_model_max_error": 1.3411032284693647e-07,
-    "isolated_POINT_INSTANCE_three_weights_max_error": 1.3411032284693647e-07,
-    "model_discrimination_10points_at_tolerance_index0_within_tolerance": true,
-    "original_failure_and_prefrozen_reference_preserved": true,
-    "original_library_and_installed_product_unchanged": true,
-    "Main_failure_proof_SHA": "0d37f65649f48d82a5b2ea85de039b83966f53cb56014232312b7f9ecb59d07c",
-    "Main_isolated_fix_proof_SHA": "ff912f6c5b671113ce25a1a395aab3654527b449e59f9668f00246ebad2a08f4",
-    "not_Source51_saved_or_published": true
+    "original_once_failure_max_error_retained": 0.9898213148117065,
+    "prior_raw_and_gold_preserved": true,
+    "actual_installed_proof_SHA": "077258ac2d80c50fcfddcfc91897f1d2849d9aad6e9c49002144ab74be798cb9",
+    "new_native_actions": 0,
+    "not_general_Curve_C4D_equivalence_or_all_modes": true
   }
 }
