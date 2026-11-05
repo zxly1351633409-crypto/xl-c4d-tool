@@ -370,8 +370,21 @@
       "category": "生成器",
       "origin": "ORIGINAL_116",
       "current_catalog_revision": "20261028-pyramid-native-six-direction-menu-r104",
-      "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_current320_Pyramid104_to_Source55_full2closure_lineage_independent_review_v1.json",
+          "sha256": "33caee72c136dd56fc74e435760dbf4e02eb4763d9a9e1dda9949be88a6ce5f0",
+          "scope_note": "当前3.5.119默认普通入口+X/N4/非对称尺寸/smoothFalse通过50点80同向面256UV，完整2图/4typed/source3prefs/Scene清理核。",
+          "support_level": "MAIN_CURRENT320_BOUNDED"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current320_installed35119_Pyramid_plusX_independent_review_v1.json",
+          "sha256": "700b0488915c204e15b8175f4a77cf655cff5913db1f99e713813c8c1da64242",
+          "scope_note": "当前3.5.119默认普通入口+X/N4/非对称尺寸/smoothFalse通过50点80同向面256UV，完整2图/4typed/source3prefs/Scene清理核。",
+          "support_level": "MAIN_CURRENT320_BOUNDED"
+        }
+      ],
+      "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED"
     },
     {
       "root": "XL_精确破碎",
@@ -944,8 +957,28 @@
       "category": "生成器",
       "origin": "ORIGINAL_116",
       "current_catalog_revision": "20261104-extrude-generator-coordinate-candidate-v1",
-      "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_current320_Extrude_Source37_to55_full2graph_lineage_independent_review_v1.json",
+          "sha256": "c3abde887600fedad69c80cf249a4c0d16ed7cbd80f70815ab5792334a0306b1",
+          "scope_note": "当前GENZ2三实例mesh组件16点6面24UV通过；完整2图继承已核，但派生Object.dimensions数值来源和旧UNVERIFIED实例position通道保未知，整项严格ordinary尚未接受。",
+          "support_level": "MAIN_CURRENT320_BOUNDED"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current320_installed35119_Extrude_GENZ2_component_and_input_scope_independent_review_v1.json",
+          "sha256": "fef7a33b8569cd821de28164a1e74bcfadd7323f1d44ab4f0d237e5c43825d56",
+          "scope_note": "当前GENZ2三实例mesh组件16点6面24UV通过；完整2图继承已核，但派生Object.dimensions数值来源和旧UNVERIFIED实例position通道保未知，整项严格ordinary尚未接受。",
+          "support_level": "MAIN_CURRENT320_BOUNDED"
+        }
+      ],
+      "coverage_state": "MATH_LINEAGE_BOUNDED_NO_CURRENT_ORDINARY",
+      "current_ordinary_contract_gap": {
+        "component_geometry_UV_accepted": true,
+        "complete_ordinary_accepted": false,
+        "derived_dimensions_numeric_cause": "UNKNOWN",
+        "old_instance_position_channel": "UNVERIFIED_raw_retained",
+        "source_and_owned_cleanup_preserved": true
+      }
     },
     {
       "root": "XL_推开效果器",
@@ -1529,13 +1562,13 @@
     }
   ],
   "indexed_roots": 20,
-  "existing_evidence_to_reconcile_roots": 96,
-  "meaning": "21根受限ordinary、1根数学继承、96材料待归并；Source55解决H2V7精确范围，旧118失败保留。不是完成率或96未实现。",
+  "existing_evidence_to_reconcile_roots": 94,
+  "meaning": "22根受限ordinary、2根数学继承、94材料待归并；挤压仅组件几何UV通过，严格整项ordinary合同待核。不是完成率或94未实现。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
-  "current_bounded_evidence_roots": 21,
+  "current_bounded_evidence_roots": 22,
   "historical_evidence_found_current_lineage_pending_roots": 0,
-  "current_math_lineage_bounded_roots": 1,
+  "current_math_lineage_bounded_roots": 2,
   "pending_current_function_discrepancy_roots": 0,
   "work_priority": {
     "primary": [
