@@ -25,3 +25,14 @@ ZIP265574893字节，SHA256 `438e138ff77713dbeaf8f115fe367b2a0a653bbef4e813e814d
 current314补充：放样H2中间组件唯一诊断已完成。源2条4点、CentralLine 1条2点、Modeling 8条2点，均无物化use_sub/sub_div；mesh_present为真但未采内容，不认定非空。完整15图与输入/refs/40ID/164模块/Scene/prefs/清理过。只缩小字段上下文未知，不是Cuts或V7功能通过。柏拉图Source9→18的13组完整继承已核，五users叶均有具体历史备份引用解释；不重几何或冒当前六type ordinary。
 
 产品仍3.5.118/Source54，三附件不变，无需重装。累计475/96/47，16ordinary+4math+98待归并仍非完成率。下一继续独立核放样条件推导和柏拉图旧六type输入/数值接受来源；不随机采样或扩gate。
+
+
+current315实际安装普通入口新增通过：
+
+- 实际C3.5.118默认ordinaryEXEC六type，radius.7310000061988831m/segments整数6/smoothFalse/ownerI/emptyseed。总3540点4536同向面16128角UV，max.111883微米/UV2.149076e-7。六旧standard8 fullmesh逐值同；各态13完整图/27refs40物理/四initial typed/40ID/164模块/Scene/prefs/清理核。非任意半径/N/变换/Phong。
+- 实际C默认ordinaryEXEC仅旧holdout_0 +X、width.7310000061988831m/height2.1730000972747803m/segments2,5/smoothFalse/ownerI/emptyseed。18点27边10同向面40角UV，位置.023842微米/UV5.960464e-8，几何法线+X一致。完整2图/六typed/1ref3物理/40ID/164模块/Scene/prefs清理核；旧candidate非fullmesh限制保，legacyUV硬True。
+- 实际C默认ordinaryEXEC仅旧holdout_1 -Y、major.061000000685453415m/minor.017000000923871994m/segments23,9/regular0/smoothFalse/ownerI/emptyseed。207点414边207同向面828角UV，位置.026243微米/UV8.42937e-8。完整2图/六typed/1ref3物理/40ID/164模块/Scene/prefs清理核；旧candidate非fullmesh/原生Phong未知保，legacyUV硬True。
+
+三次guard自然退出，0新native。完整图、实际菜单/数值输入、40ID原行、164实际模块、Scene/prefs及清理独立核。柏拉图新完整输出与旧standard8逐值同；平面/圆环旧记录不是完整网格，保留此限制，仅新完整输出加独立点/有向面/角UV及几何内部一致性通过。
+
+累计478/96/47。19ordinary+1math+98材料未归并不是完成率。版本仍3.5.118/Source54，三附件保持，无需重装，不为补验证凑3.5.119。放样V7纯函数/全UV参考仍待独立审；球体参数体与球域证据分开，未盲套Source8。
