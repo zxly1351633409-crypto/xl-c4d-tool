@@ -55,6 +55,11 @@
           "local_audit_report": "continuation116_Main_Torus60_to18_to50_fullcore_defaultY_lineage_independent_review_v1.json",
           "sha256": "c61f3c35343bc4bad0c2e0fa43cd200339c7a3b8224dc7295a86019bc322ebd3",
           "scope_note": "旧60单44/54核心对Source18私有核心全部8parts/compact仅精确key名和users1→2不同；公开default+Y位置身份且UV9固定True，复用旧7例TrueUV点/同向面/角UV。非当前ordinary/全方向；短CIM空值与monitor错误保留，guard/argv/退出另核。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Torus105_to18_to51_fullclosure_lineage_independent_review_v1.json",
+          "sha256": "ca49e8811888c9c33fd7493b5ee80e3e28facc7d050b9bd93eeccfcf5c2d2aff",
+          "scope_note": "旧105完整继承补齐，仅复用既有有限8例。"
         }
       ],
       "coverage_state": "CURRENT_MATH_CLOSURE_MATCHED_ANCESTOR_BOUNDED_EVIDENCE",
@@ -530,9 +535,25 @@
       "root": "XL_域修改_反转",
       "category": "域",
       "origin": "ORIGINAL_116",
-      "current_catalog_revision": null,
-      "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+      "current_catalog_revision": "20261105-invertfield-once-capture-candidate-v1",
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_Source52_Invert_default_public_two_component_independent_review_v1.json",
+          "sha256": "f33a7d7f3a47f2c4a41a697f7e26b912fc37761f14fef10f07a7be5cc591a7fa",
+          "scope_note": "Source52两组件普通入口；InvertTrue/Disable/Normal100/maskTrue/renderFalse/11旧点/明确自定义名。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source52_Invert_actual_installed_two_component_independent_review_v1.json",
+          "sha256": "a571ba4ee972598b31c236894950067215d887d1354946c12abe0d78f7cd6209",
+          "scope_note": "实际安装路径两个组件三权重0误差，未覆盖所有模式或C4D等价。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source52_final_independent_review_v1.json",
+          "sha256": "7ed78e4408a6128a590090a5a8358e448b7ccc607f01b0576a2748da7df3678e",
+          "scope_note": "完整库保存重开、物理安装与研究预览同步；项目整体未完成。"
+        }
+      ],
+      "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED"
     },
     {
       "root": "XL_域修改_映射范围",
@@ -626,8 +647,14 @@
       "category": "域",
       "origin": "ORIGINAL_116",
       "current_catalog_revision": null,
-      "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_Source52_Quantize_default50_actual_installed_two_component_independent_review_v1.json",
+          "sha256": "72a08b3885a4bbd452df37cdcb20d3adf5c2344f8f7da6f2e3fb149c3a544340",
+          "scope_note": "实际安装版默认50、POINT/INSTANCE、11旧点、Disable/Normal100、遮罩开启；三权重0误差。默认步长0.5幂等，不能判别串行读取机制。"
+        }
+      ],
+      "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED"
     },
     {
       "root": "XL_域修改_钳制",
@@ -635,7 +662,8 @@
       "origin": "ORIGINAL_116",
       "current_catalog_revision": null,
       "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED",
+      "current_full_graph_capture_only": "已有完整当前图与默认语义材料，未独立通过功能验收。"
     },
     {
       "root": "XL_基础域",
@@ -1294,12 +1322,12 @@
       "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
     }
   ],
-  "indexed_roots": 17,
-  "existing_evidence_to_reconcile_roots": 101,
-  "meaning": "9根受限ordinary+7根数学继承+1根差异待集成+101根材料待归并；不是完成率。",
+  "indexed_roots": 19,
+  "existing_evidence_to_reconcile_roots": 99,
+  "meaning": "12根受限普通入口、7根完整数学继承、99根既有材料待归并；不是完成率，也不表示99根未实现。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
-  "current_bounded_evidence_roots": 10,
+  "current_bounded_evidence_roots": 12,
   "historical_evidence_found_current_lineage_pending_roots": 0,
   "current_math_lineage_bounded_roots": 7,
   "pending_current_function_discrepancy_roots": 0
