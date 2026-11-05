@@ -1,260 +1,86 @@
 {
-  "title": "xl_c4d_tool · 参数体、生成器、变形器优先推进",
+  "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-05",
-  "evidence_note": "以下为本地审计记录的筛选摘要；完整原始报告和测试数据未随此摘要公开，因此本文件不是完整可复跑证据。",
+  "current": 309,
   "inventory": {
     "original_public_roots": 116,
-    "original_roots_preserved_in_reconciliation": 116,
     "current_catalog_rows": 118,
     "added_public_roots": [
       "C4D_人形素体",
       "XL_贝塞尔曲面"
     ],
-    "node_groups_including_private_and_legacy": 529,
-    "source_candidate": "Source52",
-    "candidate_status": "已独立受限验收、本机安装与GitHub研究预览同步",
-    "formal_version": "3.5.116",
-    "formal_products_changed": true,
-    "latest_public_product_version": "3.5.116",
-    "latest_public_preview_tag": "v3.5.116-preview.6"
-  },
-  "execution_counts_since_115": {
-    "successful_blender_actors": 462,
-    "native_actions": 95,
-    "failed_blender_actors": 46,
-    "interpretation": "guard执行次数，包含技术rc0但功能拒绝的留证案例；不是功能数、完成率或工期。",
-    "retained_monitor_limit": "Torus60短进程guard自然rc0，但实时CIM路径/命令为空触发monitor错误，原值保留，不能宣称完整CIM身份已核；无重复运行。"
-  },
-  "bounded_evidence": [
-    "参数体：多个基础体已有特定参数与方向样例；圆锥切片等仍按明确条件限定。",
-    "旋转（Lathe）：已有特定开放轮廓、角度和分段样例的普通入口验证。",
-    "扫描（Sweep）：已有特定轮廓与路径的点、面和 UV 样例，其他输入沿旧路径。",
-    "放样（Loft）：已有 H2/V5 受限样例和回退验证。",
-    "斜切（Shear）：已有指定参数、控制框变换与回退的受限验证。",
-    "扭曲（Twist）：已有指定控制对象及空控制对象样例的普通入口验证。",
-    "锥化：指定模式与曲率状态已有普通入口验证；最新真ObjectNone、限制模式、圆角关闭、曲率0.37的样例通过，结论仅限记录的参数和几何。",
-    "公式域：本机安装版11/19点两固定手动时间案例×On/Off共4次普通入口，完整原始输入/网格/42参数和6完整core对照通过；不代表一般公式或动画完成。",
-    "混合域：已安装版真实PointCloud及INSTANCE各Add/Sub，两个明确命名域、Disable和100%不透明度，11点独立F32预测全等；不代表C4D FieldLayer或所有层混合模式。",
-    "映射范围域：PointCloud与INSTANCE各11点，Disable/Normal/100%、mask开启、渲染检查关闭、0–100到30–70和明确自定义名；物理候选与本机安装各2次普通入口，三权重与独立采前参考均0误差。",
-    {
-      "root": "XL_域修改_曲线",
-      "status": "INSTALLED_BOUNDED_EVIDENCE_INDEXED",
-      "current_revision": "20261105-curvefield-once-capture-candidate-v1",
-      "evidence": [
-        {
-          "local_audit_report": "continuation116_Main_Source51_canonical_savedfresh_independent_review_v1.json",
-          "sha256": "baa6f3f9f32efc93c7e0a87b83e6a102ab5decfb1ef8d7b095436e9aef8afcd0",
-          "scope_note": "Source51完整图保护、默认入口或实际安装的指定POINT/INSTANCE两态；不代表通用曲线或C4D等价。"
-        },
-        {
-          "local_audit_report": "continuation116_Main_Source51_Curve_default_public_two_component_independent_review_v1.json",
-          "sha256": "588a088657bcd04bb0ed176c3dc24f819b75248535e59fc7cb589701b414f24e",
-          "scope_note": "Source51完整图保护、默认入口或实际安装的指定POINT/INSTANCE两态；不代表通用曲线或C4D等价。"
-        },
-        {
-          "local_audit_report": "continuation116_Main_Source51_Curve_actual_installed_two_component_independent_review_v1.json",
-          "sha256": "077258ac2d80c50fcfddcfc91897f1d2849d9aad6e9c49002144ab74be798cb9",
-          "scope_note": "Source51完整图保护、默认入口或实际安装的指定POINT/INSTANCE两态；不代表通用曲线或C4D等价。"
-        },
-        {
-          "local_audit_report": "continuation116_Main_Source51_final_independent_review_v1.json",
-          "sha256": "ae8b95a622bb80b15e803b4cffff122322392930f4ac8f8e978e3fdb70c5a3c8",
-          "scope_note": "Source51完整图保护、默认入口或实际安装的指定POINT/INSTANCE两态；不代表通用曲线或C4D等价。"
-        }
-      ]
-    },
-    {
-      "root": "XL_域修改_反转",
-      "status": "INSTALLED_BOUNDED_EVIDENCE_INDEXED",
-      "evidence": [
-        {
-          "local_audit_report": "continuation116_Main_Source52_Invert_default_public_two_component_independent_review_v1.json",
-          "sha256": "f33a7d7f3a47f2c4a41a697f7e26b912fc37761f14fef10f07a7be5cc591a7fa",
-          "scope_note": "Source52两组件普通入口；InvertTrue/Disable/Normal100/maskTrue/renderFalse/11旧点/明确自定义名。"
-        },
-        {
-          "local_audit_report": "continuation116_Main_Source52_Invert_actual_installed_two_component_independent_review_v1.json",
-          "sha256": "a571ba4ee972598b31c236894950067215d887d1354946c12abe0d78f7cd6209",
-          "scope_note": "实际安装路径两个组件三权重0误差，未覆盖所有模式或C4D等价。"
-        },
-        {
-          "local_audit_report": "continuation116_Main_Source52_final_independent_review_v1.json",
-          "sha256": "7ed78e4408a6128a590090a5a8358e448b7ccc607f01b0576a2748da7df3678e",
-          "scope_note": "完整库保存重开、物理安装与研究预览同步；项目整体未完成。"
-        }
-      ]
-    },
-    {
-      "root": "XL_域修改_量化",
-      "status": "INSTALLED_BOUNDED_EVIDENCE_INDEXED",
-      "evidence": [
-        {
-          "local_audit_report": "continuation116_Main_Source52_Quantize_default50_actual_installed_two_component_independent_review_v1.json",
-          "sha256": "72a08b3885a4bbd452df37cdcb20d3adf5c2344f8f7da6f2e3fb149c3a544340",
-          "scope_note": "实际安装版默认50、POINT/INSTANCE、11旧点、Disable/Normal100、遮罩开启；三权重0误差。默认步长0.5幂等，不能判别串行读取机制。"
-        }
-      ]
-    }
-  ],
-  "open_issues": [
-    "旋转：既有P2/203°条件下新增64段观察走旧回退，点位置与原生不符且缺UVMap；当前只保原32/48受限接受，不能宣称任意分段通过。",
-    "油罐与胶囊部分切面三角化缺少已验证的一般规则。",
-    "闭合贝塞尔控制网、人形分段和地形噪声缺可追溯机制。",
-    "锥化负曲率存在写入意图与实际读回不一致，不能据此声称负曲率通过。",
-    "多个既验结果只覆盖固定参数组合、坐标框架或特定几何；完整范围尚未建立。",
-    "混合域当前指定两命名属性的Enable/Normal/50%已修复；其他层模式、缺失或空名属性、任意数量仍未整体验收。",
-    "映射范围域本次修复只验收指定范围、组件与命名；Enable、mask关闭、特殊别名和全部层模式尚未整体验收。",
-    "曲线域指定反相、Disable/Normal100、遮罩开启条件的重复计算已修复并安装发布；任意曲线、Enable、mask关闭及特殊别名仍未整体验收。",
-    "反转域指定True/Disable/Normal100/遮罩开启的重复计算已修复；Enable、遮罩关闭、特殊同名属性和全部模式尚未整体验收。"
-  ],
-  "completion": "原始116根目录分母已确认，但缺统一的逐根、逐语义完成标准和验收表，无法诚实计算功能完成百分比。",
-  "schedule": "总体工期不可从现有证据可靠估计；统一矩阵建立后，可根据真实未结项、运行耗时和机制风险校准阶段时间。",
-  "acceleration": [
-    "按互斥责任并行开展低成本只读源码溯源、预测冻结、机械比对和证据整理。",
-    "Blender、C4D、GUI 和大型 I/O 保持资源检查与单槽串行，避免互相污染。",
-    "按功能语义批次安排既有证据复用和新验证，统一比较差异，避免每个样例重复完整 canonical 流程与频繁小停顿。",
-    "遇到失败先保留原始值并定位机制；不通过重复采样、拟合或降低阈值制造进度。"
-  ],
-  "next_stage_acceptance": [
-    "优先独立核旋转N48 helper上限和P2/203门控，建立有界分段参数族的数学、F32、拓扑、UV与回退参考，再做隔离修复；不能仅改上限或三个N冒全族。",
-    "圆盘六旧环形样例当前数学路由已接通；准备一例真正当前普通入口前先确认现有headless演员同构，不能把GUI接口检查冒几何验证。",
-    "弯曲旧r4完整闭包已接通；几何复用前仍需旧反射坐标到properC的独立共轭，不重复KeepLength/CenterS旧几何。",
-    "完整产品改动验收通过后使用普通3.5.117，备份旧安装并同步本机和GitHub；本轮没有产品改动，不重复打包。"
-  ],
-  "public_notes": [
-    "摘要不包含本地路径、个人信息、用户对话、凭据或原始日志。",
-    "本机与GitHub同为3.5.116预览版6；上一版完整备份及原115双备份保留。",
-    "已发布版本保留历史记录。按用户新要求，后续产品更新采用普通递增版本号，从3.5.117开始；未完成范围单独写入更新说明。",
-    "量化域本批只增加已安装版有限验收证据，没有产品字节变化，因此未重复打包。",
-    "主线已转为参数体、生成器和变形器；域放慢。本批只补齐缺图和严格继承，无产品字节变化，安装包保留。"
-  ],
-  "latest_verification": {
-    "root": "XL_域修改_反转",
-    "status": "SOURCE52_COMPLETE_BOUNDED_DELIVERY_INSTALLED_AND_PUBLISHED",
-    "candidate_default_ordinary_EXEC": 2,
-    "actual_installed_ordinary_EXEC": 2,
-    "controls": "11旧点，POINT/INSTANCE，反转True/Disable/Normal100/maskTrue/renderFalse/非空TEST_INVERT_RESULT",
-    "max_three_weight_error": 0.0,
-    "fixed_weight_tolerance": 1e-06,
-    "original_once_failure_max_error_retained": 0.9898214340209961,
-    "prior_raw_and_gold_preserved": true,
-    "actual_installed_proof_SHA": "a571ba4ee972598b31c236894950067215d887d1354946c12abe0d78f7cd6209",
-    "new_native_actions": 0,
-    "not_general_C4D_equivalence_or_all_modes": true
-  },
-  "evidence_index": {
-    "roots": 118,
-    "original_roots": 116,
-    "added_roots": 2,
-    "current_ordinary_bounded_evidence_roots": 12,
-    "current_math_lineage_bounded_roots": 7,
-    "historical_evidence_found_current_lineage_pending_roots": 0,
-    "existing_evidence_to_reconcile_roots": 99,
-    "interpretation": "12根受限普通入口、7根完整数学继承、99根既有材料待归并；不是完成率，也不表示99根未实现。",
-    "parallel_host_batches_completed": "参数体6根；域16根均完成首轮有界材料导航。其中基础域16组完整数学闭包与79条引用被Main独立对账。",
-    "pending_current_function_discrepancy_roots": 0
-  },
-  "continuity": "工作轮激活期间继续推进独立队列；回复结束后不保持持续推理。既有30分钟续办心跳负责后续唤起，不代表无人常驻服务。",
-  "additional_batch_delivery": {
-    "current301": "旧平面61完整31节点核心对当前私有核心精确数学继承；Range闭包补齐、一次映射差异定位、两个组件隔离修复实测通过。无新安装包/原生。",
-    "current302": "Source50完整整库保存与独立重开、物理378产品、候选和本机各2普通入口；备份预览版3后发布预览版4。",
-    "current303": "Plane105旧候选完整两组与Source18/48严格继承，复用有限8例同向面/角UV证据；曲线域三组完整结构与独立CurveMapping状态双采。没有新功能普通入口、产品字节或安装包。",
-    "current304": "Torus60旧数学闭包/default+Y继承；曲线反相POINT一次真实预测拒绝；独立5组图参考齐后POINT/INSTANCE各一次隔离修复通过。Source51完整false包已收到但未执行，本机/GitHub预览4不变。",
-    "current305": {
-      "Source51_savedfresh_527_groups32targets16parents234objects40ID": true,
-      "shared_Helper_default_identity_mapping_preserved_and_two_named_refs_added": true,
-      "physical378_only_three_changed": true,
-      "default_public2_actual_installed2_pass": true,
-      "preview5_published_local_same": true,
-      "new_native": 0,
-      "new_guard_jobs": 4
-    },
-    "current306": {
-      "Torus105_complete_lineage_old8_reused": true,
-      "numeric3roots_readonly": true,
-      "Invert_once_real_failure_then_two_component_isolated_fix": true,
-      "Source52_full_delivery_and_preview6_local_remote_same": true,
-      "Quantize_default50_installed_two_components_pass_no_product_change": true,
-      "new_guard_jobs": 9,
-      "new_native": 0
-    },
-    "current307": {
-      "priority": [
-        "参数体",
-        "生成器",
-        "变形器"
-      ],
-      "fields_lower_priority": true,
-      "current_four_roots_union28_supported_fullgraph_double_capture": true,
-      "three_generator_old_to_current_complete_closure_lineage": true,
-      "disc_ring_helper_exact_math_and_public_gate_host_review": true,
-      "new_guard_jobs": 1,
-      "new_native": 0,
-      "no_product_or_installer_changes": true
-    },
-    "current308": {
-      "new_guard_jobs": 3,
-      "new_native": 1,
-      "Disc_six_ring_cases_math_route_and_Bend_fivecore_lineage": true,
-      "native_N64_heldout_accepted": true,
-      "installed_N64_new_gap_rejected": true,
-      "no_product_or_installer_changes": true
-    }
+    "node_groups_including_private_and_legacy": 531,
+    "source_candidate": "Source53",
+    "formal_version": "3.5.117",
+    "local_installed_version": "3.5.117",
+    "next_product_version": "3.5.118"
   },
   "installer_delivery": {
-    "version": "3.5.116",
-    "tag": "v3.5.116-preview.6",
-    "url": "https://github.com/zxly1351633409-crypto/xl-c4d-tool/releases/tag/v3.5.116-preview.6",
-    "ZIP_bytes": 265485208,
-    "ZIP_SHA256": "78cf60f6e0ac4b20cfa6fb80f65bf00790194bca4129eb10ef183243e833bbbd",
-    "local_installed_same378": true,
-    "previous_preview5_and_older_backups_preserved": true,
-    "changed_products": 3,
-    "unchanged_products": 375
+    "version": "3.5.117",
+    "tag": "v3.5.117",
+    "release_id": 434798276,
+    "ordinary_not_prerelease": true,
+    "latest_endpoint_verified": true,
+    "url": "https://github.com/zxly1351633409-crypto/xl-c4d-tool/releases/tag/v3.5.117",
+    "ZIP_bytes": 265571563,
+    "ZIP_SHA256": "c90dbc13b920f04d1a83217dd6427faa1f42d51ab0cb0cc8a9fa1524c18c850e",
+    "server_digest_and_size_verified": true,
+    "two_small_attachments_download_verified": true,
+    "full_remote_ZIP_download_claim": false,
+    "actual_installed_same378": true,
+    "previous_preview6_complete_G_backup_and_C_rollback": true,
+    "old115_and_other_backups_preserved": true,
+    "changed_products": 4,
+    "unchanged_products": 374
   },
-  "latest_observation": {
-    "type": "DISC_BEND_MATH_LINEAGE_AND_N64_NATIVE_ACCEPTED_INSTALLED_NEW_COVERAGE_GAP_REJECTED",
-    "new_guard_jobs": 3,
-    "new_native_actions": 1,
-    "Disc_six_old_ring_cases_inputs_public_branch_math_bound_not_new_geometry": true,
-    "Bend_frozen_r4_five_groups_current_math_lineage": true,
-    "Bend_names_short_monitor_identity_nonce_null_retained": true,
-    "native_N64": {
-      "points": 260,
-      "directed_faces": 192,
-      "UV_corners": 768,
-      "max_position_error_m": 1.1123893155135927e-16,
-      "max_UV_error": 1.676675565054353e-08
-    },
-    "installed_N64": {
-      "functional_accepted": false,
-      "all260_points_without_native_match_2um": true,
-      "max_nearest_distance_m": 0.5561463646120423,
-      "UVMap_missing": true,
-      "current_fullcore_unchanged": true,
-      "fallback_outside_existing32_48_scope": true
-    },
-    "no_product_or_installer_changes": true,
-    "old32_48_accepted_scopes_retained": true
+  "execution_counts_since_115": {
+    "successful_blender_actors": 468,
+    "native_actions": 95,
+    "failed_blender_actors": 46,
+    "new_this_batch": 6,
+    "new_native_this_batch": 0,
+    "interpretation": "执行次数，包含技术rc0而功能拒绝的保留案例；不是功能数或完成率。旧Torus60短进程监视错误继续保留，本批6个均完整CIM/nonce且自然退出。"
   },
-  "versioning_policy": {
-    "next_product_update": "3.5.117",
-    "following": [
-      "3.5.118",
-      "3.5.119"
-    ],
-    "ordinary_incremental_release_labels": true,
-    "keep_existing_published_preview_history": true,
-    "version_increment_does_not_mean_fourcategory_whole_complete": true,
-    "no_version_change_for_readonly_or_evidence_only_update": true
+  "bounded_evidence": {
+    "ordinary_roots": 13,
+    "math_lineage_roots": 6,
+    "historical_material_pending_reconciliation_roots": 99,
+    "rows_total": 118,
+    "not_completion_rate_or_unimplemented_count": true
   },
+  "latest_verification": {
+    "Lathe": "仅open P2、203°、identity、候选开启，N32..64独立本地数学一致性。31个新增分段实际验证；旧32/48不重跑。严格native锚点仅32/48/64；中间分段不是新native oracle。N31/65旧fallback完整记录一致。默认候选与实际安装N64：260点、192同向面、768角UV，位置9.125474464e-8m，UV1.490116119e-8。",
+    "Disc": "实际安装默认普通入口，仅旧quarter/+Y/正内径/SliceTrue：80点、57同向面、228角UV，位置1.158327630e-7m，UV8.429369702e-8。没有新增native/产品字节，不单独凑版本。",
+    "Source53": "完整529→531只复制旋转Root/helper，41完整目标、16父图、234旧对象、40ID、2209物理对应6379引用地址保存/fresh核。378产品仅库、两catalog、版本行变，其余374同。"
+  },
+  "open_issues": [
+    "四类整体尚未完成；上述通过范围不能外推任意profile/TRS/closedBezier/growth/UV/Phong/完整UX。",
+    "原Source52 N64点不匹配/缺UVMap失败原值保留；Source53严格新验收解决指定范围，不倒改旧失败。",
+    "Bend完整properC坐标共轭尚需独立语义证明；局部旋转反射恒等式不等于完整变形器或任意控制框架通过。",
+    "99根历史材料尚待归并，不等于99个功能未实现；缺统一逐语义分母，暂无法可信计算整体完成率和总工期。"
+  ],
   "work_priority": {
     "primary": [
       "参数体",
       "生成器",
       "变形器"
     ],
-    "fields": "降低优先级，保留已有验收成果",
-    "existing_completed_products_unchanged": true
-  }
+    "fields": "低优先，暂不扩新队列",
+    "parallelism": "原有互斥host工作并行；真实runtime/大型I/O单槽，不新增调度器或购买额度。"
+  },
+  "versioning_policy": {
+    "next_product_update": "3.5.118",
+    "following": "3.5.119",
+    "ordinary_incremental_releases": true,
+    "keep_existing_preview_history": true,
+    "evidence_only_updates_do_not_bump_or_repackage": true,
+    "completed_product_change_backup_local_actual_verification_GitHub_sync_authorized": true
+  },
+  "public_notes": [
+    "请下载xl_c4d_tool-3.5.117.zip安装；GitHub自动生成的Source code压缩包不是安装包。",
+    "原LICENSE与第三方说明保持；研究用途与不售卖不改变第三方许可，未复核来源不冒清权。",
+    "仅发布去敏进度摘要、证据索引和已授权安装包，不在进度文档发布用户工程、私有聊天或完整原始日志。"
+  ],
+  "evidence_index": "root-evidence-index.json",
+  "local_report_contents_not_published": true
 }

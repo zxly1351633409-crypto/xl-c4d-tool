@@ -78,29 +78,28 @@
         {
           "local_audit_report": "continuation116_Main_Disc_remaining_directions_independent_review_v1.json",
           "sha256": "aeb1c622e85b99cf68f4404b75a70043499875a3877748b9a0da107ee50c65b9",
-          "scope_note": "SliceTrue固定quarter同一fixture六方向；每方向80点57同向面228角UV；非一般切片参数。",
-          "current_math_lineage": "NOT_YET_RECONCILED",
+          "scope": "SliceTrue固定quarter同一fixture六方向；每方向80点57同向面228角UV；非一般切片参数。",
           "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
         },
         {
           "local_audit_report": "continuation116_Main_Disc_plusX_independent_review_v1.json",
           "sha256": "c3224ff723c80fef336c2f2b7ba2d38ef264ab5d41a643634a7462459a3d1b2d",
-          "scope_note": "SliceTrue固定quarter同一fixture六方向；每方向80点57同向面228角UV；非一般切片参数。",
-          "current_math_lineage": "NOT_YET_RECONCILED",
+          "scope": "SliceTrue固定quarter同一fixture六方向；每方向80点57同向面228角UV；非一般切片参数。",
           "support_level": "HISTORICAL_EVIDENCE_RETRIEVED_NOT_NEW_ACCEPTANCE"
         },
         {
           "local_audit_report": "continuation116_Main_PrimitiveSix_Source18_to48_fullclosure_lineage_independent_review_v1.json",
           "sha256": "836c64579b8c7f665097ca169b28b195e08b71143b66b75800e6759d634f87a9",
-          "scope_note": "Source18→48六根26组完整图继承。未补齐Source18以前的全部原生功能链，不代表一般几何功能通过。"
+          "scope": "Source18→48六根26组完整图继承。未补齐Source18以前的全部原生功能链，不代表一般几何功能通过。",
+          "support_level": "MAIN_MATH_LINEAGE_EVIDENCE"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current309_installed_Disc_quarter_public_independent_review_v1.json",
+          "sha256": "0276949d5bca99e428514371fd95e4c0f9c785e2183a04fada9af376a9a7da44",
+          "scope_note": "Installed ordinary quarter, +Y, positive inner radius, Slice True: 80 points, 57 oriented faces, 228 UV corners; position 1.158327630e-7m, UV 8.429369702e-8."
         }
       ],
-      "coverage_state": "CURRENT_MATH_CLOSURE_MATCHED_ANCESTOR_BOUNDED_EVIDENCE",
-      "current_full_graph_capture_only": {
-        "local_audit_report": "continuation116_Main_Source48_six_primitives_current_graph_independent_review_v1.json",
-        "sha256": "7785820d7f647ec7cf9b1e3008b3f6c560ea1a2e9af94d5378db2a465bcffeae",
-        "scope": "六根26组完整当前图双采相同，补齐继承对账数据；本次未求值几何，不提升功能通过状态。"
-      }
+      "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED"
     },
     {
       "root": "C4D_圆锥",
@@ -958,30 +957,61 @@
       "root": "XL_旋转",
       "category": "生成器",
       "origin": "ORIGINAL_116",
-      "current_catalog_revision": "20261104-lathe-poly4-203-res48-candidate-v1",
+      "current_catalog_revision": "20261105-lathe-p2-203-res32to64-candidate-v1",
       "known_bounded_evidence": [
         {
           "local_audit_report": "continuation116_Main_Source39_final_independent_review_v1.json",
           "sha256": "0379dc716fc1c05fd12120ed54716a0e69498d09b7829cf85e111d2934b2cfe1",
-          "accepted_scope_state": "MAIN_SOURCE39_PHYSICAL_ORDINARY_EXEC_N48_AND47FALLBACK_ACCEPTED_BOUNDED",
-          "scope_note": "受限样例证据；完整适用参数、回退与历史依赖见本地报告。不是该根全部功能完成声明。"
+          "state": "MAIN_SOURCE39_PHYSICAL_ORDINARY_EXEC_N48_AND47FALLBACK_ACCEPTED_BOUNDED",
+          "limits": null
         },
         {
           "local_audit_report": "continuation116_Main_current307_Generators_Source39_40_41_to52_fullclosure_lineage_independent_review_v1.json",
           "sha256": "296fe3530226f8b0c7780be9f3859a72503734ca947272b2e34c63596df025a1",
-          "scope_note": "新旧完整数学闭包严格对账，仅复用原有限参数/几何/UV证明。"
+          "scope_note": "当前完整数学闭包已对账，仅复用原有受限参数证明；不是新ordinary或通用范围通过。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current309_Lathe_range_onlyopen_independent_review_v1.json",
+          "sha256": "b7bc977e73368a9a98629cd74c6756a085b357b3eeb36b010cace5d6f36181f2",
+          "state": "MAIN_LATHE_P2_203_N32_64_ONLYOPEN_ACCEPTED_BOUNDED_NOT_INTEGRATED",
+          "scope_note": "Source53 P2/203/identity N32..64; intermediate N local model only; native 32/48/64."
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source53_canonical_savedfresh_independent_review_v1.json",
+          "sha256": "7a5dd67efe4b8b104230521cdc9858049ed21ed57b2a889291eef66cda6c908c",
+          "state": "MAIN_SOURCE53_CANONICAL_SAVEDFRESH_ACCEPTED_BOUNDED",
+          "scope_note": "Source53 P2/203/identity N32..64; intermediate N local model only; native 32/48/64."
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source53_physical_ordinary_N64_independent_review_v1.json",
+          "sha256": "5fed7cb6676c5b94ca4c45fb918b23e1ff09b486ff94c387ea81985d2b6c132e",
+          "state": "physical",
+          "scope_note": "Source53 P2/203/identity N32..64; intermediate N local model only; native 32/48/64."
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source53_installed_ordinary_N64_independent_review_v1.json",
+          "sha256": "fe137576f89b1ed65e6f420073d89a73750879801315d7ced400fc999489f9b0",
+          "state": "installed",
+          "scope_note": "Source53 P2/203/identity N32..64; intermediate N local model only; native 32/48/64."
         }
       ],
       "coverage_state": "BOUNDED_EVIDENCE_INDEXED",
       "known_current_parameter_gaps": [
         {
-          "scope": "既有P2/203°/单位矩阵，新增分辨率64；原32/48范围不倒改。",
-          "local_audit_report": "continuation116_Main_current308_installed_Lathe_N64_prediction_rejection_independent_review_v1.json",
-          "sha256": "a30baeff533735d1250013da55f55584bb2f07b0547209d176a5f9b95df2ed78",
+          "scope": "Existing P2/203 identity N64 outside existing32/48 gate",
+          "Main_proof": "continuation116_Main_current308_installed_Lathe_N64_prediction_rejection_independent_review_v1.json",
+          "SHA": "a30baeff533735d1250013da55f55584bb2f07b0547209d176a5f9b95df2ed78",
           "functional_accepted": false,
+          "native_oracle_accepted": true,
           "unmatched_points_2um": 260,
           "missing_UVMap": true,
-          "native_oracle_independently_accepted": true
+          "does_not_revoke_previous_bounded_N32_N48": true,
+          "resolved_by_current_Source53": {
+            "version": "3.5.117",
+            "scope": "P2/203/identity N64; historical failure remains unchanged",
+            "installed_proof": "continuation116_Main_Source53_installed_ordinary_N64_independent_review_v1.json",
+            "sha256": "fe137576f89b1ed65e6f420073d89a73750879801315d7ced400fc999489f9b0"
+          }
         }
       ]
     },
@@ -1351,13 +1381,13 @@
   ],
   "indexed_roots": 19,
   "existing_evidence_to_reconcile_roots": 99,
-  "meaning": "12根受限普通入口、7根完整数学继承、99根既有材料待归并；不是完成率，也不表示99根未实现。 新增旋转N64参数缺口与既有受限通过行并存，不额外增加根数量或抹旧证明。",
+  "meaning": "13根受限普通入口、6根完整数学继承、99根既有材料待归并。不是完成率，不表示99根未实现。旋转旧Source52 N64失败保留，当前Source53有界修复已经本机与GitHub3.5.117同步。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
-  "current_bounded_evidence_roots": 12,
+  "current_bounded_evidence_roots": 13,
   "historical_evidence_found_current_lineage_pending_roots": 0,
-  "current_math_lineage_bounded_roots": 7,
-  "pending_current_function_discrepancy_roots": 1,
+  "current_math_lineage_bounded_roots": 6,
+  "pending_current_function_discrepancy_roots": 0,
   "work_priority": {
     "primary": [
       "参数体",
@@ -1366,5 +1396,8 @@
     ],
     "fields": "LOWER"
   },
-  "pending_discrepancy_overlaps_existing_bounded_rows": true
+  "pending_discrepancy_overlaps_existing_bounded_rows": true,
+  "current_source": "Source53",
+  "current_product_version": "3.5.117",
+  "coverage_counts_not_completion_rate": true
 }
