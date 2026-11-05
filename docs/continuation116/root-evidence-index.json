@@ -125,9 +125,15 @@
           "local_audit_report": "continuation116_Main_PrimitiveSix_Source18_to48_fullclosure_lineage_independent_review_v1.json",
           "sha256": "836c64579b8c7f665097ca169b28b195e08b71143b66b75800e6759d634f87a9",
           "scope_note": "Source18→48六根26组完整图继承。未补齐Source18以前的全部原生功能链，不代表一般几何功能通过。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current311_installed_Cone_lowsegment_geometry_and_supportScene_rejection_independent_review_v1.json",
+          "sha256": "e30a9367090c6452b4d82f2a9fa07d3561ebbd4cf527d34f15e8c0dc4aee1895",
+          "support_level": "MAIN_CURRENT311_GEOMETRY_PASS_COMPLETE_ORDINARY_REJECTED",
+          "scope_note": "Exact lowsegment tuple default installed EXEC geometry23/30samefaces/102UV passes .143um/6.664e-8, full old output exact; full ordinary rejected: two imported template Objects added to Scene/users1to2/hideSelectTrueToFalse. Raw rc1 retained; no product fix or release."
         }
       ],
-      "coverage_state": "CURRENT_MATH_CLOSURE_MATCHED_ANCESTOR_BOUNDED_EVIDENCE",
+      "coverage_state": "CURRENT_ORDINARY_DISCREPANCY_PENDING_FIX",
       "current_full_graph_capture_only": {
         "local_audit_report": "continuation116_Main_Source48_six_primitives_current_graph_independent_review_v1.json",
         "sha256": "7785820d7f647ec7cf9b1e3008b3f6c560ea1a2e9af94d5378db2a465bcffeae",
@@ -815,6 +821,12 @@
           "sha256": "1706f711cf2848248cf25871b8961a0d0ca27ff3c8449ecab508e25050cf92d7",
           "support_level": "MAIN_CURRENT310_NATIVE_OR_HOST_MATH_BOUNDED",
           "scope_note": "Direction90 Strength1 KeepFalse Bottom Limit ownerI SelfObject installed12points6samefaces passed; r4 two existing8point cases are independent properC math/native comparisons only, no current matrix ordinary yet."
+        },
+        {
+          "local_audit_report": "continuation116_Main_current311_installed_Bend_r4_two_frames_independent_review_v1.json",
+          "sha256": "975f7c24428e0728bcdadbcfe2e7e76f0e44f6cd475ff13c2a2b237c54a0efbf",
+          "support_level": "MAIN_CURRENT311_ACTUAL_INSTALLED_TWO_FRAMES_BOUNDED",
+          "scope_note": "Two existing native r4 records now actual installed ordinary: commonNull parent with real owner/controller, one positive and one negative owner determinant, relative shear .08016/.22717; 8points6samefaces each, local .323/.335um, derived ownerWorld .347/.437um. Not arbitrary frame/general C4D/UV/Phong/fullUX."
         }
       ],
       "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED"
@@ -1411,13 +1423,13 @@
   ],
   "indexed_roots": 20,
   "existing_evidence_to_reconcile_roots": 98,
-  "meaning": "14根受限ordinary、6根完整数学继承、98根既有材料待归并。这不是完成率，也不表示98根未实现。弯曲本次新增90°/KeepFalse/identity实际安装对照；复杂框架两旧native仅完成当前模型数学核，尚未新做对应普通入口。",
+  "meaning": "14根受限ordinary、5根数学继承、1根当前ordinary差异待修、98根材料待归并。不是完成率或98根未实现。圆锥历史数学证据保留，当前几何通过但Scene支持对象合同拒绝；弯曲两复杂框架现已实际安装验收。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
   "current_bounded_evidence_roots": 14,
   "historical_evidence_found_current_lineage_pending_roots": 0,
-  "current_math_lineage_bounded_roots": 6,
-  "pending_current_function_discrepancy_roots": 0,
+  "current_math_lineage_bounded_roots": 5,
+  "pending_current_function_discrepancy_roots": 1,
   "work_priority": {
     "primary": [
       "参数体",

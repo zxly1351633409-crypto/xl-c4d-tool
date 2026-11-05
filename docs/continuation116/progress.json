@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-05",
-  "current": 310,
+  "current": 311,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -32,35 +32,38 @@
     "old115_and_other_backups_preserved": true,
     "changed_products": 4,
     "unchanged_products": 374,
-    "latest_same_package_additional_verification": "BendDirection90 installed bounded acceptance; no product bytes changed, no duplicate ZIP/install/release or version increment."
+    "latest_same_package_additional_verification": "Bend two installed frame cases accepted; Cone geometry passed but full ordinary rejected on support-object Scene/flags. Same 3.5.117 installer; no reinstall or duplicate ZIP."
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 469,
+    "successful_blender_actors": 470,
     "native_actions": 96,
-    "failed_blender_actors": 46,
-    "new_this_batch": 1,
-    "new_native_this_batch": 1,
-    "interpretation": "执行次数，非功能数或完成率。新nativeDirection90已持久保留并独立核，新Bpy自然退出/完整CIMnonce/immutable/退出后无自有Blender。旧短CIM限制继续保留。"
+    "failed_blender_actors": 47,
+    "new_this_batch": 2,
+    "new_native_this_batch": 0,
+    "interpretation": "执行次数，非功能数或完成率。本批Bend双case一次成功guard，Cone一次技术rc1尾Scene合同拒绝；两自有进程自然退出/完整CIMnonce/immutable。原失败保留。"
   },
   "bounded_evidence": {
     "ordinary_roots": 14,
-    "math_lineage_roots": 6,
+    "math_lineage_roots": 5,
     "historical_material_pending_reconciliation_roots": 98,
     "rows_total": 118,
-    "not_completion_rate_or_unimplemented_count": true
+    "not_completion_rate_or_unimplemented_count": true,
+    "pending_current_function_discrepancy_roots": 1
   },
   "latest_verification": {
     "Lathe": "仅open P2、203°、identity、候选开启，N32..64独立本地数学一致性。31个新增分段实际验证；旧32/48不重跑。严格native锚点仅32/48/64；中间分段不是新native oracle。N31/65旧fallback完整记录一致。默认候选与实际安装N64：260点、192同向面、768角UV，位置9.125474464e-8m，UV1.490116119e-8。",
     "Disc": "实际安装默认普通入口，仅旧quarter/+Y/正内径/SliceTrue：80点、57同向面、228角UV，位置1.158327630e-7m，UV8.429369702e-8。没有新增native/产品字节，不单独凑版本。",
     "Source53": "完整529→531只复制旋转Root/helper，41完整目标、16父图、234旧对象、40ID、2209物理对应6379引用地址保存/fresh核。378产品仅库、两catalog、版本行变，其余374同。",
     "Bend": "实际安装默认入口，仅Strength1、Direction90°、尺寸(2.5,2.5,2.5)m、KeepFalse、底部、限制、ownerI、controlFalse/SelfObject，原12点6同向面。新native对采前冻结负方向模型误差6.52256e-16m，反号和忽略方向模型12点全部拒。实际安装对native最大2.450575625e-7m<固定2um。完整6core/8typed/13物理7refs/40ID/164模块/全部attrs/Scene/prefs/清理核。",
-    "Bend_existing_frames_math_only": "独立当前完整公式与矩阵路由properC复算两旧r4 native，各8点非I/shear，误差9.8866e-15/6.8664e-16m。原生方向-.43/-.71、原参数各自保留。不是新native、当前复杂框架RNA/普通入口、任意frame通过。"
+    "Bend_two_actual_frames": "两旧native r4对应当前实际安装普通入口均过：真实commonNull父+owner/controller，owner正/负行列式与relative shear .08016/.22717；各8点6同向面，local .323/.335微米、派生owner-world .347/.437微米<固定2微米。9实际矩阵/TRS/真实parent/6完整图/8typed/40ID/164模块/输入输出属性/Scene/prefs/清理核。不冒任意frame或独立cache-world。",
+    "Cone": "当前低分段切片默认普通入口几何23点30同向面102角UV通过(.143微米/6.664e-8)，完整旧输出mesh同；完整ordinary拒绝：追加时两个模板Object进入场景、users1→2、hide_select真→假。原技术rc1/failed contract保，尚无产品修复。",
+    "Loft_training": "旧U16/V7训练128点由逐段U+线性V模型全0匹配，等弧长U模型拒；112侧面UV与20条件端盖UV误差<1e-6。端盖依赖原生连接和旧U8规则外推，不是独立拓扑oracle或新产品通过。V经minus1→UV核心Input3，U→Input2，完整原序node-level依赖已核；不扩U8/V5 guard。"
   },
   "open_issues": [
     "四类整体尚未完成；上述通过范围不能外推任意profile/TRS/closedBezier/growth/UV/Phong/完整UX。",
     "原Source52 N64点不匹配/缺UVMap失败原值保留；Source53严格新验收解决指定范围，不倒改旧失败。",
-    "Bend完整稳定核心公式和条件矩阵协变已独立审；下一实际owner/controller/commonNull RNA矩阵及两旧r4普通入口仍未验，不能把数学结果冒运行通过。",
     "扫描旧growth0.2–0.8训练UV两固定模型均未全解释：全path模型只解释30/32侧角，face4.d/7.c的V=1接缝与端盖模型仍未知。不扩gate、不拟合，不是已确认产品bug。",
+    "圆锥几何通过但两个内部模板对象被追加到Scene且变为可选择，完整ordinary合同拒绝。已核同构建源码机制；仅新对象可逆修复草稿尚缺Source53独立完整基准/verifier，不可运行或发布，不盲改全局append参数。",
     "98根历史材料尚待归并，不等于98个功能未实现。缺逐语义统一分母，暂无可信整体百分比或总工期。"
   ],
   "work_priority": {
