@@ -1,6 +1,6 @@
 {
   "schema": "public-root-evidence-index-v1",
-  "as_of": "2026-11-05",
+  "as_of": "2026-11-06",
   "roots": [
     {
       "root": "C4D_圆柱",
@@ -975,7 +975,7 @@
       "root": "XL_放样",
       "category": "生成器",
       "origin": "ORIGINAL_116",
-      "current_catalog_revision": "20261104-loft-h2-input-guard-candidate-v1",
+      "current_catalog_revision": "20261106-loft-h2-u8-v5or7-candidate-v1",
       "known_bounded_evidence": [
         {
           "local_audit_report": "continuation116_Main_Source41_final_independent_review_v1.json",
@@ -1010,10 +1010,34 @@
           "sha256": "af9fac8c8d8c326b2b5696cd7447d46cdaa82845844c169d5095993c01a11da8",
           "support_level": "ISOLATED_FIX_PENDING_INTEGRATION",
           "scope_note": "Loft仅原H2两closedPOLY4/旧F32位置与变换/U8/V7/ownerI、现有Socket15及17显式True。新native124保64点64rawpolygon252角，实际Ngon2与translation map严格分为58Ngon边界240角；CPU模型位置5.9581476e-8m/UV8.4293697e-8通过。45个description.actual_value不可访问错误原保，核心输入/cache完整，collector CHECK_FAILED/functionalFalse不改。当前安装3.5.118普通EXEC真实拒：70点65面266角、POINT FLOAT_VECTOR uv_map70，不是期望64/58/240 CORNER UV；不得冒数值对应过。仅Root隔离副本把V==5改成V==5 OR V==7，增加2节点、删1边增4边，390node590link；唯一候选64点58同向Ngon面240 CORNER UV，位置1.4386312e-7m/UV8.4293697e-8通过。完整13组/35物理、13输入、40ID、164模块/支持曲线/Scene/prefs/清理核。旧V5及其他守卫按精确图代数保留，不重复运行。尚未保存候选库/Source55集成/安装发布，不是任意V/轮廓/原始三角化/Phong/fullUX。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source55_canonical_savedfresh_independent_review_v1.json",
+          "sha256": "4a6af773d98a60b9c3df397bdf95e3bad86b6155330f6397f17d1b8fefc90547",
+          "scope_note": "Source55/普通3.5.119已完整受限产品交付，本机/GitHub同378。完整Source54库531只copy放样Root到532；旧Root私有保留fakeTrue/users1无入边/Demo，新publicRoot13inputs继承asset只description/revision改，shared核心GLOBAL3→4/UV分支2→3由精确具名原序入边核，非isolated1→2。54fulltargets/16parents234旧对象/40ID/ref/mod/idrefs/static/Scene/原CurveMapping严格，samePID初始monitor+liveCIM/StartUTC/fullWindowsargv/runningnonce逐字段SHA批准save/post。producer155.114s、p1共92053582B<96MiB，dry/post解压字节全同；fresh统一2212物理对6387地址且完整集合/引用/每modifier原序保、Library[]。两实际RNA ENUM/is_enum_flag及LEFT/RIGHT精确两地址原序分类原值保。仅Root增加V==7与旧V==5 OR，390node590link，旧V5及其余guard代数保，不重旧样例。默认物理和实际C安装H2/U8/V7各唯一ordinary过：64点58同向Ngon面240 CORNER UV，位置1.438631168512604e-7m/UV8.429369702178807e-8，原13initial/typed、12full8partscompact/20原序refs32物理/40ID/164实际模块/完整支持曲线与输入输出所有mesh attrs/normals/flags/Scene/prefs清理核；全部outputmesh字面同隔离通过。Socket15/17须显式True，产品17默认False。原生64rawpolys252角到58Ngon240角的真实映射保，不冒同raw三角化/任意V或轮廓/Phong/fullUX。旧118 V7真实失败与native45描述取值错误原保。378只库/catalog2/init版本行改变374same，154图只读hardlink(OSreadonly0无attrs写)/224copy，旧Cone代码/NodePreview保。118完整G和C回退备份、prefs不变。ZIP378 CRC/SHA/size/解压回读与GitHub3资产服务器digest/size/小2下载均核，未远程下载全ZIP。",
+          "support_level": "SOURCE55_ORDINARY35119_DELIVERED_BOUNDED"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source55_default_physical_Loft_H2U8V7_independent_review_v1.json",
+          "sha256": "e29d902672bf23af3d61e2a8fcb99ab9626ea5ea97f18974ca2183d9a808bc1c",
+          "scope_note": "Source55/普通3.5.119已完整受限产品交付，本机/GitHub同378。完整Source54库531只copy放样Root到532；旧Root私有保留fakeTrue/users1无入边/Demo，新publicRoot13inputs继承asset只description/revision改，shared核心GLOBAL3→4/UV分支2→3由精确具名原序入边核，非isolated1→2。54fulltargets/16parents234旧对象/40ID/ref/mod/idrefs/static/Scene/原CurveMapping严格，samePID初始monitor+liveCIM/StartUTC/fullWindowsargv/runningnonce逐字段SHA批准save/post。producer155.114s、p1共92053582B<96MiB，dry/post解压字节全同；fresh统一2212物理对6387地址且完整集合/引用/每modifier原序保、Library[]。两实际RNA ENUM/is_enum_flag及LEFT/RIGHT精确两地址原序分类原值保。仅Root增加V==7与旧V==5 OR，390node590link，旧V5及其余guard代数保，不重旧样例。默认物理和实际C安装H2/U8/V7各唯一ordinary过：64点58同向Ngon面240 CORNER UV，位置1.438631168512604e-7m/UV8.429369702178807e-8，原13initial/typed、12full8partscompact/20原序refs32物理/40ID/164实际模块/完整支持曲线与输入输出所有mesh attrs/normals/flags/Scene/prefs清理核；全部outputmesh字面同隔离通过。Socket15/17须显式True，产品17默认False。原生64rawpolys252角到58Ngon240角的真实映射保，不冒同raw三角化/任意V或轮廓/Phong/fullUX。旧118 V7真实失败与native45描述取值错误原保。378只库/catalog2/init版本行改变374same，154图只读hardlink(OSreadonly0无attrs写)/224copy，旧Cone代码/NodePreview保。118完整G和C回退备份、prefs不变。ZIP378 CRC/SHA/size/解压回读与GitHub3资产服务器digest/size/小2下载均核，未远程下载全ZIP。",
+          "support_level": "SOURCE55_ORDINARY35119_DELIVERED_BOUNDED"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source55_actual_installed35119_Loft_H2U8V7_independent_review_v1.json",
+          "sha256": "ff55521e1015f00a798f26a7bc002d3472abe3b949ec09b59ebc0897b4bb11bb",
+          "scope_note": "Source55/普通3.5.119已完整受限产品交付，本机/GitHub同378。完整Source54库531只copy放样Root到532；旧Root私有保留fakeTrue/users1无入边/Demo，新publicRoot13inputs继承asset只description/revision改，shared核心GLOBAL3→4/UV分支2→3由精确具名原序入边核，非isolated1→2。54fulltargets/16parents234旧对象/40ID/ref/mod/idrefs/static/Scene/原CurveMapping严格，samePID初始monitor+liveCIM/StartUTC/fullWindowsargv/runningnonce逐字段SHA批准save/post。producer155.114s、p1共92053582B<96MiB，dry/post解压字节全同；fresh统一2212物理对6387地址且完整集合/引用/每modifier原序保、Library[]。两实际RNA ENUM/is_enum_flag及LEFT/RIGHT精确两地址原序分类原值保。仅Root增加V==7与旧V==5 OR，390node590link，旧V5及其余guard代数保，不重旧样例。默认物理和实际C安装H2/U8/V7各唯一ordinary过：64点58同向Ngon面240 CORNER UV，位置1.438631168512604e-7m/UV8.429369702178807e-8，原13initial/typed、12full8partscompact/20原序refs32物理/40ID/164实际模块/完整支持曲线与输入输出所有mesh attrs/normals/flags/Scene/prefs清理核；全部outputmesh字面同隔离通过。Socket15/17须显式True，产品17默认False。原生64rawpolys252角到58Ngon240角的真实映射保，不冒同raw三角化/任意V或轮廓/Phong/fullUX。旧118 V7真实失败与native45描述取值错误原保。378只库/catalog2/init版本行改变374same，154图只读hardlink(OSreadonly0无attrs写)/224copy，旧Cone代码/NodePreview保。118完整G和C回退备份、prefs不变。ZIP378 CRC/SHA/size/解压回读与GitHub3资产服务器digest/size/小2下载均核，未远程下载全ZIP。",
+          "support_level": "SOURCE55_ORDINARY35119_DELIVERED_BOUNDED"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source55_final_independent_review_v1.json",
+          "sha256": "c6125b665c7296550d034166f4bc77a2a9912c0a41bba67d100d9f1a6e7fec12",
+          "scope_note": "Source55/普通3.5.119已完整受限产品交付，本机/GitHub同378。完整Source54库531只copy放样Root到532；旧Root私有保留fakeTrue/users1无入边/Demo，新publicRoot13inputs继承asset只description/revision改，shared核心GLOBAL3→4/UV分支2→3由精确具名原序入边核，非isolated1→2。54fulltargets/16parents234旧对象/40ID/ref/mod/idrefs/static/Scene/原CurveMapping严格，samePID初始monitor+liveCIM/StartUTC/fullWindowsargv/runningnonce逐字段SHA批准save/post。producer155.114s、p1共92053582B<96MiB，dry/post解压字节全同；fresh统一2212物理对6387地址且完整集合/引用/每modifier原序保、Library[]。两实际RNA ENUM/is_enum_flag及LEFT/RIGHT精确两地址原序分类原值保。仅Root增加V==7与旧V==5 OR，390node590link，旧V5及其余guard代数保，不重旧样例。默认物理和实际C安装H2/U8/V7各唯一ordinary过：64点58同向Ngon面240 CORNER UV，位置1.438631168512604e-7m/UV8.429369702178807e-8，原13initial/typed、12full8partscompact/20原序refs32物理/40ID/164实际模块/完整支持曲线与输入输出所有mesh attrs/normals/flags/Scene/prefs清理核；全部outputmesh字面同隔离通过。Socket15/17须显式True，产品17默认False。原生64rawpolys252角到58Ngon240角的真实映射保，不冒同raw三角化/任意V或轮廓/Phong/fullUX。旧118 V7真实失败与native45描述取值错误原保。378只库/catalog2/init版本行改变374same，154图只读hardlink(OSreadonly0无attrs写)/224copy，旧Cone代码/NodePreview保。118完整G和C回退备份、prefs不变。ZIP378 CRC/SHA/size/解压回读与GitHub3资产服务器digest/size/小2下载均核，未远程下载全ZIP。",
+          "support_level": "SOURCE55_ORDINARY35119_DELIVERED_BOUNDED"
         }
       ],
-      "coverage_state": "BOUNDED_EVIDENCE_INDEXED",
-      "current_V7_discrepancy_isolated_fix_pending_integration": true
+      "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED",
+      "current_V7_discrepancy_isolated_fix_pending_integration": false
     },
     {
       "root": "XL_散布_体积分布",
@@ -1506,13 +1530,13 @@
   ],
   "indexed_roots": 20,
   "existing_evidence_to_reconcile_roots": 96,
-  "meaning": "21根受限ordinary、1根数学继承、96材料待归并，V7当前差异与旧Loft通过同一行共存。非完成率或96未实现。产品三附件不变。",
+  "meaning": "21根受限ordinary、1根数学继承、96材料待归并；Source55解决H2V7精确范围，旧118失败保留。不是完成率或96未实现。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
   "current_bounded_evidence_roots": 21,
   "historical_evidence_found_current_lineage_pending_roots": 0,
   "current_math_lineage_bounded_roots": 1,
-  "pending_current_function_discrepancy_roots": 1,
+  "pending_current_function_discrepancy_roots": 0,
   "work_priority": {
     "primary": [
       "参数体",
@@ -1521,9 +1545,9 @@
     ],
     "fields": "LOWER"
   },
-  "pending_discrepancy_overlaps_existing_bounded_rows": true,
-  "current_source": "Source54",
-  "current_product_version": "3.5.118",
+  "pending_discrepancy_overlaps_existing_bounded_rows": false,
+  "current_source": "Source55",
+  "current_product_version": "3.5.119",
   "coverage_counts_not_completion_rate": true,
   "dimension_units_clarification": "Bend size is the vector (2.5,2.5,2.5)m, native(250,250,250)cm; not a scalar cubic-meter volume. Numeric inputs and all acceptance values unchanged."
 }

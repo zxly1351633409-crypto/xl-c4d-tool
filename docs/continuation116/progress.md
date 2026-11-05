@@ -1,3 +1,13 @@
+# 当前交付：普通3.5.119 / Source55 · current319
+
+Source55/普通3.5.119已完整受限产品交付，本机/GitHub同378。完整Source54库531只copy放样Root到532；旧Root私有保留fakeTrue/users1无入边/Demo，新publicRoot13inputs继承asset只description/revision改，shared核心GLOBAL3→4/UV分支2→3由精确具名原序入边核，非isolated1→2。54fulltargets/16parents234旧对象/40ID/ref/mod/idrefs/static/Scene/原CurveMapping严格，samePID初始monitor+liveCIM/StartUTC/fullWindowsargv/runningnonce逐字段SHA批准save/post。producer155.114s、p1共92053582B<96MiB，dry/post解压字节全同；fresh统一2212物理对6387地址且完整集合/引用/每modifier原序保、Library[]。两实际RNA ENUM/is_enum_flag及LEFT/RIGHT精确两地址原序分类原值保。仅Root增加V==7与旧V==5 OR，390node590link，旧V5及其余guard代数保，不重旧样例。默认物理和实际C安装H2/U8/V7各唯一ordinary过：64点58同向Ngon面240 CORNER UV，位置1.438631168512604e-7m/UV8.429369702178807e-8，原13initial/typed、12full8partscompact/20原序refs32物理/40ID/164实际模块/完整支持曲线与输入输出所有mesh attrs/normals/flags/Scene/prefs清理核；全部outputmesh字面同隔离通过。Socket15/17须显式True，产品17默认False。原生64rawpolys252角到58Ngon240角的真实映射保，不冒同raw三角化/任意V或轮廓/Phong/fullUX。旧118 V7真实失败与native45描述取值错误原保。378只库/catalog2/init版本行改变374same，154图只读hardlink(OSreadonly0无attrs写)/224copy，旧Cone代码/NodePreview保。118完整G和C回退备份、prefs不变。ZIP378 CRC/SHA/size/解压回读与GitHub3资产服务器digest/size/小2下载均核，未远程下载全ZIP。
+
+[下载安装包发布页](https://github.com/zxly1351633409-crypto/xl-c4d-tool/releases/tag/v3.5.119)。ZIP SHA256: `7b6be0a4883d3eaa8c3ea7d2a0bff1b8f371d07d5210348b3426f4b8b8d71402`，265574334字节。GitHub自动Source code不是安装包。
+
+488/97/47是执行累计，不是完成率；21受限ordinary+1math+96材料待归并。
+
+以下为按版本保存的历史记录，旧版本状态不代表当前安装。
+
 # xl-c4d小工具 3.5.118
 
 [下载3.5.118安装包](https://github.com/zxly1351633409-crypto/xl-c4d-tool/releases/tag/v3.5.118)
