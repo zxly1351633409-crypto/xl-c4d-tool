@@ -354,8 +354,37 @@
       "category": "生成器",
       "origin": "ORIGINAL_116",
       "current_catalog_revision": "20261024-tube-uv-optin-r1",
-      "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_current321_Tube_old_candidate_to_Source55_full2closure_lineage_independent_review_v2.json",
+          "sha256": "6184c7550a05dc5181d14f573188fff74d68db8adee732ded9bab339990216f7",
+          "scope_note": "当前properC局部几何16点16同向面通过，但40/64UV角拒绝、max1.0；仅四个UV常量的Root/Core隔离副本通过，UV二维欧氏8.9406967e-8，全部非UV网格字面不变。尚未集成/安装/发布，3.5.119包不变。",
+          "support_level": "MAIN_CURRENT321_GRAPH_OR_FAILURE_OR_UNSAVED_ISOLATED"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current321_installed35119_Tube_fit_properC_UV_rejection_independent_review_v1.json",
+          "sha256": "2d592326698f3fd4e484c4250c895fe6748fd5d47fc31b816b0f09050693186e",
+          "scope_note": "当前properC局部几何16点16同向面通过，但40/64UV角拒绝、max1.0；仅四个UV常量的Root/Core隔离副本通过，UV二维欧氏8.9406967e-8，全部非UV网格字面不变。尚未集成/安装/发布，3.5.119包不变。",
+          "support_level": "MAIN_CURRENT321_GRAPH_OR_FAILURE_OR_UNSAVED_ISOLATED"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current321_Tube_four_UV_constants_onlyopen_independent_review_v1.json",
+          "sha256": "abc1a2fa93c51173eaefc4195da22095a6dcca1b99093a77e6727ef56954babe",
+          "scope_note": "当前properC局部几何16点16同向面通过，但40/64UV角拒绝、max1.0；仅四个UV常量的Root/Core隔离副本通过，UV二维欧氏8.9406967e-8，全部非UV网格字面不变。尚未集成/安装/发布，3.5.119包不变。",
+          "support_level": "MAIN_CURRENT321_GRAPH_OR_FAILURE_OR_UNSAVED_ISOLATED"
+        }
+      ],
+      "coverage_state": "MATH_LINEAGE_BOUNDED_NO_CURRENT_ORDINARY",
+      "current_parameter_family_discrepancy": {
+        "family": "fit properC UV / three compat flags true",
+        "current35119_complete_ordinary_accepted": false,
+        "properC_geometry_directed_faces_accepted": true,
+        "properC_UV_accepted": false,
+        "old_B_UV_good_but_all_opposite_faces": true,
+        "isolated_four_constant_candidate_accepted": true,
+        "integration_pending": true,
+        "old_legacy_five_native_reflection_face_set_scope_retained": true
+      }
     },
     {
       "root": "C4D_胶囊",
@@ -1562,14 +1591,14 @@
     }
   ],
   "indexed_roots": 20,
-  "existing_evidence_to_reconcile_roots": 94,
-  "meaning": "22根受限ordinary、2根数学继承、94材料待归并；挤压仅组件几何UV通过，严格整项ordinary合同待核。不是完成率或94未实现。",
+  "existing_evidence_to_reconcile_roots": 93,
+  "meaning": "22根受限ordinary、3数学继承、93材料待归并；Tube当前properC UV差异与已隔离修正同一行共存，待集成。不是完成率或93未实现。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
   "current_bounded_evidence_roots": 22,
   "historical_evidence_found_current_lineage_pending_roots": 0,
-  "current_math_lineage_bounded_roots": 2,
-  "pending_current_function_discrepancy_roots": 0,
+  "current_math_lineage_bounded_roots": 3,
+  "pending_current_function_discrepancy_roots": 1,
   "work_priority": {
     "primary": [
       "参数体",
@@ -1578,7 +1607,7 @@
     ],
     "fields": "LOWER"
   },
-  "pending_discrepancy_overlaps_existing_bounded_rows": false,
+  "pending_discrepancy_overlaps_existing_bounded_rows": true,
   "current_source": "Source55",
   "current_product_version": "3.5.119",
   "coverage_counts_not_completion_rate": true,
