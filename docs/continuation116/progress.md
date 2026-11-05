@@ -50,3 +50,10 @@ current317：圆角立方体实际普通入口通过。
 实际C3.5.118默认C4D_立方体 ordinary EXEC，仅旧cube_fillet尺寸(1.97,1.13,.53)m/段(6,4,1)/splitFalse/smoothFalse/filletTrue/radius.03m/sub3/ownerI/emptyseed，实际F32已记。262点272同向面1064角UV，位置max1.0678384629907165e-7m/UV1.3328003749250113e-7，固定2um/UV1e-6过。四完整8partscompact前尾==采前gold、4具名ref8物理、11initialtyped/0defaultID/40ID/164实际安装模块/源3产品/prefs/Scene选择清理核。不是任意尺寸/圆角/细分/TRS/Phong/fullUX。
 
 当前481→482为只读补4图后单次圆角普通guard，累计482/96/47。21ordinary+1math+96未归并不是完成率。3.5.118产品与三附件不变，无需重装。
+
+
+current318：放样 H2/U8/V7 新原生对照和隔离修复。
+
+Loft仅原H2两closedPOLY4/旧F32位置与变换/U8/V7/ownerI、现有Socket15及17显式True。新native124保64点64rawpolygon252角，实际Ngon2与translation map严格分为58Ngon边界240角；CPU模型位置5.9581476e-8m/UV8.4293697e-8通过。45个description.actual_value不可访问错误原保，核心输入/cache完整，collector CHECK_FAILED/functionalFalse不改。当前安装3.5.118普通EXEC真实拒：70点65面266角、POINT FLOAT_VECTOR uv_map70，不是期望64/58/240 CORNER UV；不得冒数值对应过。仅Root隔离副本把V==5改成V==5 OR V==7，增加2节点、删1边增4边，390node590link；唯一候选64点58同向Ngon面240 CORNER UV，位置1.4386312e-7m/UV8.4293697e-8通过。完整13组/35物理、13输入、40ID、164模块/支持曲线/Scene/prefs/清理核。旧V5及其他守卫按精确图代数保留，不重复运行。尚未保存候选库/Source55集成/安装发布，不是任意V/轮廓/原始三角化/Phong/fullUX。
+
+3.5.118产品和三附件不变；尚未集成的隔离修复不作为3.5.119发布。21ordinary+1math+96待归并不是完成率；V7差异保留在已有Loft行。
