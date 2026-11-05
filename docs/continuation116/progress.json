@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-06",
-  "current": 322,
+  "current": 323,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -39,21 +39,21 @@
     "unchanged_products": 374,
     "previous35117_complete_G_backup_and_C_rollback": true,
     "previous35118_complete_G_backup_and_C_rollback": true,
-    "latest_same_package_additional_verification": "Source56四UV常量修正真正集成；默认物理及实际C安装普通fit几何/同向面/UV全部过，旧119失败保。",
+    "latest_same_package_additional_verification": "current323只新增同一3.5.120包中Capsule/OilTank精确+Z普通几何UV验收及Sweep host；378产品与三附件不变，未重新安装/压ZIP/上传。",
     "previous35119_complete_G_backup_and_C_rollback": true
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 500,
+    "successful_blender_actors": 504,
     "native_actions": 97,
     "failed_blender_actors": 48,
     "new_this_batch": 4,
     "new_native_this_batch": 0,
-    "interpretation": "本批4个naturalrc0，独立功能/保护/保存fresh/本机GitHub全链核，执行次数非完成率。"
+    "interpretation": "本批两个缺图只读+两个当前普通入口均naturalrc0；独立接受精确+Z几何/同向面/UV，额外Capsule normal模型不通过保原值。次数非完成率。"
   },
   "bounded_evidence": {
-    "ordinary_roots": 23,
+    "ordinary_roots": 25,
     "math_lineage_roots": 2,
-    "historical_material_pending_reconciliation_roots": 93,
+    "historical_material_pending_reconciliation_roots": 91,
     "rows_total": 118,
     "not_completion_rate_or_unimplemented_count": true,
     "pending_current_function_discrepancy_roots": 0,
@@ -83,7 +83,10 @@
     "XL_放样": "Source55/普通3.5.119已完整受限产品交付，本机/GitHub同378。完整Source54库531只copy放样Root到532；旧Root私有保留fakeTrue/users1无入边/Demo，新publicRoot13inputs继承asset只description/revision改，shared核心GLOBAL3→4/UV分支2→3由精确具名原序入边核，非isolated1→2。54fulltargets/16parents234旧对象/40ID/ref/mod/idrefs/static/Scene/原CurveMapping严格，samePID初始monitor+liveCIM/StartUTC/fullWindowsargv/runningnonce逐字段SHA批准save/post。producer155.114s、p1共92053582B<96MiB，dry/post解压字节全同；fresh统一2212物理对6387地址且完整集合/引用/每modifier原序保、Library[]。两实际RNA ENUM/is_enum_flag及LEFT/RIGHT精确两地址原序分类原值保。仅Root增加V==7与旧V==5 OR，390node590link，旧V5及其余guard代数保，不重旧样例。默认物理和实际C安装H2/U8/V7各唯一ordinary过：64点58同向Ngon面240 CORNER UV，位置1.438631168512604e-7m/UV8.429369702178807e-8，原13initial/typed、12full8partscompact/20原序refs32物理/40ID/164实际模块/完整支持曲线与输入输出所有mesh attrs/normals/flags/Scene/prefs清理核；全部outputmesh字面同隔离通过。Socket15/17须显式True，产品17默认False。原生64rawpolys252角到58Ngon240角的真实映射保，不冒同raw三角化/任意V或轮廓/Phong/fullUX。旧118 V7真实失败与native45描述取值错误原保。378只库/catalog2/init版本行改变374same，154图只读hardlink(OSreadonly0无attrs写)/224copy，旧Cone代码/NodePreview保。118完整G和C回退备份、prefs不变。ZIP378 CRC/SHA/size/解压回读与GitHub3资产服务器digest/size/小2下载均核，未远程下载全ZIP。",
     "C4D_金字塔": "当前3.5.119默认普通入口+X/N4/非对称尺寸/smoothFalse通过50点80同向面256UV，完整2图/4typed/source3prefs/Scene清理核。",
     "XL_挤压": "当前GENZ2三实例mesh组件16点6面24UV通过；完整2图继承已核，但派生Object.dimensions数值来源和旧UNVERIFIED实例position通道保未知，整项严格ordinary尚未接受。",
-    "C4D_管": "普通3.5.120 Source56：精确fit properC16点32边16同向面64UV，位置6.3475667e-8m/UV2D8.9406967e-8过。仅四个UV常量，全部非UV数学/节点边/默认保持；原119失败和旧比较器限制保留。"
+    "C4D_管": "普通3.5.120 Source56：精确fit properC16点32边16同向面64UV，位置6.3475667e-8m/UV2D8.9406967e-8过。仅四个UV常量，全部非UV数学/节点边/默认保持；原119失败和旧比较器限制保留。",
+    "C4D_胶囊": "实际安装120普通+Z，R.3700000048/H1.789999962米、rad17/cap4/height3、顶底默认True：172点357边187同向面714UV，位置3.5351597e-7米/UV2D1.1920929e-7过。无smooth接口；法线已记录/单位/同面方向正，额外doubleNewell/F32cross模型1e-6比较拒绝原因未知，不冒nativePhong或法线公式通过。",
+    "C4D_油罐": "实际安装120普通+Z非切片，R.47/总高F32(2.3900001049)/封盖高.23米、rad19/cap5/height3/smoothFalse：230点475边247同向面950UV，位置2.0111774e-7米/UV2D1.3328004e-7过。两根完整2图/8typed/40ID164模块/prefsScene清理核。旧producer自报不追认为旧Main接受。",
+    "XL_扫描_growth_host": "静态确认.2/.8如果写入当前对应标量，finite非trim门控必False选legacy；legacy5组无StoreNamedAttribute、仅读radius，具体UV传播/seam/caps仍未知。13输入提议仅假设，未新运行或放宽gate。"
   },
   "open_issues": [
     "四类整体尚未完成；上述通过范围不能外推任意profile/TRS/closedBezier/growth/UV/Phong/完整UX。",
@@ -148,6 +151,6 @@
   ],
   "evidence_index": "root-evidence-index.json",
   "local_report_contents_not_published": true,
-  "latest_batch_product_bytes_changed": true,
+  "latest_batch_product_bytes_changed": false,
   "dimension_units_clarification": "Bend size is the vector (2.5,2.5,2.5)m, native(250,250,250)cm; not a scalar cubic-meter volume. Numeric inputs and all acceptance values unchanged."
 }

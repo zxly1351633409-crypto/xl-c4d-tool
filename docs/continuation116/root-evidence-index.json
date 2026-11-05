@@ -318,8 +318,28 @@
       "category": "生成器",
       "origin": "ORIGINAL_116",
       "current_catalog_revision": "20261028-oiltank-native-six-direction-menu-r103",
-      "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_current323_Source56_OilTank_two_closure_readonly_independent_review_v1.json",
+          "sha256": "25a9a39920c68af8ead46f092b890bdab3179ce2e8d82c4ae8c50934227db807",
+          "scope_note": "实际安装120普通+Z非切片，R.47/总高F32(2.3900001049)/封盖高.23米、rad19/cap5/height3/smoothFalse：230点475边247同向面950UV，位置2.0111774e-7米/UV2D1.3328004e-7过。两根完整2图/8typed/40ID164模块/prefsScene清理核。旧producer自报不追认为旧Main接受。",
+          "support_level": "MAIN_CURRENT323_ACTUAL35120_PLUSZ_GEOMETRY_UV_BOUNDED"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current323_installed35120_OilTank_plusZ_independent_review_v2.json",
+          "sha256": "c626a02f17df985dfd63f8c8d758fca938c8007e4e92598beefd7eb98ed76a73",
+          "scope_note": "实际安装120普通+Z非切片，R.47/总高F32(2.3900001049)/封盖高.23米、rad19/cap5/height3/smoothFalse：230点475边247同向面950UV，位置2.0111774e-7米/UV2D1.3328004e-7过。两根完整2图/8typed/40ID164模块/prefsScene清理核。旧producer自报不追认为旧Main接受。",
+          "support_level": "MAIN_CURRENT323_ACTUAL35120_PLUSZ_GEOMETRY_UV_BOUNDED"
+        }
+      ],
+      "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED",
+      "current323_scope_limits": {
+        "only_exact_plusZ_noncut_case": true,
+        "numeric_position_directedface_UV_passed": true,
+        "native_CSTO_mesh_MLMG_not_recorded_no_cacheworld_claim": true,
+        "normal_oracle_Phong_fullUX_not_accepted": true,
+        "no_old_candidate_identity_or_old_producer_acceptance_upgraded": true
+      }
     },
     {
       "root": "球体",
@@ -418,8 +438,28 @@
       "category": "生成器",
       "origin": "ORIGINAL_116",
       "current_catalog_revision": "20261028-capsule-native-six-direction-menu-r103",
-      "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_current323_Source56_Capsule_two_closure_readonly_independent_review_v1.json",
+          "sha256": "fbf2d703b4aa1bec7a8526ed372db0ca76752c7423edcb8ad8435272fff2c148",
+          "scope_note": "实际安装120普通+Z，R.3700000048/H1.789999962米、rad17/cap4/height3、顶底默认True：172点357边187同向面714UV，位置3.5351597e-7米/UV2D1.1920929e-7过。无smooth接口；法线已记录/单位/同面方向正，额外doubleNewell/F32cross模型1e-6比较拒绝原因未知，不冒nativePhong或法线公式通过。",
+          "support_level": "MAIN_CURRENT323_ACTUAL35120_PLUSZ_GEOMETRY_UV_BOUNDED"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current323_installed35120_Capsule_plusZ_independent_review_v4.json",
+          "sha256": "9f8f2a75401e13728f780aa7602f321daa0575facf6029615b2e1ce137799a4b",
+          "scope_note": "实际安装120普通+Z，R.3700000048/H1.789999962米、rad17/cap4/height3、顶底默认True：172点357边187同向面714UV，位置3.5351597e-7米/UV2D1.1920929e-7过。无smooth接口；法线已记录/单位/同面方向正，额外doubleNewell/F32cross模型1e-6比较拒绝原因未知，不冒nativePhong或法线公式通过。",
+          "support_level": "MAIN_CURRENT323_ACTUAL35120_PLUSZ_GEOMETRY_UV_BOUNDED"
+        }
+      ],
+      "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED",
+      "current323_scope_limits": {
+        "only_exact_plusZ_noncut_case": true,
+        "numeric_position_directedface_UV_passed": true,
+        "native_CSTO_mesh_MLMG_not_recorded_no_cacheworld_claim": true,
+        "normal_oracle_Phong_fullUX_not_accepted": true,
+        "no_old_candidate_identity_or_old_producer_acceptance_upgraded": true
+      }
     },
     {
       "root": "C4D_金字塔",
@@ -1618,11 +1658,11 @@
     }
   ],
   "indexed_roots": 20,
-  "existing_evidence_to_reconcile_roots": 93,
-  "meaning": "23根受限ordinary、2数学继承、93材料待归并；Tube旧119失败由120精确fit范围修复，不是完成率或93未实现。",
+  "existing_evidence_to_reconcile_roots": 91,
+  "meaning": "25根受限ordinary、2数学继承、91材料待归并；精确范围含限制，非完成率或91未实现。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
-  "current_bounded_evidence_roots": 23,
+  "current_bounded_evidence_roots": 25,
   "historical_evidence_found_current_lineage_pending_roots": 0,
   "current_math_lineage_bounded_roots": 2,
   "pending_current_function_discrepancy_roots": 0,
