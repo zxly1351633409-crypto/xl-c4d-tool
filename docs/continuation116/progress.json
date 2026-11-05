@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-05",
-  "current": 309,
+  "current": 310,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -31,33 +31,37 @@
     "previous_preview6_complete_G_backup_and_C_rollback": true,
     "old115_and_other_backups_preserved": true,
     "changed_products": 4,
-    "unchanged_products": 374
+    "unchanged_products": 374,
+    "latest_same_package_additional_verification": "BendDirection90 installed bounded acceptance; no product bytes changed, no duplicate ZIP/install/release or version increment."
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 468,
-    "native_actions": 95,
+    "successful_blender_actors": 469,
+    "native_actions": 96,
     "failed_blender_actors": 46,
-    "new_this_batch": 6,
-    "new_native_this_batch": 0,
-    "interpretation": "执行次数，包含技术rc0而功能拒绝的保留案例；不是功能数或完成率。旧Torus60短进程监视错误继续保留，本批6个均完整CIM/nonce且自然退出。"
+    "new_this_batch": 1,
+    "new_native_this_batch": 1,
+    "interpretation": "执行次数，非功能数或完成率。新nativeDirection90已持久保留并独立核，新Bpy自然退出/完整CIMnonce/immutable/退出后无自有Blender。旧短CIM限制继续保留。"
   },
   "bounded_evidence": {
-    "ordinary_roots": 13,
+    "ordinary_roots": 14,
     "math_lineage_roots": 6,
-    "historical_material_pending_reconciliation_roots": 99,
+    "historical_material_pending_reconciliation_roots": 98,
     "rows_total": 118,
     "not_completion_rate_or_unimplemented_count": true
   },
   "latest_verification": {
     "Lathe": "仅open P2、203°、identity、候选开启，N32..64独立本地数学一致性。31个新增分段实际验证；旧32/48不重跑。严格native锚点仅32/48/64；中间分段不是新native oracle。N31/65旧fallback完整记录一致。默认候选与实际安装N64：260点、192同向面、768角UV，位置9.125474464e-8m，UV1.490116119e-8。",
     "Disc": "实际安装默认普通入口，仅旧quarter/+Y/正内径/SliceTrue：80点、57同向面、228角UV，位置1.158327630e-7m，UV8.429369702e-8。没有新增native/产品字节，不单独凑版本。",
-    "Source53": "完整529→531只复制旋转Root/helper，41完整目标、16父图、234旧对象、40ID、2209物理对应6379引用地址保存/fresh核。378产品仅库、两catalog、版本行变，其余374同。"
+    "Source53": "完整529→531只复制旋转Root/helper，41完整目标、16父图、234旧对象、40ID、2209物理对应6379引用地址保存/fresh核。378产品仅库、两catalog、版本行变，其余374同。",
+    "Bend": "实际安装默认入口，仅Strength1、Direction90°、尺寸2.5m³、KeepFalse、底部、限制、ownerI、controlFalse/SelfObject，原12点6同向面。新native对采前冻结负方向模型误差6.52256e-16m，反号和忽略方向模型12点全部拒。实际安装对native最大2.450575625e-7m<固定2um。完整6core/8typed/13物理7refs/40ID/164模块/全部attrs/Scene/prefs/清理核。",
+    "Bend_existing_frames_math_only": "独立当前完整公式与矩阵路由properC复算两旧r4 native，各8点非I/shear，误差9.8866e-15/6.8664e-16m。原生方向-.43/-.71、原参数各自保留。不是新native、当前复杂框架RNA/普通入口、任意frame通过。"
   },
   "open_issues": [
     "四类整体尚未完成；上述通过范围不能外推任意profile/TRS/closedBezier/growth/UV/Phong/完整UX。",
     "原Source52 N64点不匹配/缺UVMap失败原值保留；Source53严格新验收解决指定范围，不倒改旧失败。",
-    "Bend完整properC坐标共轭尚需独立语义证明；局部旋转反射恒等式不等于完整变形器或任意控制框架通过。",
-    "99根历史材料尚待归并，不等于99个功能未实现；缺统一逐语义分母，暂无法可信计算整体完成率和总工期。"
+    "Bend完整稳定核心公式和条件矩阵协变已独立审；下一实际owner/controller/commonNull RNA矩阵及两旧r4普通入口仍未验，不能把数学结果冒运行通过。",
+    "扫描旧growth0.2–0.8训练UV两固定模型均未全解释：全path模型只解释30/32侧角，face4.d/7.c的V=1接缝与端盖模型仍未知。不扩gate、不拟合，不是已确认产品bug。",
+    "98根历史材料尚待归并，不等于98个功能未实现。缺逐语义统一分母，暂无可信整体百分比或总工期。"
   ],
   "work_priority": {
     "primary": [
@@ -82,5 +86,6 @@
     "仅发布去敏进度摘要、证据索引和已授权安装包，不在进度文档发布用户工程、私有聊天或完整原始日志。"
   ],
   "evidence_index": "root-evidence-index.json",
-  "local_report_contents_not_published": true
+  "local_report_contents_not_published": true,
+  "latest_batch_product_bytes_changed": false
 }

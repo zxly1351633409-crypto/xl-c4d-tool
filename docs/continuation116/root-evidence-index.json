@@ -785,9 +785,39 @@
       "category": "变形器",
       "origin": "ORIGINAL_116",
       "current_catalog_revision": "20261027-bend-native-local-controller-direction-r94",
-      "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED",
-      "current_full_graph_capture_only": "当前闭包已补，旧KeepLength及CenterS功能保；完整历史数学继承仍待审。"
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_current310_Bend_direction90_native_independent_review_v1.json",
+          "sha256": "a63bbacf442ea2280aaf3132b02974f408e2eac3182c9baeab04aef8782c17d9",
+          "support_level": "MAIN_CURRENT310_NATIVE_OR_HOST_MATH_BOUNDED",
+          "scope_note": "Direction90 Strength1 KeepFalse Bottom Limit ownerI SelfObject installed12points6samefaces passed; r4 two existing8point cases are independent properC math/native comparisons only, no current matrix ordinary yet."
+        },
+        {
+          "local_audit_report": "continuation116_Main_current310_installed_Bend_direction90_independent_review_v1.json",
+          "sha256": "c82b3cf1c7ca7d0d50ba057cf6a1125dec644b619f87a19d4110365d8842e0b7",
+          "support_level": "MAIN_CURRENT310_INSTALLED_BOUNDED",
+          "scope_note": "Direction90 Strength1 KeepFalse Bottom Limit ownerI SelfObject installed12points6samefaces passed; r4 two existing8point cases are independent properC math/native comparisons only, no current matrix ordinary yet."
+        },
+        {
+          "local_audit_report": "continuation116_Main_current310_Bend_canonical_formula_reflection_independent_review_v1.json",
+          "sha256": "406f198c53f17ed66faa368799adb44409fd95fa0cc621d7dc364e024cf8dc93",
+          "support_level": "MAIN_CURRENT310_NATIVE_OR_HOST_MATH_BOUNDED",
+          "scope_note": "Direction90 Strength1 KeepFalse Bottom Limit ownerI SelfObject installed12points6samefaces passed; r4 two existing8point cases are independent properC math/native comparisons only, no current matrix ordinary yet."
+        },
+        {
+          "local_audit_report": "continuation116_Main_current310_Bend_affine_frame_socket_and_source_independent_review_v1.json",
+          "sha256": "d5a5e4c2ac36e7c8de715b864378eb95e94eb052d66e4c0b2461a97235c0ecfa",
+          "support_level": "MAIN_CURRENT310_NATIVE_OR_HOST_MATH_BOUNDED",
+          "scope_note": "Direction90 Strength1 KeepFalse Bottom Limit ownerI SelfObject installed12points6samefaces passed; r4 two existing8point cases are independent properC math/native comparisons only, no current matrix ordinary yet."
+        },
+        {
+          "local_audit_report": "continuation116_Main_current310_Bend_r4_two_existing_native_properC_model_independent_review_v1.json",
+          "sha256": "1706f711cf2848248cf25871b8961a0d0ca27ff3c8449ecab508e25050cf92d7",
+          "support_level": "MAIN_CURRENT310_NATIVE_OR_HOST_MATH_BOUNDED",
+          "scope_note": "Direction90 Strength1 KeepFalse Bottom Limit ownerI SelfObject installed12points6samefaces passed; r4 two existing8point cases are independent properC math/native comparisons only, no current matrix ordinary yet."
+        }
+      ],
+      "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED"
     },
     {
       "root": "XL_扫描",
@@ -1379,12 +1409,12 @@
       "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
     }
   ],
-  "indexed_roots": 19,
-  "existing_evidence_to_reconcile_roots": 99,
-  "meaning": "13根受限普通入口、6根完整数学继承、99根既有材料待归并。不是完成率，不表示99根未实现。旋转旧Source52 N64失败保留，当前Source53有界修复已经本机与GitHub3.5.117同步。",
+  "indexed_roots": 20,
+  "existing_evidence_to_reconcile_roots": 98,
+  "meaning": "14根受限ordinary、6根完整数学继承、98根既有材料待归并。这不是完成率，也不表示98根未实现。弯曲本次新增90°/KeepFalse/identity实际安装对照；复杂框架两旧native仅完成当前模型数学核，尚未新做对应普通入口。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
-  "current_bounded_evidence_roots": 13,
+  "current_bounded_evidence_roots": 14,
   "historical_evidence_found_current_lineage_pending_roots": 0,
   "current_math_lineage_bounded_roots": 6,
   "pending_current_function_discrepancy_roots": 0,
