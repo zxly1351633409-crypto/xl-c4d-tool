@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-05",
-  "current": 313,
+  "current": 314,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -36,12 +36,12 @@
     "previous35117_complete_G_backup_and_C_rollback": true
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 474,
+    "successful_blender_actors": 475,
     "native_actions": 96,
     "failed_blender_actors": 47,
-    "new_this_batch": 2,
+    "new_this_batch": 1,
     "new_native_this_batch": 0,
-    "interpretation": "执行次数，非功能完成率。本批两次实际已安装普通入口验证自然退出；无新增native或产品字节，旧失败原值保留。"
+    "interpretation": "执行次数，不是功能完成率。本批仅1次当前安装H2中间组件有界诊断，无新native/产品功能/字节；自然退出，旧失败原值保。"
   },
   "bounded_evidence": {
     "ordinary_roots": 16,
@@ -62,7 +62,9 @@
     "Loft_V_socket_host": "124节点187compact原序边及fullprops/dynamic全值核；层UV除数由V+1连线驱动，默认存4无效。U8模8/缝7/cap2与4限定保。子组采样计数仍受字段/SplineCount/context影响，未新V族验收。",
     "Cylinder": "实际C安装3.5.118默认普通EXEC，仅旧−Z/open R.843m/H1.597m/Hseg3/N89/capFalse/capSeg11/regular0：356点267同向面1068角UV，位置.496676微米、UV0。完整3core/8typed/6物理3refs/40ID/164模块/Scene/prefs/清理核；旧formal112_accepted=False保，不冒一般圆柱。",
     "Disc_center": "实际C安装3.5.118默认普通EXEC，仅inner0/outer1.256999969m/radial3/angular19/+Y/SliceTrue/quarter：61点57同向面(19三角38四边)209角UV，位置.107121微米、Euclidean2DUV8.429369702e-8。完整4core/9typed/7物理3refs/40ID/164模块/Scene/prefs/清理核。非任意半径/方向/regular。",
-    "Loft_intermediate_host": "188节点记录/267原序边记录(含跨报告重复)完整字段核。源曲线与生成曲线上下文不同，不能仅V推采样数。H2 U8/V5三个中间组件tap观察v3仍是false草稿，Main完整source/API/15组参考未齐，未执行，不冒Cuts或V7功能通过。"
+    "Loft_intermediate_host": "188节点记录/267原序边记录(含跨报告重复)完整字段核。源曲线与生成曲线上下文不同，不能仅V推采样数。H2 U8/V5三个中间组件tap观察v3仍是false草稿，Main完整source/API/15组参考未齐，未执行，不冒Cuts或V7功能通过。",
+    "Loft_intermediate_actual": "当前安装H2 U8/V5三处Curve组件已观察：source两条4点、CentralLine一条2点、Modeling八条2点；use_sub/sub_div均未物化，缺失保null。mesh_present=True但未采内容。完整15组/每stage/清后12组、原序refs和44个具名物理、13typed、支持输入快照/40ID/164模块/Scene/prefs/清理过。这不是Cuts/V7功能验收，不扩大gate。",
+    "Platonic_Source9_lineage": "Source9 Carbon443已保存/fresh13可达组到Source18完整8partscompact，仅5限制组users3→2、5→3、7→4、9→5、11→6，由具体历史备份入边解释；27refs40物理双射。保旧Library/all-ID限制，未重六旧几何，未新增当前普通入口。"
   },
   "open_issues": [
     "四类整体尚未完成；上述通过范围不能外推任意profile/TRS/closedBezier/growth/UV/Phong/完整UX。",

@@ -220,6 +220,11 @@
           "local_audit_report": "continuation116_Main_PrimitiveSix_Source18_to48_fullclosure_lineage_independent_review_v1.json",
           "sha256": "836c64579b8c7f665097ca169b28b195e08b71143b66b75800e6759d634f87a9",
           "scope_note": "Source18→48六根26组完整图继承。未补齐Source18以前的全部原生功能链，不代表一般几何功能通过。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current314_Platonic_Source9_to18_full13closure_lineage_independent_review_v2.json",
+          "sha256": "d13dd6db45042aaa036618d27a59e73f5c52dcd18ca8d163837946857be90b65",
+          "scope_note": "Source9 Carbon443已保存/fresh13可达组到Source18完整8partscompact，仅5限制组users3→2、5→3、7→4、9→5、11→6，由具体历史备份入边解释；27refs40物理双射。保旧Library/all-ID限制，未重六旧几何，未新增当前普通入口。"
         }
       ],
       "coverage_state": "CURRENT_MATH_CLOSURE_MATCHED_ANCESTOR_BOUNDED_EVIDENCE",
@@ -955,6 +960,11 @@
           "local_audit_report": "continuation116_Main_current307_Generators_Source39_40_41_to52_fullclosure_lineage_independent_review_v1.json",
           "sha256": "296fe3530226f8b0c7780be9f3859a72503734ca947272b2e34c63596df025a1",
           "scope_note": "新旧完整数学闭包严格对账，仅复用原有限参数/几何/UV证明。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current314_Loft_three_intermediate_component_observations_independent_review_v1.json",
+          "sha256": "b65d87930710045d416ea89d8dc1e0bad3a631229d5f5f5ea5af257f2482b2d1",
+          "scope_note": "当前安装H2 U8/V5三处Curve组件已观察：source两条4点、CentralLine一条2点、Modeling八条2点；use_sub/sub_div均未物化，缺失保null。mesh_present=True但未采内容。完整15组/每stage/清后12组、原序refs和44个具名物理、13typed、支持输入快照/40ID/164模块/Scene/prefs/清理过。这不是Cuts/V7功能验收，不扩大gate。"
         }
       ],
       "coverage_state": "BOUNDED_EVIDENCE_INDEXED"
