@@ -972,7 +972,18 @@
           "scope_note": "新旧完整数学闭包严格对账，仅复用原有限参数/几何/UV证明。"
         }
       ],
-      "coverage_state": "BOUNDED_EVIDENCE_INDEXED"
+      "coverage_state": "BOUNDED_EVIDENCE_INDEXED",
+      "known_current_parameter_gaps": [
+        {
+          "scope": "既有P2/203°/单位矩阵，新增分辨率64；原32/48范围不倒改。",
+          "local_audit_report": "continuation116_Main_current308_installed_Lathe_N64_prediction_rejection_independent_review_v1.json",
+          "sha256": "a30baeff533735d1250013da55f55584bb2f07b0547209d176a5f9b95df2ed78",
+          "functional_accepted": false,
+          "unmatched_points_2um": 260,
+          "missing_UVMap": true,
+          "native_oracle_independently_accepted": true
+        }
+      ]
     },
     {
       "root": "XL_时间域",
@@ -1340,13 +1351,13 @@
   ],
   "indexed_roots": 19,
   "existing_evidence_to_reconcile_roots": 99,
-  "meaning": "12根受限普通入口、7根完整数学继承、99根既有材料待归并；不是完成率，也不表示99根未实现。",
+  "meaning": "12根受限普通入口、7根完整数学继承、99根既有材料待归并；不是完成率，也不表示99根未实现。 新增旋转N64参数缺口与既有受限通过行并存，不额外增加根数量或抹旧证明。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
   "current_bounded_evidence_roots": 12,
   "historical_evidence_found_current_lineage_pending_roots": 0,
   "current_math_lineage_bounded_roots": 7,
-  "pending_current_function_discrepancy_roots": 0,
+  "pending_current_function_discrepancy_roots": 1,
   "work_priority": {
     "primary": [
       "参数体",
@@ -1354,5 +1365,6 @@
       "变形器"
     ],
     "fields": "LOWER"
-  }
+  },
+  "pending_discrepancy_overlaps_existing_bounded_rows": true
 }

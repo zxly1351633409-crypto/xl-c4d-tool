@@ -19,8 +19,8 @@
     "latest_public_preview_tag": "v3.5.116-preview.6"
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 459,
-    "native_actions": 94,
+    "successful_blender_actors": 462,
+    "native_actions": 95,
     "failed_blender_actors": 46,
     "interpretation": "guard执行次数，包含技术rc0但功能拒绝的留证案例；不是功能数、完成率或工期。",
     "retained_monitor_limit": "Torus60短进程guard自然rc0，但实时CIM路径/命令为空触发monitor错误，原值保留，不能宣称完整CIM身份已核；无重复运行。"
@@ -97,6 +97,7 @@
     }
   ],
   "open_issues": [
+    "旋转：既有P2/203°条件下新增64段观察走旧回退，点位置与原生不符且缺UVMap；当前只保原32/48受限接受，不能宣称任意分段通过。",
     "油罐与胶囊部分切面三角化缺少已验证的一般规则。",
     "闭合贝塞尔控制网、人形分段和地形噪声缺可追溯机制。",
     "锥化负曲率存在写入意图与实际读回不一致，不能据此声称负曲率通过。",
@@ -115,10 +116,10 @@
     "遇到失败先保留原始值并定位机制；不通过重复采样、拟合或降低阈值制造进度。"
   ],
   "next_stage_acceptance": [
-    "圆盘环形算法与公共接入先完成旧输入、方向和分支谓词独立核对，再判断真正缺口。",
-    "扫描、旋转、放样已完成当前完整图继承；扩展范围前独立建参考，不盲拟合增长或裁剪UV。",
-    "弯曲先找已存旧完整图或精确冻结身份，复用旧KeepLength/CenterS样例，避免重复采样。",
-    "后续真正产品改动采用普通3.5.117→118→119，本机和GitHub同步。"
+    "优先独立核旋转N48 helper上限和P2/203门控，建立有界分段参数族的数学、F32、拓扑、UV与回退参考，再做隔离修复；不能仅改上限或三个N冒全族。",
+    "圆盘六旧环形样例当前数学路由已接通；准备一例真正当前普通入口前先确认现有headless演员同构，不能把GUI接口检查冒几何验证。",
+    "弯曲旧r4完整闭包已接通；几何复用前仍需旧反射坐标到properC的独立共轭，不重复KeepLength/CenterS旧几何。",
+    "完整产品改动验收通过后使用普通3.5.117，备份旧安装并同步本机和GitHub；本轮没有产品改动，不重复打包。"
   ],
   "public_notes": [
     "摘要不包含本地路径、个人信息、用户对话、凭据或原始日志。",
@@ -190,6 +191,14 @@
       "new_guard_jobs": 1,
       "new_native": 0,
       "no_product_or_installer_changes": true
+    },
+    "current308": {
+      "new_guard_jobs": 3,
+      "new_native": 1,
+      "Disc_six_ring_cases_math_route_and_Bend_fivecore_lineage": true,
+      "native_N64_heldout_accepted": true,
+      "installed_N64_new_gap_rejected": true,
+      "no_product_or_installer_changes": true
     }
   },
   "installer_delivery": {
@@ -204,19 +213,29 @@
     "unchanged_products": 375
   },
   "latest_observation": {
-    "type": "READONLY_GRAPH_AND_EXISTING_NUMERICAL_EVIDENCE_INHERITANCE",
-    "roots": [
-      "XL_扫描",
-      "XL_旋转",
-      "XL_放样",
-      "XL_弯曲"
-    ],
-    "graph_groups": 28,
-    "named_refs": 38,
-    "physical_pairs": 66,
-    "source_and_installer_unchanged": true,
-    "new_functionality_not_claimed": true,
-    "generators_closure_math_proof_SHA": "296fe3530226f8b0c7780be9f3859a72503734ca947272b2e34c63596df025a1"
+    "type": "DISC_BEND_MATH_LINEAGE_AND_N64_NATIVE_ACCEPTED_INSTALLED_NEW_COVERAGE_GAP_REJECTED",
+    "new_guard_jobs": 3,
+    "new_native_actions": 1,
+    "Disc_six_old_ring_cases_inputs_public_branch_math_bound_not_new_geometry": true,
+    "Bend_frozen_r4_five_groups_current_math_lineage": true,
+    "Bend_names_short_monitor_identity_nonce_null_retained": true,
+    "native_N64": {
+      "points": 260,
+      "directed_faces": 192,
+      "UV_corners": 768,
+      "max_position_error_m": 1.1123893155135927e-16,
+      "max_UV_error": 1.676675565054353e-08
+    },
+    "installed_N64": {
+      "functional_accepted": false,
+      "all260_points_without_native_match_2um": true,
+      "max_nearest_distance_m": 0.5561463646120423,
+      "UVMap_missing": true,
+      "current_fullcore_unchanged": true,
+      "fallback_outside_existing32_48_scope": true
+    },
+    "no_product_or_installer_changes": true,
+    "old32_48_accepted_scopes_retained": true
   },
   "versioning_policy": {
     "next_product_update": "3.5.117",
