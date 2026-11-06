@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-06",
-  "current": 335,
+  "current": 336,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -44,12 +44,12 @@
     "previous35121_complete_G_backup_and_C_rollback": true
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 532,
+    "successful_blender_actors": 534,
     "native_actions": 97,
     "failed_blender_actors": 52,
     "new_this_batch": 2,
     "new_native_this_batch": 0,
-    "interpretation": "本批2实际Bpy自然rc0/fullCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native。532/97/52为累计执行次数，非完成率。"
+    "interpretation": "本批2实际Bpy自然rc0/fullCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native。534/97/52为累计执行次数，非完成率。"
   },
   "bounded_evidence": {
     "ordinary_roots": 31,
@@ -122,6 +122,15 @@
       "proof": "continuation116_Main_current335_installed35122_Flower_None17_independent_review_v1.json",
       "proof_SHA": "b440439a1683f0fc580bacc3d38aafc8f1e325fd2a418b1187cfaf2989486c23",
       "readonly_proof_SHA": "366581927451e01d6970068a6598f9d8dcd7a2c1fda54134ed5dfad7191ef042"
+    },
+    "XL_克隆_网格": {
+      "current": 336,
+      "support_level": "REQUESTED_REALIZED_MESH_COMPONENT_AND_INPUT_PROTECTION_NOT_STRICT_ORDINARY",
+      "scope": "实际C122 Grid单请求step3x2x4带符号P/HPB/S、Object真实tetra模板、实现为几何：96点144边96有向三角面288角对native固定2um通过，position max5.6866870846431654e-8m，完整Mesh除实际datablock名字外与旧formal字面同。51typed、三完整8partscompact对采前金0差、5ref8物理/40ID/164C模块/source3prefs/Scene和2Object2Mesh清理过。Collection完整实际同PID值保护，清后users4→3为owner modifier默认ID引用解除。默认支持有9instances，position27巨大有限数无独立语义oracle、一个GeometrySet引用内部未采，因此严格ordinary未接受；非通用产品bug，不重跑/拟合或追认旧Extrude。",
+      "proof": "continuation116_Main_current336_installed35122_Grid_realized24_component_and_default_instance_scope_independent_review_v1.json",
+      "proof_SHA": "2c5150af97e46e5b99542a038e552a4baaecf71773d19ba71299c3fef9dbb473",
+      "readonly_SHA": "f1841603cd47f14262426f66da26f120db407b2de93e0f72fd60ff7fc924101e",
+      "no_product_bug_cause_claim": true
     }
   },
   "open_issues": [

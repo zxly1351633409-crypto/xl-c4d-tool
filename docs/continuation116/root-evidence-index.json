@@ -696,8 +696,22 @@
       "category": "克隆器",
       "origin": "ORIGINAL_116",
       "current_catalog_revision": "20261028-grid-native-transform-panel-r108",
-      "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_current336_Source58_Grid_three_fullgraphs_Collection_dependency_readonly_independent_review_v1.json",
+          "sha256": "f1841603cd47f14262426f66da26f120db407b2de93e0f72fd60ff7fc924101e",
+          "scope_note": "实际C122 Grid单请求step3x2x4带符号P/HPB/S、Object真实tetra模板、实现为几何：96点144边96有向三角面288角对native固定2um通过，position max5.6866870846431654e-8m，完整Mesh除实际datablock名字外与旧formal字面同。51typed、三完整8partscompact对采前金0差、5ref8物理/40ID/164C模块/source3prefs/Scene和2Object2Mesh清理过。Collection完整实际同PID值保护，清后users4→3为owner modifier默认ID引用解除。默认支持有9instances，position27巨大有限数无独立语义oracle、一个GeometrySet引用内部未采，因此严格ordinary未接受；非通用产品bug，不重跑/拟合或追认旧Extrude。",
+          "support_level": "CURRENT336_GRID_REQUESTED_COMPONENT_NOT_COMPLETE_ORDINARY"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current336_installed35122_Grid_realized24_component_and_default_instance_scope_independent_review_v1.json",
+          "sha256": "2c5150af97e46e5b99542a038e552a4baaecf71773d19ba71299c3fef9dbb473",
+          "scope_note": "实际C122 Grid单请求step3x2x4带符号P/HPB/S、Object真实tetra模板、实现为几何：96点144边96有向三角面288角对native固定2um通过，position max5.6866870846431654e-8m，完整Mesh除实际datablock名字外与旧formal字面同。51typed、三完整8partscompact对采前金0差、5ref8物理/40ID/164C模块/source3prefs/Scene和2Object2Mesh清理过。Collection完整实际同PID值保护，清后users4→3为owner modifier默认ID引用解除。默认支持有9instances，position27巨大有限数无独立语义oracle、一个GeometrySet引用内部未采，因此严格ordinary未接受；非通用产品bug，不重跑/拟合或追认旧Extrude。",
+          "support_level": "CURRENT336_GRID_REQUESTED_COMPONENT_NOT_COMPLETE_ORDINARY"
+        }
+      ],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED",
+      "current336_scope": "实际C122 Grid单请求step3x2x4带符号P/HPB/S、Object真实tetra模板、实现为几何：96点144边96有向三角面288角对native固定2um通过，position max5.6866870846431654e-8m，完整Mesh除实际datablock名字外与旧formal字面同。51typed、三完整8partscompact对采前金0差、5ref8物理/40ID/164C模块/source3prefs/Scene和2Object2Mesh清理过。Collection完整实际同PID值保护，清后users4→3为owner modifier默认ID引用解除。默认支持有9instances，position27巨大有限数无独立语义oracle、一个GeometrySet引用内部未采，因此严格ordinary未接受；非通用产品bug，不重跑/拟合或追认旧Extrude。"
     },
     {
       "root": "XL_克隆_蜂窝",

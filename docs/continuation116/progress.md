@@ -1,3 +1,13 @@
+# current336：Grid请求组件有限通过
+
+Source58/普通3.5.122产品与三release附件保持，无新安装ZIP。
+
+实际C122 Grid单请求step3x2x4带符号P/HPB/S、Object真实tetra模板、实现为几何：96点144边96有向三角面288角对native固定2um通过，position max5.6866870846431654e-8m，完整Mesh除实际datablock名字外与旧formal字面同。51typed、三完整8partscompact对采前金0差、5ref8物理/40ID/164C模块/source3prefs/Scene和2Object2Mesh清理过。Collection完整实际同PID值保护，清后users4→3为owner modifier默认ID引用解除。默认支持有9instances，position27巨大有限数无独立语义oracle、一个GeometrySet引用内部未采，因此严格ordinary未接受；非通用产品bug，不重跑/拟合或追认旧Extrude。
+
+累计534成功guard/97有界native/52失败Bpy，31受限ordinary+3数学继承+84材料待归并共118；不晋升Grid ordinary，不编完成率。下一线性r109先精确旧输入/身份，不拿Grid native当Lineargold。
+
+以下current335是既成花形验收；旧Grid next由本轮实物替代：
+
 # current335：花形无插值N17受限普通入口通过
 
 Source58/普通3.5.122产品及三release附件保持，没有新安装或ZIP。
