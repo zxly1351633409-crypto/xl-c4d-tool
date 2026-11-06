@@ -1626,8 +1626,22 @@
       "category": "变形器",
       "origin": "ORIGINAL_116",
       "current_catalog_revision": null,
-      "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_current340_Source58_Displace_single_fullgraphs_readonly_independent_review_v1.json",
+          "sha256": "464d364e07d53e25ca67b0f86278869c2da3ea0777407cf276b8cac426bcb118",
+          "scope_note": "实际C122置换单请求type0_white：自建1x1 float Non-Color白图，源native4点位置按properCdet+1，原height10cm/strength1/type0/direction1300=4读回，Blender中心0/高度F32(.1)m/显式方向(0,-1,0)/沿法线False/细分0，15序列化值+真实Imageptr共16请求、17initial/requested全核。4点4边1输入quad4UV角，原生local位置最大1.4901161138336505e-9m<2um；原生没有测MLMG/cachefaces/UV，故不冒nativeworld/面/UV/Phong。当前output完整mesh对input只8个Y坐标叶+runtime_data角色变，其余所有叶字面同；输入原始Mesh+UV/writable/flags保。默认同EXEC普通operator对小mesh将细分初始化4，不是interface0；imageNone的Alpha0类型注册/placementcopy链和图内透明遮罩采前冻结，默认289点544边256有向格quad1024UV角独立逐点/全边/全cell/全角消费，geometry与UV误差0；不是默认nativeoracle/实测binary分支或任意细分。两态GS只有Mesh、ref0。Image完整4pixels/colorspace/source/writable不变，仅users0→1是请求modifier绑定，清后0再精确移除；不用PNG/pack/save。1完整8partscompact initial/pre/tail/清后对采前gold全字面同，0refs1物理+ownerMod/40ID164C模块/source3prefs/Scene选择和1Object1Mesh1Image users0精确清理过；owner全writable两态字面同、dimensions误差0。范围仅常量白图位置，非一般图像UV采样/任意参数/TRS/fullUX。旧8例source label纠正与完整32坐标已Main核，但旧16控件仅结果subset/无fullattrs/执行时sceneSHAguard不升级。",
+          "support_level": "CURRENT338_DISPLACE_TYPE0WHITE_ORDINARY_BOUNDED"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current340_installed35122_Displace_type0white_independent_review_v1.json",
+          "sha256": "589e7651b345eaa7925ac3488d5e1748673dd05d7520db231350a9353983243e",
+          "scope_note": "实际C122置换单请求type0_white：自建1x1 float Non-Color白图，源native4点位置按properCdet+1，原height10cm/strength1/type0/direction1300=4读回，Blender中心0/高度F32(.1)m/显式方向(0,-1,0)/沿法线False/细分0，15序列化值+真实Imageptr共16请求、17initial/requested全核。4点4边1输入quad4UV角，原生local位置最大1.4901161138336505e-9m<2um；原生没有测MLMG/cachefaces/UV，故不冒nativeworld/面/UV/Phong。当前output完整mesh对input只8个Y坐标叶+runtime_data角色变，其余所有叶字面同；输入原始Mesh+UV/writable/flags保。默认同EXEC普通operator对小mesh将细分初始化4，不是interface0；imageNone的Alpha0类型注册/placementcopy链和图内透明遮罩采前冻结，默认289点544边256有向格quad1024UV角独立逐点/全边/全cell/全角消费，geometry与UV误差0；不是默认nativeoracle/实测binary分支或任意细分。两态GS只有Mesh、ref0。Image完整4pixels/colorspace/source/writable不变，仅users0→1是请求modifier绑定，清后0再精确移除；不用PNG/pack/save。1完整8partscompact initial/pre/tail/清后对采前gold全字面同，0refs1物理+ownerMod/40ID164C模块/source3prefs/Scene选择和1Object1Mesh1Image users0精确清理过；owner全writable两态字面同、dimensions误差0。范围仅常量白图位置，非一般图像UV采样/任意参数/TRS/fullUX。旧8例source label纠正与完整32坐标已Main核，但旧16控件仅结果subset/无fullattrs/执行时sceneSHAguard不升级。",
+          "support_level": "CURRENT338_DISPLACE_TYPE0WHITE_ORDINARY_BOUNDED"
+        }
+      ],
+      "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED",
+      "current340_scope": "实际C122置换单请求type0_white：自建1x1 float Non-Color白图，源native4点位置按properCdet+1，原height10cm/strength1/type0/direction1300=4读回，Blender中心0/高度F32(.1)m/显式方向(0,-1,0)/沿法线False/细分0，15序列化值+真实Imageptr共16请求、17initial/requested全核。4点4边1输入quad4UV角，原生local位置最大1.4901161138336505e-9m<2um；原生没有测MLMG/cachefaces/UV，故不冒nativeworld/面/UV/Phong。当前output完整mesh对input只8个Y坐标叶+runtime_data角色变，其余所有叶字面同；输入原始Mesh+UV/writable/flags保。默认同EXEC普通operator对小mesh将细分初始化4，不是interface0；imageNone的Alpha0类型注册/placementcopy链和图内透明遮罩采前冻结，默认289点544边256有向格quad1024UV角独立逐点/全边/全cell/全角消费，geometry与UV误差0；不是默认nativeoracle/实测binary分支或任意细分。两态GS只有Mesh、ref0。Image完整4pixels/colorspace/source/writable不变，仅users0→1是请求modifier绑定，清后0再精确移除；不用PNG/pack/save。1完整8partscompact initial/pre/tail/清后对采前gold全字面同，0refs1物理+ownerMod/40ID164C模块/source3prefs/Scene选择和1Object1Mesh1Image users0精确清理过；owner全writable两态字面同、dimensions误差0。范围仅常量白图位置，非一般图像UV采样/任意参数/TRS/fullUX。旧8例source label纠正与完整32坐标已Main核，但旧16控件仅结果subset/无fullattrs/执行时sceneSHAguard不升级。"
     },
     {
       "root": "XL_膨胀",
@@ -1881,12 +1895,12 @@
       "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
     }
   ],
-  "indexed_roots": 37,
+  "indexed_roots": 38,
   "existing_evidence_to_reconcile_roots": 82,
-  "meaning": "34受限ordinary、3数学继承、81材料待归并共118；范围有限，非完成率或81未实现。",
+  "meaning": "35受限ordinary、3数学继承、80材料待归并共118；范围有限，非完成率或80未实现。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
-  "current_bounded_evidence_roots": 34,
+  "current_bounded_evidence_roots": 35,
   "historical_evidence_found_current_lineage_pending_roots": 0,
   "current_math_lineage_bounded_roots": 3,
   "pending_current_function_discrepancy_roots": 0,

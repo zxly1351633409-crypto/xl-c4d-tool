@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-06",
-  "current": 339,
+  "current": 340,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -44,17 +44,17 @@
     "previous35121_complete_G_backup_and_C_rollback": true
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 540,
+    "successful_blender_actors": 542,
     "native_actions": 97,
     "failed_blender_actors": 52,
     "new_this_batch": 2,
     "new_native_this_batch": 0,
-    "interpretation": "本批2实际Bpy自然rc0/fullCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native。540/97/52为执行次数，非完成率。"
+    "interpretation": "本批2实际Bpy自然rc0/fullCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native。542/97/52为执行次数，非完成率。"
   },
   "bounded_evidence": {
-    "ordinary_roots": 34,
+    "ordinary_roots": 35,
     "math_lineage_roots": 3,
-    "historical_material_pending_reconciliation_roots": 81,
+    "historical_material_pending_reconciliation_roots": 80,
     "rows_total": 118,
     "not_completion_rate_or_unimplemented_count": true,
     "pending_current_function_discrepancy_roots": 0,
@@ -155,6 +155,14 @@
       "proof": "continuation116_Main_current339_installed35122_Bulge_limited15_independent_review_v1.json",
       "proof_SHA": "2451037effaf51ebd6ae1d5ced1082edfd26eb389d09ffe41c97b511831b3da1",
       "readonly_SHA": "d0bc4395634e1ca9bebc2e8a778060f096698ba234aaf9b4125945cc76a15248"
+    },
+    "XL_置换": {
+      "current": 340,
+      "support_level": "INSTALLED_DISPLACE_TYPE0WHITE_BOUNDED_ORDINARY",
+      "scope": "实际C122置换单请求type0_white：自建1x1 float Non-Color白图，源native4点位置按properCdet+1，原height10cm/strength1/type0/direction1300=4读回，Blender中心0/高度F32(.1)m/显式方向(0,-1,0)/沿法线False/细分0，15序列化值+真实Imageptr共16请求、17initial/requested全核。4点4边1输入quad4UV角，原生local位置最大1.4901161138336505e-9m<2um；原生没有测MLMG/cachefaces/UV，故不冒nativeworld/面/UV/Phong。当前output完整mesh对input只8个Y坐标叶+runtime_data角色变，其余所有叶字面同；输入原始Mesh+UV/writable/flags保。默认同EXEC普通operator对小mesh将细分初始化4，不是interface0；imageNone的Alpha0类型注册/placementcopy链和图内透明遮罩采前冻结，默认289点544边256有向格quad1024UV角独立逐点/全边/全cell/全角消费，geometry与UV误差0；不是默认nativeoracle/实测binary分支或任意细分。两态GS只有Mesh、ref0。Image完整4pixels/colorspace/source/writable不变，仅users0→1是请求modifier绑定，清后0再精确移除；不用PNG/pack/save。1完整8partscompact initial/pre/tail/清后对采前gold全字面同，0refs1物理+ownerMod/40ID164C模块/source3prefs/Scene选择和1Object1Mesh1Image users0精确清理过；owner全writable两态字面同、dimensions误差0。范围仅常量白图位置，非一般图像UV采样/任意参数/TRS/fullUX。旧8例source label纠正与完整32坐标已Main核，但旧16控件仅结果subset/无fullattrs/执行时sceneSHAguard不升级。",
+      "proof": "continuation116_Main_current340_installed35122_Displace_type0white_independent_review_v1.json",
+      "proof_SHA": "589e7651b345eaa7925ac3488d5e1748673dd05d7520db231350a9353983243e",
+      "readonly_SHA": "464d364e07d53e25ca67b0f86278869c2da3ea0777407cf276b8cac426bcb118"
     }
   },
   "open_issues": [

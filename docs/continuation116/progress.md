@@ -1,3 +1,15 @@
+current340：置换单请求受限普通入口通过
+
+Source58/本机/GitHub普通3.5.122同378产品保持，无新安装ZIP/release/Source59/native125。
+
+实际C122置换单请求type0_white：自建1x1 float Non-Color白图，源native4点位置按properCdet+1，原height10cm/strength1/type0/direction1300=4读回，Blender中心0/高度F32(.1)m/显式方向(0,-1,0)/沿法线False/细分0，15序列化值+真实Imageptr共16请求、17initial/requested全核。4点4边1输入quad4UV角，原生local位置最大1.4901161138336505e-9m<2um；原生没有测MLMG/cachefaces/UV，故不冒nativeworld/面/UV/Phong。当前output完整mesh对input只8个Y坐标叶+runtime_data角色变，其余所有叶字面同；输入原始Mesh+UV/writable/flags保。默认同EXEC普通operator对小mesh将细分初始化4，不是interface0；imageNone的Alpha0类型注册/placementcopy链和图内透明遮罩采前冻结，默认289点544边256有向格quad1024UV角独立逐点/全边/全cell/全角消费，geometry与UV误差0；不是默认nativeoracle/实测binary分支或任意细分。两态GS只有Mesh、ref0。Image完整4pixels/colorspace/source/writable不变，仅users0→1是请求modifier绑定，清后0再精确移除；不用PNG/pack/save。1完整8partscompact initial/pre/tail/清后对采前gold全字面同，0refs1物理+ownerMod/40ID164C模块/source3prefs/Scene选择和1Object1Mesh1Image users0精确清理过；owner全writable两态字面同、dimensions误差0。范围仅常量白图位置，非一般图像UV采样/任意参数/TRS/fullUX。旧8例source label纠正与完整32坐标已Main核，但旧16控件仅结果subset/无fullattrs/执行时sceneSHAguard不升级。
+
+本批两actual自然rc0/fullCIMnonce/fullWindowsargv/immutable/afterCIM[]，累计542成功guard/97有界native/52失败Bpy；技术rc0非功能接受、次数非完成率。35受限ordinary+3数学继承+80材料待归并共118，不等于80未实现，无逐语义分母不编工期。
+
+置换current340单Root32/45完整readonly和actualC122 type0_white单请求ordinary已真过，不重displace58read1/i122dispwhite1a、旧8native/regression/fresh、当前图/同white/default或用户PNG诊断。下一已有公开收缩包裹（无XL前缀）：Main全文A导航/7源SHA size/catalog1 metadata1/DFS1refs0、63target16parents真缺完整图核；旧3.5.58是版本不等于内部Source58，旧6native/publicApply/fullfresh有限pass及114postinstall保持，尚未Main完整原生/producer/consumer/全矩阵/冻结执行身份与当前数学独核。先精确旧输入/target支持及root链，不重复旧6几何/native，不把metadata冒fullmath，不盲observer/ordinary/native125/Source59/安装123。
+
+此前current337线性克隆范围继续保留：
+
 current339：膨胀单请求受限普通入口通过
 
 Source58/本机/GitHub普通3.5.122同378产品保持，无新安装ZIP/release/Source59/native125。
