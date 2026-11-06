@@ -1,3 +1,15 @@
+current338：球化单请求受限普通入口通过
+
+Source58/本机/GitHub普通3.5.122同378产品保持，无新安装ZIP/release/Source59/native125。
+
+实际C122球化单请求host_local_identity_formal112_new：非对称8点12边6有向quad24角，原parent→owner TRS和真实controller子对象，use控制对象False且实际绑定保。7初始/请求完整typed、world点最大1.9195198790044799e-7米<固定2um；本次只host-local，不外推controller True。默认同EXEC用采前冻结local normalize/radius2/strength.5算法支持模型，点误差1.6858739404357614e-7米；四owner尺寸快照按源码worldscale×localbbox，最大2.4522320685171906e-7米<2um，无默认native oracle或runtime插桩。2完整8partscompact initial/pre/tail/清后对采前gold全字面同，2refs4物理/40ID164实际C模块/source3prefs/Scene选择和3Object1Mesh精确users0清理过。输入mesh/全部writable/flags/parent/controller矩阵保持。旧formal mesh与本次有75个精确叶差：一名字角色及74个浮点叶含position/normals/face/texspace，逐地址完整保且最大<=1e-6；其余逐值同，不称输出全字面同或C4D法线模型。原native没有UV或权重数据，不冒Phong/UV/任意TRS/Fields/fullUX。
+
+本批两actual自然rc0/fullCIMnonce/fullWindowsargv/immutable/afterCIM[]，累计538成功guard/97有界native/52失败Bpy；技术rc0非功能接受、次数非完成率。33受限ordinary+3数学继承+82材料待归并共118，不等于82未实现，无逐语义分母不编工期。
+
+球化current338 Source58两完整图和actualC122 host_local_identity_formal112_new单请求已真过，不重spherify58read1/i122spherlocal1、两图、旧native2、同case/default或controller补验。Root18/32→Core13/20；loadedTrue1/False2与sourceCoreTrue5原值保，原因未独立证明，不泛fake/users滤。下一公开XL_膨胀窄身份：Main全文A导航/9来源SHA size/当前Source58 DFS4原序refs4及63target16parent缺口已核；catalog r1与旧relative candidate r2不是同合同，旧四例总体False/max29.210927um负证据保。先Main精确读旧native/producer/consumer及r1/r2控制映射与候选执行身份，未全文数组独算，不拿单例通过冒整体/当前ordinary或泛称bug，不盲拟合。尚无Bulge observer/ordinary/native125/Source59/安装123批准。
+
+此前current337线性克隆范围继续保留：
+
 # current337：线性克隆受限普通入口通过
 
 Source58/普通3.5.122产品与三release附件保持，无新安装ZIP。

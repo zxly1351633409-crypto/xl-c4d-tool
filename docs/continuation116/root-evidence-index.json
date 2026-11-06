@@ -1818,8 +1818,22 @@
       "category": "变形器",
       "origin": "ORIGINAL_116",
       "current_catalog_revision": "20261029-spherify-gn-interface112-r1",
-      "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_current338_Source58_Spherify_two_fullgraphs_readonly_independent_review_v1.json",
+          "sha256": "2737a5a5dd9e1556a6fa2973b85118221dcabedc31f4743d323a29f70d658cec",
+          "scope_note": "实际C122球化单请求host_local_identity_formal112_new：非对称8点12边6有向quad24角，原parent→owner TRS和真实controller子对象，use控制对象False且实际绑定保。7初始/请求完整typed、world点最大1.9195198790044799e-7米<固定2um；本次只host-local，不外推controller True。默认同EXEC用采前冻结local normalize/radius2/strength.5算法支持模型，点误差1.6858739404357614e-7米；四owner尺寸快照按源码worldscale×localbbox，最大2.4522320685171906e-7米<2um，无默认native oracle或runtime插桩。2完整8partscompact initial/pre/tail/清后对采前gold全字面同，2refs4物理/40ID164实际C模块/source3prefs/Scene选择和3Object1Mesh精确users0清理过。输入mesh/全部writable/flags/parent/controller矩阵保持。旧formal mesh与本次有75个精确叶差：一名字角色及74个浮点叶含position/normals/face/texspace，逐地址完整保且最大<=1e-6；其余逐值同，不称输出全字面同或C4D法线模型。原native没有UV或权重数据，不冒Phong/UV/任意TRS/Fields/fullUX。",
+          "support_level": "CURRENT338_SPHERIFY_HOSTLOCAL_ORDINARY_BOUNDED"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current338_installed35122_Spherify_hostlocal_independent_review_v1.json",
+          "sha256": "8bf439bbfdbfa84d796edcc658d27d08e5ff034932418a6abaab40c71d07ea2a",
+          "scope_note": "实际C122球化单请求host_local_identity_formal112_new：非对称8点12边6有向quad24角，原parent→owner TRS和真实controller子对象，use控制对象False且实际绑定保。7初始/请求完整typed、world点最大1.9195198790044799e-7米<固定2um；本次只host-local，不外推controller True。默认同EXEC用采前冻结local normalize/radius2/strength.5算法支持模型，点误差1.6858739404357614e-7米；四owner尺寸快照按源码worldscale×localbbox，最大2.4522320685171906e-7米<2um，无默认native oracle或runtime插桩。2完整8partscompact initial/pre/tail/清后对采前gold全字面同，2refs4物理/40ID164实际C模块/source3prefs/Scene选择和3Object1Mesh精确users0清理过。输入mesh/全部writable/flags/parent/controller矩阵保持。旧formal mesh与本次有75个精确叶差：一名字角色及74个浮点叶含position/normals/face/texspace，逐地址完整保且最大<=1e-6；其余逐值同，不称输出全字面同或C4D法线模型。原native没有UV或权重数据，不冒Phong/UV/任意TRS/Fields/fullUX。",
+          "support_level": "CURRENT338_SPHERIFY_HOSTLOCAL_ORDINARY_BOUNDED"
+        }
+      ],
+      "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED",
+      "current338_scope": "实际C122球化单请求host_local_identity_formal112_new：非对称8点12边6有向quad24角，原parent→owner TRS和真实controller子对象，use控制对象False且实际绑定保。7初始/请求完整typed、world点最大1.9195198790044799e-7米<固定2um；本次只host-local，不外推controller True。默认同EXEC用采前冻结local normalize/radius2/strength.5算法支持模型，点误差1.6858739404357614e-7米；四owner尺寸快照按源码worldscale×localbbox，最大2.4522320685171906e-7米<2um，无默认native oracle或runtime插桩。2完整8partscompact initial/pre/tail/清后对采前gold全字面同，2refs4物理/40ID164实际C模块/source3prefs/Scene选择和3Object1Mesh精确users0清理过。输入mesh/全部writable/flags/parent/controller矩阵保持。旧formal mesh与本次有75个精确叶差：一名字角色及74个浮点叶含position/normals/face/texspace，逐地址完整保且最大<=1e-6；其余逐值同，不称输出全字面同或C4D法线模型。原native没有UV或权重数据，不冒Phong/UV/任意TRS/Fields/fullUX。"
     },
     {
       "root": "C4D_人形素体",
@@ -1853,12 +1867,12 @@
       "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
     }
   ],
-  "indexed_roots": 35,
-  "existing_evidence_to_reconcile_roots": 83,
-  "meaning": "32受限ordinary、3数学继承、83材料待归并共118；范围有限，非完成率或83未实现。",
+  "indexed_roots": 36,
+  "existing_evidence_to_reconcile_roots": 82,
+  "meaning": "33受限ordinary、3数学继承、82材料待归并共118；范围有限，非完成率或82未实现。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
-  "current_bounded_evidence_roots": 32,
+  "current_bounded_evidence_roots": 33,
   "historical_evidence_found_current_lineage_pending_roots": 0,
   "current_math_lineage_bounded_roots": 3,
   "pending_current_function_discrepancy_roots": 0,

@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-06",
-  "current": 337,
+  "current": 338,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -44,17 +44,17 @@
     "previous35121_complete_G_backup_and_C_rollback": true
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 536,
+    "successful_blender_actors": 538,
     "native_actions": 97,
     "failed_blender_actors": 52,
     "new_this_batch": 2,
     "new_native_this_batch": 0,
-    "interpretation": "本批2实际Bpy自然rc0/fullCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native。536/97/52为执行次数，非完成率。"
+    "interpretation": "本批2实际Bpy自然rc0/fullCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native。538/97/52为执行次数，非完成率。"
   },
   "bounded_evidence": {
-    "ordinary_roots": 32,
+    "ordinary_roots": 33,
     "math_lineage_roots": 3,
-    "historical_material_pending_reconciliation_roots": 83,
+    "historical_material_pending_reconciliation_roots": 82,
     "rows_total": 118,
     "not_completion_rate_or_unimplemented_count": true,
     "pending_current_function_discrepancy_roots": 0,
@@ -139,6 +139,14 @@
       "proof": "continuation116_Main_current337_installed35122_Linear_realized5_independent_review_v1.json",
       "proof_SHA": "ac9f206676c4ebbae650d79bbb5333e088c0414c7b4b71a018d4ac8ff9ab90da",
       "readonly_SHA": "14ec780cd589052525707fada9e751f33a905145775f07a6bd8af38f99529eb2"
+    },
+    "XL_球化": {
+      "current": 338,
+      "support_level": "INSTALLED_SPHERIFY_HOSTLOCAL_BOUNDED_ORDINARY",
+      "scope": "实际C122球化单请求host_local_identity_formal112_new：非对称8点12边6有向quad24角，原parent→owner TRS和真实controller子对象，use控制对象False且实际绑定保。7初始/请求完整typed、world点最大1.9195198790044799e-7米<固定2um；本次只host-local，不外推controller True。默认同EXEC用采前冻结local normalize/radius2/strength.5算法支持模型，点误差1.6858739404357614e-7米；四owner尺寸快照按源码worldscale×localbbox，最大2.4522320685171906e-7米<2um，无默认native oracle或runtime插桩。2完整8partscompact initial/pre/tail/清后对采前gold全字面同，2refs4物理/40ID164实际C模块/source3prefs/Scene选择和3Object1Mesh精确users0清理过。输入mesh/全部writable/flags/parent/controller矩阵保持。旧formal mesh与本次有75个精确叶差：一名字角色及74个浮点叶含position/normals/face/texspace，逐地址完整保且最大<=1e-6；其余逐值同，不称输出全字面同或C4D法线模型。原native没有UV或权重数据，不冒Phong/UV/任意TRS/Fields/fullUX。",
+      "proof": "continuation116_Main_current338_installed35122_Spherify_hostlocal_independent_review_v1.json",
+      "proof_SHA": "8bf439bbfdbfa84d796edcc658d27d08e5ff034932418a6abaab40c71d07ea2a",
+      "readonly_SHA": "2737a5a5dd9e1556a6fa2973b85118221dcabedc31f4743d323a29f70d658cec"
     }
   },
   "open_issues": [
