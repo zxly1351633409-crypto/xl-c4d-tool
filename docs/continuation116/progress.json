@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-07",
-  "current": 349,
+  "current": 350,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -44,12 +44,12 @@
     "previous35121_complete_G_backup_and_C_rollback": true
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 555,
+    "successful_blender_actors": 557,
     "native_actions": 97,
-    "failed_blender_actors": 52,
-    "new_this_batch": 1,
+    "failed_blender_actors": 58,
+    "new_this_batch": 3,
     "new_native_this_batch": 0,
-    "interpretation": "1actual naturalrc1/0native;555/97/57次数非完成率。完整post仅同Collection users21→24两端点叶，不接受canonical/ordinary。"
+    "interpretation": "本批2自然rc0+1自然rc1/0native；557/97/58为次数非完成率，无新产品或ordinary晋升。"
   },
   "bounded_evidence": {
     "ordinary_roots": 37,
@@ -229,14 +229,13 @@
       ]
     },
     "XL_克隆_沿样条": {
-      "current": 349,
-      "support_level": "CANONICAL_FULL_POST_COLLECTION_USERCOUNT_REJECTED",
-      "scope": "本批source59canon3唯一真实Bpy自然rc1、fullmonitorCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native；actual先记账累计555成功guard/97有界native/57失败Bpy，次数非完成率。前两canonical的180秒超时和未采post保持失败，不倒改。Main亲读C producer_v5完整受限diff、G逐字段源码范围与一次host before/dry编码基准：仅这两次已逐字段freeze的capture去外层重复JSON冻结，203664746/208332496序列化字节逐字节同、单次约省12.04秒，其他dump保原freeze；这不是整体软件时长保证。本次在172.303秒实际采齐保存后完整73图/16parents/234objects/40ID，性能窗口已真实容纳fullpost。72before/10copy/73dry完整独立金和物理双射同PID通过，before2224物理/6417地址、copy/dry2236/6452，Root1782/2439原序边/63inputs无9QA。Main全值dry→post独立递归差仅2叶：input22_endpoints两行的同一个真实Collection target.users均21→24；这是同一物理属性的两次端点记录，非两个Collection各增3。其余完整groups/group_states/inventory/parents/objects/refs/mods/idrefs/static/Scene/mapping/40ID逐值0差，Source58父库和prefs SHA保持。producer saved_equal断言真实拒绝，原error/raw全保；候选31903285B虽存在，但不接受canonical、不fresh、不装、不发布。G同commit保存链报告已Main全文和6primary SHA核；Main亲读write_file_handle、BKE_main_id_refcount_recompute完整回调/函数及NodeTree/interface USER遍历：保存存在受USER_DEVELOPER_TOOL_TEST(use_recompute_usercount_on_save_debug)控制的全局重算条件，当前没有实际开关值/调用轨迹，不能断言它发生或解释+3。缺完整Collection入边/节点outputs默认ID槽/回调阶段实证，实际原因UNKNOWN；不手动改users、泛滤或将计数差当正常。Source58/本机/GitHub普通3.5.122同378保持，无正式Source59/安装123/新ZIP/release。",
+      "current": 350,
+      "support_level": "bounded_save_control_and_serialized_legacy_mechanism_only",
+      "scope": "本批3真实Bpy：sclsaveobs2自然rc1、sclsavebase1/sclbaseread1自然rc0，均fullmonitorCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native；累计557成功guard/97有界native/58失败Bpy。次数非完成率，技术rc0非功能接受。精确保存诊断copy21→SAVE_PRE21→SAVE_POST24，删除copy后23对原20仍真拒；可见18/17槽、debug双False与原空handlers及精确恢复全保，source身份恢复，71196/81325不支持IDProperty访问原样保。无编辑Source58保存控制不copy/rename/build，20→pre20→post23→return23，诊断文件唯一只读重载回20，538groups234objects40ID及132确切typed地址角色/source身份过；不是Source59 fresh验收。Main完整固定commit写入链与实际序列化SDNA双独审：234Objects/179NODES地址一一覆盖，克隆_对象/克隆/Input_34、矩阵_Demo/XL_矩阵/Socket_4、克隆_样条线/克隆/Input_22均sole NODES、Value1、system IDP_ID及serialized legacy同IDP_ID指向同一Collection。写入时IDP_CopyProperty(flag0)每项加1，临时legacy FreeProperty_ex(false)不扣；提供精确三个增量的源码+序列化机制，与两真实保存区间一致，非binary调用插桩。一个未选非NODES modifier链接仍UNKNOWN，全部179NODES集合已完整双射，不冒全部modifier解析。原actual计数、canon1/2超时、canon3完整post拒绝全部保，不倒改。Source58/本机/GitHub普通3.5.122同378产品，无Source59接受/安装123/新ZIP/release。 下一以独立精确保存阶段参考继续原PHS包，既有canonical失败保持；先完整通过再安装发布。",
       "proofs": [
-        {
-          "report": "continuation116_Main_current349_Source59_fullpost_Collection_users21_to24_rejection_independent_review_v1.json",
-          "SHA": "3715ce5dbac5977ff7c8d072a9dbc75d5ca1dec3f8d99db98126bd7c5530444f"
-        }
+        "c801a5337d0bf6f9742afde8881da905db4c7430a55bd81468ffa90c08f80f20",
+        "8e8b1801352fe95a2f18eaa8afcabcc34d14f2b75e9d2c31dc21608a8eece14f",
+        "6176cfbd5f4fc9ee92f6f8f08bbcc23609bdfb9171404adbb727007fb144c65f"
       ]
     }
   },
