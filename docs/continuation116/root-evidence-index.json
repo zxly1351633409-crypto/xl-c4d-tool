@@ -300,8 +300,22 @@
       "category": "生成器",
       "origin": "ORIGINAL_116",
       "current_catalog_revision": "20261027-rectangle-native-default-interface-r96",
-      "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_current327_Rectangle_Stage96_toSource57_full2closure_lineage_independent_review_v1.json",
+          "sha256": "28866d5ccab68fd784216a1483ce3ed5cec08fa2bd8fd34810e3afefed0843a2",
+          "scope_note": "实际C3.5.121默认普通EXEC，ZY反向、非圆角、无插值、宽2.13700008392334/高.5189999938011169米；4ordered点与旧native误差0，全部Curve数组同旧Source96，完整旧→当前两图0差。一次EXEC默认支持态和请求态均完整采GS，仅曲线+空Mesh，其余组件无；跨态尺寸三叶均由采前固定模型约束、每态前后不变，四快照误差0。输入mesh/模块/偏好/Scene清理严格通过，不冒任意参数/Phong/全UX或转移追认旧N边形/Extrude。",
+          "support_level": "CURRENT327_INSTALLED_RECTANGLE_ZY_REVERSE_NONE_ORDINARY_BOUNDED"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current327_installed35121_Rectangle_ZY_None_independent_review_v1.json",
+          "sha256": "58c53a23c03f84e63e056f45403958d2e5619f254da6e1f0c5890ecaa6c89c77",
+          "scope_note": "实际C3.5.121默认普通EXEC，ZY反向、非圆角、无插值、宽2.13700008392334/高.5189999938011169米；4ordered点与旧native误差0，全部Curve数组同旧Source96，完整旧→当前两图0差。一次EXEC默认支持态和请求态均完整采GS，仅曲线+空Mesh，其余组件无；跨态尺寸三叶均由采前固定模型约束、每态前后不变，四快照误差0。输入mesh/模块/偏好/Scene清理严格通过，不冒任意参数/Phong/全UX或转移追认旧N边形/Extrude。",
+          "support_level": "CURRENT327_INSTALLED_RECTANGLE_ZY_REVERSE_NONE_ORDINARY_BOUNDED"
+        }
+      ],
+      "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED",
+      "current327_scope": "One requestedZY/reverseTrue/nonfillet/None W2.137 H.519 four ordered curve points fullordinary; sameEXEC defaultsupport and both pre-frozen dims models, no arbitraryRectangle/Phong/fullUX."
     },
     {
       "root": "C4D_样条_花形",
@@ -1693,12 +1707,12 @@
       "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
     }
   ],
-  "indexed_roots": 21,
-  "existing_evidence_to_reconcile_roots": 89,
-  "meaning": "26受限ordinary、3数学继承、89材料待归并；当前N边形曲线组件数值过但严格整项未接受，非完成率或未实现数量。",
+  "indexed_roots": 22,
+  "existing_evidence_to_reconcile_roots": 88,
+  "meaning": "27受限ordinary、3数学继承、88材料待归并；所有范围有限，非完成率或88未实现。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
-  "current_bounded_evidence_roots": 26,
+  "current_bounded_evidence_roots": 27,
   "historical_evidence_found_current_lineage_pending_roots": 0,
   "current_math_lineage_bounded_roots": 3,
   "pending_current_function_discrepancy_roots": 0,
