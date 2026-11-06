@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-06",
-  "current": 340,
+  "current": 341,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -44,17 +44,17 @@
     "previous35121_complete_G_backup_and_C_rollback": true
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 542,
+    "successful_blender_actors": 544,
     "native_actions": 97,
     "failed_blender_actors": 52,
     "new_this_batch": 2,
     "new_native_this_batch": 0,
-    "interpretation": "本批2实际Bpy自然rc0/fullCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native。542/97/52为执行次数，非完成率。"
+    "interpretation": "两actual rc0/0native；544/97/52为次数非完成率。"
   },
   "bounded_evidence": {
-    "ordinary_roots": 35,
+    "ordinary_roots": 36,
     "math_lineage_roots": 3,
-    "historical_material_pending_reconciliation_roots": 80,
+    "historical_material_pending_reconciliation_roots": 79,
     "rows_total": 118,
     "not_completion_rate_or_unimplemented_count": true,
     "pending_current_function_discrepancy_roots": 0,
@@ -163,6 +163,14 @@
       "proof": "continuation116_Main_current340_installed35122_Displace_type0white_independent_review_v1.json",
       "proof_SHA": "589e7651b345eaa7925ac3488d5e1748673dd05d7520db231350a9353983243e",
       "readonly_SHA": "464d364e07d53e25ca67b0f86278869c2da3ea0777407cf276b8cac426bcb118"
+    },
+    "收缩包裹": {
+      "current": 341,
+      "support_level": "INSTALLED_SHRINKWRAP_TARGETAXIS_HALF_BOUNDED_ORDINARY",
+      "scope": "实际C122收缩包裹单请求 common_parent_owner_child_target_axis_half_strength：真实公共名无XL前缀，目标轴投射/强度.5/距离100米/偏移与衰减0/平滑False；8initial/requested全值含真实target ptr核。common parent下owner与target为siblings，分别按原生ML赋basis，非均匀TRS形成真实world shear；4原序点4边1有向quad4角，properCdet+1，反面是明确fixture而非properrotation要求。local max1.2046149548891332e-7m，按已采ownerMG派生world max1.7066435517305073e-7m，固定2um过；未采cacheMG不冒实测cacheworld/nativeUV/权重/Phong。默认同EXEC targetNone/最近点仅支持态，采前emptyFaceCount→finalAND False→SetPosition不移动模型，实际点字面输入同；平滑True使完整mesh只有6个精确role/shading/normal叶差，原值全保。请求对默认45个精确叶变化全部保存，其余字面同，QA float/vector/UV全保。两态GS只有Mesh无ref，每态owner前后全writable同，跨态仅dimensions三叶按采前world column scale×localbbox四快照模型最大2.1126980037644572e-7m。目标完整mesh/writable/flags和parent/owner/target全部矩阵TRS保持；Root150/236完整8partscompact initial/pre/tail/cleanup对采前gold逐值同，0refs1物理/40ID164C模块/source3prefs/Scene选择和3Object2Mesh users0清理全过。旧114完整8parts当前0差，compact仅确切users3→1和preview旧ABSENT新PRESENT分类，不冒旧preview观测或旧guard身份。旧6原生/Bpy/fresh完整独算已缓存，不重旧几何或原生，不外推任意模式/形状/TRS/fullUX。",
+      "proof": "continuation116_Main_current341_installed35122_Shrinkwrap_targetaxis_half_independent_review_v1.json",
+      "proof_SHA": "aeeb3d889f728a37947d44df18d38edfe2f03d2be98931358f070fba7d5e8ba8",
+      "readonly_SHA": "03650e3f249a54ecbf5926df1e223fa08591b030b6826336e2468af7239de77c"
     }
   },
   "open_issues": [

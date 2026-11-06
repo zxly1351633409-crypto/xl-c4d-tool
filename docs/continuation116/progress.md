@@ -1,3 +1,15 @@
+current341：收缩包裹目标轴/半强度单请求受限普通入口通过
+
+Source58/本机/GitHub普通3.5.122同378产品保持，无新安装ZIP/release/Source59/native125。
+
+实际C122收缩包裹单请求 common_parent_owner_child_target_axis_half_strength：真实公共名无XL前缀，目标轴投射/强度.5/距离100米/偏移与衰减0/平滑False；8initial/requested全值含真实target ptr核。common parent下owner与target为siblings，分别按原生ML赋basis，非均匀TRS形成真实world shear；4原序点4边1有向quad4角，properCdet+1，反面是明确fixture而非properrotation要求。local max1.2046149548891332e-7m，按已采ownerMG派生world max1.7066435517305073e-7m，固定2um过；未采cacheMG不冒实测cacheworld/nativeUV/权重/Phong。默认同EXEC targetNone/最近点仅支持态，采前emptyFaceCount→finalAND False→SetPosition不移动模型，实际点字面输入同；平滑True使完整mesh只有6个精确role/shading/normal叶差，原值全保。请求对默认45个精确叶变化全部保存，其余字面同，QA float/vector/UV全保。两态GS只有Mesh无ref，每态owner前后全writable同，跨态仅dimensions三叶按采前world column scale×localbbox四快照模型最大2.1126980037644572e-7m。目标完整mesh/writable/flags和parent/owner/target全部矩阵TRS保持；Root150/236完整8partscompact initial/pre/tail/cleanup对采前gold逐值同，0refs1物理/40ID164C模块/source3prefs/Scene选择和3Object2Mesh users0清理全过。旧114完整8parts当前0差，compact仅确切users3→1和preview旧ABSENT新PRESENT分类，不冒旧preview观测或旧guard身份。旧6原生/Bpy/fresh完整独算已缓存，不重旧几何或原生，不外推任意模式/形状/TRS/fullUX。
+
+本批两actual自然rc0/fullCIMnonce/fullWindowsargv/immutable/afterCIM[]，累计544成功guard/97有界native/52失败Bpy；次数非完成率。36受限ordinary+3数学继承+79材料待归并共118，不等于79未实现，无逐语义分母不编工期。
+
+收缩包裹current341当前150/236图和实际C122目标轴/半强度单请求ordinary已过，禁止重shrink58read1/i122shrinkaxis1、旧native6/publicApply/fresh/114图、同case/default补验。下一现有公开变形器XL_爆炸：Main全文A导航/7源SHA size/Source58 catalog1 metadata1/DFS3 refs3、63target16parent缺完整图已核；rev20261024-explosion-topology-guard-r1，Root→XL_爆炸_核心→网格孤岛位置两调用。旧3513仅有限零强度/legacy回归，detached原生与候选存在但尚未Main全文独算实际输入/原生/producer/consumer/冻结执行身份，不拿all_pass冒任意爆炸或当前ordinary。先精确旧链，真缺数学才最小false，无自动observer/native125/Source59/安装123批准。
+
+既往受限范围继续保留：
+
 current340：置换单请求受限普通入口通过
 
 Source58/本机/GitHub普通3.5.122同378产品保持，无新安装ZIP/release/Source59/native125。
