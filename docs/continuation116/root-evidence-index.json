@@ -399,7 +399,8 @@
         }
       ],
       "coverage_state": "EVIDENCE_NOT_YET_RECONCILED",
-      "current330_scope": "Current121 None193 versus nativeBezier65 control count rejected; old f953 candidate15inputs/303nodes completegraph only, no isolated/current product pass. Newgraft MENU/schema unclosed; not a generalized visible failure."
+      "current330_scope": "Current121 None193 versus nativeBezier65 control count rejected; old f953 candidate15inputs/303nodes completegraph only, no isolated/current product pass. Newgraft MENU/schema unclosed; not a generalized visible failure.",
+      "current332_scope": "本轮仅主会话独立源码/API与既有材料审阅，无新增Blender或原生运行。螺旋共享菜单方案的Item编号条件、菜单接口动态枚举API及五个既有节点模板已核；这不证明候选运行或几何通过。独立参考模块、完整六组参考与有限控制器仍待完整审阅，阶段合同保持false。融球旧记录仅数量诊断和保存重现，原生阈值/标签与Blender代理参数没有建立映射，不能称数值等价或通用故障。Source57/普通3.5.121和三附件保持不变。"
     },
     {
       "root": "C4D_样条_齿轮",
@@ -1582,7 +1583,8 @@
       "origin": "ORIGINAL_116",
       "current_catalog_revision": null,
       "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED",
+      "current332_scope": "本轮仅主会话独立源码/API与既有材料审阅，无新增Blender或原生运行。螺旋共享菜单方案的Item编号条件、菜单接口动态枚举API及五个既有节点模板已核；这不证明候选运行或几何通过。独立参考模块、完整六组参考与有限控制器仍待完整审阅，阶段合同保持false。融球旧记录仅数量诊断和保存重现，原生阈值/标签与Blender代理参数没有建立映射，不能称数值等价或通用故障。Source57/普通3.5.121和三附件保持不变。"
     },
     {
       "root": "XL_跟随效果",
