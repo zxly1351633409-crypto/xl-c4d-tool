@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-07",
-  "current": 347,
+  "current": 349,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -49,7 +49,7 @@
     "failed_blender_actors": 52,
     "new_this_batch": 1,
     "new_native_this_batch": 0,
-    "interpretation": "1actualrc0/0native;555/97/54次数非完成率。精确事务/存储诊断通过，Source59 canonical/实际安装未交，不晋升ordinary。"
+    "interpretation": "1actual naturalrc1/0native;555/97/57次数非完成率。完整post仅同Collection users21→24两端点叶，不接受canonical/ordinary。"
   },
   "bounded_evidence": {
     "ordinary_roots": 37,
@@ -229,13 +229,13 @@
       ]
     },
     "XL_克隆_沿样条": {
-      "current": 347,
-      "support_level": "ISOLATED_TRANSACTION_STORAGE_DIAGNOSTIC_PASS_CANONICAL_PENDING",
-      "scope": "本批仅1真实Bpy sclstore1，自然rc0/fullmonitorCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native；已先记账累计555成功guard/97有界native/54失败Bpy，次数非完成率，技术rc0非功能接受。仅针对已定位问题采用新事务builder_v4：Input22原Collection暂None→复制→finally恢复原Root及65个GroupInput同槽输出→绑定ownedcopy，实际users2→1→1→2→3，source_graph/source_pointer及65个原输出逐值恢复，最终精确清理后Collectionusers1，无手动减users。新ownedcopy加9诊断节点/11新边减1旧终边，1791nodes2449原序边、10group/21refs31物理；七阶段完整8parts+compact对采前独立gold全字面0差。诊断三Bool两Vector均INSTANCE：neutral/signed两态每态7个，Exists(position)全False、Exists(instance_transform)全True、唯一缺名负控全False；Position及Named(position)两个向量与各自实际instance_transform.translation逐值误差0。Main亲读同commit Instance accessor.contains→storage.lookup、Position和Named position读取transform，以及Store(position FLOAT_VECTOR INSTANCE)直接写transform的真实源码分支。故在这两个已观测选择位置无同名position storage条目；原Python instances_pointcloud转换出来的POINT position所有巨大有限原值和每个差保，不当作源INSTANCE属性、不归零/泛滤、不声称二进制内存原因。source Root当前StoreNamedAttribute.029存在与此并不冲突，因为该类型position写transform；不是据静态路径冒actual branch。neutral与原配置currentRoot仅五个明确QA属性及转换器position角色差，其他完整GS attrs/引用树逐值同；signed相对已过sclcopy2仅这些精确新增QA和转换器差，其他attrs/矩阵/引用tetra全字面同。跨PID63typed仅Socket10/Input3 ownedCurve和Input22 Collection三ptr按独立两ID角色一一对应，其余全值同，非泛PTR过滤。此次不重旧native/28点数值来加样例；原native数学组件既证照用。输入Mesh/UV/QAattrs/flags/writable、Curve全部RNA/矩阵、四owner及原Scene选择前后完整保，40ID旧行/164实际C模块/source3prefs/2Object1Mesh1Curve精确清理过。owner维持input-sized .12/.23/.17米，仍不冒原生完整实例bounds或实际cache分支。Source59无诊断生产图仅完整结构反向投影1782/2439对照，非另一次无诊断评估。两处阻断在本次事务/诊断范围已闭合，开始Source59普通123完整集成准备，尚未canonical保存/fresh/物理/实际C安装ordinary或发布；产品仍Source58/3.5.122同378，旧current346 rawfunctionalFalse/两rc1不倒改，不追认Grid/Extrude/旧未知。",
+      "current": 349,
+      "support_level": "CANONICAL_FULL_POST_COLLECTION_USERCOUNT_REJECTED",
+      "scope": "本批source59canon3唯一真实Bpy自然rc1、fullmonitorCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native；actual先记账累计555成功guard/97有界native/57失败Bpy，次数非完成率。前两canonical的180秒超时和未采post保持失败，不倒改。Main亲读C producer_v5完整受限diff、G逐字段源码范围与一次host before/dry编码基准：仅这两次已逐字段freeze的capture去外层重复JSON冻结，203664746/208332496序列化字节逐字节同、单次约省12.04秒，其他dump保原freeze；这不是整体软件时长保证。本次在172.303秒实际采齐保存后完整73图/16parents/234objects/40ID，性能窗口已真实容纳fullpost。72before/10copy/73dry完整独立金和物理双射同PID通过，before2224物理/6417地址、copy/dry2236/6452，Root1782/2439原序边/63inputs无9QA。Main全值dry→post独立递归差仅2叶：input22_endpoints两行的同一个真实Collection target.users均21→24；这是同一物理属性的两次端点记录，非两个Collection各增3。其余完整groups/group_states/inventory/parents/objects/refs/mods/idrefs/static/Scene/mapping/40ID逐值0差，Source58父库和prefs SHA保持。producer saved_equal断言真实拒绝，原error/raw全保；候选31903285B虽存在，但不接受canonical、不fresh、不装、不发布。G同commit保存链报告已Main全文和6primary SHA核；Main亲读write_file_handle、BKE_main_id_refcount_recompute完整回调/函数及NodeTree/interface USER遍历：保存存在受USER_DEVELOPER_TOOL_TEST(use_recompute_usercount_on_save_debug)控制的全局重算条件，当前没有实际开关值/调用轨迹，不能断言它发生或解释+3。缺完整Collection入边/节点outputs默认ID槽/回调阶段实证，实际原因UNKNOWN；不手动改users、泛滤或将计数差当正常。Source58/本机/GitHub普通3.5.122同378保持，无正式Source59/安装123/新ZIP/release。",
       "proofs": [
         {
-          "report": "continuation116_Main_current347_SplineCloner_transaction_and_storage_diagnostic_independent_review_v1.json",
-          "SHA": "64001dcbbc22a9a1dd50d7ebdb0c7847f2037191889e63fb2dbf970969c619e9"
+          "report": "continuation116_Main_current349_Source59_fullpost_Collection_users21_to24_rejection_independent_review_v1.json",
+          "SHA": "3715ce5dbac5977ff7c8d072a9dbc75d5ca1dec3f8d99db98126bd7c5530444f"
         }
       ]
     }
