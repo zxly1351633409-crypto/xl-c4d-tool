@@ -358,8 +358,28 @@
       "category": "生成器",
       "origin": "ORIGINAL_116",
       "current_catalog_revision": null,
-      "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_current330_Helix_Source57_full1closure_readonly_independent_review_v1.json",
+          "sha256": "7bbfb2cbc675245d369de6c784e53120bddf29e57a0cf8d973c95c974ccea89e",
+          "scope_note": "实际C3.5.121螺旋普通入口，None/起始半径.5米/结束半径0/高度1米/圈3/分辨率64/XY/反转False，14输入逐值核。当前输出POLY193个控制点，原生真实Bezier65个控制点，严格对应关系拒绝；数量差本身不代表已证明通用可见错误，也不把旧隔离候选65点通过追认为当前产品。完整单根89节点106边及typed/完整GS/输入保护/40ID模块偏好场景清理核；尺寸X/Y派生变化由各自实际输出包围盒和预先固定源码扩边算法约束，四支持快照误差0，不换原生oracle。旧候选303节点457边完整图缺口已只读补齐，但它的旧输入探针改写11条原边，不能直接冒全部legacy等价。拟最小fallback graft的菜单共享和新Group节点完整schema尚未闭合，尚未运行或进入产品。",
+          "support_level": "CURRENT330_HELIX_NEGATIVE_OR_GRAPH_ONLY_NOT_ACCEPTED_ORDINARY"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current330_installed35121_Helix_None193_vs_native65_rejection_independent_review_v1.json",
+          "sha256": "325252ed8833b39f83119631bad98747725f2b796ca484702b7a9b9f72eb4628",
+          "scope_note": "实际C3.5.121螺旋普通入口，None/起始半径.5米/结束半径0/高度1米/圈3/分辨率64/XY/反转False，14输入逐值核。当前输出POLY193个控制点，原生真实Bezier65个控制点，严格对应关系拒绝；数量差本身不代表已证明通用可见错误，也不把旧隔离候选65点通过追认为当前产品。完整单根89节点106边及typed/完整GS/输入保护/40ID模块偏好场景清理核；尺寸X/Y派生变化由各自实际输出包围盒和预先固定源码扩边算法约束，四支持快照误差0，不换原生oracle。旧候选303节点457边完整图缺口已只读补齐，但它的旧输入探针改写11条原边，不能直接冒全部legacy等价。拟最小fallback graft的菜单共享和新Group节点完整schema尚未闭合，尚未运行或进入产品。",
+          "support_level": "CURRENT330_HELIX_NEGATIVE_OR_GRAPH_ONLY_NOT_ACCEPTED_ORDINARY"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current330_Helix_f953_full1closure_readonly_independent_review_v1.json",
+          "sha256": "a3fbd01bc4a8d06eba27e5acd35dda9b87de6f9dc859a762f2b3bf2b9550badc",
+          "scope_note": "实际C3.5.121螺旋普通入口，None/起始半径.5米/结束半径0/高度1米/圈3/分辨率64/XY/反转False，14输入逐值核。当前输出POLY193个控制点，原生真实Bezier65个控制点，严格对应关系拒绝；数量差本身不代表已证明通用可见错误，也不把旧隔离候选65点通过追认为当前产品。完整单根89节点106边及typed/完整GS/输入保护/40ID模块偏好场景清理核；尺寸X/Y派生变化由各自实际输出包围盒和预先固定源码扩边算法约束，四支持快照误差0，不换原生oracle。旧候选303节点457边完整图缺口已只读补齐，但它的旧输入探针改写11条原边，不能直接冒全部legacy等价。拟最小fallback graft的菜单共享和新Group节点完整schema尚未闭合，尚未运行或进入产品。",
+          "support_level": "CURRENT330_HELIX_NEGATIVE_OR_GRAPH_ONLY_NOT_ACCEPTED_ORDINARY"
+        }
+      ],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED",
+      "current330_scope": "Current121 None193 versus nativeBezier65 control count rejected; old f953 candidate15inputs/303nodes completegraph only, no isolated/current product pass. Newgraft MENU/schema unclosed; not a generalized visible failure."
     },
     {
       "root": "C4D_样条_齿轮",
