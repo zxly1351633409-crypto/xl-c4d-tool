@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-06",
-  "current": 342,
+  "current": 343,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -44,17 +44,17 @@
     "previous35121_complete_G_backup_and_C_rollback": true
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 547,
+    "successful_blender_actors": 549,
     "native_actions": 97,
     "failed_blender_actors": 52,
-    "new_this_batch": 3,
+    "new_this_batch": 2,
     "new_native_this_batch": 0,
-    "interpretation": "3actual rc0/0native；蜂窝请求emptyMesh拒，技术rc0非功能通过，547/97/52非完成率。"
+    "interpretation": "2actual rc0/0native；对象克隆signed12受限ordinary接受；549/97/52执行次数非完成率。"
   },
   "bounded_evidence": {
-    "ordinary_roots": 36,
+    "ordinary_roots": 37,
     "math_lineage_roots": 3,
-    "historical_material_pending_reconciliation_roots": 79,
+    "historical_material_pending_reconciliation_roots": 78,
     "rows_total": 118,
     "not_completion_rate_or_unimplemented_count": true,
     "pending_current_function_discrepancy_roots": 0,
@@ -195,6 +195,21 @@
         {
           "report": "continuation116_Main_current342_installed35122_Honeycomb_step_xz_empty_rejection_independent_review_v1.json",
           "SHA": "80e003e79f7d8e45fc9f0988853b9c0b4f35caa09fd7c38b884e1a8657b3707c"
+        }
+      ]
+    },
+    "XL_克隆_对象": {
+      "current": 343,
+      "support_level": "INSTALLED_BOUNDED_EVIDENCE_INDEXED",
+      "scope": "本批2真实Bpy obj58read1/i122obj12a1均自然rc0/fullmonitorCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native，累计549成功guard/97有界native/52失败Bpy；技术rc0非功能通过、次数非完成率。当前Source58对象克隆Root XL_克隆_对象5nodes59原序compact边→变换运行核110 2749/3637、SetMl109 118/210两调用、边索引框架108 44/61一调用、排序模式.001 9/10十三调用，五完整8partscompact双采解压字节同。17perowner原序refs22物理，loaded RootTrue1/coreFalse1/helperFalse2/edgeFalse1/menuFalse13，sourcehelperFalse5/edgeFalse2/menuFalse65原值保；source/loaded差不泛过滤。实际3defaultID同Collection Drop_Your_Assets_Here.001/Input34，载Collection1/ObjectMesh0；40ID旧行+5group1Collection1Library/Scene空frame1/source3prefs保持，Libraryfilepath未另采。Main旧两native10actualreadback/target6点8tri和child8点6quad、owner/target/child全部MLMG I、12clone/cache实际worldMG与SDKSetMl逐值独算，signed世界点1.3172261300488208e-7m、matrixlinear2.1495571822516268e-7/translation5.5852615754581336e-8m；tinyzeroX旧点7.677290500214043e-8m有限过，不冒退化唯一匹配。旧actual pre/fresh有12个明确instances.position浮点叶差UNVERIFIED保，完整场景仅6个group ptr地址差，不泛PTR过滤或升级旧guard。collector实际CRLF字节与记录不同，LF归一精确匹配request，不冒原bytes身份。唯一actualC122默认普通EXEC请求object110_postfreeze_signed_combined/实现为几何；55initial/requested全值，50非ID显式设置+3exactownedObject，Input0None和Collection默认保。native10字段映射独核，其他inactive值为旧fixture而非全C4D控件映射。96有序点144边72有向quad288角，位置最大1.3172261300488208e-7m<固定2um，全原序面逐值同native。完整Mesh与旧formal仅4个明确角色/字段差：data.name、旧未采has_custom_normals而新False、旧QA自建材质快照而新slotNone、旧未采writableRNA而新完整采；其余全部数组/attrs/normals逐值同。新writable stable全同ownedchild，runtimeDataTrue；全部meshflags为child十二份。两态GS只有Mesh、其它组件ABSENT/ref[]、完整递归树各1节点；默认真空Mesh只是同EXEC支持，输入相比仅空BCloner_Factor属性和runtimeData角色差，空几何bounds0模型过，无默认nativeoracle或actualbranchtrace。每态owner before/after全writable同，跨态仅dimensions3叶；请求nativebbox最大1.4321632946234786e-7m。四完整图initial/pre/tail/清后对采前gold字面0差；17refs22物理+ownerMod/40ID164C模块/source3prefs/Scene选择和4Object4Mesh精确users0清理全过。target/child/inactive完整mesh/writable/flags/矩阵TRS保持，Collection全有序members/children[]保持，清后仅users4→3为ownerModifier默认ID释放。原rawfunctionalFalse保，不冒任意TRS/Fields/nativeIndex/UV/Phong/权重/fullUX。Source58/普通3.5.122同378产品无字节变更，无新安装ZIP/release/Source59/native125。",
+      "proofs": [
+        {
+          "report": "continuation116_Main_current343_Source58_ObjectCloner_five_fullgraphs_readonly_independent_review_v1.json",
+          "SHA": "1a66b946f31cc0ed79d84d15ca8c453670bea8f699cca5e6dbce7202350eb0c7"
+        },
+        {
+          "report": "continuation116_Main_current343_installed35122_ObjectCloner_signed12_independent_review_v1.json",
+          "SHA": "3afe4ee3ba91ca16ad2d78e499d4adfa82ffca334d330d6f7aac588742705f9b"
         }
       ]
     }
