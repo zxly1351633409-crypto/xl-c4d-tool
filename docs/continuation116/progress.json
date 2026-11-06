@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-06",
-  "current": 334,
+  "current": 335,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -44,17 +44,17 @@
     "previous35121_complete_G_backup_and_C_rollback": true
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 530,
+    "successful_blender_actors": 532,
     "native_actions": 97,
     "failed_blender_actors": 52,
-    "new_this_batch": 1,
+    "new_this_batch": 2,
     "new_native_this_batch": 0,
-    "interpretation": "本批1只读Bpy自然rc0/fullCIMnonce/fullWindowsargv、immutable/after[]；0native。530/97/52是累计执行次数，非完成率。"
+    "interpretation": "本批2实际Bpy自然rc0/fullCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native。532/97/52为累计执行次数，非完成率。"
   },
   "bounded_evidence": {
-    "ordinary_roots": 30,
+    "ordinary_roots": 31,
     "math_lineage_roots": 3,
-    "historical_material_pending_reconciliation_roots": 85,
+    "historical_material_pending_reconciliation_roots": 84,
     "rows_total": 118,
     "not_completion_rate_or_unimplemented_count": true,
     "pending_current_function_discrepancy_roots": 0,
@@ -116,11 +116,12 @@
       "route_proof_SHA": "fe5c81233b3f496a5258ff8fe9a7178558c5933729fdbc6b1f51898c7e130898"
     },
     "C4D_样条_花形": {
-      "current": 334,
-      "support_level": "IDENTITY_NAVIGATION_ONLY_PENDING_MAIN_NUMERIC_AND_RUNTIME_CONTRACT",
-      "source58_DFS_groups": 2,
-      "current_fullmath_missing": true,
-      "old_None51_and_Natural378_not_current_acceptance": true
+      "current": 335,
+      "support_level": "INSTALLED_FLOWER_NONE17_BOUNDED_ORDINARY",
+      "scope": "实际C3.5.122默认普通EXEC花形，无插值/N17、外2.1730000972747803米/内.6129999756813049米、XZ/反转True；51有序Bezier控制点最大误差3.457254080344095e-7米，左右有效手柄最大3.5036324063315704e-7/3.646751366082127e-7米，固定2um通过。13初始/请求完整核，圆角False/twist0及两个inactive默认是Blenderfixture，非全原生控件映射。完整Curve数组同旧consumer；GS仅Curve+真空Mesh，其余组件无。默认144点仅同EXEC支持态；四owner快照尺寸由采前源码固定算法和请求native bbox核，误差0。两完整图同PID原值保持，跨PID只一确切ENUM_FLAG地址两叶成员顺序分类；40ID/164C模块/source3prefs/Scene选择/owned清理过。非任意参数/Natural手柄/一般closedBezier/TRS/UV/Phong/fullUX。",
+      "proof": "continuation116_Main_current335_installed35122_Flower_None17_independent_review_v1.json",
+      "proof_SHA": "b440439a1683f0fc580bacc3d38aafc8f1e325fd2a418b1187cfaf2989486c23",
+      "readonly_proof_SHA": "366581927451e01d6970068a6598f9d8dcd7a2c1fda54134ed5dfad7191ef042"
     }
   },
   "open_issues": [

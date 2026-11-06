@@ -370,9 +370,23 @@
       "category": "生成器",
       "origin": "ORIGINAL_116",
       "current_catalog_revision": "20261027-flower-native-default-interface-r98",
-      "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED",
-      "current334_scope": "Current Source58 identity DFS2 missing fullmath; old two finite candidate cases and false packet received, Main numeric/actor/reference/grant not complete; no new runtime approval."
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_current335_Flower_Source58_full2closure_readonly_independent_review_v1.json",
+          "sha256": "366581927451e01d6970068a6598f9d8dcd7a2c1fda54134ed5dfad7191ef042",
+          "scope_note": "实际C3.5.122默认普通EXEC花形，无插值/N17、外2.1730000972747803米/内.6129999756813049米、XZ/反转True；51有序Bezier控制点最大误差3.457254080344095e-7米，左右有效手柄最大3.5036324063315704e-7/3.646751366082127e-7米，固定2um通过。13初始/请求完整核，圆角False/twist0及两个inactive默认是Blenderfixture，非全原生控件映射。完整Curve数组同旧consumer；GS仅Curve+真空Mesh，其余组件无。默认144点仅同EXEC支持态；四owner快照尺寸由采前源码固定算法和请求native bbox核，误差0。两完整图同PID原值保持，跨PID只一确切ENUM_FLAG地址两叶成员顺序分类；40ID/164C模块/source3prefs/Scene选择/owned清理过。非任意参数/Natural手柄/一般closedBezier/TRS/UV/Phong/fullUX。",
+          "support_level": "CURRENT335_INSTALLED_FLOWER_NONE17_ORDINARY_BOUNDED"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current335_installed35122_Flower_None17_independent_review_v1.json",
+          "sha256": "b440439a1683f0fc580bacc3d38aafc8f1e325fd2a418b1187cfaf2989486c23",
+          "scope_note": "实际C3.5.122默认普通EXEC花形，无插值/N17、外2.1730000972747803米/内.6129999756813049米、XZ/反转True；51有序Bezier控制点最大误差3.457254080344095e-7米，左右有效手柄最大3.5036324063315704e-7/3.646751366082127e-7米，固定2um通过。13初始/请求完整核，圆角False/twist0及两个inactive默认是Blenderfixture，非全原生控件映射。完整Curve数组同旧consumer；GS仅Curve+真空Mesh，其余组件无。默认144点仅同EXEC支持态；四owner快照尺寸由采前源码固定算法和请求native bbox核，误差0。两完整图同PID原值保持，跨PID只一确切ENUM_FLAG地址两叶成员顺序分类；40ID/164C模块/source3prefs/Scene选择/owned清理过。非任意参数/Natural手柄/一般closedBezier/TRS/UV/Phong/fullUX。",
+          "support_level": "CURRENT335_INSTALLED_FLOWER_NONE17_ORDINARY_BOUNDED"
+        }
+      ],
+      "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED",
+      "current334_scope": "Current Source58 identity DFS2 missing fullmath; old two finite candidate cases and false packet received, Main numeric/actor/reference/grant not complete; no new runtime approval.",
+      "current335_scope": "实际C3.5.122默认普通EXEC花形，无插值/N17、外2.1730000972747803米/内.6129999756813049米、XZ/反转True；51有序Bezier控制点最大误差3.457254080344095e-7米，左右有效手柄最大3.5036324063315704e-7/3.646751366082127e-7米，固定2um通过。13初始/请求完整核，圆角False/twist0及两个inactive默认是Blenderfixture，非全原生控件映射。完整Curve数组同旧consumer；GS仅Curve+真空Mesh，其余组件无。默认144点仅同EXEC支持态；四owner快照尺寸由采前源码固定算法和请求native bbox核，误差0。两完整图同PID原值保持，跨PID只一确切ENUM_FLAG地址两叶成员顺序分类；40ID/164C模块/source3prefs/Scene选择/owned清理过。非任意参数/Natural手柄/一般closedBezier/TRS/UV/Phong/fullUX。"
     },
     {
       "root": "C4D_样条_螺旋",
@@ -1811,12 +1825,12 @@
       "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
     }
   ],
-  "indexed_roots": 33,
-  "existing_evidence_to_reconcile_roots": 85,
-  "meaning": "30受限ordinary、3数学继承、85材料待归并；范围有限，非完成率或85未实现。",
+  "indexed_roots": 34,
+  "existing_evidence_to_reconcile_roots": 84,
+  "meaning": "31受限ordinary、3数学继承、84材料待归并共118；范围有限，非完成率或84未实现。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
-  "current_bounded_evidence_roots": 30,
+  "current_bounded_evidence_roots": 31,
   "historical_evidence_found_current_lineage_pending_roots": 0,
   "current_math_lineage_bounded_roots": 3,
   "pending_current_function_discrepancy_roots": 0,

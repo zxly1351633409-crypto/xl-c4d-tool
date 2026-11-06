@@ -1,3 +1,13 @@
+# current335：花形无插值N17受限普通入口通过
+
+Source58/普通3.5.122产品及三release附件保持，没有新安装或ZIP。
+
+实际C3.5.122默认普通EXEC花形，无插值/N17、外2.1730000972747803米/内.6129999756813049米、XZ/反转True；51有序Bezier控制点最大误差3.457254080344095e-7米，左右有效手柄最大3.5036324063315704e-7/3.646751366082127e-7米，固定2um通过。13初始/请求完整核，圆角False/twist0及两个inactive默认是Blenderfixture，非全原生控件映射。完整Curve数组同旧consumer；GS仅Curve+真空Mesh，其余组件无。默认144点仅同EXEC支持态；四owner快照尺寸由采前源码固定算法和请求native bbox核，误差0。两完整图同PID原值保持，跨PID只一确切ENUM_FLAG地址两叶成员顺序分类；40ID/164C模块/source3prefs/Scene选择/owned清理过。非任意参数/Natural手柄/一般closedBezier/TRS/UV/Phong/fullUX。
+
+累计532成功guard/97有界native/52失败Bpy；31受限ordinary+3数学继承+84材料待归并共118，不是完成率或84未实现。下一Grid仅真实r108旧链与当前身份核对，未批准新软件窗口。
+
+以下current334记录为历史范围，旧Flower next已被本轮完成替代：
+
 # current334：产品仍为Source58/普通3.5.122
 
 本轮仅补齐已有公开融球当前完整图的只读观察和输入语义，不改产品/安装/ZIP/release。
