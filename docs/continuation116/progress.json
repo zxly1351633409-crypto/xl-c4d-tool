@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-06",
-  "current": 325,
+  "current": 326,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -37,22 +37,22 @@
     "unchanged_products": 376,
     "previous35117_complete_G_backup_and_C_rollback": true,
     "previous35118_complete_G_backup_and_C_rollback": true,
-    "latest_same_package_additional_verification": "Source57真正代码修复，已完成物理/实际安装Figure137完整普通验收；库/catalogs534不变，无重存节点库，原120 Scene失败保留。",
+    "latest_same_package_additional_verification": "current326只读补齐N边形完整图和当前N5曲线组件观测；3.5.121/Source57同378未变，无新安装ZIP/release。",
     "previous35119_complete_G_backup_and_C_rollback": true,
     "previous35120_complete_G_backup_and_C_rollback": true
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 509,
+    "successful_blender_actors": 512,
     "native_actions": 97,
     "failed_blender_actors": 49,
-    "new_this_batch": 4,
+    "new_this_batch": 3,
     "new_native_this_batch": 0,
-    "interpretation": "本批4实际Bpy：1Main错配置rc1、1旧120功能Scene拒绝rc0、2新代码物理/实际安装完整接受rc0；次数非完成率。"
+    "interpretation": "本批2缺图只读+1当前N5普通曲线组件观测，均技术rc0；组件数值通过不冒严格整项ordinary。"
   },
   "bounded_evidence": {
     "ordinary_roots": 26,
-    "math_lineage_roots": 2,
-    "historical_material_pending_reconciliation_roots": 90,
+    "math_lineage_roots": 3,
+    "historical_material_pending_reconciliation_roots": 89,
     "rows_total": 118,
     "not_completion_rate_or_unimplemented_count": true,
     "pending_current_function_discrepancy_roots": 0,
@@ -86,7 +86,8 @@
     "C4D_胶囊": "实际安装120普通+Z，R.3700000048/H1.789999962米、rad17/cap4/height3、顶底默认True：172点357边187同向面714UV，位置3.5351597e-7米/UV2D1.1920929e-7过。无smooth接口；法线已记录/单位/同面方向正，额外doubleNewell/F32cross模型1e-6比较拒绝原因未知，不冒nativePhong或法线公式通过。",
     "C4D_油罐": "实际安装120普通+Z非切片，R.47/总高F32(2.3900001049)/封盖高.23米、rad19/cap5/height3/smoothFalse：230点475边247同向面950UV，位置2.0111774e-7米/UV2D1.3328004e-7过。两根完整2图/8typed/40ID164模块/prefsScene清理核。旧producer自报不追认为旧Main接受。",
     "XL_扫描_growth_host": "current324首次显式输入假设普通：POLY4profile/POLY3path、.2/.8、关闭路径闭合，13typed/7完整图/输入保护与清理通过；12点10面40角计数相同但12点全无2um匹配/maxnearest.263219011m，UVMap缺失，拒此输入假设。其余控制映射和原生SplineData未知，不冒通用产品bug；不改gate/拟合。",
-    "C4D_人形素体": "3.5.121普通入口137cm/defaultpose/segment14，2858点3206同向面12012UV，位置1.4739228316774857e-7m/UV0。旧120几何/支持数据通过但Scene3→38拒绝；新fresh精确revision完整35支持校验后只事务解除新增外部Scene链接，完整支持/两图/模块/偏好/Scene3→3/清理通过，内部Collection35成员不删。不宣称任意Figure或原生Phong/fullUX。"
+    "C4D_人形素体": "3.5.121普通入口137cm/defaultpose/segment14，2858点3206同向面12012UV，位置1.4739228316774857e-7m/UV0。旧120几何/支持数据通过但Scene3→38拒绝；新fresh精确revision完整35支持校验后只事务解除新增外部Scene链接，完整支持/两图/模块/偏好/Scene3→3/清理通过，内部Collection35成员不删。不宣称任意Figure或原生Phong/fullUX。",
+    "C4D_样条_N边形": "旧Source96与当前库2完整图全值0差，原序边与全接口保持。实际安装N5/RadiusF32(1.193)/XZ/非圆角/None普通入口：5ordered点、闭环、全部曲线属性与旧数组同，位置最大2.5920683908046027e-7米；完整图与输入mesh/模块/偏好/Scene清理保护通过。但Object尺寸三叶变化仍仅有源码条件模型，未闭原缓存分支，mesh只观察presence，严格整项ordinary未接受，不冒wholeGS/Phong或通用故障。"
   },
   "open_issues": [
     "四类整体尚未完成；上述通过范围不能外推任意profile/TRS/closedBezier/growth/UV/Phong/完整UX。",
@@ -151,6 +152,6 @@
   ],
   "evidence_index": "root-evidence-index.json",
   "local_report_contents_not_published": true,
-  "latest_batch_product_bytes_changed": true,
+  "latest_batch_product_bytes_changed": false,
   "dimension_units_clarification": "Bend size is the vector (2.5,2.5,2.5)m, native(250,250,250)cm; not a scalar cubic-meter volume. Numeric inputs and all acceptance values unchanged."
 }
