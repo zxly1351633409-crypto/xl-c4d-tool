@@ -1,3 +1,13 @@
+# current337：线性克隆受限普通入口通过
+
+Source58/普通3.5.122产品与三release附件保持，无新安装ZIP。
+
+实际C122默认普通EXEC线性克隆step5/offset1、实现为几何，独立native tetra19/31/43cm模板：20点30边20有向三角面60角，位置最大3.3289938871061826e-7米<固定2um。25显式非ID请求+Socket23真实ownedObject，51初始/请求逐值核；完整Mesh attrs/normals/flags/materials/writable与旧formal只datablock名字角色一叶不同。4完整8partscompact对采前金0差/7refs11物理/40ID164实际C模块/source3prefs/Scene选择及2Object2Mesh精确清理过。默认支持递归3个GeometrySet全采：3实例→1实例→空Mesh，所以几何bounds0；每层pointcloud position逐值等独立matrixtranslation关系，无默认native功能oracle。请求尺寸native bbox最大2.384185791015625e-7米误差<2um。Collection全实值/有序成员子项保持，清后users4→3为owner默认ID引用释放。非任意TRS/Fields/nativeIndex/UV/Phong/fullUX，不追认Grid或Extrude未决。
+
+累计536成功guard/97有界native/52失败Bpy，32受限ordinary+3数学继承+83材料待归并共118；非完成率或83未实现。下一球化只先精确formal112输入/身份，不混v8或Sphere440，不开未批准窗口。
+
+以下current336为已保存Grid组件范围，Grid未决不因本轮通过追认：
+
 # current336：Grid请求组件有限通过
 
 Source58/普通3.5.122产品与三release附件保持，无新安装ZIP。

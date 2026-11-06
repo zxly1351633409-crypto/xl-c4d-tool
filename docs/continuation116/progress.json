@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-06",
-  "current": 336,
+  "current": 337,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -44,17 +44,17 @@
     "previous35121_complete_G_backup_and_C_rollback": true
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 534,
+    "successful_blender_actors": 536,
     "native_actions": 97,
     "failed_blender_actors": 52,
     "new_this_batch": 2,
     "new_native_this_batch": 0,
-    "interpretation": "本批2实际Bpy自然rc0/fullCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native。534/97/52为累计执行次数，非完成率。"
+    "interpretation": "本批2实际Bpy自然rc0/fullCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native。536/97/52为执行次数，非完成率。"
   },
   "bounded_evidence": {
-    "ordinary_roots": 31,
+    "ordinary_roots": 32,
     "math_lineage_roots": 3,
-    "historical_material_pending_reconciliation_roots": 84,
+    "historical_material_pending_reconciliation_roots": 83,
     "rows_total": 118,
     "not_completion_rate_or_unimplemented_count": true,
     "pending_current_function_discrepancy_roots": 0,
@@ -131,6 +131,14 @@
       "proof_SHA": "2c5150af97e46e5b99542a038e552a4baaecf71773d19ba71299c3fef9dbb473",
       "readonly_SHA": "f1841603cd47f14262426f66da26f120db407b2de93e0f72fd60ff7fc924101e",
       "no_product_bug_cause_claim": true
+    },
+    "XL_克隆_线性": {
+      "current": 337,
+      "support_level": "INSTALLED_LINEAR_REALIZED_STEP5_OFFSET1_BOUNDED_ORDINARY",
+      "scope": "实际C122默认普通EXEC线性克隆step5/offset1、实现为几何，独立native tetra19/31/43cm模板：20点30边20有向三角面60角，位置最大3.3289938871061826e-7米<固定2um。25显式非ID请求+Socket23真实ownedObject，51初始/请求逐值核；完整Mesh attrs/normals/flags/materials/writable与旧formal只datablock名字角色一叶不同。4完整8partscompact对采前金0差/7refs11物理/40ID164实际C模块/source3prefs/Scene选择及2Object2Mesh精确清理过。默认支持递归3个GeometrySet全采：3实例→1实例→空Mesh，所以几何bounds0；每层pointcloud position逐值等独立matrixtranslation关系，无默认native功能oracle。请求尺寸native bbox最大2.384185791015625e-7米误差<2um。Collection全实值/有序成员子项保持，清后users4→3为owner默认ID引用释放。非任意TRS/Fields/nativeIndex/UV/Phong/fullUX，不追认Grid或Extrude未决。",
+      "proof": "continuation116_Main_current337_installed35122_Linear_realized5_independent_review_v1.json",
+      "proof_SHA": "ac9f206676c4ebbae650d79bbb5333e088c0414c7b4b71a018d4ac8ff9ab90da",
+      "readonly_SHA": "14ec780cd589052525707fada9e751f33a905145775f07a6bd8af38f99529eb2"
     }
   },
   "open_issues": [

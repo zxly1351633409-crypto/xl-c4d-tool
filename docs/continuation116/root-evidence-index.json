@@ -688,8 +688,22 @@
       "category": "克隆器",
       "origin": "ORIGINAL_116",
       "current_catalog_revision": "20261028-linear-native-transform-setml-panel-r109",
-      "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_current337_Source58_Linear_four_fullgraphs_Collection_dependency_readonly_independent_review_v2.json",
+          "sha256": "14ec780cd589052525707fada9e751f33a905145775f07a6bd8af38f99529eb2",
+          "scope_note": "实际C122默认普通EXEC线性克隆step5/offset1、实现为几何，独立native tetra19/31/43cm模板：20点30边20有向三角面60角，位置最大3.3289938871061826e-7米<固定2um。25显式非ID请求+Socket23真实ownedObject，51初始/请求逐值核；完整Mesh attrs/normals/flags/materials/writable与旧formal只datablock名字角色一叶不同。4完整8partscompact对采前金0差/7refs11物理/40ID164实际C模块/source3prefs/Scene选择及2Object2Mesh精确清理过。默认支持递归3个GeometrySet全采：3实例→1实例→空Mesh，所以几何bounds0；每层pointcloud position逐值等独立matrixtranslation关系，无默认native功能oracle。请求尺寸native bbox最大2.384185791015625e-7米误差<2um。Collection全实值/有序成员子项保持，清后users4→3为owner默认ID引用释放。非任意TRS/Fields/nativeIndex/UV/Phong/fullUX，不追认Grid或Extrude未决。",
+          "support_level": "CURRENT337_LINEAR_REALIZED_STEP5_ORDINARY_BOUNDED"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current337_installed35122_Linear_realized5_independent_review_v1.json",
+          "sha256": "ac9f206676c4ebbae650d79bbb5333e088c0414c7b4b71a018d4ac8ff9ab90da",
+          "scope_note": "实际C122默认普通EXEC线性克隆step5/offset1、实现为几何，独立native tetra19/31/43cm模板：20点30边20有向三角面60角，位置最大3.3289938871061826e-7米<固定2um。25显式非ID请求+Socket23真实ownedObject，51初始/请求逐值核；完整Mesh attrs/normals/flags/materials/writable与旧formal只datablock名字角色一叶不同。4完整8partscompact对采前金0差/7refs11物理/40ID164实际C模块/source3prefs/Scene选择及2Object2Mesh精确清理过。默认支持递归3个GeometrySet全采：3实例→1实例→空Mesh，所以几何bounds0；每层pointcloud position逐值等独立matrixtranslation关系，无默认native功能oracle。请求尺寸native bbox最大2.384185791015625e-7米误差<2um。Collection全实值/有序成员子项保持，清后users4→3为owner默认ID引用释放。非任意TRS/Fields/nativeIndex/UV/Phong/fullUX，不追认Grid或Extrude未决。",
+          "support_level": "CURRENT337_LINEAR_REALIZED_STEP5_ORDINARY_BOUNDED"
+        }
+      ],
+      "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED",
+      "current337_scope": "实际C122默认普通EXEC线性克隆step5/offset1、实现为几何，独立native tetra19/31/43cm模板：20点30边20有向三角面60角，位置最大3.3289938871061826e-7米<固定2um。25显式非ID请求+Socket23真实ownedObject，51初始/请求逐值核；完整Mesh attrs/normals/flags/materials/writable与旧formal只datablock名字角色一叶不同。4完整8partscompact对采前金0差/7refs11物理/40ID164实际C模块/source3prefs/Scene选择及2Object2Mesh精确清理过。默认支持递归3个GeometrySet全采：3实例→1实例→空Mesh，所以几何bounds0；每层pointcloud position逐值等独立matrixtranslation关系，无默认native功能oracle。请求尺寸native bbox最大2.384185791015625e-7米误差<2um。Collection全实值/有序成员子项保持，清后users4→3为owner默认ID引用释放。非任意TRS/Fields/nativeIndex/UV/Phong/fullUX，不追认Grid或Extrude未决。"
     },
     {
       "root": "XL_克隆_网格",
@@ -1839,12 +1853,12 @@
       "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
     }
   ],
-  "indexed_roots": 34,
-  "existing_evidence_to_reconcile_roots": 84,
-  "meaning": "31受限ordinary、3数学继承、84材料待归并共118；范围有限，非完成率或84未实现。",
+  "indexed_roots": 35,
+  "existing_evidence_to_reconcile_roots": 83,
+  "meaning": "32受限ordinary、3数学继承、83材料待归并共118；范围有限，非完成率或83未实现。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
-  "current_bounded_evidence_roots": 31,
+  "current_bounded_evidence_roots": 32,
   "historical_evidence_found_current_lineage_pending_roots": 0,
   "current_math_lineage_bounded_roots": 3,
   "pending_current_function_discrepancy_roots": 0,
