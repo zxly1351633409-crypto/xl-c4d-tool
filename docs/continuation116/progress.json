@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-06",
-  "current": 333,
+  "current": 334,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -44,12 +44,12 @@
     "previous35121_complete_G_backup_and_C_rollback": true
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 529,
+    "successful_blender_actors": 530,
     "native_actions": 97,
     "failed_blender_actors": 52,
-    "new_this_batch": 7,
+    "new_this_batch": 1,
     "new_native_this_batch": 0,
-    "interpretation": "7真实Bpy，5自然rc0/2自然rc1，0native；6完整CIM，一最小清理短monitor身份/nonce原null保。rc0非功能通过，次数非完成率。"
+    "interpretation": "本批1只读Bpy自然rc0/fullCIMnonce/fullWindowsargv、immutable/after[]；0native。530/97/52是累计执行次数，非完成率。"
   },
   "bounded_evidence": {
     "ordinary_roots": 30,
@@ -106,7 +106,22 @@
       "actual_report_SHA": "8b2e447e307558b1a21254a11af85f10a9ee74ea1e97cdd72b08324f42e7844f"
     },
     "C4D_样条_圆形": "实际C3.5.121圆形默认普通入口的首次明确有限假设：半径1.379米、XZ、反转False、环形False、无插值，分辨率原默认32保持，13输入完整核。当前闭合POLY32与原生闭合Bezier4控制点严格不符，保留负结果；数量差本身不代表已证明通用可见错误，不改分辨率凑4或拟合。单根85节点104原序边、完整GS仅曲线和空网格、输入/模块/偏好/场景和清理保护均过，派生尺寸按实际输出和固定源码算法约束。旧四原生Ellipse×Ring组合的完整点/有效手柄和样点只作原生有限证据；圆形当前没有Ellipse接口，不冒全部控件映射。螺旋直接菜单fanout graft依同commit枚举指针合并源码条件被拒于运行前；共享菜单方案仅false材料，完整符号边序列已独验，新增节点schema与动态枚举API未齐，不冒已运行/已修复。",
-    "historical_current332_host_only": "本轮仅主会话独立源码/API与既有材料审阅，无新增Blender或原生运行。螺旋共享菜单方案的Item编号条件、菜单接口动态枚举API及五个既有节点模板已核；这不证明候选运行或几何通过。独立参考模块、完整六组参考与有限控制器仍待完整审阅，阶段合同保持false。融球旧记录仅数量诊断和保存重现，原生阈值/标签与Blender代理参数没有建立映射，不能称数值等价或通用故障。Source57/普通3.5.121和三附件保持不变。"
+    "historical_current332_host_only": "本轮仅主会话独立源码/API与既有材料审阅，无新增Blender或原生运行。螺旋共享菜单方案的Item编号条件、菜单接口动态枚举API及五个既有节点模板已核；这不证明候选运行或几何通过。独立参考模块、完整六组参考与有限控制器仍待完整审阅，阶段合同保持false。融球旧记录仅数量诊断和保存重现，原生阈值/标签与Blender代理参数没有建立映射，不能称数值等价或通用故障。Source57/普通3.5.121和三附件保持不变。",
+    "XL_融球": {
+      "current": 334,
+      "support_level": "READONLY_GRAPH_AND_HOST_INPUT_SCOPE_NOT_ORDINARY",
+      "scope": "Source58 XL_融球仅当前只读：90完整节点/99原序边/双8parts、13输入含Geometry/0refs、实际defaultID0且未载Collection/Object/Mesh，source3prefs/40ID旧行/Scene空frame1保。旧原生/四proxy默认值与current volume routes已核，未证明C4D标签/阈值/空间场映射、旧source110完整math继承或当前ordinary；不拟合、不重旧geometry/native。",
+      "proof": "continuation116_Main_current334_Source58_Metaball_single_fullgraph_readonly_independent_review_v2.json",
+      "proof_SHA": "084f4fd0632b58dea46c5595ad8907372e906f1a86907be04d0a0589dde16233",
+      "route_proof_SHA": "fe5c81233b3f496a5258ff8fe9a7178558c5933729fdbc6b1f51898c7e130898"
+    },
+    "C4D_样条_花形": {
+      "current": 334,
+      "support_level": "IDENTITY_NAVIGATION_ONLY_PENDING_MAIN_NUMERIC_AND_RUNTIME_CONTRACT",
+      "source58_DFS_groups": 2,
+      "current_fullmath_missing": true,
+      "old_None51_and_Natural378_not_current_acceptance": true
+    }
   },
   "open_issues": [
     "四类整体尚未完成；上述通过范围不能外推任意profile/TRS/closedBezier/growth/UV/Phong/完整UX。",
@@ -171,6 +186,6 @@
   ],
   "evidence_index": "root-evidence-index.json",
   "local_report_contents_not_published": true,
-  "latest_batch_product_bytes_changed": true,
+  "latest_batch_product_bytes_changed": false,
   "dimension_units_clarification": "Bend size is the vector (2.5,2.5,2.5)m, native(250,250,250)cm; not a scalar cubic-meter volume. Numeric inputs and all acceptance values unchanged."
 }

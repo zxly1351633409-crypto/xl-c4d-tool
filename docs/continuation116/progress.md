@@ -1,3 +1,13 @@
+# current334：产品仍为Source58/普通3.5.122
+
+本轮仅补齐已有公开融球当前完整图的只读观察和输入语义，不改产品/安装/ZIP/release。
+
+Source58 XL_融球仅当前只读：90完整节点/99原序边/双8parts、13输入含Geometry/0refs、实际defaultID0且未载Collection/Object/Mesh，source3prefs/40ID旧行/Scene空frame1保。旧原生/四proxy默认值与current volume routes已核，未证明C4D标签/阈值/空间场映射、旧source110完整math继承或当前ordinary；不拟合、不重旧geometry/native。
+
+累计530成功guard/97有界native/52失败Bpy；30受限ordinary+3数学继承+85材料待归并，共118，非完成率或85未实现。下一花形只核已有真实输入/身份，原生和旧几何不重跑。
+
+以下为current333既成产品交付，继续保留：
+
 # xl-c4d小工具：current333 / Source58 / 普通3.5.122
 
 [下载普通3.5.122](https://github.com/zxly1351633409-crypto/xl-c4d-tool/releases/tag/v3.5.122)。本机实际C安装同378产品文件，已完整备份上一3.5.121安装，保留G备份与C回退。
