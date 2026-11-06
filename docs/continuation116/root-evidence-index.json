@@ -1634,8 +1634,22 @@
       "category": "变形器",
       "origin": "ORIGINAL_116",
       "current_catalog_revision": "20261024-bulge-c4d-basic-r1",
-      "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_current339_Source58_Bulge_four_fullgraphs_readonly_independent_review_v1.json",
+          "sha256": "d0bc4395634e1ca9bebc2e8a778060f096698ba234aaf9b4125945cc76a15248",
+          "scope_note": "实际C122膨胀r1普通EXEC：原生mode_1_fillet_false_curvature_1、限制/强度50%/曲率100%/非圆角/尺寸4×2×2cm/中心旋转0/ownerI,parentNone。properCdet+1的15原序loose点、0边面角，position最大1.9443909938586907e-9米<2um；16初始/请求完整typed、8显式非ID请求，百分比÷100两路由核。默认legacy源码MapRange目标1/squeeze0/center0/Z对齐支持，完整mesh相对input仅runtime_data角色一叶、点和尺寸误差0；非native默认oracle。请求mesh对默认仅72个精确position/vertexnormal叶改，其余全字面同；loose法线对normalize(position)误差<=6.664e-8只Blender支持，不冒C4DPhong/UV/面或权重验收。4完整8partscompact initial/pre/tail/清后全字面==采前gold，4refs8物理/40ID164C模块/source3prefs/Scene选择和1Object1Mesh users0清理过；输入完整mesh/writable/flags不变。尺寸仅X/Y两叶变，采前nativebbox误差<=3.577e-9m。旧r1直接81例3483点报告加另2transform30点合计83/3513；旧81 Bpy只存worst/residual无完整actual数组，不冒本轮全数组重算/旧guard身份/完整图继承。r2fit4总体False/max29.210927um原保，不外推任意TRS/Fields/fullUX。",
+          "support_level": "CURRENT338_BULGE_LIMITED15_ORDINARY_BOUNDED"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current339_installed35122_Bulge_limited15_independent_review_v1.json",
+          "sha256": "2451037effaf51ebd6ae1d5ced1082edfd26eb389d09ffe41c97b511831b3da1",
+          "scope_note": "实际C122膨胀r1普通EXEC：原生mode_1_fillet_false_curvature_1、限制/强度50%/曲率100%/非圆角/尺寸4×2×2cm/中心旋转0/ownerI,parentNone。properCdet+1的15原序loose点、0边面角，position最大1.9443909938586907e-9米<2um；16初始/请求完整typed、8显式非ID请求，百分比÷100两路由核。默认legacy源码MapRange目标1/squeeze0/center0/Z对齐支持，完整mesh相对input仅runtime_data角色一叶、点和尺寸误差0；非native默认oracle。请求mesh对默认仅72个精确position/vertexnormal叶改，其余全字面同；loose法线对normalize(position)误差<=6.664e-8只Blender支持，不冒C4DPhong/UV/面或权重验收。4完整8partscompact initial/pre/tail/清后全字面==采前gold，4refs8物理/40ID164C模块/source3prefs/Scene选择和1Object1Mesh users0清理过；输入完整mesh/writable/flags不变。尺寸仅X/Y两叶变，采前nativebbox误差<=3.577e-9m。旧r1直接81例3483点报告加另2transform30点合计83/3513；旧81 Bpy只存worst/residual无完整actual数组，不冒本轮全数组重算/旧guard身份/完整图继承。r2fit4总体False/max29.210927um原保，不外推任意TRS/Fields/fullUX。",
+          "support_level": "CURRENT338_BULGE_LIMITED15_ORDINARY_BOUNDED"
+        }
+      ],
+      "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED",
+      "current339_scope": "实际C122膨胀r1普通EXEC：原生mode_1_fillet_false_curvature_1、限制/强度50%/曲率100%/非圆角/尺寸4×2×2cm/中心旋转0/ownerI,parentNone。properCdet+1的15原序loose点、0边面角，position最大1.9443909938586907e-9米<2um；16初始/请求完整typed、8显式非ID请求，百分比÷100两路由核。默认legacy源码MapRange目标1/squeeze0/center0/Z对齐支持，完整mesh相对input仅runtime_data角色一叶、点和尺寸误差0；非native默认oracle。请求mesh对默认仅72个精确position/vertexnormal叶改，其余全字面同；loose法线对normalize(position)误差<=6.664e-8只Blender支持，不冒C4DPhong/UV/面或权重验收。4完整8partscompact initial/pre/tail/清后全字面==采前gold，4refs8物理/40ID164C模块/source3prefs/Scene选择和1Object1Mesh users0清理过；输入完整mesh/writable/flags不变。尺寸仅X/Y两叶变，采前nativebbox误差<=3.577e-9m。旧r1直接81例3483点报告加另2transform30点合计83/3513；旧81 Bpy只存worst/residual无完整actual数组，不冒本轮全数组重算/旧guard身份/完整图继承。r2fit4总体False/max29.210927um原保，不外推任意TRS/Fields/fullUX。"
     },
     {
       "root": "XL_融化",
@@ -1867,12 +1881,12 @@
       "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
     }
   ],
-  "indexed_roots": 36,
+  "indexed_roots": 37,
   "existing_evidence_to_reconcile_roots": 82,
-  "meaning": "33受限ordinary、3数学继承、82材料待归并共118；范围有限，非完成率或82未实现。",
+  "meaning": "34受限ordinary、3数学继承、81材料待归并共118；范围有限，非完成率或81未实现。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
-  "current_bounded_evidence_roots": 33,
+  "current_bounded_evidence_roots": 34,
   "historical_evidence_found_current_lineage_pending_roots": 0,
   "current_math_lineage_bounded_roots": 3,
   "pending_current_function_discrepancy_roots": 0,

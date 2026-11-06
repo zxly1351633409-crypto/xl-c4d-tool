@@ -1,3 +1,15 @@
+current339：膨胀单请求受限普通入口通过
+
+Source58/本机/GitHub普通3.5.122同378产品保持，无新安装ZIP/release/Source59/native125。
+
+实际C122膨胀r1普通EXEC：原生mode_1_fillet_false_curvature_1、限制/强度50%/曲率100%/非圆角/尺寸4×2×2cm/中心旋转0/ownerI,parentNone。properCdet+1的15原序loose点、0边面角，position最大1.9443909938586907e-9米<2um；16初始/请求完整typed、8显式非ID请求，百分比÷100两路由核。默认legacy源码MapRange目标1/squeeze0/center0/Z对齐支持，完整mesh相对input仅runtime_data角色一叶、点和尺寸误差0；非native默认oracle。请求mesh对默认仅72个精确position/vertexnormal叶改，其余全字面同；loose法线对normalize(position)误差<=6.664e-8只Blender支持，不冒C4DPhong/UV/面或权重验收。4完整8partscompact initial/pre/tail/清后全字面==采前gold，4refs8物理/40ID164C模块/source3prefs/Scene选择和1Object1Mesh users0清理过；输入完整mesh/writable/flags不变。尺寸仅X/Y两叶变，采前nativebbox误差<=3.577e-9m。旧r1直接81例3483点报告加另2transform30点合计83/3513；旧81 Bpy只存worst/residual无完整actual数组，不冒本轮全数组重算/旧guard身份/完整图继承。r2fit4总体False/max29.210927um原保，不外推任意TRS/Fields/fullUX。
+
+本批两actual自然rc0/fullCIMnonce/fullWindowsargv/immutable/afterCIM[]，累计540成功guard/97有界native/52失败Bpy；技术rc0非功能接受、次数非完成率。34受限ordinary+3数学继承+81材料待归并共118，不等于81未实现，无逐语义分母不编工期。
+
+膨胀current339四图和actualC122 limited15单请求ordinary已真过，不重bulge58read1/i122bulgelim1、旧81+2native/r2fit4、当前图、同case/default补验。下一已有公开XL_置换：Main全文A导航/7sourcesSHA size/catalog1 metadata0无revision/Source58 DFS1refs0和63target16parents缺图已核。旧native UI后只读与label correction及8reopen flags只身份材料，未Main完整原生/producer/consumer/当前图或image语义独核；用户图片不能猜可复用/可分发。先精确旧输入/候选和shader/image源合同再最小false，无observer/ordinary/native125/Source59/安装123批准，局部未知不整体空等。
+
+此前current337线性克隆范围继续保留：
+
 current338：球化单请求受限普通入口通过
 
 Source58/本机/GitHub普通3.5.122同378产品保持，无新安装ZIP/release/Source59/native125。

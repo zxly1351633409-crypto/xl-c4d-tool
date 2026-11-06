@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-06",
-  "current": 338,
+  "current": 339,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -44,17 +44,17 @@
     "previous35121_complete_G_backup_and_C_rollback": true
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 538,
+    "successful_blender_actors": 540,
     "native_actions": 97,
     "failed_blender_actors": 52,
     "new_this_batch": 2,
     "new_native_this_batch": 0,
-    "interpretation": "本批2实际Bpy自然rc0/fullCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native。538/97/52为执行次数，非完成率。"
+    "interpretation": "本批2实际Bpy自然rc0/fullCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native。540/97/52为执行次数，非完成率。"
   },
   "bounded_evidence": {
-    "ordinary_roots": 33,
+    "ordinary_roots": 34,
     "math_lineage_roots": 3,
-    "historical_material_pending_reconciliation_roots": 82,
+    "historical_material_pending_reconciliation_roots": 81,
     "rows_total": 118,
     "not_completion_rate_or_unimplemented_count": true,
     "pending_current_function_discrepancy_roots": 0,
@@ -147,6 +147,14 @@
       "proof": "continuation116_Main_current338_installed35122_Spherify_hostlocal_independent_review_v1.json",
       "proof_SHA": "8bf439bbfdbfa84d796edcc658d27d08e5ff034932418a6abaab40c71d07ea2a",
       "readonly_SHA": "2737a5a5dd9e1556a6fa2973b85118221dcabedc31f4743d323a29f70d658cec"
+    },
+    "XL_膨胀": {
+      "current": 339,
+      "support_level": "INSTALLED_BULGE_LIMITED15_BOUNDED_ORDINARY",
+      "scope": "实际C122膨胀r1普通EXEC：原生mode_1_fillet_false_curvature_1、限制/强度50%/曲率100%/非圆角/尺寸4×2×2cm/中心旋转0/ownerI,parentNone。properCdet+1的15原序loose点、0边面角，position最大1.9443909938586907e-9米<2um；16初始/请求完整typed、8显式非ID请求，百分比÷100两路由核。默认legacy源码MapRange目标1/squeeze0/center0/Z对齐支持，完整mesh相对input仅runtime_data角色一叶、点和尺寸误差0；非native默认oracle。请求mesh对默认仅72个精确position/vertexnormal叶改，其余全字面同；loose法线对normalize(position)误差<=6.664e-8只Blender支持，不冒C4DPhong/UV/面或权重验收。4完整8partscompact initial/pre/tail/清后全字面==采前gold，4refs8物理/40ID164C模块/source3prefs/Scene选择和1Object1Mesh users0清理过；输入完整mesh/writable/flags不变。尺寸仅X/Y两叶变，采前nativebbox误差<=3.577e-9m。旧r1直接81例3483点报告加另2transform30点合计83/3513；旧81 Bpy只存worst/residual无完整actual数组，不冒本轮全数组重算/旧guard身份/完整图继承。r2fit4总体False/max29.210927um原保，不外推任意TRS/Fields/fullUX。",
+      "proof": "continuation116_Main_current339_installed35122_Bulge_limited15_independent_review_v1.json",
+      "proof_SHA": "2451037effaf51ebd6ae1d5ced1082edfd26eb389d09ffe41c97b511831b3da1",
+      "readonly_SHA": "d0bc4395634e1ca9bebc2e8a778060f096698ba234aaf9b4125945cc76a15248"
     }
   },
   "open_issues": [
