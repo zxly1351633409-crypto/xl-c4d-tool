@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-06",
-  "current": 341,
+  "current": 342,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -44,12 +44,12 @@
     "previous35121_complete_G_backup_and_C_rollback": true
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 544,
+    "successful_blender_actors": 547,
     "native_actions": 97,
     "failed_blender_actors": 52,
-    "new_this_batch": 2,
+    "new_this_batch": 3,
     "new_native_this_batch": 0,
-    "interpretation": "两actual rc0/0native；544/97/52为次数非完成率。"
+    "interpretation": "3actual rc0/0native；蜂窝请求emptyMesh拒，技术rc0非功能通过，547/97/52非完成率。"
   },
   "bounded_evidence": {
     "ordinary_roots": 36,
@@ -171,6 +171,32 @@
       "proof": "continuation116_Main_current341_installed35122_Shrinkwrap_targetaxis_half_independent_review_v1.json",
       "proof_SHA": "aeeb3d889f728a37947d44df18d38edfe2f03d2be98931358f070fba7d5e8ba8",
       "readonly_SHA": "03650e3f249a54ecbf5926df1e223fa08591b030b6826336e2468af7239de77c"
+    },
+    "XL_爆炸": {
+      "current": 342,
+      "support_level": "CURRENT_FULLGRAPHS_READONLY_ONLY",
+      "scope": "本批3 actual：explosion58read1/honey58read1/i122honey10a1均自然rc0/fullmonitorCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native。技术rc0非功能接受，累计547成功guard/97有界native/52失败Bpy，次数非完成率。XL_爆炸Root10/20→Core162/201→网格孤岛位置10/6三完整8partscompact双采解压字节同，3原序refs6物理/defaultID0/mapping0/ObjectMeshCollection0，40ID旧行+3group1Library/Scene空frame1/source3prefs过；旧3native保8/8/24输出点，但values非已证明readback、无input/faces/MLMG，旧BBox/count不能冒完整数学。蜂窝5完整8partscompact双采：Root3/61→变换107 28/94→render_context100 1254/1547，并有有限运行时64/113两调用和排序9/10四调用；8原序refs13物理。实际5defaultID端点同Collection Drop_Your_Assets_Here，ObjectMesh0，40ID旧行+5group1Collection1Library；source/loaded fake/users原值保，render_core库存True3→loadedFalse1原因未独证。Main单native step_xz完整12实际readback、childtetra12/17/23cm、owner/child/cache ML/MG及40world点40有向tri对10矩阵逐值核，cache矩阵点误差0；旧v9 argv实指v5，v9/v10/v11/v12十五例0/15原保，非当前产品bug。唯一actualC122显式请求60initial/requested，17非ID参数+真实ownedObject Socket24+实现为几何Socket52共19设置；native5x4/137x83cm/.5offset/方向2/逐段，viewport关闭为旧fixture假设。当前真实请求GS只有emptyMesh0点0面，对native40点40tri严格拒，max error为null不能填0；rawfunctionalFalse保。输入空ownerMesh、tetra全部raw/writable/flags/矩阵、Collection全有序members/children[]不变，5图initial/pre/tail/cleanup逐值同采前gold，8refs13物理+ownerMod/40ID164C模块/source3prefs/Scene选择及2Object2Mesh users0清理过，Collectionusers6→5为ownerModifier默认ID释放。默认同EXEC仅支持态完整3层45instances→1instance→emptyMesh，position共138标量巨大但有限，原值保UNVERIFIED，不冒实际内存原因/归零/泛滤或追认Grid/Extrude。每态owner前后和跨态writable均字面同，尺寸0仅空输出支持，不能替native请求bbox5.6/1.475/.17m。G路线完整3组parts0/4与compact及六字段interface投影、runtime1217/1546选择包已Main逐值核原1254/1547；非完整branchtrace。视口关闭条件指向POINT Delete，但实际IsViewport/后续Switch042/029/进入组件未采，官方同commit8primary相关函数链只证明新建缓存图为VIEWPORT，已有/undo恢复不独证mode；原因仍UNKNOWN，不泛称产品bug或盲setter重跑。",
+      "proofs": [
+        {
+          "report": "continuation116_Main_current342_Source58_Explosion_three_fullgraphs_readonly_independent_review_v1.json",
+          "SHA": "158b77df5e745870ba6f6b50494ab22fac560398926821fa2b0591ecca33cbd4"
+        }
+      ]
+    },
+    "XL_克隆_蜂窝": {
+      "current": 342,
+      "support_level": "CURRENT_FULLGRAPHS_AND_EXPLICIT_HYPOTHESIS_EMPTY_REJECTED",
+      "scope": "本批3 actual：explosion58read1/honey58read1/i122honey10a1均自然rc0/fullmonitorCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native。技术rc0非功能接受，累计547成功guard/97有界native/52失败Bpy，次数非完成率。XL_爆炸Root10/20→Core162/201→网格孤岛位置10/6三完整8partscompact双采解压字节同，3原序refs6物理/defaultID0/mapping0/ObjectMeshCollection0，40ID旧行+3group1Library/Scene空frame1/source3prefs过；旧3native保8/8/24输出点，但values非已证明readback、无input/faces/MLMG，旧BBox/count不能冒完整数学。蜂窝5完整8partscompact双采：Root3/61→变换107 28/94→render_context100 1254/1547，并有有限运行时64/113两调用和排序9/10四调用；8原序refs13物理。实际5defaultID端点同Collection Drop_Your_Assets_Here，ObjectMesh0，40ID旧行+5group1Collection1Library；source/loaded fake/users原值保，render_core库存True3→loadedFalse1原因未独证。Main单native step_xz完整12实际readback、childtetra12/17/23cm、owner/child/cache ML/MG及40world点40有向tri对10矩阵逐值核，cache矩阵点误差0；旧v9 argv实指v5，v9/v10/v11/v12十五例0/15原保，非当前产品bug。唯一actualC122显式请求60initial/requested，17非ID参数+真实ownedObject Socket24+实现为几何Socket52共19设置；native5x4/137x83cm/.5offset/方向2/逐段，viewport关闭为旧fixture假设。当前真实请求GS只有emptyMesh0点0面，对native40点40tri严格拒，max error为null不能填0；rawfunctionalFalse保。输入空ownerMesh、tetra全部raw/writable/flags/矩阵、Collection全有序members/children[]不变，5图initial/pre/tail/cleanup逐值同采前gold，8refs13物理+ownerMod/40ID164C模块/source3prefs/Scene选择及2Object2Mesh users0清理过，Collectionusers6→5为ownerModifier默认ID释放。默认同EXEC仅支持态完整3层45instances→1instance→emptyMesh，position共138标量巨大但有限，原值保UNVERIFIED，不冒实际内存原因/归零/泛滤或追认Grid/Extrude。每态owner前后和跨态writable均字面同，尺寸0仅空输出支持，不能替native请求bbox5.6/1.475/.17m。G路线完整3组parts0/4与compact及六字段interface投影、runtime1217/1546选择包已Main逐值核原1254/1547；非完整branchtrace。视口关闭条件指向POINT Delete，但实际IsViewport/后续Switch042/029/进入组件未采，官方同commit8primary相关函数链只证明新建缓存图为VIEWPORT，已有/undo恢复不独证mode；原因仍UNKNOWN，不泛称产品bug或盲setter重跑。",
+      "proofs": [
+        {
+          "report": "continuation116_Main_current342_Source58_Honeycomb_five_fullgraphs_readonly_independent_review_v1.json",
+          "SHA": "63b5373e9c40de6d1204768b2cc85a3ebbc7348d3b4ec9d8a034cfb27c4abb35"
+        },
+        {
+          "report": "continuation116_Main_current342_installed35122_Honeycomb_step_xz_empty_rejection_independent_review_v1.json",
+          "SHA": "80e003e79f7d8e45fc9f0988853b9c0b4f35caa09fd7c38b884e1a8657b3707c"
+        }
+      ]
     }
   },
   "open_issues": [

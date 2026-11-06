@@ -1,3 +1,15 @@
+current342：爆炸与蜂窝完整结构已补齐；蜂窝单请求空输出拒收
+
+Source58/本机/GitHub普通3.5.122同378产品保持，无新安装ZIP/release/Source59/native125。
+
+本批3 actual：explosion58read1/honey58read1/i122honey10a1均自然rc0/fullmonitorCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native。技术rc0非功能接受，累计547成功guard/97有界native/52失败Bpy，次数非完成率。XL_爆炸Root10/20→Core162/201→网格孤岛位置10/6三完整8partscompact双采解压字节同，3原序refs6物理/defaultID0/mapping0/ObjectMeshCollection0，40ID旧行+3group1Library/Scene空frame1/source3prefs过；旧3native保8/8/24输出点，但values非已证明readback、无input/faces/MLMG，旧BBox/count不能冒完整数学。蜂窝5完整8partscompact双采：Root3/61→变换107 28/94→render_context100 1254/1547，并有有限运行时64/113两调用和排序9/10四调用；8原序refs13物理。实际5defaultID端点同Collection Drop_Your_Assets_Here，ObjectMesh0，40ID旧行+5group1Collection1Library；source/loaded fake/users原值保，render_core库存True3→loadedFalse1原因未独证。Main单native step_xz完整12实际readback、childtetra12/17/23cm、owner/child/cache ML/MG及40world点40有向tri对10矩阵逐值核，cache矩阵点误差0；旧v9 argv实指v5，v9/v10/v11/v12十五例0/15原保，非当前产品bug。唯一actualC122显式请求60initial/requested，17非ID参数+真实ownedObject Socket24+实现为几何Socket52共19设置；native5x4/137x83cm/.5offset/方向2/逐段，viewport关闭为旧fixture假设。当前真实请求GS只有emptyMesh0点0面，对native40点40tri严格拒，max error为null不能填0；rawfunctionalFalse保。输入空ownerMesh、tetra全部raw/writable/flags/矩阵、Collection全有序members/children[]不变，5图initial/pre/tail/cleanup逐值同采前gold，8refs13物理+ownerMod/40ID164C模块/source3prefs/Scene选择及2Object2Mesh users0清理过，Collectionusers6→5为ownerModifier默认ID释放。默认同EXEC仅支持态完整3层45instances→1instance→emptyMesh，position共138标量巨大但有限，原值保UNVERIFIED，不冒实际内存原因/归零/泛滤或追认Grid/Extrude。每态owner前后和跨态writable均字面同，尺寸0仅空输出支持，不能替native请求bbox5.6/1.475/.17m。G路线完整3组parts0/4与compact及六字段interface投影、runtime1217/1546选择包已Main逐值核原1254/1547；非完整branchtrace。视口关闭条件指向POINT Delete，但实际IsViewport/后续Switch042/029/进入组件未采，官方同commit8primary相关函数链只证明新建缓存图为VIEWPORT，已有/undo恢复不独证mode；原因仍UNKNOWN，不泛称产品bug或盲setter重跑。
+
+矩阵保持36受限ordinary+3数学继承+79材料待归并共118，不是完成率/79未实现，不编工期。
+
+current342爆炸三图、蜂窝五图和唯一actualC122 step_xz空输出明确拒已完成，不重observer/旧native3或15/旧consumer/同case/default或图。蜂窝下一须闭合独立支持输入、上下文/最终asset和point分支；G原raw route及8primary材料已Main核，不重复全文合同或把conditional冒actualbranch。新case必须完整独立gold/新immutable actor-config-argv与fresh resources具体grant，不能只翻viewport凑通过；暂无新runtime批准。浮雕A来源合同已收到且Main已读两collector：bitmap为自建固定fixtures而非用户素材，但neutral没readback、旧RGB缺actual1267，另一bitmap hidden-version proof不能转移；没有observer/ordinary批准。独立ready继续A既有XL_克隆_对象窄身份，不把未知说未实现。产品仍Source58/普通3.5.122，无Source59/native125/新安装ZIP/release；下个真功能改动完整验后123→124。原56564本轮仍需live恢复，不拿历史launch当live、不重建/RPC/stop。
+
+既往受限范围继续保留：
+
 current341：收缩包裹目标轴/半强度单请求受限普通入口通过
 
 Source58/本机/GitHub普通3.5.122同378产品保持，无新安装ZIP/release/Source59/native125。
