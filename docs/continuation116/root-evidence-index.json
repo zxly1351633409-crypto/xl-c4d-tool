@@ -276,8 +276,28 @@
       "category": "生成器",
       "origin": "ORIGINAL_116",
       "current_catalog_revision": null,
-      "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_current331_Circle_Source57_full1closure_readonly_independent_review_v1.json",
+          "sha256": "2522a848ac44454aacf7a961f48ecaad1c32be77bec0e87843335e80e141a066",
+          "scope_note": "实际C3.5.121圆形默认普通入口的首次明确有限假设：半径1.379米、XZ、反转False、环形False、无插值，分辨率原默认32保持，13输入完整核。当前闭合POLY32与原生闭合Bezier4控制点严格不符，保留负结果；数量差本身不代表已证明通用可见错误，不改分辨率凑4或拟合。单根85节点104原序边、完整GS仅曲线和空网格、输入/模块/偏好/场景和清理保护均过，派生尺寸按实际输出和固定源码算法约束。旧四原生Ellipse×Ring组合的完整点/有效手柄和样点只作原生有限证据；圆形当前没有Ellipse接口，不冒全部控件映射。螺旋直接菜单fanout graft依同commit枚举指针合并源码条件被拒于运行前；共享菜单方案仅false材料，完整符号边序列已独验，新增节点schema与动态枚举API未齐，不冒已运行/已修复。",
+          "support_level": "CURRENT331_CIRCLE_NEGATIVE_OR_NATIVE_ONLY_NOT_ACCEPTED_ORDINARY"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current331_Circle_old_native4_points_handles_samples_independent_host_review_v1.json",
+          "sha256": "0c05ac3192cef99b3d104222788873512807accc15346ee829cbf8cd2ccc7451",
+          "scope_note": "实际C3.5.121圆形默认普通入口的首次明确有限假设：半径1.379米、XZ、反转False、环形False、无插值，分辨率原默认32保持，13输入完整核。当前闭合POLY32与原生闭合Bezier4控制点严格不符，保留负结果；数量差本身不代表已证明通用可见错误，不改分辨率凑4或拟合。单根85节点104原序边、完整GS仅曲线和空网格、输入/模块/偏好/场景和清理保护均过，派生尺寸按实际输出和固定源码算法约束。旧四原生Ellipse×Ring组合的完整点/有效手柄和样点只作原生有限证据；圆形当前没有Ellipse接口，不冒全部控件映射。螺旋直接菜单fanout graft依同commit枚举指针合并源码条件被拒于运行前；共享菜单方案仅false材料，完整符号边序列已独验，新增节点schema与动态枚举API未齐，不冒已运行/已修复。",
+          "support_level": "CURRENT331_CIRCLE_NEGATIVE_OR_NATIVE_ONLY_NOT_ACCEPTED_ORDINARY"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current331_installed35121_Circle_None32_vs_native4_input_hypothesis_rejection_independent_review_v1.json",
+          "sha256": "b6c01d18022d4ab80d020afe3990d04b53a4151023474b6c57364363297368cb",
+          "scope_note": "实际C3.5.121圆形默认普通入口的首次明确有限假设：半径1.379米、XZ、反转False、环形False、无插值，分辨率原默认32保持，13输入完整核。当前闭合POLY32与原生闭合Bezier4控制点严格不符，保留负结果；数量差本身不代表已证明通用可见错误，不改分辨率凑4或拟合。单根85节点104原序边、完整GS仅曲线和空网格、输入/模块/偏好/场景和清理保护均过，派生尺寸按实际输出和固定源码算法约束。旧四原生Ellipse×Ring组合的完整点/有效手柄和样点只作原生有限证据；圆形当前没有Ellipse接口，不冒全部控件映射。螺旋直接菜单fanout graft依同commit枚举指针合并源码条件被拒于运行前；共享菜单方案仅false材料，完整符号边序列已独验，新增节点schema与动态枚举API未齐，不冒已运行/已修复。",
+          "support_level": "CURRENT331_CIRCLE_NEGATIVE_OR_NATIVE_ONLY_NOT_ACCEPTED_ORDINARY"
+        }
+      ],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED",
+      "current331_scope": "First explicit current121 Circle None E0/Ring0 R1.379/res32: closedPOLY32 vs nativeBezier4 control count rejected; fullgraph and input/support preserved, not a generalized visible bug."
     },
     {
       "root": "C4D_样条_弧形",

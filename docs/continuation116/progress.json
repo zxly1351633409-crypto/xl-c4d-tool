@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-06",
-  "current": 330,
+  "current": 331,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -37,17 +37,17 @@
     "unchanged_products": 376,
     "previous35117_complete_G_backup_and_C_rollback": true,
     "previous35118_complete_G_backup_and_C_rollback": true,
-    "latest_same_package_additional_verification": "current330新增Helix当前受限负证据和完整图/保护核查，未接受为ordinary；Source57/3.5.121同378及三附件不变，无安装ZIP。",
+    "latest_same_package_additional_verification": "current331新增Circle当前有限负证据和Helix菜单源合同；未增加ordinary接受。Source57/3.5.121同378和三附件不变，无安装ZIP。",
     "previous35119_complete_G_backup_and_C_rollback": true,
     "previous35120_complete_G_backup_and_C_rollback": true
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 522,
+    "successful_blender_actors": 524,
     "native_actions": 97,
     "failed_blender_actors": 50,
-    "new_this_batch": 4,
+    "new_this_batch": 2,
     "new_native_this_batch": 0,
-    "interpretation": "本批3技术rc0+1前置rc1，当前Helix无插值严格control count未通过；rc0非功能通过，次数非完成率。"
+    "interpretation": "本批2技术rc0；圆形明确输入假设32与原生4控制点严格拒绝。rc0非功能通过，次数非完成率。"
   },
   "bounded_evidence": {
     "ordinary_roots": 29,
@@ -91,7 +91,8 @@
     "C4D_样条_矩形": "实际C3.5.121默认普通EXEC，ZY反向、非圆角、无插值、宽2.13700008392334/高.5189999938011169米；4ordered点与旧native误差0，全部Curve数组同旧Source96，完整旧→当前两图0差。一次EXEC默认支持态和请求态均完整采GS，仅曲线+空Mesh，其余组件无；跨态尺寸三叶均由采前固定模型约束、每态前后不变，四快照误差0。输入mesh/模块/偏好/Scene清理严格通过，不冒任意参数/Phong/全UX或转移追认旧N边形/Extrude。",
     "C4D_样条_星形": "实际C3.5.121默认星形普通EXEC，外半径.1171/内半径.0293米、N13、扭曲+.631、ZY、反转False、无插值、非圆角fixture。26有序点对旧native最大.024923微米，完整曲线数组同旧consumer。13实际输入/2完整图/完整GS仅曲线和空Mesh/模块偏好场景清理通过。默认10点阶段只支持保护；尺寸默认用采前冻结源码算法，请求用采前native包围盒期望，四快照全值吻合，不冒缓存分支插桩。原生未采圆角控件，不冒其控制等价；旧候选执行SHA缺口和旧wholeFalse保，不冒旧全图继承或任意Star/Phong/全UX。",
     "C4D_样条_弧形": "实际C3.5.121默认弧形普通EXEC，半径.2731米、起止角-1.319/-0.912、ZY、反转True、开放、无插值、非圆角fixture。5有序控制点最大.026509微米、有效左右手柄约.023869/.029639微米，73个cubic样点对旧原生最大.026569微米；完整curve数组同旧consumer。14typed/当前2fullgraphs/GS仅Curve与空Mesh/40ID模块偏好Scene清理过。仅三个精确SetHandleType.mode枚举集合的LEFT/RIGHT跨进程序列差异作来源支持分类，原值和六叶差异保，同进程完整图严格不变，不泛排序过滤。默认36点阶段仅支持保护；尺寸默认固定源码算法误差0、请求采前native包围盒最大误差.014902微米。不是任意角度/闭合Bezier/圆角/模式/TRS/Phong或全UX，也不修改旧wholeFalse。",
-    "C4D_样条_螺旋": "实际C3.5.121螺旋普通入口，None/起始半径.5米/结束半径0/高度1米/圈3/分辨率64/XY/反转False，14输入逐值核。当前输出POLY193个控制点，原生真实Bezier65个控制点，严格对应关系拒绝；数量差本身不代表已证明通用可见错误，也不把旧隔离候选65点通过追认为当前产品。完整单根89节点106边及typed/完整GS/输入保护/40ID模块偏好场景清理核；尺寸X/Y派生变化由各自实际输出包围盒和预先固定源码扩边算法约束，四支持快照误差0，不换原生oracle。旧候选303节点457边完整图缺口已只读补齐，但它的旧输入探针改写11条原边，不能直接冒全部legacy等价。拟最小fallback graft的菜单共享和新Group节点完整schema尚未闭合，尚未运行或进入产品。"
+    "C4D_样条_螺旋": "实际C3.5.121螺旋普通入口，None/起始半径.5米/结束半径0/高度1米/圈3/分辨率64/XY/反转False，14输入逐值核。当前输出POLY193个控制点，原生真实Bezier65个控制点，严格对应关系拒绝；数量差本身不代表已证明通用可见错误，也不把旧隔离候选65点通过追认为当前产品。完整单根89节点106边及typed/完整GS/输入保护/40ID模块偏好场景清理核；尺寸X/Y派生变化由各自实际输出包围盒和预先固定源码扩边算法约束，四支持快照误差0，不换原生oracle。旧候选303节点457边完整图缺口已只读补齐，但它的旧输入探针改写11条原边，不能直接冒全部legacy等价。拟最小fallback graft的菜单共享和新Group节点完整schema尚未闭合，尚未运行或进入产品。",
+    "C4D_样条_圆形": "实际C3.5.121圆形默认普通入口的首次明确有限假设：半径1.379米、XZ、反转False、环形False、无插值，分辨率原默认32保持，13输入完整核。当前闭合POLY32与原生闭合Bezier4控制点严格不符，保留负结果；数量差本身不代表已证明通用可见错误，不改分辨率凑4或拟合。单根85节点104原序边、完整GS仅曲线和空网格、输入/模块/偏好/场景和清理保护均过，派生尺寸按实际输出和固定源码算法约束。旧四原生Ellipse×Ring组合的完整点/有效手柄和样点只作原生有限证据；圆形当前没有Ellipse接口，不冒全部控件映射。螺旋直接菜单fanout graft依同commit枚举指针合并源码条件被拒于运行前；共享菜单方案仅false材料，完整符号边序列已独验，新增节点schema与动态枚举API未齐，不冒已运行/已修复。"
   },
   "open_issues": [
     "四类整体尚未完成；上述通过范围不能外推任意profile/TRS/closedBezier/growth/UV/Phong/完整UX。",
