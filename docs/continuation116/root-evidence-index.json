@@ -1658,10 +1658,17 @@
           "sha256": "4688dbd92407f4d10ff6ec9f1efa0985f912710ed720adf34343981d5c55aea4",
           "scope_note": "当前缺图只读观察到完整2组及真实Collection端点，加载35对象29网格1集合、Coreusers30；源Object/Material-only idrefs未覆盖Collection，不能用空列表推空端点。尚未验证当前支持全值/集合成员或普通数值入口。",
           "support_level": "CURRENT324_REJECTED_INPUT_HYPOTHESIS_OR_READONLY_ONLY"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current325_Source57_installed_Figure137_full_ordinary_independent_review_v1.json",
+          "sha256": "ba7342b07edd56bc0eeacbf8c0b47fff147505de32f933aac03ec0bdd36ab3a8",
+          "scope_note": "3.5.121普通入口137cm/defaultpose/segment14，2858点3206同向面12012UV，位置1.4739228316774857e-7m/UV0。旧120几何/支持数据通过但Scene3→38拒绝；新fresh精确revision完整35支持校验后只事务解除新增外部Scene链接，完整支持/两图/模块/偏好/Scene3→3/清理通过，内部Collection35成员不删。不宣称任意Figure或原生Phong/fullUX。",
+          "support_level": "CURRENT325_INSTALLED35121_FIGURE137_FULL_ORDINARY_BOUNDED"
         }
       ],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED",
-      "current324_scope": "Full2graphs and dependentID observation; actual membership/full support values and currentordinary not accepted"
+      "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED",
+      "current324_scope": "Full2graphs and dependentID observation; actual membership/full support values and currentordinary not accepted",
+      "current325_scope": "137cm defaultpose segment14 actual121 complete ordinary; old120 Scene failure retained; fresh exactrevision knownCollection transaction, no arbitraryFigure equivalence"
     },
     {
       "root": "XL_贝塞尔曲面",
@@ -1672,12 +1679,12 @@
       "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
     }
   ],
-  "indexed_roots": 20,
-  "existing_evidence_to_reconcile_roots": 91,
-  "meaning": "25根受限ordinary、2数学继承、91材料待归并；精确范围含限制，非完成率或91未实现。",
+  "indexed_roots": 21,
+  "existing_evidence_to_reconcile_roots": 90,
+  "meaning": "26根受限ordinary、2数学继承、90材料待归并；精确范围含限制，非完成率或90未实现。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
-  "current_bounded_evidence_roots": 25,
+  "current_bounded_evidence_roots": 26,
   "historical_evidence_found_current_lineage_pending_roots": 0,
   "current_math_lineage_bounded_roots": 2,
   "pending_current_function_discrepancy_roots": 0,
@@ -1690,8 +1697,8 @@
     "fields": "LOWER"
   },
   "pending_discrepancy_overlaps_existing_bounded_rows": true,
-  "current_source": "Source56",
-  "current_product_version": "3.5.120",
+  "current_source": "Source57",
+  "current_product_version": "3.5.121",
   "coverage_counts_not_completion_rate": true,
   "dimension_units_clarification": "Bend size is the vector (2.5,2.5,2.5)m, native(250,250,250)cm; not a scalar cubic-meter volume. Numeric inputs and all acceptance values unchanged."
 }
