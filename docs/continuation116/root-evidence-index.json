@@ -292,8 +292,22 @@
       "category": "生成器",
       "origin": "ORIGINAL_116",
       "current_catalog_revision": "20261027-star-native-default-interface-r97",
-      "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_current328_Star_Source57_full2closure_readonly_independent_review_v1.json",
+          "sha256": "12e4642d1e3af3b944087dabaf6078332babe5b69039f61b64f9b3afeac89b9e",
+          "scope_note": "实际C3.5.121默认星形普通EXEC，外半径.1171/内半径.0293米、N13、扭曲+.631、ZY、反转False、无插值、非圆角fixture。26有序点对旧native最大.024923微米，完整曲线数组同旧consumer。13实际输入/2完整图/完整GS仅曲线和空Mesh/模块偏好场景清理通过。默认10点阶段只支持保护；尺寸默认用采前冻结源码算法，请求用采前native包围盒期望，四快照全值吻合，不冒缓存分支插桩。原生未采圆角控件，不冒其控制等价；旧候选执行SHA缺口和旧wholeFalse保，不冒旧全图继承或任意Star/Phong/全UX。",
+          "support_level": "CURRENT328_INSTALLED_STAR_N13_ZY_NONE_ORDINARY_BOUNDED"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current328_installed35121_Star_N13_ZY_None_independent_review_v1.json",
+          "sha256": "abddd93608c33a1e9d9566fb1d390274e82a643e2a417cc3e7fa3ce73655d681",
+          "scope_note": "实际C3.5.121默认星形普通EXEC，外半径.1171/内半径.0293米、N13、扭曲+.631、ZY、反转False、无插值、非圆角fixture。26有序点对旧native最大.024923微米，完整曲线数组同旧consumer。13实际输入/2完整图/完整GS仅曲线和空Mesh/模块偏好场景清理通过。默认10点阶段只支持保护；尺寸默认用采前冻结源码算法，请求用采前native包围盒期望，四快照全值吻合，不冒缓存分支插桩。原生未采圆角控件，不冒其控制等价；旧候选执行SHA缺口和旧wholeFalse保，不冒旧全图继承或任意Star/Phong/全UX。",
+          "support_level": "CURRENT328_INSTALLED_STAR_N13_ZY_NONE_ORDINARY_BOUNDED"
+        }
+      ],
+      "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED",
+      "current328_scope": "One requested currentC121 Star outer.1171 inner.0293 N13 twist+.631 ZY reverseFalse None nonfilletfixture,26orderedpoints; complete13typed,2fullgraphs,fullGS/support/cleanup. Default10point is support only; no old executed candidate math lineage/nativefillet/arbitraryStar/Phong/fullUX."
     },
     {
       "root": "C4D_样条_矩形",
@@ -1707,12 +1721,12 @@
       "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
     }
   ],
-  "indexed_roots": 22,
-  "existing_evidence_to_reconcile_roots": 88,
-  "meaning": "27受限ordinary、3数学继承、88材料待归并；所有范围有限，非完成率或88未实现。",
+  "indexed_roots": 23,
+  "existing_evidence_to_reconcile_roots": 87,
+  "meaning": "28受限ordinary、3数学继承、87材料待归并；所有范围有限，非完成率或87未实现。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
-  "current_bounded_evidence_roots": 27,
+  "current_bounded_evidence_roots": 28,
   "historical_evidence_found_current_lineage_pending_roots": 0,
   "current_math_lineage_bounded_roots": 3,
   "pending_current_function_discrepancy_roots": 0,
