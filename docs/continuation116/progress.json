@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-07",
-  "current": 350,
+  "current": 351,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -9,21 +9,21 @@
       "C4D_人形素体",
       "XL_贝塞尔曲面"
     ],
-    "node_groups_including_private_and_legacy": 538,
-    "source_candidate": "Source58",
-    "formal_version": "3.5.122",
-    "local_installed_version": "3.5.122",
-    "next_product_version": "3.5.123"
+    "node_groups_including_private_and_legacy": 539,
+    "source_candidate": "Source59",
+    "formal_version": "3.5.123",
+    "local_installed_version": "3.5.123",
+    "next_product_version": "3.5.124"
   },
   "installer_delivery": {
-    "version": "3.5.122",
-    "tag": "v3.5.122",
-    "release_id": 436174172,
+    "version": "3.5.123",
+    "tag": "v3.5.123",
+    "release_id": 437132422,
     "ordinary_not_prerelease": true,
     "latest_endpoint_verified": true,
-    "url": "https://github.com/zxly1351633409-crypto/xl-c4d-tool/releases/tag/v3.5.122",
-    "ZIP_bytes": 265757458,
-    "ZIP_SHA256": "41dceb53037241a732bf3324aef7eae1da85fac2ad2aed2045c34376cd292c6b",
+    "url": "https://github.com/zxly1351633409-crypto/xl-c4d-tool/releases/tag/v3.5.123",
+    "ZIP_bytes": 266107689,
+    "ZIP_SHA256": "d4e4be0348c5d788723fcd6d147cc755a074c47214338fc75ef8437cc59527e5",
     "server_digest_and_size_verified": true,
     "two_small_attachments_download_verified": true,
     "full_remote_ZIP_download_claim": false,
@@ -33,28 +33,30 @@
     "changed_products": [
       "__init__.py",
       "assets/node_libraries/c4d_node_library.blend",
-      "assets/catalogs/node_groups.json"
+      "assets/catalogs/node_groups.json",
+      "assets/catalogs/asset_metadata.json"
     ],
-    "unchanged_products": 375,
+    "unchanged_products": 374,
     "previous35117_complete_G_backup_and_C_rollback": true,
     "previous35118_complete_G_backup_and_C_rollback": true,
-    "latest_same_package_additional_verification": "Source58 Helix two-state physical and actualC installed bounded verification complete; prior scopes preserved.",
+    "latest_same_package_additional_verification": "Source59 PHS canonical/fresh, independent source and actual C ordinary signed7 and default support accepted; prior scopes preserved.",
     "previous35119_complete_G_backup_and_C_rollback": true,
     "previous35120_complete_G_backup_and_C_rollback": true,
-    "previous35121_complete_G_backup_and_C_rollback": true
+    "previous35121_complete_G_backup_and_C_rollback": true,
+    "previous35122_complete_G_backup_and_C_rollback": true
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 557,
+    "successful_blender_actors": 561,
     "native_actions": 97,
-    "failed_blender_actors": 58,
-    "new_this_batch": 3,
+    "failed_blender_actors": 59,
+    "new_this_batch": 5,
     "new_native_this_batch": 0,
-    "interpretation": "本批2自然rc0+1自然rc1/0native；557/97/58为次数非完成率，无新产品或ordinary晋升。"
+    "interpretation": "本批4自然rc0+1自然rc1/0native；561/97/59为次数非完成率。只有独立全值功能门接受才晋升。"
   },
   "bounded_evidence": {
-    "ordinary_roots": 37,
+    "ordinary_roots": 38,
     "math_lineage_roots": 3,
-    "historical_material_pending_reconciliation_roots": 78,
+    "historical_material_pending_reconciliation_roots": 77,
     "rows_total": 118,
     "not_completion_rate_or_unimplemented_count": true,
     "pending_current_function_discrepancy_roots": 0,
@@ -229,14 +231,24 @@
       ]
     },
     "XL_克隆_沿样条": {
-      "current": 350,
-      "support_level": "bounded_save_control_and_serialized_legacy_mechanism_only",
-      "scope": "本批3真实Bpy：sclsaveobs2自然rc1、sclsavebase1/sclbaseread1自然rc0，均fullmonitorCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native；累计557成功guard/97有界native/58失败Bpy。次数非完成率，技术rc0非功能接受。精确保存诊断copy21→SAVE_PRE21→SAVE_POST24，删除copy后23对原20仍真拒；可见18/17槽、debug双False与原空handlers及精确恢复全保，source身份恢复，71196/81325不支持IDProperty访问原样保。无编辑Source58保存控制不copy/rename/build，20→pre20→post23→return23，诊断文件唯一只读重载回20，538groups234objects40ID及132确切typed地址角色/source身份过；不是Source59 fresh验收。Main完整固定commit写入链与实际序列化SDNA双独审：234Objects/179NODES地址一一覆盖，克隆_对象/克隆/Input_34、矩阵_Demo/XL_矩阵/Socket_4、克隆_样条线/克隆/Input_22均sole NODES、Value1、system IDP_ID及serialized legacy同IDP_ID指向同一Collection。写入时IDP_CopyProperty(flag0)每项加1，临时legacy FreeProperty_ex(false)不扣；提供精确三个增量的源码+序列化机制，与两真实保存区间一致，非binary调用插桩。一个未选非NODES modifier链接仍UNKNOWN，全部179NODES集合已完整双射，不冒全部modifier解析。原actual计数、canon1/2超时、canon3完整post拒绝全部保，不倒改。Source58/本机/GitHub普通3.5.122同378产品，无Source59接受/安装123/新ZIP/release。 下一以独立精确保存阶段参考继续原PHS包，既有canonical失败保持；先完整通过再安装发布。",
+      "current": 351,
+      "support_level": "installed_bounded_ordinary_PHS_signed7_and_default_support",
+      "scope": "Source59/普通3.5.123已真正受限完整交付：沿样条克隆新增基础位置、基础旋转HPB、基础缩放，63输入；默认0/0/1保持旧路径。公开新Root1782nodes2439原序edges，旧1604/2120根保__PRIVATE_123_SplineCloner_旧根并保原Demo同ptr；539组/73完整targets16parents234objects40ID，2236物理6452地址独立save/fresh全核。source59canon5自然rc0/166.156s，保存前同Collection21/保存后24按三个已证Value1→legacy IDP_ID复制贡献与两精确端点独立整post hash核，其他全部字段字面保；唯一fresh1自然rc0，完整73图/物理、两端点恢复21。两个真正冷普通（物理目录sc59phys1a、实际C安装i123scl7a1）各默认支持+signed7实例请求，63initial/requested/9完整图/11refs20physical+ownerMod、全GS与完整引用树、输入Mesh/Curve/UV/QAattrs/flags保护、40ID164实际模块/source3prefs/Scene选择和2Object1Mesh1Curve精确清理过。7原生矩阵/28个派生世界点/28同向tri，欧氏点与translation向量最大1.1863620590038573e-6m，matrixlinear7.943779678498686e-8<固定2um/2e-6；不是0.899um标量最大冒欧氏误差。每普通保32个精确converted-pointcloud position标量差原值，绑定既有同fixture7实例独立Exists=False/transform=True/两Position fields==真实translation证明，非泛attrs过滤/归零/内存binary trace。默认无新native oracle，不冒任意样条/TRS/Fields/原生UV/Phong/normal/fullUX。原rawfunctionalFalse/旧失败不倒改。 本批5真实Bpy：canon4自然rc1（Main supplement写utf8-sig导致审批前codec拒，未保存；已完整host I/O与实际ready离线核后仅修utf-8-sig开新canon5，原bytes/error保），canon5/fresh1/physical/C installed四自然rc0，全部fullmonitorCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native；累计561成功guard/97有界native/59失败Bpy为次数非完成率。仅库/node_groups/asset_metadata/init122→123四产品变更、374same，共378；154图只读用hardlink保实际attrs32/readonly0且未写属性，224copy。旧122完整378已G与C rollback双备份逐字节核，prefs38d7c88f1ecb08764d4271de6450f57f19a36c37a781f38cca3d1175d7aed66d保持，所有更早备份/工程/失败和原LICENSE/第三方说明保。普通release v3.5.123 id437132422/latest/nonprerelease/3附件，ZIP266107689B SHAd4e4be0348c5d788723fcd6d147cc755a074c47214338fc75ef8437cc59527e5，378 CRC/逐项SHA解压实物回读与安装同；服务器三digest/size同、两小件下载同，Main另独立GET latest与三摘要过，不冒完整ZIP远程下载。122原release及三附件不变，不重打/装/上传同123。",
       "proofs": [
-        "c801a5337d0bf6f9742afde8881da905db4c7430a55bd81468ffa90c08f80f20",
-        "8e8b1801352fe95a2f18eaa8afcabcc34d14f2b75e9d2c31dc21608a8eece14f",
-        "6176cfbd5f4fc9ee92f6f8f08bbcc23609bdfb9171404adbb727007fb144c65f"
+        "ebad9dbdd7f44a8cc4ac7b82b9724dc899cfd0e41b58c4269afe2307266115af",
+        "af1d6f845c7315ad11fbb8237e89fe58c0e4118d12e504a9f79dc60426e7f857",
+        "275d4769bd0bd6a85a16d5738b6561ecee16f34ae4d8e8f6a087f9adf6cc562e",
+        "f98ca147ac8c4ada54fa493418ddc96efba06950ab2600adeda9580154b303a6",
+        "2fc31386f5271deecb0e73807de69ff4cfe893d56295fd38d784d9570f254a86",
+        "830eb8315fa7464b08e3a6dadb7636c72b1caf6aaad7dac179b4546b6addf1af"
       ]
+    },
+    "XL_克隆_放射": {
+      "current": 351,
+      "support_level": "identity_only_not_current_ordinary",
+      "revision": "20261028-radial-native-transform-setml-panel-r109",
+      "scope": "Source59 DFS5/17 refs; two helpers complete protected, only3 math graphs missing. Old training5 WIP pass/releaseFalse, no new runtime approved.",
+      "proof_SHA": "a6f71a2cfa5f2c41f7a309210e5d516fc50b8ed37c4d015f7c794dda8438fe18"
     }
   },
   "open_issues": [
@@ -288,8 +300,8 @@
     "parallelism": "原有互斥host工作并行；真实runtime/大型I/O单槽，不新增调度器或购买额度。"
   },
   "versioning_policy": {
-    "next_product_update": "3.5.123",
-    "following": "3.5.124",
+    "next_product_update": "3.5.124",
+    "following": "3.5.125",
     "ordinary_incremental_releases": true,
     "keep_existing_preview_history": true,
     "evidence_only_updates_do_not_bump_or_repackage": true,
@@ -302,6 +314,6 @@
   ],
   "evidence_index": "root-evidence-index.json",
   "local_report_contents_not_published": true,
-  "latest_batch_product_bytes_changed": false,
+  "latest_batch_product_bytes_changed": true,
   "dimension_units_clarification": "Bend size is the vector (2.5,2.5,2.5)m, native(250,250,250)cm; not a scalar cubic-meter volume. Numeric inputs and all acceptance values unchanged."
 }
