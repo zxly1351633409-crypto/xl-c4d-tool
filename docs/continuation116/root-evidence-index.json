@@ -377,7 +377,7 @@
       "root": "C4D_样条_螺旋",
       "category": "生成器",
       "origin": "ORIGINAL_116",
-      "current_catalog_revision": null,
+      "current_catalog_revision": "20261106-helix-none-fit8-1-bounded-v1",
       "known_bounded_evidence": [
         {
           "local_audit_report": "continuation116_Main_current330_Helix_Source57_full1closure_readonly_independent_review_v1.json",
@@ -396,11 +396,36 @@
           "sha256": "a3fbd01bc4a8d06eba27e5acd35dda9b87de6f9dc859a762f2b3bf2b9550badc",
           "scope_note": "实际C3.5.121螺旋普通入口，None/起始半径.5米/结束半径0/高度1米/圈3/分辨率64/XY/反转False，14输入逐值核。当前输出POLY193个控制点，原生真实Bezier65个控制点，严格对应关系拒绝；数量差本身不代表已证明通用可见错误，也不把旧隔离候选65点通过追认为当前产品。完整单根89节点106边及typed/完整GS/输入保护/40ID模块偏好场景清理核；尺寸X/Y派生变化由各自实际输出包围盒和预先固定源码扩边算法约束，四支持快照误差0，不换原生oracle。旧候选303节点457边完整图缺口已只读补齐，但它的旧输入探针改写11条原边，不能直接冒全部legacy等价。拟最小fallback graft的菜单共享和新Group节点完整schema尚未闭合，尚未运行或进入产品。",
           "support_level": "CURRENT330_HELIX_NEGATIVE_OR_GRAPH_ONLY_NOT_ACCEPTED_ORDINARY"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source58_canonical_savedfresh_independent_review_v1.json",
+          "sha256": "a5000c5a28c1d423ec0b6decb87c70a8f50c23f8caccfae12f9e062b4800b2ee",
+          "scope_note": "Source58/普通3.5.122：默认False完整保留旧193点；开启后指定None/.5→0m/H1/3圈/64/BlenderXY(nativeXZ)/不反转，65点位置与有效手柄均<2微米。物理包和实际C普通入口15typed、4完整图、5具名引用/9物理、40ID/164模块/source3prefs/Scene清理均核。非任意菜单/TRS/Phong/UV/fullUX，旧121的193vs65拒绝和所有raw保留。",
+          "support_level": "CURRENT333_SOURCE58_INSTALLED_BOUNDED_ORDINARY"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current333_Source58_physical_Helix_two_state_ordinary_independent_review_v2.json",
+          "sha256": "0b5ab8c9496f55d35a5d14adfe63c8ea12384e140f563d0fe56e5795c4ad323d",
+          "scope_note": "Source58/普通3.5.122：默认False完整保留旧193点；开启后指定None/.5→0m/H1/3圈/64/BlenderXY(nativeXZ)/不反转，65点位置与有效手柄均<2微米。物理包和实际C普通入口15typed、4完整图、5具名引用/9物理、40ID/164模块/source3prefs/Scene清理均核。非任意菜单/TRS/Phong/UV/fullUX，旧121的193vs65拒绝和所有raw保留。",
+          "support_level": "CURRENT333_SOURCE58_INSTALLED_BOUNDED_ORDINARY"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current333_Source58_installed_Helix_two_state_ordinary_independent_review_v2.json",
+          "sha256": "58c4772b3b2b6fa68971fbbac967dbbfa0c121909ff18fd1fc9f7aa35a264c5f",
+          "scope_note": "Source58/普通3.5.122：默认False完整保留旧193点；开启后指定None/.5→0m/H1/3圈/64/BlenderXY(nativeXZ)/不反转，65点位置与有效手柄均<2微米。物理包和实际C普通入口15typed、4完整图、5具名引用/9物理、40ID/164模块/source3prefs/Scene清理均核。非任意菜单/TRS/Phong/UV/fullUX，旧121的193vs65拒绝和所有raw保留。",
+          "support_level": "CURRENT333_SOURCE58_INSTALLED_BOUNDED_ORDINARY"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source58_final_delivery_independent_review_v1.json",
+          "sha256": "313027adc18f37d5b90b9e73df1d4f15642e9124944d73fe6951d8863e3192dc",
+          "scope_note": "Source58/普通3.5.122：默认False完整保留旧193点；开启后指定None/.5→0m/H1/3圈/64/BlenderXY(nativeXZ)/不反转，65点位置与有效手柄均<2微米。物理包和实际C普通入口15typed、4完整图、5具名引用/9物理、40ID/164模块/source3prefs/Scene清理均核。非任意菜单/TRS/Phong/UV/fullUX，旧121的193vs65拒绝和所有raw保留。",
+          "support_level": "CURRENT333_SOURCE58_INSTALLED_BOUNDED_ORDINARY"
         }
       ],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED",
+      "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED",
       "current330_scope": "Current121 None193 versus nativeBezier65 control count rejected; old f953 candidate15inputs/303nodes completegraph only, no isolated/current product pass. Newgraft MENU/schema unclosed; not a generalized visible failure.",
-      "current332_scope": "本轮仅主会话独立源码/API与既有材料审阅，无新增Blender或原生运行。螺旋共享菜单方案的Item编号条件、菜单接口动态枚举API及五个既有节点模板已核；这不证明候选运行或几何通过。独立参考模块、完整六组参考与有限控制器仍待完整审阅，阶段合同保持false。融球旧记录仅数量诊断和保存重现，原生阈值/标签与Blender代理参数没有建立映射，不能称数值等价或通用故障。Source57/普通3.5.121和三附件保持不变。"
+      "current332_scope": "本轮仅主会话独立源码/API与既有材料审阅，无新增Blender或原生运行。螺旋共享菜单方案的Item编号条件、菜单接口动态枚举API及五个既有节点模板已核；这不证明候选运行或几何通过。独立参考模块、完整六组参考与有限控制器仍待完整审阅，阶段合同保持false。融球旧记录仅数量诊断和保存重现，原生阈值/标签与Blender代理参数没有建立映射，不能称数值等价或通用故障。Source57/普通3.5.121和三附件保持不变。",
+      "current333_scope": "Source58/普通3.5.122：默认False完整保留旧193点；开启后指定None/.5→0m/H1/3圈/64/BlenderXY(nativeXZ)/不反转，65点位置与有效手柄均<2微米。物理包和实际C普通入口15typed、4完整图、5具名引用/9物理、40ID/164模块/source3prefs/Scene清理均核。非任意菜单/TRS/Phong/UV/fullUX，旧121的193vs65拒绝和所有raw保留。"
     },
     {
       "root": "C4D_样条_齿轮",
@@ -1777,12 +1802,12 @@
       "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
     }
   ],
-  "indexed_roots": 24,
-  "existing_evidence_to_reconcile_roots": 86,
-  "meaning": "29受限ordinary、3数学继承、86材料待归并；所有范围有限，非完成率或86未实现。",
+  "indexed_roots": 33,
+  "existing_evidence_to_reconcile_roots": 85,
+  "meaning": "30受限ordinary、3数学继承、85材料待归并；范围有限，非完成率或85未实现。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
-  "current_bounded_evidence_roots": 29,
+  "current_bounded_evidence_roots": 30,
   "historical_evidence_found_current_lineage_pending_roots": 0,
   "current_math_lineage_bounded_roots": 3,
   "pending_current_function_discrepancy_roots": 0,
@@ -1795,8 +1820,8 @@
     "fields": "LOWER"
   },
   "pending_discrepancy_overlaps_existing_bounded_rows": true,
-  "current_source": "Source57",
-  "current_product_version": "3.5.121",
+  "current_source": "Source58",
+  "current_product_version": "3.5.122",
   "coverage_counts_not_completion_rate": true,
   "dimension_units_clarification": "Bend size is the vector (2.5,2.5,2.5)m, native(250,250,250)cm; not a scalar cubic-meter volume. Numeric inputs and all acceptance values unchanged."
 }
