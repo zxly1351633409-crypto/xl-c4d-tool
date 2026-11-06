@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-07",
-  "current": 346,
+  "current": 347,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -44,12 +44,12 @@
     "previous35121_complete_G_backup_and_C_rollback": true
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 554,
+    "successful_blender_actors": 555,
     "native_actions": 97,
     "failed_blender_actors": 52,
-    "new_this_batch": 3,
+    "new_this_batch": 1,
     "new_native_this_batch": 0,
-    "interpretation": "3actual/1rc0+2rc1/0native;554/97/54次数非完成率；copy数学组件过但完整GS和IDcopy计数未接受，未发布。"
+    "interpretation": "1actualrc0/0native;555/97/54次数非完成率。精确事务/存储诊断通过，Source59 canonical/实际安装未交，不晋升ordinary。"
   },
   "bounded_evidence": {
     "ordinary_roots": 37,
@@ -229,17 +229,13 @@
       ]
     },
     "XL_克隆_沿样条": {
-      "current": 346,
-      "support_level": "ISOLATED_COPY_GEOMETRY_COMPONENT_PASS_FULL_GS_REJECTED",
-      "scope": "本批3真实Bpy：sclcopy1自然rc1、sclcopy2自然rc0、sclcopyids1自然rc1，均fullmonitorCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native；累计554成功guard/97有界native/54失败Bpy。次数非完成率，技术rc0非功能通过。sclcopy1在Main冻结fixture未解码C4D三角[a,b,c,c]为Blender[a,b,c]的line56断言拒，未applyRoot/几何/builder；旧40ID/Scene字面恢复，postcapture函数未定义错误原保。只修冻结输入v2并新job sclcopy2，原失败不倒改。sclcopy2已实际完成currentRoot.copy最小修复：新1782nodes2439原序边、10完整组/21refs31物理、七个完整graph阶段对采前独立gold全部字面0差；63typed、七原生矩阵/28原序点/28同向tri真实核，点最大1.1863620590038573e-6m、矩阵linear7.943779678498686e-8/translation标量8.99375276253167e-7m，固定2um/2e-6组件过。原60输入与neutral/signed逐值同，新增P/H/S精确绑定。完整GS仍严格不接受：configured current→copy neutral实例position四标量不同，完整tree重复同四，全部原值保；signed对旧raw另19position标量差，旧7x3零不回填。其余instance attrs/matrices及引用tetra全部位置/边/有向面/UV/QAattrs/normals逐值同旧，只data名、旧未采/新False has_custom_normals、旧QA材质/新空、旧未采/新完整writable四个确切角色字段差保。Curve/输入mesh/writable/flags和四owner快照全字面保持；owner尺寸仍input-sized(.12,.23,.17)m，不能冒原生实例完整bounds。40ID旧行/164实际C模块/source3prefs/Scene选择和2Object1Mesh1Curve精确清理过。helper实际fakeFalse/extraFalse/users0，0新Library复用旧，source flags保。Collection users2→4不是原简单+1模型；唯一sclcopyids1只补遗漏outputs/IDProperties与plain copy，无图/geometry重采，实际2→4→3(copy删除后)及owners2→3→2，删除恢复合同真rc1；10194/19293 IDProperty keys不支持错误原保，未到164模块不冒已采。Main亲读同commit interface.copy_data原flag→socket_data_copy先+1、随后global ID USER walk再+1的完整源链，删除仅一次扣，与实测一致；不是二进制逐调用插桩或手动减user。当前Root真实StoreNamedAttribute.029写position/INSTANCE，不能从静态可达或gather条件声称本次源storage缺失/未初始化内存因果。两个问题分别存精确恢复点，不滤值/归零/重同case或按技术rc0发布。产品仍Source58/普通3.5.122同378，本机/GitHub/ZIP/release无变，无Source59/native125/新安装123。",
+      "current": 347,
+      "support_level": "ISOLATED_TRANSACTION_STORAGE_DIAGNOSTIC_PASS_CANONICAL_PENDING",
+      "scope": "本批仅1真实Bpy sclstore1，自然rc0/fullmonitorCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native；已先记账累计555成功guard/97有界native/54失败Bpy，次数非完成率，技术rc0非功能接受。仅针对已定位问题采用新事务builder_v4：Input22原Collection暂None→复制→finally恢复原Root及65个GroupInput同槽输出→绑定ownedcopy，实际users2→1→1→2→3，source_graph/source_pointer及65个原输出逐值恢复，最终精确清理后Collectionusers1，无手动减users。新ownedcopy加9诊断节点/11新边减1旧终边，1791nodes2449原序边、10group/21refs31物理；七阶段完整8parts+compact对采前独立gold全字面0差。诊断三Bool两Vector均INSTANCE：neutral/signed两态每态7个，Exists(position)全False、Exists(instance_transform)全True、唯一缺名负控全False；Position及Named(position)两个向量与各自实际instance_transform.translation逐值误差0。Main亲读同commit Instance accessor.contains→storage.lookup、Position和Named position读取transform，以及Store(position FLOAT_VECTOR INSTANCE)直接写transform的真实源码分支。故在这两个已观测选择位置无同名position storage条目；原Python instances_pointcloud转换出来的POINT position所有巨大有限原值和每个差保，不当作源INSTANCE属性、不归零/泛滤、不声称二进制内存原因。source Root当前StoreNamedAttribute.029存在与此并不冲突，因为该类型position写transform；不是据静态路径冒actual branch。neutral与原配置currentRoot仅五个明确QA属性及转换器position角色差，其他完整GS attrs/引用树逐值同；signed相对已过sclcopy2仅这些精确新增QA和转换器差，其他attrs/矩阵/引用tetra全字面同。跨PID63typed仅Socket10/Input3 ownedCurve和Input22 Collection三ptr按独立两ID角色一一对应，其余全值同，非泛PTR过滤。此次不重旧native/28点数值来加样例；原native数学组件既证照用。输入Mesh/UV/QAattrs/flags/writable、Curve全部RNA/矩阵、四owner及原Scene选择前后完整保，40ID旧行/164实际C模块/source3prefs/2Object1Mesh1Curve精确清理过。owner维持input-sized .12/.23/.17米，仍不冒原生完整实例bounds或实际cache分支。Source59无诊断生产图仅完整结构反向投影1782/2439对照，非另一次无诊断评估。两处阻断在本次事务/诊断范围已闭合，开始Source59普通123完整集成准备，尚未canonical保存/fresh/物理/实际C安装ordinary或发布；产品仍Source58/3.5.122同378，旧current346 rawfunctionalFalse/两rc1不倒改，不追认Grid/Extrude/旧未知。",
       "proofs": [
         {
-          "report": "continuation116_Main_current346_SplineCloner_copy_onlyopen_component_and_fullGS_rejection_independent_review_v1.json",
-          "SHA": "972742da773e5eb03c274be6748c7177b6748a28934d8f70bc1dcc43c1e85e24"
-        },
-        {
-          "report": "continuation116_Main_current346_SplineCloner_missing_IDslots_actual_and_interface_copy_count_source_review_v1.json",
-          "SHA": "ea9a767022bbe0be8d3a23db7ed401cfefac92431a2429bf46da3bfdd0d47413"
+          "report": "continuation116_Main_current347_SplineCloner_transaction_and_storage_diagnostic_independent_review_v1.json",
+          "SHA": "64001dcbbc22a9a1dd50d7ebdb0c7847f2037191889e63fb2dbf970969c619e9"
         }
       ]
     }
