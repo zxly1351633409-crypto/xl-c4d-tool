@@ -1015,9 +1015,16 @@
           "local_audit_report": "continuation116_Main_current307_Generators_Source39_40_41_to52_fullclosure_lineage_independent_review_v1.json",
           "sha256": "296fe3530226f8b0c7780be9f3859a72503734ca947272b2e34c63596df025a1",
           "scope_note": "新旧完整数学闭包严格对账，仅复用原有限参数/几何/UV证明。"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current324_installed35120_Sweep_growth_input_hypothesis_rejection_independent_review_v1.json",
+          "sha256": "33f585f7429139bc2f766eab7835a1900fc00cc88f74838e7d7402beab533c5f",
+          "scope_note": "current324首次显式输入假设普通：POLY4profile/POLY3path、.2/.8、关闭路径闭合，13typed/7完整图/输入保护与清理通过；12点10面40角计数相同但12点全无2um匹配/maxnearest.263219011m，UVMap缺失，拒此输入假设。其余控制映射和原生SplineData未知，不冒通用产品bug；不改gate/拟合。",
+          "support_level": "CURRENT324_REJECTED_INPUT_HYPOTHESIS_OR_READONLY_ONLY"
         }
       ],
-      "coverage_state": "BOUNDED_EVIDENCE_INDEXED"
+      "coverage_state": "BOUNDED_EVIDENCE_INDEXED",
+      "current324_scope": "Only exact current input hypothesis rejected, no prior bounded pass revoked"
     },
     {
       "root": "XL_扭曲",
@@ -1645,8 +1652,16 @@
       "category": "生成器",
       "origin": "ADDED",
       "current_catalog_revision": "20261102-figure-height-defaultpose-cont116-v1",
-      "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+      "known_bounded_evidence": [
+        {
+          "local_audit_report": "continuation116_Main_current324_Source56_Figure_two_graphs_and_Collection_dependency_observation_independent_review_v1.json",
+          "sha256": "4688dbd92407f4d10ff6ec9f1efa0985f912710ed720adf34343981d5c55aea4",
+          "scope_note": "当前缺图只读观察到完整2组及真实Collection端点，加载35对象29网格1集合、Coreusers30；源Object/Material-only idrefs未覆盖Collection，不能用空列表推空端点。尚未验证当前支持全值/集合成员或普通数值入口。",
+          "support_level": "CURRENT324_REJECTED_INPUT_HYPOTHESIS_OR_READONLY_ONLY"
+        }
+      ],
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED",
+      "current324_scope": "Full2graphs and dependentID observation; actual membership/full support values and currentordinary not accepted"
     },
     {
       "root": "XL_贝塞尔曲面",
