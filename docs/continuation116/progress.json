@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-07",
-  "current": 351,
+  "current": 352,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -46,12 +46,12 @@
     "previous35122_complete_G_backup_and_C_rollback": true
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 561,
+    "successful_blender_actors": 562,
     "native_actions": 97,
     "failed_blender_actors": 59,
-    "new_this_batch": 5,
+    "new_this_batch": 1,
     "new_native_this_batch": 0,
-    "interpretation": "本批4自然rc0+1自然rc1/0native；561/97/59为次数非完成率。只有独立全值功能门接受才晋升。"
+    "interpretation": "本批1自然rc0只读/0native；562/97/59为次数非完成率，无新ordinary晋升。"
   },
   "bounded_evidence": {
     "ordinary_roots": 38,
@@ -244,11 +244,14 @@
       ]
     },
     "XL_克隆_放射": {
-      "current": 351,
-      "support_level": "identity_only_not_current_ordinary",
-      "revision": "20261028-radial-native-transform-setml-panel-r109",
-      "scope": "Source59 DFS5/17 refs; two helpers complete protected, only3 math graphs missing. Old training5 WIP pass/releaseFalse, no new runtime approved.",
-      "proof_SHA": "a6f71a2cfa5f2c41f7a309210e5d516fc50b8ed37c4d015f7c794dda8438fe18"
+      "current": 352,
+      "support_level": "current_missing3_fullgraphs_readonly_and_old_native2_numeric_only_not_ordinary",
+      "scope": "放射克隆当前真缺三图已唯一只读补齐：公开XL_克隆_放射3nodes61原序compact边→__PRIVATE_XL_克隆_放射_变换运行核109 1718/2132→XL_克隆_放射__NativeRadialCore33/53；三完整8partscompact双采解压字节同。排序模式/SetMl109两helper已Source59保护，未重完整图。实际60INPUT+1OUTPUT逐值采，不再只拿catalog60推RNA。17原序perowner refs/5groups22具名ref物理，3默认ID端点Root interface/Input37、Root Group.input Input37、core interface/Input37同一个真实Collection Drop_Your_Assets_Here；载Collection1/ObjectMesh0、5group1Library及40ID旧行保持，all_ids只是上述7ID聚合行不另算物理。loaded RootTrue1/coreFalse1/SetMlFalse1/NativeCoreFalse1/menuFalse14，Source59global原flags/users完整保且按990refs179mods具体入边核，不泛fake/users过滤。Scene空frame1/source3prefs保持；Collection完整writable/members未采，不冒空集合，Libraryfilepath未另采；factory自然退出非显式group/Library删除清理。 Main已全文真正postfreeze native collector、formal109 v3 producer/fullcollector/fresh、两个比较器与provenance源码，独立完整两native12setter-readback/owner-child四MLMG均I、cache每点MG bake/SDKSetMl及formal6角色有序几何矩阵全核。XZ17=68点68有向tri，欧氏点2.041855149978673e-7m、矩阵linear1.566526222074316e-7/translation向量1.7729865035138795e-7m；XY8zeroZ=32点32有向tri、点8.253392925350178e-7m、linear4.979428623874682e-7/translation7.891256178966468e-7m，固定2um/2e-6有限过，退化按原序不冒唯一空间匹配。全pre/fresh恰33个converted-instance position叶真实差保UNVERIFIED，非wholeGS过。旧provenance脚本载v1场景而full数组v3，不冒v3同PID图/guard继承；原collector现CRLF SHA与原request不同，LF归一精确匹配，原bytes执行身份不升级。v7候选16903325B/74b3ef...与冻结原值实核，不能混早期candidate1训练。旧training5 Main报告实际绑v1，而导航v2另存材料，A重放同比较器v2有限过不是新Main独立数学或当前普通接受。",
+      "proofs": [
+        "49d24a0f0107ee39b6acbd9634d7a1f06bdbd50860de54df28e8c0d5f853c50f",
+        "d47784ca6175838861f7eca272aa67a7970f4fef05325618adcc67eb374a9df3",
+        "0f5122b91433fda8cafd917f3ddbcf0ea9b88195d5638809648b59c1e1c4652e"
+      ]
     }
   },
   "open_issues": [
@@ -314,6 +317,6 @@
   ],
   "evidence_index": "root-evidence-index.json",
   "local_report_contents_not_published": true,
-  "latest_batch_product_bytes_changed": true,
+  "latest_batch_product_bytes_changed": false,
   "dimension_units_clarification": "Bend size is the vector (2.5,2.5,2.5)m, native(250,250,250)cm; not a scalar cubic-meter volume. Numeric inputs and all acceptance values unchanged."
 }

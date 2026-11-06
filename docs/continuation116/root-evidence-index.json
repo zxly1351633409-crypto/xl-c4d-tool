@@ -694,7 +694,9 @@
       "current_catalog_revision": "20261028-radial-native-transform-setml-panel-r109",
       "known_bounded_evidence": [],
       "coverage_state": "EVIDENCE_NOT_YET_RECONCILED",
-      "current351_scope": "Identity only: Source59 catalogr109/DFS5/17refs, two helpers already full protected and three unknown fullgraphs; four source byte pins verified. Old training5 releaseFalse, no new runtime approved."
+      "current351_scope": "Identity only: Source59 catalogr109/DFS5/17refs, two helpers already full protected and three unknown fullgraphs; four source byte pins verified. Old training5 releaseFalse, no new runtime approved.",
+      "current352_scope": "放射克隆当前真缺三图已唯一只读补齐：公开XL_克隆_放射3nodes61原序compact边→__PRIVATE_XL_克隆_放射_变换运行核109 1718/2132→XL_克隆_放射__NativeRadialCore33/53；三完整8partscompact双采解压字节同。排序模式/SetMl109两helper已Source59保护，未重完整图。实际60INPUT+1OUTPUT逐值采，不再只拿catalog60推RNA。17原序perowner refs/5groups22具名ref物理，3默认ID端点Root interface/Input37、Root Group.input Input37、core interface/Input37同一个真实Collection Drop_Your_Assets_Here；载Collection1/ObjectMesh0、5group1Library及40ID旧行保持，all_ids只是上述7ID聚合行不另算物理。loaded RootTrue1/coreFalse1/SetMlFalse1/NativeCoreFalse1/menuFalse14，Source59global原flags/users完整保且按990refs179mods具体入边核，不泛fake/users过滤。Scene空frame1/source3prefs保持；Collection完整writable/members未采，不冒空集合，Libraryfilepath未另采；factory自然退出非显式group/Library删除清理。 Main已全文真正postfreeze native collector、formal109 v3 producer/fullcollector/fresh、两个比较器与provenance源码，独立完整两native12setter-readback/owner-child四MLMG均I、cache每点MG bake/SDKSetMl及formal6角色有序几何矩阵全核。XZ17=68点68有向tri，欧氏点2.041855149978673e-7m、矩阵linear1.566526222074316e-7/translation向量1.7729865035138795e-7m；XY8zeroZ=32点32有向tri、点8.253392925350178e-7m、linear4.979428623874682e-7/translation7.891256178966468e-7m，固定2um/2e-6有限过，退化按原序不冒唯一空间匹配。全pre/fresh恰33个converted-instance position叶真实差保UNVERIFIED，非wholeGS过。旧provenance脚本载v1场景而full数组v3，不冒v3同PID图/guard继承；原collector现CRLF SHA与原request不同，LF归一精确匹配，原bytes执行身份不升级。v7候选16903325B/74b3ef...与冻结原值实核，不能混早期candidate1训练。旧training5 Main报告实际绑v1，而导航v2另存材料，A重放同比较器v2有限过不是新Main独立数学或当前普通接受。",
+      "current352_next": "Current ordinary false preparation pending Main full actor/default/context reference/API/budget/resource review; no new runtime approved."
     },
     {
       "root": "XL_克隆_沿样条",
@@ -2037,7 +2039,7 @@
   ],
   "indexed_roots": 41,
   "existing_evidence_to_reconcile_roots": 77,
-  "meaning": "38受限ordinary、3数学继承、77材料待归并；current351沿样条PHS受限普通安装123已验，非完成率。",
+  "meaning": "38受限ordinary、3数学继承、77材料待归并；current352放射缺三完整图只读已补，旧native2仅有限数值复算，尚非当前普通，非完成率。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
   "current_bounded_evidence_roots": 38,
