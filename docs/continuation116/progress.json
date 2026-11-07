@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-07",
-  "current": 353,
+  "current": 354,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -46,17 +46,17 @@
     "previous35122_complete_G_backup_and_C_rollback": true
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 563,
+    "successful_blender_actors": 564,
     "native_actions": 97,
     "failed_blender_actors": 59,
     "new_this_batch": 1,
     "new_native_this_batch": 0,
-    "interpretation": "本批1自然rc0只接受realized17请求组件，不晋升strictordinary；563/97/59次数非完成率。"
+    "interpretation": "本批1自然rc0独立storage witness；current353原请求+本次case-specific证据合并受限ordinary接受，564/97/59次数非完成率。"
   },
   "bounded_evidence": {
-    "ordinary_roots": 38,
+    "ordinary_roots": 39,
     "math_lineage_roots": 3,
-    "historical_material_pending_reconciliation_roots": 77,
+    "historical_material_pending_reconciliation_roots": 76,
     "rows_total": 118,
     "not_completion_rate_or_unimplemented_count": true,
     "pending_current_function_discrepancy_roots": 0,
@@ -244,15 +244,21 @@
       ]
     },
     "XL_克隆_放射": {
-      "current": 353,
-      "support_level": "realized17_requested_component_pass_default_position30_unverified_not_strict_ordinary",
-      "scope": "唯一actualC123普通EXEC限定radial109_v7_holdout_XZ17_tinyHPB/实现为几何：properC tetra23/37/41cm、空ownerMesh及独立template均I,parentNone，template hide_renderTrue为旧fixture实值。60initial/requested逐值核、15非ID显式请求+Socket22真实ownedObject共16设置；12native读回映射独核，余inactive默认非全C4D控件映射。请求68原序点102边68有向tri204角，世界位置最大2.0418551521982055e-7m<固定2um，全原序面同native；GS仅Mesh、其它组件ABSENT/ref[]、完整tree1节点。请求采集Mesh对旧formal恰139地址差：名字角色1、旧未采而新False has_custom_normals1、旧QA材质快照对新None1、旧68面area/center共136字段本采集器未序列化；其余全部已采attrs/position/normals/writable/拓扑字面同。未把136缺失字段填成实际RNA采样；template→output writable只runtime_data False→True角色叶，全部vertex/edge/face flags等template17份。五完整图initial/pre/tail/cleanup对采前独立gold全字面同，17refs22具名ref物理+ownerMod/40ID164实际C模块/source3prefs/Scene选择及2Object2Mesh精确users0清理过，Root清后仅users2→1。输入空mesh/template全raw-writable-flags/TRS保持；Collection全writable/custom/有序memberschildren[]保持，清后users4→3是modifier默认Input37引用释放。每态owner前后字面同，跨态仅dimensions3叶；采前nativebbox最大2.0224071040075842e-7m，默认空被引几何bounds0模型过。原native17矩阵是本次68点独立金的来源，本realized请求没有实例matrix组件，不冒新运行17矩阵采样/原生UV/Phong/normal/任意TRS/fullUX。 严格整项ordinary仍不接受：默认同EXEC支持态实际5instances、完整2层GeometrySet→真空Mesh，primary及referenceTree各15个converted pointcloud.position标量巨大但有限，30原值完整保UNVERIFIED，不归零/泛滤、不把有限数当功能过；其余两处attrs逐值核，引用无不透明内容/limit/readerror。完整默认引用几何为空只支持bounds0，不能证明position存储或所有属性数学等价，原因UNKNOWN，不叫产品通用bug/回归。原rawfunctionalFalse保持，不追认Grid/Extrude或旧33差。",
+      "current": 354,
+      "support_level": "installed_bounded_ordinary_realized17_default5_exact_storage_witness",
+      "scope": "Radial同一default5空owner fixture最小storage witness真过：原普通Root后独立owned consumer，未copy/修改Root、未手改users、未改菜单/Realize、未请求旧17几何。实际当前GS/refs完整names-only15属性无QA冲突（A原12只INSTANCE、不是完整union），新11nodes11原序edges consumer在users0/1/1三阶段完整8partscompact逐值==采前独立donor金，原5图initial/pre/tail/cleanup对原金全字面同。3个Exists五行实读position=False、instance_transform=True、唯一缺失名=False；Position与Named(position)两真实INSTANCE字段各5向量字面==五真实instance_transform.translation，也字面==旧同fixture独立冻结参考。五QA属性为唯一新增属性，除primary与referenceTree两条5x3 converted.position数组外，全部原GS/ref/attrs/matrices/输入/flags逐值同原default；完整2层GS→空Mesh、bounds0保持。原60typed、17refs22具名ref物理/3个Input37同Collection、40ID164实际C模块/source3prefs/Scene选择及2Object2Mesh1临时Group users0精确清理均过；Collection全writable及有序memberschildren[]保持，清后仅users4→3为默认modifier ID引用释放。observer group无新原Root入边，Root清后2→1。 Main新的独立综合门将current353唯一realized17请求组件（68点102边68同向tri204角/max2.0418551521982055e-7m、60typed/5图/全当前采集Mesh与输入保护）与本次同源同fixture默认5独立storage见证合并，当前actualC123的此限定ordinary已接受。只有精确两条converted5x3数组按已证storage不存在而两Position字段由transform位置派生的角色分类，旧30缓存值和新30缓存值全原样保，不填0/泛attrs或PTR过滤，不冒binary/分配因果。current353当时strict拒与所有原rawfunctionalFalse不倒改；旧109两态33叶、Grid/Extrude/Honeycomb等不追认。请求采集器未序列化旧68面area/center136字段的限制继续明示，未伪造RNA采样。本次没有再执行68点/17原生矩阵/三图或五图observer；17native矩阵只是原68点独立金来源，非本realized运行新增matrix组件样本。仅指定XZ17 tinyHPB非奇异请求+default5 Blender支持，不冒默认native oracle/任意菜单TRS/Fields/UV/Phong/normal/fullUX。",
       "proofs": [
-        "2e2876f767c6340de3e5f261bb71f49a905df124bb353cbd1ddb8b655ced41f1",
-        "8c7b3c91cea35db9ec79cfb556b6cee2671f7ae6bfe02800b2bad869c11cc5f0",
-        "911b6a43ed8317d9468818e6a7af935ed379aa1c9bf5f159c73f9fdd72297156",
-        "bf2796cf4e5b73532e63c7475a50da2434c3b23ca14754f82099ff0e66553607"
+        "032ba84bb351ba98a1863bcd0cbc28b9e09a3539e799cdf91bb9bff760bd8678",
+        "0dfbe10df9d4bd79c58a36ef86e5b20d46ad609fd10c9f37232318ab76402013",
+        "e75f82e767b19be89ed0d994ea488e81d18c2a66738d843f945d428b5f497e5f",
+        "da6045fc95522f4d526565805f459c5fe8c552dc33e311dd66cf1530d3e46034"
       ]
+    },
+    "XL_矩阵": {
+      "current": 354,
+      "support_level": "identity_only_native_consumer_binding_unknown_no_runtime",
+      "scope": "Source59 catalog1 metadata0, root/core2groups1ref; no revision, no full8parts in73targets16parents. Save-user reference or category evidence is not geometry.",
+      "proof_SHA": "e75f82e767b19be89ed0d994ea488e81d18c2a66738d843f945d428b5f497e5f"
     }
   },
   "open_issues": [

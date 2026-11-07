@@ -692,13 +692,16 @@
       "category": "克隆器",
       "origin": "ORIGINAL_116",
       "current_catalog_revision": "20261028-radial-native-transform-setml-panel-r109",
-      "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED",
+      "known_bounded_evidence": [
+        "Installed35123 realized17 native-limited request plus independent default5 storage witness: exact30 converted-position address roles retained; other source/input/context/fullGS/Scene protection verified. No arbitrary modes or TRS."
+      ],
+      "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED",
       "current351_scope": "Identity only: Source59 catalogr109/DFS5/17refs, two helpers already full protected and three unknown fullgraphs; four source byte pins verified. Old training5 releaseFalse, no new runtime approved.",
       "current352_scope": "放射克隆当前真缺三图已唯一只读补齐：公开XL_克隆_放射3nodes61原序compact边→__PRIVATE_XL_克隆_放射_变换运行核109 1718/2132→XL_克隆_放射__NativeRadialCore33/53；三完整8partscompact双采解压字节同。排序模式/SetMl109两helper已Source59保护，未重完整图。实际60INPUT+1OUTPUT逐值采，不再只拿catalog60推RNA。17原序perowner refs/5groups22具名ref物理，3默认ID端点Root interface/Input37、Root Group.input Input37、core interface/Input37同一个真实Collection Drop_Your_Assets_Here；载Collection1/ObjectMesh0、5group1Library及40ID旧行保持，all_ids只是上述7ID聚合行不另算物理。loaded RootTrue1/coreFalse1/SetMlFalse1/NativeCoreFalse1/menuFalse14，Source59global原flags/users完整保且按990refs179mods具体入边核，不泛fake/users过滤。Scene空frame1/source3prefs保持；Collection完整writable/members未采，不冒空集合，Libraryfilepath未另采；factory自然退出非显式group/Library删除清理。 Main已全文真正postfreeze native collector、formal109 v3 producer/fullcollector/fresh、两个比较器与provenance源码，独立完整两native12setter-readback/owner-child四MLMG均I、cache每点MG bake/SDKSetMl及formal6角色有序几何矩阵全核。XZ17=68点68有向tri，欧氏点2.041855149978673e-7m、矩阵linear1.566526222074316e-7/translation向量1.7729865035138795e-7m；XY8zeroZ=32点32有向tri、点8.253392925350178e-7m、linear4.979428623874682e-7/translation7.891256178966468e-7m，固定2um/2e-6有限过，退化按原序不冒唯一空间匹配。全pre/fresh恰33个converted-instance position叶真实差保UNVERIFIED，非wholeGS过。旧provenance脚本载v1场景而full数组v3，不冒v3同PID图/guard继承；原collector现CRLF SHA与原request不同，LF归一精确匹配，原bytes执行身份不升级。v7候选16903325B/74b3ef...与冻结原值实核，不能混早期candidate1训练。旧training5 Main报告实际绑v1，而导航v2另存材料，A重放同比较器v2有限过不是新Main独立数学或当前普通接受。",
       "current352_next": "Current ordinary false preparation pending Main full actor/default/context reference/API/budget/resource review; no new runtime approved.",
       "current353_scope": "唯一actualC123普通EXEC限定radial109_v7_holdout_XZ17_tinyHPB/实现为几何：properC tetra23/37/41cm、空ownerMesh及独立template均I,parentNone，template hide_renderTrue为旧fixture实值。60initial/requested逐值核、15非ID显式请求+Socket22真实ownedObject共16设置；12native读回映射独核，余inactive默认非全C4D控件映射。请求68原序点102边68有向tri204角，世界位置最大2.0418551521982055e-7m<固定2um，全原序面同native；GS仅Mesh、其它组件ABSENT/ref[]、完整tree1节点。请求采集Mesh对旧formal恰139地址差：名字角色1、旧未采而新False has_custom_normals1、旧QA材质快照对新None1、旧68面area/center共136字段本采集器未序列化；其余全部已采attrs/position/normals/writable/拓扑字面同。未把136缺失字段填成实际RNA采样；template→output writable只runtime_data False→True角色叶，全部vertex/edge/face flags等template17份。五完整图initial/pre/tail/cleanup对采前独立gold全字面同，17refs22具名ref物理+ownerMod/40ID164实际C模块/source3prefs/Scene选择及2Object2Mesh精确users0清理过，Root清后仅users2→1。输入空mesh/template全raw-writable-flags/TRS保持；Collection全writable/custom/有序memberschildren[]保持，清后users4→3是modifier默认Input37引用释放。每态owner前后字面同，跨态仅dimensions3叶；采前nativebbox最大2.0224071040075842e-7m，默认空被引几何bounds0模型过。原native17矩阵是本次68点独立金的来源，本realized请求没有实例matrix组件，不冒新运行17矩阵采样/原生UV/Phong/normal/任意TRS/fullUX。 严格整项ordinary仍不接受：默认同EXEC支持态实际5instances、完整2层GeometrySet→真空Mesh，primary及referenceTree各15个converted pointcloud.position标量巨大但有限，30原值完整保UNVERIFIED，不归零/泛滤、不把有限数当功能过；其余两处attrs逐值核，引用无不透明内容/limit/readerror。完整默认引用几何为空只支持bounds0，不能证明position存储或所有属性数学等价，原因UNKNOWN，不叫产品通用bug/回归。原rawfunctionalFalse保持，不追认Grid/Extrude或旧33差。",
-      "current353_next": "Exact default5 storage witness contract false; static/API are not actual storage observation. No rerun realized17/default or native2."
+      "current353_next": "Exact default5 storage witness contract false; static/API are not actual storage observation. No rerun realized17/default or native2.",
+      "current354_scope": "Radial同一default5空owner fixture最小storage witness真过：原普通Root后独立owned consumer，未copy/修改Root、未手改users、未改菜单/Realize、未请求旧17几何。实际当前GS/refs完整names-only15属性无QA冲突（A原12只INSTANCE、不是完整union），新11nodes11原序edges consumer在users0/1/1三阶段完整8partscompact逐值==采前独立donor金，原5图initial/pre/tail/cleanup对原金全字面同。3个Exists五行实读position=False、instance_transform=True、唯一缺失名=False；Position与Named(position)两真实INSTANCE字段各5向量字面==五真实instance_transform.translation，也字面==旧同fixture独立冻结参考。五QA属性为唯一新增属性，除primary与referenceTree两条5x3 converted.position数组外，全部原GS/ref/attrs/matrices/输入/flags逐值同原default；完整2层GS→空Mesh、bounds0保持。原60typed、17refs22具名ref物理/3个Input37同Collection、40ID164实际C模块/source3prefs/Scene选择及2Object2Mesh1临时Group users0精确清理均过；Collection全writable及有序memberschildren[]保持，清后仅users4→3为默认modifier ID引用释放。observer group无新原Root入边，Root清后2→1。 Main新的独立综合门将current353唯一realized17请求组件（68点102边68同向tri204角/max2.0418551521982055e-7m、60typed/5图/全当前采集Mesh与输入保护）与本次同源同fixture默认5独立storage见证合并，当前actualC123的此限定ordinary已接受。只有精确两条converted5x3数组按已证storage不存在而两Position字段由transform位置派生的角色分类，旧30缓存值和新30缓存值全原样保，不填0/泛attrs或PTR过滤，不冒binary/分配因果。current353当时strict拒与所有原rawfunctionalFalse不倒改；旧109两态33叶、Grid/Extrude/Honeycomb等不追认。请求采集器未序列化旧68面area/center136字段的限制继续明示，未伪造RNA采样。本次没有再执行68点/17原生矩阵/三图或五图observer；17native矩阵只是原68点独立金来源，非本realized运行新增matrix组件样本。仅指定XZ17 tinyHPB非奇异请求+default5 Blender支持，不冒默认native oracle/任意菜单TRS/Fields/UV/Phong/normal/fullUX。"
     },
     {
       "root": "XL_克隆_沿样条",
@@ -1731,7 +1734,8 @@
       "origin": "ORIGINAL_116",
       "current_catalog_revision": null,
       "known_bounded_evidence": [],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
+      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED",
+      "current354_scope": "Identity only: catalog1/metadata0, no revision, DFS2/1refs absent from accepted73/16 full math; old native+consumer mapping unknown in bounded lookup."
     },
     {
       "root": "XL_破碎2.001（勉强算完成版）",
@@ -2039,12 +2043,12 @@
       "coverage_state": "EVIDENCE_NOT_YET_RECONCILED"
     }
   ],
-  "indexed_roots": 41,
-  "existing_evidence_to_reconcile_roots": 77,
-  "meaning": "38受限ordinary、3数学继承、77材料待归并；current353放射realized17请求组件过，default30位置未知，strictordinary未接受，非完成率。",
+  "indexed_roots": 42,
+  "existing_evidence_to_reconcile_roots": 76,
+  "meaning": "39受限ordinary、3数学继承、76材料待归并；current354放射单realized17请求+default5独立storage见证闭合，非完成率。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
-  "current_bounded_evidence_roots": 38,
+  "current_bounded_evidence_roots": 39,
   "historical_evidence_found_current_lineage_pending_roots": 0,
   "current_math_lineage_bounded_roots": 3,
   "pending_current_function_discrepancy_roots": 0,
