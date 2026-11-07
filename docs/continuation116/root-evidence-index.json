@@ -1733,9 +1733,12 @@
       "category": "其他",
       "origin": "ORIGINAL_116",
       "current_catalog_revision": null,
-      "known_bounded_evidence": [],
+      "known_bounded_evidence": [
+        "Source59 two complete mathematical graphs captured twice; actual11inputs and exact defaultCollection endpoints. Historical native type1018545 construction is identity, not numeric oracle. No ordinary promotion."
+      ],
       "coverage_state": "EVIDENCE_NOT_YET_RECONCILED",
-      "current354_scope": "Identity only: catalog1/metadata0, no revision, DFS2/1refs absent from accepted73/16 full math; old native+consumer mapping unknown in bounded lookup."
+      "current354_scope": "Identity only: catalog1/metadata0, no revision, DFS2/1refs absent from accepted73/16 full math; old native+consumer mapping unknown in bounded lookup.",
+      "current355_scope": "XL_矩阵当前真缺两图已唯一只读补齐：Root6nodes12原序compact边→XL_矩阵_核心83/87，两完整8partscompact双采解压字节同；实际11INPUT+1OUTPUT逐值采。1原序具名ref/2groups加1ref共3物理，loadedRootTrue1/CoreFalse1，sourceRootTrue2/Core原值保，并对完整990refs179mods具名入边核两行计数，不泛fake/users过滤。三个实际默认ID端点Root interface Socket_4、Root 群组.input Input_3、Core interface Input_3同Collection Drop_Your_Assets_Here.001。载Object/Mesh0、2group1Collection1Library，40ID旧行/Scene空frame1/source3prefs全保；all_ids四行仅同物理ID聚合别名。Collection完整writable/members/children及Libraryfilepath没另采，不冒空集合或显式删除清理；factory自然退出。 Main将G当前source报告Root3/Core78非Frame完整part0+part4与12/87原序边逐值绑actual primary；11输入逐条连到Core并原输出回Root。真实菜单Self/Item_0、Object/Item_2、Collection/Item_1，默认Self；POINT SeparateGeometry、ObjectInfo RELATIVE、CollectionInfo ORIGINAL及最终INSTANCE/INT Clone_Index Store→输出均为静态源合同，不冒当次branchtrace。公开11控件只有输入几何/资产类型/选择/Collection/Object/资产ID/随机/分离/重置/法线旋转，无原生Matrix分布/数量/间距或Matrix-only/ThinkingParticles生成选项。未建立可比native输入模式/数值oracle，当前ordinary仍未接受；无回执不等未实现。"
     },
     {
       "root": "XL_破碎2.001（勉强算完成版）",
@@ -2045,7 +2048,7 @@
   ],
   "indexed_roots": 42,
   "existing_evidence_to_reconcile_roots": 76,
-  "meaning": "39受限ordinary、3数学继承、76材料待归并；current354放射单realized17请求+default5独立storage见证闭合，非完成率。",
+  "meaning": "39受限ordinary、3数学继承、76材料待归并；current355 Matrix两图只读及源码合同不晋升，非完成率。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
   "current_bounded_evidence_roots": 39,

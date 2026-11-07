@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-07",
-  "current": 354,
+  "current": 355,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -46,12 +46,12 @@
     "previous35122_complete_G_backup_and_C_rollback": true
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 564,
+    "successful_blender_actors": 565,
     "native_actions": 97,
     "failed_blender_actors": 59,
     "new_this_batch": 1,
     "new_native_this_batch": 0,
-    "interpretation": "本批1自然rc0独立storage witness；current353原请求+本次case-specific证据合并受限ordinary接受，564/97/59次数非完成率。"
+    "interpretation": "本批Matrix缺两图唯一只读rc0；源码/接口身份过，非当前ordinary/native数值接受。565/97/59次数非完成率。"
   },
   "bounded_evidence": {
     "ordinary_roots": 39,
@@ -255,10 +255,15 @@
       ]
     },
     "XL_矩阵": {
-      "current": 354,
-      "support_level": "identity_only_native_consumer_binding_unknown_no_runtime",
-      "scope": "Source59 catalog1 metadata0, root/core2groups1ref; no revision, no full8parts in73targets16parents. Save-user reference or category evidence is not geometry.",
-      "proof_SHA": "e75f82e767b19be89ed0d994ea488e81d18c2a66738d843f945d428b5f497e5f"
+      "current": 355,
+      "support_level": "two_fullgraphs_and_current_source_contract_only_native_numeric_unknown",
+      "scope": "XL_矩阵当前真缺两图已唯一只读补齐：Root6nodes12原序compact边→XL_矩阵_核心83/87，两完整8partscompact双采解压字节同；实际11INPUT+1OUTPUT逐值采。1原序具名ref/2groups加1ref共3物理，loadedRootTrue1/CoreFalse1，sourceRootTrue2/Core原值保，并对完整990refs179mods具名入边核两行计数，不泛fake/users过滤。三个实际默认ID端点Root interface Socket_4、Root 群组.input Input_3、Core interface Input_3同Collection Drop_Your_Assets_Here.001。载Object/Mesh0、2group1Collection1Library，40ID旧行/Scene空frame1/source3prefs全保；all_ids四行仅同物理ID聚合别名。Collection完整writable/members/children及Libraryfilepath没另采，不冒空集合或显式删除清理；factory自然退出。 Main核官方Omgmatrix=1018545与Omgcloner=1018544不同类型，并亲读Matrix资源API。现已按数字ID精确找到旧20261023实际库存第180行：C4D2027000、constructibleTrue、runtime名矩阵、GetInfo的OBJECT_GENERATOR位真。旧请求BaseObject/GetInfo链与原报告SHA核，分类excluded from modifier只是旧盘点作用域；不是当前四类排除项。原flags保，OBJECT_WINDDEFORM=5149未证明是位标志，不据该行推额外语义。旧行没有native setter/readback/MoData数值/Blender consumer，不能拿库存或保存Socket4计数冒数学。 Main将G当前source报告Root3/Core78非Frame完整part0+part4与12/87原序边逐值绑actual primary；11输入逐条连到Core并原输出回Root。真实菜单Self/Item_0、Object/Item_2、Collection/Item_1，默认Self；POINT SeparateGeometry、ObjectInfo RELATIVE、CollectionInfo ORIGINAL及最终INSTANCE/INT Clone_Index Store→输出均为静态源合同，不冒当次branchtrace。公开11控件只有输入几何/资产类型/选择/Collection/Object/资产ID/随机/分离/重置/法线旋转，无原生Matrix分布/数量/间距或Matrix-only/ThinkingParticles生成选项。未建立可比native输入模式/数值oracle，当前ordinary仍未接受；无回执不等未实现。",
+      "proofs": [
+        "e21f17feb12fdf8117630eb7d66613a16222b5a5fd28c83e350d591bc43660ca",
+        "5fe4d1c7b86933be9deddb0af30b1cfdc472ef7eb51a98bb3f9a844a6d18bc95",
+        "cf8b0706522682be42d16588a66a5e5849a950f8037df283a18a2e637d152d7b",
+        "f39b40d1cee981adc871ae857461dadec7fe33f001eb9b3122f0da1ae79e87d3"
+      ]
     }
   },
   "open_issues": [
