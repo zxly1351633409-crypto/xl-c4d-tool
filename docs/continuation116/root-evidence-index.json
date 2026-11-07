@@ -1735,13 +1735,15 @@
       "current_catalog_revision": null,
       "known_bounded_evidence": [
         "Source59 two complete mathematical graphs captured twice; actual11inputs and exact defaultCollection endpoints. Historical native type1018545 construction is identity, not numeric oracle. No ordinary promotion.",
-        "Conditional object-asset source model distinguishes N outer T(point) placements from one nested ObjectInfo I reference; final Join/Clone_Index/components and native Omgmatrix MoData remain unobserved. No runtime or ordinary promotion."
+        "Conditional object-asset source model distinguishes N outer T(point) placements from one nested ObjectInfo I reference; final Join/Clone_Index/components and native Omgmatrix MoData remain unobserved. No runtime or ordinary promotion.",
+        "All-selected mask index-position relation and single-nonempty-component Join branch source-verified; actual branch, final GS/Clone_Index and native Matrix numeric oracle remain unverified. No new runtime."
       ],
       "coverage_state": "EVIDENCE_NOT_YET_RECONCILED",
       "current354_scope": "Identity only: catalog1/metadata0, no revision, DFS2/1refs absent from accepted73/16 full math; old native+consumer mapping unknown in bounded lookup.",
       "current355_scope": "XL_矩阵当前真缺两图已唯一只读补齐：Root6nodes12原序compact边→XL_矩阵_核心83/87，两完整8partscompact双采解压字节同；实际11INPUT+1OUTPUT逐值采。1原序具名ref/2groups加1ref共3物理，loadedRootTrue1/CoreFalse1，sourceRootTrue2/Core原值保，并对完整990refs179mods具名入边核两行计数，不泛fake/users过滤。三个实际默认ID端点Root interface Socket_4、Root 群组.input Input_3、Core interface Input_3同Collection Drop_Your_Assets_Here.001。载Object/Mesh0、2group1Collection1Library，40ID旧行/Scene空frame1/source3prefs全保；all_ids四行仅同物理ID聚合别名。Collection完整writable/members/children及Libraryfilepath没另采，不冒空集合或显式删除清理；factory自然退出。 Main将G当前source报告Root3/Core78非Frame完整part0+part4与12/87原序边逐值绑actual primary；11输入逐条连到Core并原输出回Root。真实菜单Self/Item_0、Object/Item_2、Collection/Item_1，默认Self；POINT SeparateGeometry、ObjectInfo RELATIVE、CollectionInfo ORIGINAL及最终INSTANCE/INT Clone_Index Store→输出均为静态源合同，不冒当次branchtrace。公开11控件只有输入几何/资产类型/选择/Collection/Object/资产ID/随机/分离/重置/法线旋转，无原生Matrix分布/数量/间距或Matrix-only/ThinkingParticles生成选项。未建立可比native输入模式/数值oracle，当前ordinary仍未接受；无回执不等未实现。",
       "current356_scope": "Matrix的可比角色现已精确区分：原生Omgmatrix产生MoData矩阵，官方说明另一个Object模式Cloner可消费其位置；当前XL_矩阵输入POINT几何并输出资产实例，不可把其资产网格当原生Matrix直接几何oracle。官方另有Redshift标签Matrix Scatter直接渲染点的支路，不能泛称所有Matrix不可渲染。SDK Distribution Basic/Advanced及Object/Linear/Radial/Grid/Honeycomb只是可用符号，不是2027当次默认/数字DescID/readback；GetArray(MODATA_MATRIX)文档也未在本范围建立实际求值坐标系。 Main全文G false合同与同commit四节点相关完整函数，4原字节SHA独核，相关原边/默认再对已冻结current355 primary核：Object Info RELATIVE+AsInstance在双方I且求值有效时先生成一个内层Object引用I；PickInstanceFalse令InstanceOnPoints把整个该GeometrySet作为外层引用，外层矩阵为from_loc_rot_scale(p,0,1)=T(p)，不能说已压成单层。Switch False旋转0、SelectionTrue/Scale1、POINT/INSTANCE两Delete及Clone_Index最终写入静态链已核。四node本体仍未闭合IndexMask顺序、Join整体顺序和空Mesh保留；最终Clone_Index/完整GS/ref/attrs与converted.position必须实采，未知不泛滤/填0。二进制分支未插桩。",
-      "current356_Demo_identity_only": "Main已全文C小缓存投影并逐值对唯一矩阵_Demo对象/modifier/Root→Core具名ref原缓存核；同owner仅1mod，缓存无输入几何、上游分布、typed和完整对象变换。这只闭合身份，非完整consumer或native数值，不重该投影/缓存导航。"
+      "current356_Demo_identity_only": "Main已全文C小缓存投影并逐值对唯一矩阵_Demo对象/modifier/Root→Core具名ref原缓存核；同owner仅1mod，缓存无输入几何、上游分布、typed和完整对象变换。这只闭合身份，非完整consumer或native数值，不重该投影/缓存导航。",
+      "current357_scope": "Main全文G新的4文件范围报告，四原字节SHA独核并亲读相关代码范围：IndexMask foreach_index明示i==mask[pos]，并行保持index_pos+range.start映射；因此全选mask=[0,N)时range_i对应原点i，非线程调度顺序结论。Join只收非null且!is_empty组件，0项不加，恰1项调用result.add原component并返回，不走join_instances拼接。条件是实际只有一个非空实例组件，不能从静态路线认定当次条件满足或泛推多个输入。 Delete先反选保留字段；非空Mesh全删POINT时mesh_copy_selection返回engaged optional<nullptr>，separate_geometry将其传给replace_mesh。四新primary未读replace_mesh/result.add具体内部实现，不能冒中间Mesh组件已删除/保留的精确实采。Join过滤is_empty是源码谓词，实际哪一组件满足、最终完整GS/引用树/Clone_Index/attrs仍须独立观察；本轮没有任何软件分支执行。"
     },
     {
       "root": "XL_破碎2.001（勉强算完成版）",
@@ -2051,7 +2053,7 @@
   ],
   "indexed_roots": 42,
   "existing_evidence_to_reconcile_roots": 76,
-  "meaning": "39受限ordinary、3数学继承、76材料待归并；current356 Matrix条件模型不晋升，0新运行，非完成率。",
+  "meaning": "39受限ordinary、3数学继承、76材料待归并；current357 Matrix源码条件边界不晋升，0新运行，非完成率。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
   "current_bounded_evidence_roots": 39,
