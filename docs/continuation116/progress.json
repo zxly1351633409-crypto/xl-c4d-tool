@@ -1,7 +1,7 @@
 {
   "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
   "as_of": "2026-11-07",
-  "current": 355,
+  "current": 356,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -49,9 +49,9 @@
     "successful_blender_actors": 565,
     "native_actions": 97,
     "failed_blender_actors": 59,
-    "new_this_batch": 1,
+    "new_this_batch": 0,
     "new_native_this_batch": 0,
-    "interpretation": "本批Matrix缺两图唯一只读rc0；源码/接口身份过，非当前ordinary/native数值接受。565/97/59次数非完成率。"
+    "interpretation": "current356仅host条件源码/API审查，0新运行；565/97/59保持次数，非完成率。"
   },
   "bounded_evidence": {
     "ordinary_roots": 39,
@@ -255,15 +255,11 @@
       ]
     },
     "XL_矩阵": {
-      "current": 355,
-      "support_level": "two_fullgraphs_and_current_source_contract_only_native_numeric_unknown",
-      "scope": "XL_矩阵当前真缺两图已唯一只读补齐：Root6nodes12原序compact边→XL_矩阵_核心83/87，两完整8partscompact双采解压字节同；实际11INPUT+1OUTPUT逐值采。1原序具名ref/2groups加1ref共3物理，loadedRootTrue1/CoreFalse1，sourceRootTrue2/Core原值保，并对完整990refs179mods具名入边核两行计数，不泛fake/users过滤。三个实际默认ID端点Root interface Socket_4、Root 群组.input Input_3、Core interface Input_3同Collection Drop_Your_Assets_Here.001。载Object/Mesh0、2group1Collection1Library，40ID旧行/Scene空frame1/source3prefs全保；all_ids四行仅同物理ID聚合别名。Collection完整writable/members/children及Libraryfilepath没另采，不冒空集合或显式删除清理；factory自然退出。 Main核官方Omgmatrix=1018545与Omgcloner=1018544不同类型，并亲读Matrix资源API。现已按数字ID精确找到旧20261023实际库存第180行：C4D2027000、constructibleTrue、runtime名矩阵、GetInfo的OBJECT_GENERATOR位真。旧请求BaseObject/GetInfo链与原报告SHA核，分类excluded from modifier只是旧盘点作用域；不是当前四类排除项。原flags保，OBJECT_WINDDEFORM=5149未证明是位标志，不据该行推额外语义。旧行没有native setter/readback/MoData数值/Blender consumer，不能拿库存或保存Socket4计数冒数学。 Main将G当前source报告Root3/Core78非Frame完整part0+part4与12/87原序边逐值绑actual primary；11输入逐条连到Core并原输出回Root。真实菜单Self/Item_0、Object/Item_2、Collection/Item_1，默认Self；POINT SeparateGeometry、ObjectInfo RELATIVE、CollectionInfo ORIGINAL及最终INSTANCE/INT Clone_Index Store→输出均为静态源合同，不冒当次branchtrace。公开11控件只有输入几何/资产类型/选择/Collection/Object/资产ID/随机/分离/重置/法线旋转，无原生Matrix分布/数量/间距或Matrix-only/ThinkingParticles生成选项。未建立可比native输入模式/数值oracle，当前ordinary仍未接受；无回执不等未实现。",
-      "proofs": [
-        "e21f17feb12fdf8117630eb7d66613a16222b5a5fd28c83e350d591bc43660ca",
-        "5fe4d1c7b86933be9deddb0af30b1cfdc472ef7eb51a98bb3f9a844a6d18bc95",
-        "cf8b0706522682be42d16588a66a5e5849a950f8037df283a18a2e637d152d7b",
-        "f39b40d1cee981adc871ae857461dadec7fe33f001eb9b3122f0da1ae79e87d3"
-      ]
+      "current": 356,
+      "support_level": "conditional_source_comparability_only_native_numeric_unknown_no_new_runtime",
+      "scope": "Matrix的可比角色现已精确区分：原生Omgmatrix产生MoData矩阵，官方说明另一个Object模式Cloner可消费其位置；当前XL_矩阵输入POINT几何并输出资产实例，不可把其资产网格当原生Matrix直接几何oracle。官方另有Redshift标签Matrix Scatter直接渲染点的支路，不能泛称所有Matrix不可渲染。SDK Distribution Basic/Advanced及Object/Linear/Radial/Grid/Honeycomb只是可用符号，不是2027当次默认/数字DescID/readback；GetArray(MODATA_MATRIX)文档也未在本范围建立实际求值坐标系。 Main全文G false合同与同commit四节点相关完整函数，4原字节SHA独核，相关原边/默认再对已冻结current355 primary核：Object Info RELATIVE+AsInstance在双方I且求值有效时先生成一个内层Object引用I；PickInstanceFalse令InstanceOnPoints把整个该GeometrySet作为外层引用，外层矩阵为from_loc_rot_scale(p,0,1)=T(p)，不能说已压成单层。Switch False旋转0、SelectionTrue/Scale1、POINT/INSTANCE两Delete及Clone_Index最终写入静态链已核。四node本体仍未闭合IndexMask顺序、Join整体顺序和空Mesh保留；最终Clone_Index/完整GS/ref/attrs与converted.position必须实采，未知不泛滤/填0。二进制分支未插桩。 A只做未曾查过的W/reports顶层c4d_*.json/native_*.json<=1MiB增量，排已知库存，共919文件；唯一1018545命中c4d_object_plugins_20261023.json。Main核真实SHA及structuredContent.plugins[180]仅id/name/kind对象库存，无geometry/set-read数值。此精确边界没建立旧native oracle，不推其他目录/压缩包不存在，不重该919集合或旧盘点。",
+      "proof_SHA": "dff2f50b2cecd46354d63dd1ab57e76b13ccbe5a2be3dd8c940aedab2d4f1a15",
+      "Demo_identity_only": "Main已全文C小缓存投影并逐值对唯一矩阵_Demo对象/modifier/Root→Core具名ref原缓存核；同owner仅1mod，缓存无输入几何、上游分布、typed和完整对象变换。这只闭合身份，非完整consumer或native数值，不重该投影/缓存导航。"
     }
   },
   "open_issues": [
