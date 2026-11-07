@@ -1,7 +1,7 @@
 {
-  "title": "xl-c4d小工具：参数体、生成器、变形器优先推进",
+  "title": "continuation116 项目进度",
   "as_of": "2026-11-07",
-  "current": 357,
+  "current": 372,
   "inventory": {
     "original_public_roots": 116,
     "current_catalog_rows": 118,
@@ -9,54 +9,50 @@
       "C4D_人形素体",
       "XL_贝塞尔曲面"
     ],
-    "node_groups_including_private_and_legacy": 539,
-    "source_candidate": "Source59",
-    "formal_version": "3.5.123",
-    "local_installed_version": "3.5.123",
-    "next_product_version": "3.5.124"
+    "node_groups_including_private_and_legacy": 541,
+    "source_candidate": "Source60",
+    "formal_version": "3.5.124",
+    "local_installed_version": "3.5.124",
+    "next_product_version": "3.5.125"
   },
   "installer_delivery": {
-    "version": "3.5.123",
-    "tag": "v3.5.123",
-    "release_id": 437132422,
+    "version": "3.5.124",
+    "tag": "v3.5.124",
+    "release_id": 437435366,
     "ordinary_not_prerelease": true,
     "latest_endpoint_verified": true,
-    "url": "https://github.com/zxly1351633409-crypto/xl-c4d-tool/releases/tag/v3.5.123",
-    "ZIP_bytes": 266107689,
-    "ZIP_SHA256": "d4e4be0348c5d788723fcd6d147cc755a074c47214338fc75ef8437cc59527e5",
+    "url": "https://github.com/zxly1351633409-crypto/xl-c4d-tool/releases/tag/v3.5.124",
+    "ZIP_bytes": 266157695,
+    "ZIP_SHA256": "32fce15a71eaa62df5bd97b6b2f627a6cb2130cc329140abe87822f9cb2c38aa",
     "server_digest_and_size_verified": true,
     "two_small_attachments_download_verified": true,
     "full_remote_ZIP_download_claim": false,
     "actual_installed_same378": true,
     "previous_preview6_complete_G_backup_and_C_rollback": true,
     "old115_and_other_backups_preserved": true,
-    "changed_products": [
-      "__init__.py",
-      "assets/node_libraries/c4d_node_library.blend",
-      "assets/catalogs/node_groups.json",
-      "assets/catalogs/asset_metadata.json"
-    ],
+    "changed_products": 4,
     "unchanged_products": 374,
     "previous35117_complete_G_backup_and_C_rollback": true,
     "previous35118_complete_G_backup_and_C_rollback": true,
-    "latest_same_package_additional_verification": "Source59 PHS canonical/fresh, independent source and actual C ordinary signed7 and default support accepted; prior scopes preserved.",
+    "latest_same_package_additional_verification": "Source60 两组完整节点图与原 GENZ2 金一致。旧三实例几何与 UV 实测保留，当前实例 position 存储和对象 bounds 仍待见证。",
     "previous35119_complete_G_backup_and_C_rollback": true,
     "previous35120_complete_G_backup_and_C_rollback": true,
     "previous35121_complete_G_backup_and_C_rollback": true,
-    "previous35122_complete_G_backup_and_C_rollback": true
+    "previous35122_complete_G_backup_and_C_rollback": true,
+    "previous35123_complete_G_backup_and_C_rollback": true
   },
   "execution_counts_since_115": {
-    "successful_blender_actors": 565,
+    "successful_blender_actors": 583,
     "native_actions": 97,
-    "failed_blender_actors": 59,
-    "new_this_batch": 0,
+    "failed_blender_actors": 64,
+    "new_this_batch": 1,
     "new_native_this_batch": 0,
-    "interpretation": "current357仅下层源码条件边界核查，无新增软件运行或ordinary晋升；565/97/59次数不变。"
+    "interpretation": "计数为实际执行次数。current372 为挤压两组只读谱系证据。"
   },
   "bounded_evidence": {
-    "ordinary_roots": 39,
+    "ordinary_roots": 40,
     "math_lineage_roots": 3,
-    "historical_material_pending_reconciliation_roots": 76,
+    "historical_material_pending_reconciliation_roots": 75,
     "rows_total": 118,
     "not_completion_rate_or_unimplemented_count": true,
     "pending_current_function_discrepancy_roots": 0,
@@ -85,7 +81,12 @@
     "C4D_立方体": "实际C3.5.118默认C4D_立方体 ordinary EXEC，仅旧cube_fillet尺寸(1.97,1.13,.53)m/段(6,4,1)/splitFalse/smoothFalse/filletTrue/radius.03m/sub3/ownerI/emptyseed，实际F32已记。262点272同向面1064角UV，位置max1.0678384629907165e-7m/UV1.3328003749250113e-7，固定2um/UV1e-6过。四完整8partscompact前尾==采前gold、4具名ref8物理、11initialtyped/0defaultID/40ID/164实际安装模块/源3产品/prefs/Scene选择清理核。不是任意尺寸/圆角/细分/TRS/Phong/fullUX。",
     "XL_放样": "Source55/普通3.5.119已完整受限产品交付，本机/GitHub同378。完整Source54库531只copy放样Root到532；旧Root私有保留fakeTrue/users1无入边/Demo，新publicRoot13inputs继承asset只description/revision改，shared核心GLOBAL3→4/UV分支2→3由精确具名原序入边核，非isolated1→2。54fulltargets/16parents234旧对象/40ID/ref/mod/idrefs/static/Scene/原CurveMapping严格，samePID初始monitor+liveCIM/StartUTC/fullWindowsargv/runningnonce逐字段SHA批准save/post。producer155.114s、p1共92053582B<96MiB，dry/post解压字节全同；fresh统一2212物理对6387地址且完整集合/引用/每modifier原序保、Library[]。两实际RNA ENUM/is_enum_flag及LEFT/RIGHT精确两地址原序分类原值保。仅Root增加V==7与旧V==5 OR，390node590link，旧V5及其余guard代数保，不重旧样例。默认物理和实际C安装H2/U8/V7各唯一ordinary过：64点58同向Ngon面240 CORNER UV，位置1.438631168512604e-7m/UV8.429369702178807e-8，原13initial/typed、12full8partscompact/20原序refs32物理/40ID/164实际模块/完整支持曲线与输入输出所有mesh attrs/normals/flags/Scene/prefs清理核；全部outputmesh字面同隔离通过。Socket15/17须显式True，产品17默认False。原生64rawpolys252角到58Ngon240角的真实映射保，不冒同raw三角化/任意V或轮廓/Phong/fullUX。旧118 V7真实失败与native45描述取值错误原保。378只库/catalog2/init版本行改变374same，154图只读hardlink(OSreadonly0无attrs写)/224copy，旧Cone代码/NodePreview保。118完整G和C回退备份、prefs不变。ZIP378 CRC/SHA/size/解压回读与GitHub3资产服务器digest/size/小2下载均核，未远程下载全ZIP。",
     "C4D_金字塔": "当前3.5.119默认普通入口+X/N4/非对称尺寸/smoothFalse通过50点80同向面256UV，完整2图/4typed/source3prefs/Scene清理核。",
-    "XL_挤压": "当前GENZ2三实例mesh组件16点6面24UV通过；完整2图继承已核，但派生Object.dimensions数值来源和旧UNVERIFIED实例position通道保未知，整项严格ordinary尚未接受。",
+    "XL_挤压": {
+      "local_audit_report": "continuation116_Main_current372_Extrude_Source60_two_graph_lineage_and_next_witness_independent_review_v1.json",
+      "sha256": "1d9a378cb98ecaa7109c11670366c3c2939053d6a6b8531152913e011e15992e",
+      "scope_note": "Source60 两组完整节点图与原 GENZ2 金一致。旧三实例几何与 UV 实测保留，当前实例 position 存储和对象 bounds 仍待见证。",
+      "support_level": "MAIN_BOUNDED_REVIEW"
+    },
     "C4D_管": "普通3.5.120 Source56：精确fit properC16点32边16同向面64UV，位置6.3475667e-8m/UV2D8.9406967e-8过。仅四个UV常量，全部非UV数学/节点边/默认保持；原119失败和旧比较器限制保留。",
     "C4D_胶囊": "实际安装120普通+Z，R.3700000048/H1.789999962米、rad17/cap4/height3、顶底默认True：172点357边187同向面714UV，位置3.5351597e-7米/UV2D1.1920929e-7过。无smooth接口；法线已记录/单位/同面方向正，额外doubleNewell/F32cross模型1e-6比较拒绝原因未知，不冒nativePhong或法线公式通过。",
     "C4D_油罐": "实际安装120普通+Z非切片，R.47/总高F32(2.3900001049)/封盖高.23米、rad19/cap5/height3/smoothFalse：230点475边247同向面950UV，位置2.0111774e-7米/UV2D1.3328004e-7过。两根完整2图/8typed/40ID164模块/prefsScene清理核。旧producer自报不追认为旧Main接受。",
@@ -216,19 +217,10 @@
       ]
     },
     "XL_样条约束": {
-      "current": 344,
-      "support_level": "CURRENT_FULLGRAPHS_AND_EXPLICIT_STRAIGHT_HYPOTHESIS_REJECTED",
-      "scope": "本批2真实Bpy spline58read1/i122spline1均自然rc0/fullmonitorCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native，累计551成功guard/97有界native/52失败Bpy；技术rc0非功能接受，次数非完成率。Source58/本机/GitHub普通3.5.122同378产品保持，无Source59/native125/新安装ZIP/release。当前XL_样条约束Root6nodes10原序compact边→XL_样条约束_核心529/594，两完整8partscompact双采解压字节同，loadedRootTrue1/CoreFalse1，sourceRootTrue2/CoreFalse1原值保，不猜Demo/泛fakeusers过滤。1原序ref3物理/defaultID0/mapping0/载ObjectMeshCollection0，40ID旧行+2group1Library/Scene空frame1/source3prefs过，Libraryfilepath未另采。Main已全文旧nativecollector6893B、r3build10205B/consumer4169B及完整四native与consumer数组独算。native每例5实际setter/readback、描述实读offset0/start0/end1与axis+X、input/target/output实采MLMG均I、8原序点6quad全核；deformerMG未另采，Size/Rotation SplineData仅repr，非完整profile/UV/权重/Phong。直线旧r3compatTrue误差1.9258850123171224e-7m<2um，三个bent旧误差1.1753003571006857/.587650179527449/2.4515012322668186m真负保，不能转当前r1。原collector bytesSHA精确request，transport剥4字段indent2摘要等receipt；oldscene现SHA等记录，但旧guard/执行script身份未升级。Main采前直线bbox中心仿射模型对native误差4.264e-14cm，只已采直线有限。唯一actualC122默认普通EXEC straight_default：properCdet+1、源native8点6quad原向面、target四点开放POLY(-150,-50,50,150cm沿X)，owner/target I,parentNone，9initial/requested全值，7非ID显式+Socket1真实ownedCurveObject。当前请求8点12边6有向quad24角，面/输入拓扑同native，但8ordered位置最大2.561638674688836m>固定2um严格拒；不能用旧r3True通过追认当前r1，也不冒通用全部Spline约束故障。请求GS只有Mesh、其它ABSENT/ref[]，完整引用树1节点。默认同EXEC targetNone为支持态，完整mesh相对input只runtimeData角色一叶差；G Root完整part0/4/原边和Core192节点194边逐值核，target→RELATIVE ObjectInfo→CurvePointCount>0→SetPosition.Selection是源码条件，不冒实际分支trace或完整requested表达式原因。输入全rawmesh/writable/flags、target完整Curve/spline/POLY4D点/radius/tilt/weight等writable和矩阵TRS全保。每态owner before/after全writable同，跨态仅dimensionsX/Z两叶；default尺寸由采前输入bbox核，请求实际bbox3/1.05/2m闭合owner，但native请求bbox3/1.05/1.1m不符，支持尺寸不等于功能通过。两完整图initial/pre/tail/清后对采前gold字面0差，1ref3物理+ownerMod/40ID164实际C模块/source3prefs/Scene选择及2Object1Mesh1Curve精确users0清理全过。原factory Collection/Cube/Light/Camera三成员有序全保，非emptyfactory；edge sharpRNA实采PRESENT False不套旧ABSENT。请求相对default146精确叶变化全存，原rawfunctionalFalse保，不同case/default重跑、拟合/旋转凑通过。",
-      "proofs": [
-        {
-          "report": "continuation116_Main_current344_Source58_SplineConstraint_two_fullgraphs_readonly_independent_review_v1.json",
-          "SHA": "ebd429351633eb39b6f6493206154b30e7ec0d7cb9197bac4ae0ed713c4d1fc6"
-        },
-        {
-          "report": "continuation116_Main_current344_installed35122_SplineConstraint_straight_rejection_independent_review_v1.json",
-          "SHA": "3d7699e583d181e82d91cb5b9f4c9dbc384eac14ae89ff09c3f36370ab41a255"
-        }
-      ]
+      "local_audit_report": "continuation116_Main_Source60_35124_SplineConstraint_final_delivery_independent_review_v1.json",
+      "sha256": "057acf518c9ac9514088769ebb6c61ccf59986299eb6f23957799b5f4924e77f",
+      "scope_note": "默认关闭的 +X 四点开放 POLY 直线兼容。固定用例 8 点、6 有向面，最大世界点误差约 0.193 微米。独立包、实际安装的普通入口验证均已通过，原 Demo 保留旧根。",
+      "support_level": "MAIN_BOUNDED_REVIEW"
     },
     "XL_克隆_沿样条": {
       "current": 351,

@@ -1342,6 +1342,12 @@
           "sha256": "fef7a33b8569cd821de28164a1e74bcfadd7323f1d44ab4f0d237e5c43825d56",
           "scope_note": "当前GENZ2三实例mesh组件16点6面24UV通过；完整2图继承已核，但派生Object.dimensions数值来源和旧UNVERIFIED实例position通道保未知，整项严格ordinary尚未接受。",
           "support_level": "MAIN_CURRENT320_BOUNDED"
+        },
+        {
+          "local_audit_report": "continuation116_Main_current372_Extrude_Source60_two_graph_lineage_and_next_witness_independent_review_v1.json",
+          "sha256": "1d9a378cb98ecaa7109c11670366c3c2939053d6a6b8531152913e011e15992e",
+          "scope_note": "Source60 两组完整节点图与原 GENZ2 金一致。旧三实例几何与 UV 实测保留，当前实例 position 存储和对象 bounds 仍待见证。",
+          "support_level": "MAIN_BOUNDED_REVIEW"
         }
       ],
       "coverage_state": "MATH_LINEAGE_BOUNDED_NO_CURRENT_ORDINARY",
@@ -1628,7 +1634,7 @@
       "root": "XL_样条约束",
       "category": "变形器",
       "origin": "ORIGINAL_116",
-      "current_catalog_revision": "20261023-target-guards-r1",
+      "current_catalog_revision": "20261107-spline-constraint-straight-guard-r1",
       "known_bounded_evidence": [
         {
           "local_audit_report": "continuation116_Main_current344_Source58_SplineConstraint_two_fullgraphs_readonly_independent_review_v1.json",
@@ -1647,9 +1653,15 @@
           "sha256": "e9adf564e45add6e8a0467e64de3d37e2f41f0ecab03b726cde5c6d9083f27a0",
           "scope_note": "本批2真实Bpy spline58read1/i122spline1均自然rc0/fullmonitorCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native，累计551成功guard/97有界native/52失败Bpy；技术rc0非功能接受，次数非完成率。Source58/本机/GitHub普通3.5.122同378产品保持，无Source59/native125/新安装ZIP/release。当前XL_样条约束Root6nodes10原序compact边→XL_样条约束_核心529/594，两完整8partscompact双采解压字节同，loadedRootTrue1/CoreFalse1，sourceRootTrue2/CoreFalse1原值保，不猜Demo/泛fakeusers过滤。1原序ref3物理/defaultID0/mapping0/载ObjectMeshCollection0，40ID旧行+2group1Library/Scene空frame1/source3prefs过，Libraryfilepath未另采。Main已全文旧nativecollector6893B、r3build10205B/consumer4169B及完整四native与consumer数组独算。native每例5实际setter/readback、描述实读offset0/start0/end1与axis+X、input/target/output实采MLMG均I、8原序点6quad全核；deformerMG未另采，Size/Rotation SplineData仅repr，非完整profile/UV/权重/Phong。直线旧r3compatTrue误差1.9258850123171224e-7m<2um，三个bent旧误差1.1753003571006857/.587650179527449/2.4515012322668186m真负保，不能转当前r1。原collector bytesSHA精确request，transport剥4字段indent2摘要等receipt；oldscene现SHA等记录，但旧guard/执行script身份未升级。Main采前直线bbox中心仿射模型对native误差4.264e-14cm，只已采直线有限。唯一actualC122默认普通EXEC straight_default：properCdet+1、源native8点6quad原向面、target四点开放POLY(-150,-50,50,150cm沿X)，owner/target I,parentNone，9initial/requested全值，7非ID显式+Socket1真实ownedCurveObject。当前请求8点12边6有向quad24角，面/输入拓扑同native，但8ordered位置最大2.561638674688836m>固定2um严格拒；不能用旧r3True通过追认当前r1，也不冒通用全部Spline约束故障。请求GS只有Mesh、其它ABSENT/ref[]，完整引用树1节点。默认同EXEC targetNone为支持态，完整mesh相对input只runtimeData角色一叶差；G Root完整part0/4/原边和Core192节点194边逐值核，target→RELATIVE ObjectInfo→CurvePointCount>0→SetPosition.Selection是源码条件，不冒实际分支trace或完整requested表达式原因。输入全rawmesh/writable/flags、target完整Curve/spline/POLY4D点/radius/tilt/weight等writable和矩阵TRS全保。每态owner before/after全writable同，跨态仅dimensionsX/Z两叶；default尺寸由采前输入bbox核，请求实际bbox3/1.05/2m闭合owner，但native请求bbox3/1.05/1.1m不符，支持尺寸不等于功能通过。两完整图initial/pre/tail/清后对采前gold字面0差，1ref3物理+ownerMod/40ID164实际C模块/source3prefs/Scene选择及2Object1Mesh1Curve精确users0清理全过。原factory Collection/Cube/Light/Camera三成员有序全保，非emptyfactory；edge sharpRNA实采PRESENT False不套旧ABSENT。请求相对default146精确叶变化全存，原rawfunctionalFalse保，不同case/default重跑、拟合/旋转凑通过。",
           "support_level": "CURRENT_FULLGRAPHS_AND_EXPLICIT_STRAIGHT_HYPOTHESIS_REJECTED"
+        },
+        {
+          "local_audit_report": "continuation116_Main_Source60_35124_SplineConstraint_final_delivery_independent_review_v1.json",
+          "sha256": "057acf518c9ac9514088769ebb6c61ccf59986299eb6f23957799b5f4924e77f",
+          "scope_note": "默认关闭的 +X 四点开放 POLY 直线兼容。固定用例 8 点、6 有向面，最大世界点误差约 0.193 微米。独立包、实际安装的普通入口验证均已通过，原 Demo 保留旧根。",
+          "support_level": "MAIN_BOUNDED_REVIEW"
         }
       ],
-      "coverage_state": "EVIDENCE_NOT_YET_RECONCILED",
+      "coverage_state": "INSTALLED_BOUNDED_EVIDENCE_INDEXED",
       "current344_scope": "本批2真实Bpy spline58read1/i122spline1均自然rc0/fullmonitorCIMnonce/fullWindowsargv/immutable/afterCIM[]，0native，累计551成功guard/97有界native/52失败Bpy；技术rc0非功能接受，次数非完成率。Source58/本机/GitHub普通3.5.122同378产品保持，无Source59/native125/新安装ZIP/release。当前XL_样条约束Root6nodes10原序compact边→XL_样条约束_核心529/594，两完整8partscompact双采解压字节同，loadedRootTrue1/CoreFalse1，sourceRootTrue2/CoreFalse1原值保，不猜Demo/泛fakeusers过滤。1原序ref3物理/defaultID0/mapping0/载ObjectMeshCollection0，40ID旧行+2group1Library/Scene空frame1/source3prefs过，Libraryfilepath未另采。Main已全文旧nativecollector6893B、r3build10205B/consumer4169B及完整四native与consumer数组独算。native每例5实际setter/readback、描述实读offset0/start0/end1与axis+X、input/target/output实采MLMG均I、8原序点6quad全核；deformerMG未另采，Size/Rotation SplineData仅repr，非完整profile/UV/权重/Phong。直线旧r3compatTrue误差1.9258850123171224e-7m<2um，三个bent旧误差1.1753003571006857/.587650179527449/2.4515012322668186m真负保，不能转当前r1。原collector bytesSHA精确request，transport剥4字段indent2摘要等receipt；oldscene现SHA等记录，但旧guard/执行script身份未升级。Main采前直线bbox中心仿射模型对native误差4.264e-14cm，只已采直线有限。唯一actualC122默认普通EXEC straight_default：properCdet+1、源native8点6quad原向面、target四点开放POLY(-150,-50,50,150cm沿X)，owner/target I,parentNone，9initial/requested全值，7非ID显式+Socket1真实ownedCurveObject。当前请求8点12边6有向quad24角，面/输入拓扑同native，但8ordered位置最大2.561638674688836m>固定2um严格拒；不能用旧r3True通过追认当前r1，也不冒通用全部Spline约束故障。请求GS只有Mesh、其它ABSENT/ref[]，完整引用树1节点。默认同EXEC targetNone为支持态，完整mesh相对input只runtimeData角色一叶差；G Root完整part0/4/原边和Core192节点194边逐值核，target→RELATIVE ObjectInfo→CurvePointCount>0→SetPosition.Selection是源码条件，不冒实际分支trace或完整requested表达式原因。输入全rawmesh/writable/flags、target完整Curve/spline/POLY4D点/radius/tilt/weight等writable和矩阵TRS全保。每态owner before/after全writable同，跨态仅dimensionsX/Z两叶；default尺寸由采前输入bbox核，请求实际bbox3/1.05/2m闭合owner，但native请求bbox3/1.05/1.1m不符，支持尺寸不等于功能通过。两完整图initial/pre/tail/清后对采前gold字面0差，1ref3物理+ownerMod/40ID164实际C模块/source3prefs/Scene选择及2Object1Mesh1Curve精确users0清理全过。原factory Collection/Cube/Light/Camera三成员有序全保，非emptyfactory；edge sharpRNA实采PRESENT False不套旧ABSENT。请求相对default146精确叶变化全存，原rawfunctionalFalse保，不同case/default重跑、拟合/旋转凑通过。"
     },
     {
@@ -2052,11 +2064,11 @@
     }
   ],
   "indexed_roots": 42,
-  "existing_evidence_to_reconcile_roots": 76,
+  "existing_evidence_to_reconcile_roots": 75,
   "meaning": "39受限ordinary、3数学继承、76材料待归并；current357 Matrix源码条件边界不晋升，0新运行，非完成率。",
   "coverage_denominator_not_defined": true,
   "local_report_contents_not_published": true,
-  "current_bounded_evidence_roots": 39,
+  "current_bounded_evidence_roots": 40,
   "historical_evidence_found_current_lineage_pending_roots": 0,
   "current_math_lineage_bounded_roots": 3,
   "pending_current_function_discrepancy_roots": 0,
@@ -2069,8 +2081,8 @@
     "fields": "LOWER"
   },
   "pending_discrepancy_overlaps_existing_bounded_rows": true,
-  "current_source": "Source59",
-  "current_product_version": "3.5.123",
+  "current_source": "Source60",
+  "current_product_version": "3.5.124",
   "coverage_counts_not_completion_rate": true,
   "dimension_units_clarification": "Bend size is the vector (2.5,2.5,2.5)m, native(250,250,250)cm; not a scalar cubic-meter volume. Numeric inputs and all acceptance values unchanged."
 }
